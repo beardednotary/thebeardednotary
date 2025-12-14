@@ -57,7 +57,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -90,7 +90,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -121,7 +121,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -153,7 +153,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -183,7 +183,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -213,7 +213,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -236,7 +236,7 @@ export default function EssentialNotaryBooks() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>

@@ -59,7 +59,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -85,7 +85,7 @@ export default function MobileNotarySupplies() {
               href="https://www.vistaprint.com/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Get Business Cards
             </a>
@@ -111,7 +111,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Shop Briefcases
             </a>
@@ -131,7 +131,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Order Your Stamp
             </a>
@@ -152,7 +152,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -171,7 +171,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>
@@ -210,7 +210,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Shop Phone Mounts
             </a>
@@ -234,7 +234,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Shop Cameras
             </a>
@@ -258,7 +258,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Shop Tablets
             </a>
@@ -283,7 +283,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               Shop Scanners
             </a>
@@ -307,7 +307,7 @@ export default function MobileNotarySupplies() {
               href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
             >
               View on Amazon
             </a>

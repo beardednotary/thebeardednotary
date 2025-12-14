@@ -75,6 +75,70 @@ export default function NotaryBusinessResources() {
             </div>
           </div>
 
+          <h2 className="text-2xl font-bold text-notary-navy mt-12 mb-4">State Notary Sites</h2>
+          
+          <p className="text-gray-700 mb-4">
+            Official state notary resources for all 50 states and US territories:
+          </p>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <a href="https://www.sos.alabama.gov/administrative-services/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Alabama</a>
+            <a href="https://www.dnr.alaska.gov/mlw/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Alaska</a>
+            <a href="https://www.azsos.gov/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Arizona</a>
+            <a href="https://www.sos.arkansas.gov/business-commercial-services-bcs/notary-division" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Arkansas</a>
+            <a href="https://www.sos.ca.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">California</a>
+            <a href="https://www.sos.state.co.us/pubs/notary/home.html" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Colorado</a>
+            <a href="https://portal.ct.gov/SOTS/Business-Services/Notary-Public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Connecticut</a>
+            <a href="https://sos.delaware.gov/notary.shtml" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Delaware</a>
+            <a href="https://os.dc.gov/service/become-notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">District of Columbia</a>
+            <a href="https://dos.myflorida.com/sunbiz/other-services/notaries/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Florida</a>
+            <a href="https://sos.ga.gov/notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Georgia</a>
+            <a href="https://cca.hawaii.gov/breg/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Hawaii</a>
+            <a href="https://sos.idaho.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Idaho</a>
+            <a href="https://www.ilsos.gov/departments/index/notary/home.html" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Illinois</a>
+            <a href="https://www.in.gov/sos/business/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Indiana</a>
+            <a href="https://sos.iowa.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Iowa</a>
+            <a href="https://sos.ks.gov/business-services/notary.html" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Kansas</a>
+            <a href="https://www.sos.ky.gov/bus/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Kentucky</a>
+            <a href="https://www.sos.la.gov/BusinessServices/NotaryServices/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Louisiana</a>
+            <a href="https://www.maine.gov/sos/cec/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Maine</a>
+            <a href="https://sos.maryland.gov/Notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Maryland</a>
+            <a href="https://www.mass.gov/how-to/become-a-notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Massachusetts</a>
+            <a href="https://www.michigan.gov/sos/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Michigan</a>
+            <a href="https://www.sos.state.mn.us/business-liens/notaries/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Minnesota</a>
+            <a href="https://www.sos.ms.gov/elections-voting/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Mississippi</a>
+            <a href="https://www.sos.mo.gov/business/commissions" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Missouri</a>
+            <a href="https://sosmt.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Montana</a>
+            <a href="https://sos.nebraska.gov/business-services/notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Nebraska</a>
+            <a href="https://www.nvsos.gov/sos/businesses/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Nevada</a>
+            <a href="https://sos.nh.gov/notary-public/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">New Hampshire</a>
+            <a href="https://www.nj.gov/treasury/revenue/notary.shtml" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">New Jersey</a>
+            <a href="https://www.sos.state.nm.us/business-services/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">New Mexico</a>
+            <a href="https://www.dos.ny.gov/licensing-services/notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">New York</a>
+            <a href="https://www.sosnc.gov/online_services/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">North Carolina</a>
+            <a href="https://sos.nd.gov/business/notary-public" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">North Dakota</a>
+            <a href="https://www.ohiosos.gov/businesses/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Ohio</a>
+            <a href="https://www.sos.ok.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Oklahoma</a>
+            <a href="https://sos.oregon.gov/business/Pages/notary.aspx" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Oregon</a>
+            <a href="https://www.dos.pa.gov/BusinessCharities/Notaries/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Pennsylvania</a>
+            <a href="https://www.estado.pr.gov/en/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Puerto Rico</a>
+            <a href="https://sos.ri.gov/divisions/business-services/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Rhode Island</a>
+            <a href="https://www.scsos.com/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">South Carolina</a>
+            <a href="https://sdsos.gov/business-services/notary/default.aspx" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">South Dakota</a>
+            <a href="https://sos.tn.gov/notary" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Tennessee</a>
+            <a href="https://www.sos.texas.gov/statdoc/notary.shtml" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Texas</a>
+            <a href="https://notary.utah.gov/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Utah</a>
+            <a href="https://sos.vermont.gov/corporations/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Vermont</a>
+            <a href="https://www.commonwealth.virginia.gov/secretary-of-the-commonwealth/notaries/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Virginia</a>
+            <a href="https://www.sos.wa.gov/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Washington</a>
+            <a href="https://sos.wv.gov/business/notary/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">West Virginia</a>
+            <a href="https://sos.wi.gov/Pages/Notaries.aspx" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Wisconsin</a>
+            <a href="https://sos.wyo.gov/Business/Notary.aspx" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Wyoming</a>
+            <a href="https://dca.guam.gov/notary-public/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Guam</a>
+            <a href="https://cnmileg.gov.mp/notary.aspx" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Northern Mariana Islands</a>
+            <a href="https://ltg.vi.gov/notary-public/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">US Virgin Islands</a>
+          </div>
+
           <h2 className="text-2xl font-bold text-notary-navy mt-12 mb-4">Loan Signing Agent Training</h2>
           
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 mb-8">
