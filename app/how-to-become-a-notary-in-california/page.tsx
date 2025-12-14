@@ -4,6 +4,11 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How to Become a Notary in California in Seven Easy Steps | The Bearded Notary',
   description: 'Complete guide to becoming a commissioned notary public in California. From completing approved education to filing your oath and bond.',
+  openGraph: {
+    title: 'How to Become a Notary in California in Seven Easy Steps',
+    description: 'Complete guide to becoming a commissioned notary public in California. From completing approved education to filing your oath and bond.',
+    images: ['/images/how-to-become-a-notary-california-infographic.png'],
+  },
 };
 
 export default function HowToBecomeNotaryCalifornia() {
@@ -31,6 +36,15 @@ export default function HowToBecomeNotaryCalifornia() {
 
         <div className="prose prose-lg max-w-none">
           
+          {/* Featured Infographic */}
+          <div className="my-8">
+            <img 
+              src="/images/how-to-become-a-notary-california-infographic.png"
+              alt="How to Become a Notary in California - Complete 7-step infographic showing the process from education to filing oath and bond"
+              className="w-full max-w-2xl mx-auto"
+            />
+          </div>
+
           {/* Step 1 */}
           <div className="mb-12 border-l-4 border-notary-gold pl-6">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">

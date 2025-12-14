@@ -4,6 +4,11 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
   description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
+  openGraph: {
+    title: 'Mobile Notary Supplies Checklist',
+    description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
+    images: ['/images/mobile-notary-supplies-featured.png'],
+  },
 };
 
 export default function MobileNotarySupplies() {
@@ -32,6 +37,16 @@ export default function MobileNotarySupplies() {
         </div>
 
         <div className="prose prose-lg max-w-none">
+          
+          {/* Featured Image */}
+          <div className="my-8">
+            <img 
+              src="/images/mobile-notary-supplies-featured.png"
+              alt="Mobile Notary Supplies Checklist - Everything you need to start your essential business and make money on your schedule"
+              className="w-full max-w-2xl mx-auto"
+            />
+          </div>
+
           <p className="text-gray-700 mb-8">
             Just beginning your Notary Public business?{' '}
             <Link href="/notary-business-resources" className="text-notary-gold hover:underline">

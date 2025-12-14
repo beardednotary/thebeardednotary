@@ -4,6 +4,11 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '7 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
   description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
+  openGraph: {
+    title: '7 Essential Books That Will Help You Make Money As A Notary',
+    description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
+    images: ['/images/essential-notary-books-featured.png'],
+  },
 };
 
 export default function EssentialNotaryBooks() {
@@ -32,6 +37,15 @@ export default function EssentialNotaryBooks() {
 
         <div className="prose prose-lg max-w-none">
           
+          {/* Featured Image */}
+          <div className="my-8">
+            <img 
+              src="/images/essential-notary-books-featured.png"
+              alt="Top 7 Books to Make Money as a Notary - Essential reading for mobile notaries and loan signing agents"
+              className="w-full max-w-2xl mx-auto"
+            />
+          </div>
+
           {/* Book 1 */}
           <div className="mb-12 border-b pb-8">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">

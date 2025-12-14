@@ -4,6 +4,11 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '85+ Notary Business Resources | The Bearded Notary',
   description: 'Essential resources for mobile notaries and loan signing agents. Professional associations, marketing sites, training programs, and business tools.',
+  openGraph: {
+    title: '85+ Notary Business Resources',
+    description: 'Essential resources for mobile notaries and loan signing agents. Professional associations, marketing sites, training programs, and business tools.',
+    images: ['/images/notary-business-resources-featured.png'],
+  },
 };
 
 export default function NotaryBusinessResources() {
@@ -30,6 +35,16 @@ export default function NotaryBusinessResources() {
         </div>
 
         <div className="prose prose-lg max-w-none">
+          
+          {/* Featured Image */}
+          <div className="my-8">
+            <img 
+              src="/images/notary-business-resources-featured.png"
+              alt="85+ Notary Business Resources Every Notary Public Should Know - Professional associations, training, and marketing tools"
+              className="w-full max-w-2xl mx-auto"
+            />
+          </div>
+
           <p className="text-gray-700 mb-8">
             Just beginning your Notary Public business? Check out our list of the{' '}
             <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
