@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Why 2025 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
-  description: 'Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+  title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
+  description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
   openGraph: {
-    title: 'Why 2025 is the Perfect Time to Become a Loan Signing Agent',
-    description: 'Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+    title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
+    description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
     images: ['/images/perfect-time-loan-signing-agent-featured.png'],
   },
 };
@@ -21,7 +21,7 @@ export default function PerfectTimeLoanSigningAgent() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold">
-            Why 2025 is the Perfect Time to Become a Loan Signing Agent
+            Why 2026 is the Perfect Time to Become a Loan Signing Agent
           </h1>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default function PerfectTimeLoanSigningAgent() {
         <div className="my-8">
           <img 
             src="/images/perfect-time-loan-signing-agent-featured.png"
-            alt="2025 is the Perfect Time to Become a Notary Loan Signing Agent"
+            alt="2026 is the Perfect Time to Become a Notary Loan Signing Agent"
             className="w-full max-w-2xl mx-auto"
           />
         </div>
@@ -41,7 +41,7 @@ export default function PerfectTimeLoanSigningAgent() {
         <div className="prose prose-lg max-w-none">
           
           <p className="text-gray-700 mb-8">
-            While the housing boom of a few years ago saw a surge in notary loan signing agents, some might think that opportunity has passed. However, I'm here to dispel that myth! The current market dynamics heading into 2025 present a unique and potentially even more advantageous time to embark on this fulfilling career path.
+            While the housing boom of a few years ago saw a surge in notary loan signing agents, some might think that opportunity has passed. However, I'm here to dispel that myth! The current market dynamics heading into 2026 present a unique and potentially even more advantageous time to embark on this fulfilling career path.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -60,12 +60,12 @@ export default function PerfectTimeLoanSigningAgent() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">The Evolving Market – Your Path to Stability and Opportunity</h2>
 
           <p className="text-gray-700 mb-6">
-            While the era of ultra-low rates may have passed, the housing market heading into 2025 presents a stable and promising landscape for loan signing agents.
+            While the era of ultra-low rates may have passed, the housing market heading into 2026 presents a stable and promising landscape for loan signing agents.
           </p>
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <p className="text-gray-800 font-semibold mb-3">
-              <strong>Rate cuts expected:</strong> The Federal Reserve has signaled potential rate reductions in 2025, which historically triggers refinancing waves and increased home purchases.
+              <strong>Rate cuts expected:</strong> The Federal Reserve has signaled potential rate reductions in 2026, which historically triggers refinancing waves and increased home purchases.
             </p>
             <p className="text-gray-800 font-semibold">
               <strong>Millennials and Gen Z driving demand:</strong> First-time homebuyers are entering the market in force, with millennials making up nearly 40% of home purchases and Gen Z beginning their homeownership journey.
@@ -107,7 +107,7 @@ export default function PerfectTimeLoanSigningAgent() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">What Are the Advantages of Becoming a Loan Signing Agent?</h2>
 
           <p className="text-gray-700 mb-8">
-            With the market's stable foundation set, let's dive into the concrete advantages of becoming a loan signing agent in 2025:
+            With the market's stable foundation set, let's dive into the concrete advantages of becoming a loan signing agent in 2026:
           </p>
 
           <div className="space-y-8 mb-12">
