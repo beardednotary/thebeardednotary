@@ -104,7 +104,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/Brother-HL-L5200DWT-Monochrome-Networking-Printing/dp/B00MFG58N6?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
               Check Current Price on Amazon
             </a>
@@ -138,7 +138,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/Brother-HL-L6210DWT-Monochrome-Networking-Printing/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View Brother HL-L6210DWT on Amazon
             </a>
@@ -169,7 +169,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/Brother-HL-L6310DW-Monochrome-Networking-Security/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View Brother HL-L6310DW on Amazon
             </a>
@@ -201,7 +201,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/HP-LaserJet-M402n-Monochrome-Printer/dp/B01C1ZFQLE?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M402n on Amazon
             </a>
@@ -231,7 +231,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/HP-LaserJet-M404n-Monochrome-Printer/dp/B07JQ69N1H?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M404n on Amazon
             </a>
@@ -262,7 +262,7 @@ export default function BestPrintersForNotaries() {
               href="https://www.amazon.com/HP-LaserJet-Enterprise-M528dn-Printer/dp/B07XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M528dn on Amazon
             </a>
