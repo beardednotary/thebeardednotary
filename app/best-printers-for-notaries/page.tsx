@@ -101,10 +101,10 @@ export default function BestPrintersForNotaries() {
               Customer reviews consistently note the HL-L5200DWT's 40-page-per-minute print speed and call it <strong>"particularly suitable for loan signing agents."</strong>
             </p>
             <a 
-              href="https://amzn.to/4oUEZp3"
+              href="https://www.amazon.com/Brother-HL-L5200DWT-Monochrome-Networking-Printing/dp/B00MFG58N6?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
               Check Current Price on Amazon
             </a>
@@ -135,10 +135,10 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://amzn.to/44vg8AJ"
+              href="https://www.amazon.com/Brother-HL-L6210DWT-Monochrome-Networking-Printing/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View Brother HL-L6210DWT on Amazon
             </a>
@@ -166,10 +166,10 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://amzn.to/4pOdIpA"
+              href="https://www.amazon.com/Brother-HL-L6310DW-Monochrome-Networking-Security/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View Brother HL-L6310DW on Amazon
             </a>
@@ -198,10 +198,10 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://amzn.to/4q7piM2"
+              href="https://www.amazon.com/HP-LaserJet-M402n-Monochrome-Printer/dp/B01C1ZFQLE?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M402n on Amazon
             </a>
@@ -228,10 +228,10 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://amzn.to/3L6KtPx"
+              href="https://www.amazon.com/HP-LaserJet-M404n-Monochrome-Printer/dp/B07JQ69N1H?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M404n on Amazon
             </a>
@@ -259,10 +259,10 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://amzn.to/4pF5Qq1"
+              href="https://www.amazon.com/HP-LaserJet-Enterprise-M528dn-Printer/dp/B07XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
+              className="inline-block bg-notary-gold text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
             >
               View HP LaserJet M528dn on Amazon
             </a>
@@ -320,37 +320,6 @@ export default function BestPrintersForNotaries() {
                 </tr>
               </tbody>
             </table>
-          </div>
-
-          {/* Amazon Business Callout */}
-          <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded">
-            <div className="flex items-start gap-4">
-              <div className="text-4xl">💼</div>
-              <div>
-                <h3 className="text-2xl font-bold mb-3">Save Money with Amazon Business</h3>
-                <p className="text-lg mb-4">
-                  As a professional notary or loan signing agent, you qualify for an <strong>Amazon Business account</strong>—and it's completely free.
-                </p>
-                <ul className="space-y-2 mb-6 text-white">
-                  <li>✓ <strong>Business-only pricing</strong> on printers, toner, and office supplies</li>
-                  <li>✓ <strong>Quantity discounts</strong> when buying in bulk</li>
-                  <li>✓ <strong>Tax-exempt purchasing</strong> (if applicable in your state)</li>
-                  <li>✓ <strong>Business Prime shipping</strong> benefits</li>
-                  <li>✓ Track expenses separately from personal purchases</li>
-                </ul>
-                <p className="text-lg mb-6">
-                  I use Amazon Business for all my notary supplies—from printers to paper to toner cartridges. The business pricing alone saves hundreds per year.
-                </p>
-                <a 
-                  href="https://business.amazon.com?tag=beardednotary-20"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
-                >
-                  Sign Up for Free Amazon Business Account
-                </a>
-              </div>
-            </div>
           </div>
 
           {/* Final Recommendations */}
