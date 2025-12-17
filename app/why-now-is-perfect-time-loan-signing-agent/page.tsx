@@ -159,12 +159,12 @@ export default function PerfectTimeLoanSigningAgent() {
           </p>
 
           <p className="text-gray-700 mb-6">
-            Becoming a loan signing agent doesn't require years of academic grind. All you need is the right foundation of knowledge and practical skills, which you can easily build through reputable programs like <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>.
+            Becoming a loan signing agent doesn't require years of academic grind. All you need is the right foundation of knowledge and practical skills, which you can easily build through reputable programs like <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>.
           </p>
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-4">
-              Why <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Loan Signing System</a>?
+              Why <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Loan Signing System</a>?
             </h3>
             <p className="text-gray-700 mb-4">
               This comprehensive program ticks all the boxes:
@@ -177,7 +177,7 @@ export default function PerfectTimeLoanSigningAgent() {
             </ul>
             <div className="mt-6">
               <a 
-                href="https://loansigningsystem.com/" 
+                href="http://loansigningsystem.com/?afmc=x5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
@@ -220,7 +220,7 @@ export default function PerfectTimeLoanSigningAgent() {
           </div>
 
           <p className="text-gray-700 mb-8">
-            Becoming a loan signing agent is an exciting, empowering journey. With the right training, certification, and proactive approach, you can transform your aspirations into a thriving career. Remember, <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a> is one of many options – research, compare programs, and find the one that resonates with your learning style and career goals.
+            Becoming a loan signing agent is an exciting, empowering journey. With the right training, certification, and proactive approach, you can transform your aspirations into a thriving career. Remember, <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a> is one of many options – research, compare programs, and find the one that resonates with your learning style and career goals.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -250,7 +250,7 @@ export default function PerfectTimeLoanSigningAgent() {
               <strong>Get your Notary Public commission:</strong> Your legal foundation. Easy peasy. Visit your state's Secretary of State's website for the requirements of becoming a notary public in your area, or check our <Link href="/how-to-become-a-notary-in-california" className="text-notary-gold hover:underline">California notary guide</Link>.
             </li>
             <li>
-              <strong>Level up with <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>:</strong> Learn the ropes from the pros, gain a recognized certification, and tap into a thriving community of fellow agents. Mark Wills' proven training has helped thousands of notaries build 6-figure businesses.
+              <strong>Level up with <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>:</strong> Learn the ropes from the pros, gain a recognized certification, and tap into a thriving community of fellow agents. Mark Wills' proven training has helped thousands of notaries build 6-figure businesses.
             </li>
             <li>
               <strong>Get equipped:</strong> Invest in the <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">essential supplies</Link> that will make you look and feel professional from day one.
@@ -266,7 +266,7 @@ export default function PerfectTimeLoanSigningAgent() {
               The market's humming, the stage is set, and the pen waits for your hand. Stop dreaming, start signing. Stop feeling like you missed the boat and start building a career during the best time to become a loan signing agent.
             </p>
             <a 
-              href="https://loansigningsystem.com/" 
+              href="http://loansigningsystem.com/?afmc=x5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-gold text-notary-navy px-10 py-4 font-bold text-xl hover:bg-opacity-90 transition"
