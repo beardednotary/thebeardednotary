@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Why 2025 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
-  description: 'Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+  title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
+  description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
   openGraph: {
-    title: 'Why 2025 is the Perfect Time to Become a Loan Signing Agent',
-    description: 'Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+    title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
+    description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
     images: ['/images/perfect-time-loan-signing-agent-featured.png'],
   },
 };
@@ -21,7 +21,7 @@ export default function PerfectTimeLoanSigningAgent() {
             ← Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold">
-            Why 2025 is the Perfect Time to Become a Loan Signing Agent
+            Why 2026 is the Perfect Time to Become a Loan Signing Agent
           </h1>
         </div>
       </header>
@@ -33,7 +33,7 @@ export default function PerfectTimeLoanSigningAgent() {
         <div className="my-8">
           <img 
             src="/images/perfect-time-loan-signing-agent-featured.png"
-            alt="2025 is the Perfect Time to Become a Notary Loan Signing Agent"
+            alt="2026 is the Perfect Time to Become a Notary Loan Signing Agent"
             className="w-full max-w-2xl mx-auto"
           />
         </div>
@@ -41,7 +41,7 @@ export default function PerfectTimeLoanSigningAgent() {
         <div className="prose prose-lg max-w-none">
           
           <p className="text-gray-700 mb-8">
-            While the housing boom of a few years ago saw a surge in notary loan signing agents, some might think that opportunity has passed. However, I'm here to dispel that myth! The current market dynamics heading into 2025 present a unique and potentially even more advantageous time to embark on this fulfilling career path.
+            While the housing boom of a few years ago saw a surge in notary loan signing agents, some might think that opportunity has passed. However, I'm here to dispel that myth! The current market dynamics heading into 2026 present a unique and potentially even more advantageous time to embark on this fulfilling career path.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -60,12 +60,12 @@ export default function PerfectTimeLoanSigningAgent() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">The Evolving Market – Your Path to Stability and Opportunity</h2>
 
           <p className="text-gray-700 mb-6">
-            While the era of ultra-low rates may have passed, the housing market heading into 2025 presents a stable and promising landscape for loan signing agents.
+            While the era of ultra-low rates may have passed, the housing market heading into 2026 presents a stable and promising landscape for loan signing agents.
           </p>
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <p className="text-gray-800 font-semibold mb-3">
-              <strong>Rate cuts expected:</strong> The Federal Reserve has signaled potential rate reductions in 2025, which historically triggers refinancing waves and increased home purchases.
+              <strong>Rate cuts expected:</strong> The Federal Reserve has signaled potential rate reductions in 2026, which historically triggers refinancing waves and increased home purchases.
             </p>
             <p className="text-gray-800 font-semibold">
               <strong>Millennials and Gen Z driving demand:</strong> First-time homebuyers are entering the market in force, with millennials making up nearly 40% of home purchases and Gen Z beginning their homeownership journey.
@@ -107,7 +107,7 @@ export default function PerfectTimeLoanSigningAgent() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">What Are the Advantages of Becoming a Loan Signing Agent?</h2>
 
           <p className="text-gray-700 mb-8">
-            With the market's stable foundation set, let's dive into the concrete advantages of becoming a loan signing agent in 2025:
+            With the market's stable foundation set, let's dive into the concrete advantages of becoming a loan signing agent in 2026:
           </p>
 
           <div className="space-y-8 mb-12">
@@ -159,12 +159,12 @@ export default function PerfectTimeLoanSigningAgent() {
           </p>
 
           <p className="text-gray-700 mb-6">
-            Becoming a loan signing agent doesn't require years of academic grind. All you need is the right foundation of knowledge and practical skills, which you can easily build through reputable programs like <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>.
+            Becoming a loan signing agent doesn't require years of academic grind. All you need is the right foundation of knowledge and practical skills, which you can easily build through reputable programs like <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>.
           </p>
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-4">
-              Why <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Loan Signing System</a>?
+              Why <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Loan Signing System</a>?
             </h3>
             <p className="text-gray-700 mb-4">
               This comprehensive program ticks all the boxes:
@@ -177,7 +177,7 @@ export default function PerfectTimeLoanSigningAgent() {
             </ul>
             <div className="mt-6">
               <a 
-                href="https://loansigningsystem.com/" 
+                href="http://loansigningsystem.com/?afmc=x5" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
@@ -220,7 +220,7 @@ export default function PerfectTimeLoanSigningAgent() {
           </div>
 
           <p className="text-gray-700 mb-8">
-            Becoming a loan signing agent is an exciting, empowering journey. With the right training, certification, and proactive approach, you can transform your aspirations into a thriving career. Remember, <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a> is one of many options – research, compare programs, and find the one that resonates with your learning style and career goals.
+            Becoming a loan signing agent is an exciting, empowering journey. With the right training, certification, and proactive approach, you can transform your aspirations into a thriving career. Remember, <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a> is one of many options – research, compare programs, and find the one that resonates with your learning style and career goals.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -250,7 +250,7 @@ export default function PerfectTimeLoanSigningAgent() {
               <strong>Get your Notary Public commission:</strong> Your legal foundation. Easy peasy. Visit your state's Secretary of State's website for the requirements of becoming a notary public in your area, or check our <Link href="/how-to-become-a-notary-in-california" className="text-notary-gold hover:underline">California notary guide</Link>.
             </li>
             <li>
-              <strong>Level up with <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>:</strong> Learn the ropes from the pros, gain a recognized certification, and tap into a thriving community of fellow agents. Mark Wills' proven training has helped thousands of notaries build 6-figure businesses.
+              <strong>Level up with <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>:</strong> Learn the ropes from the pros, gain a recognized certification, and tap into a thriving community of fellow agents. Mark Wills' proven training has helped thousands of notaries build 6-figure businesses.
             </li>
             <li>
               <strong>Get equipped:</strong> Invest in the <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">essential supplies</Link> that will make you look and feel professional from day one.
@@ -266,7 +266,7 @@ export default function PerfectTimeLoanSigningAgent() {
               The market's humming, the stage is set, and the pen waits for your hand. Stop dreaming, start signing. Stop feeling like you missed the boat and start building a career during the best time to become a loan signing agent.
             </p>
             <a 
-              href="https://loansigningsystem.com/" 
+              href="http://loansigningsystem.com/?afmc=x5" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-gold text-notary-navy px-10 py-4 font-bold text-xl hover:bg-opacity-90 transition"
