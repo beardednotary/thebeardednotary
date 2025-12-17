@@ -3,6 +3,12 @@ import Link from 'next/link';
 export default function Home() {
   const articles = [
     {
+      title: "Why 2025 is the Perfect Time to Become a Loan Signing Agent",
+      slug: "why-now-is-perfect-time-loan-signing-agent",
+      excerpt: "Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
+      date: "December 2024"
+    },
+    {
       title: "85+ Notary Business Resources",
       slug: "notary-business-resources",
       excerpt: "Essential resources for taking your notary business to the next level, from professional associations to marketing sites.",
