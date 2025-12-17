@@ -19,6 +19,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/best-printers-for-notaries`,
+      lastModified: new Date('2024-12-16'),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/how-to-become-a-notary-in-california`,
       lastModified: new Date('2024-12-16'),
       changeFrequency: 'monthly',

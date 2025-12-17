@@ -3,6 +3,12 @@ import Link from 'next/link';
 export default function Home() {
   const articles = [
     {
+      title: "Best Printers for Notaries & Loan Signing Agents (2025)",
+      slug: "best-printers-for-notaries",
+      excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
+      date: "December 2024"
+    },
+    {
       title: "Why 2025 is the Perfect Time to Become a Loan Signing Agent",
       slug: "why-now-is-perfect-time-loan-signing-agent",
       excerpt: "Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
