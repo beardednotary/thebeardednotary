@@ -68,7 +68,7 @@ export default function EssentialNotaryBooks() {
               profitable career—go out and make money as a notary.
             </p>
             <a 
-              href="https://amzn.to/4rSmrs2" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -101,7 +101,7 @@ export default function EssentialNotaryBooks() {
               Embrace the opportunity to be your own boss, set your schedule, and move towards the life you've always wanted.
             </p>
             <a 
-              href="https://amzn.to/3XZieFq" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -132,7 +132,7 @@ export default function EssentialNotaryBooks() {
               full-timers in this profession.
             </p>
             <a 
-              href="https://amzn.to/4q0CEKF" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -164,7 +164,7 @@ export default function EssentialNotaryBooks() {
               business, Rhonda DeYampert's guidebook is the key to unlocking your potential.
             </p>
             <a 
-              href="https://amzn.to/48IohV5" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -176,10 +176,11 @@ export default function EssentialNotaryBooks() {
           {/* Book 5 */}
           <div className="mb-12 border-b pb-8">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              General Notary Work Secrets Revealed: A Guide on How to Scale Your Own General Notary Business
+              Notary Marketing 2019: Effective techniques to get general notary work
             </h2>
             <p className="text-gray-700 mb-4">
-              Dive into notary marketing with "General Notary Work Secrets Revealed: A Guide on How to Scale Your Own General Notary Business." It's a guide to expand clients beyond loans, offering practical strategies.
+              Dive into notary marketing with "Notary Marketing 2019: Effective Techniques to Get 
+              General Notary Work." It's a guide to expand clients beyond loans, offering practical strategies.
             </p>
             <p className="text-gray-700 mb-4">
               Learn to use marketing materials, engage clients, and grow your network. Discover how to get 
@@ -189,11 +190,11 @@ export default function EssentialNotaryBooks() {
               comprehensive toolkit for any notary public.
             </p>
             <p className="text-gray-700 mb-4">
-              Praised for its innovation, it helps notaries think creatively. "General Notary Work Secrets Revealed" is essential 
+              Praised for its innovation, it helps notaries think creatively. "Notary Marketing 2019" is essential 
               for new and experienced notaries, enhancing general notary work.
             </p>
             <a 
-              href="https://amzn.to/4alZbfY" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -223,7 +224,7 @@ export default function EssentialNotaryBooks() {
               online notarization.
             </p>
             <a 
-              href="https://amzn.to/4oZgkzA" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -235,18 +236,18 @@ export default function EssentialNotaryBooks() {
           {/* Book 7 */}
           <div className="mb-12">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Charles' USA State I.D. Checking Guide 2024 Edition
+              I.D. Checking Guide, U.S. & Canada Edition 2024
             </h2>
             <p className="text-gray-700 mb-4">
               This reference tool is crucial for notaries. It boosts accuracy and confidence in ID verification. 
-              Access requires commission proof. It lists valid ID formats for the U.S. and territories.
+              Access requires commission proof. It lists valid ID formats for the U.S., Canada, and territories.
             </p>
             <p className="text-gray-700 mb-4">
               Notaries can trust it for up-to-date, valid ID formats. It ensures notarial act integrity. This guide 
               is reliable until February 28, 2025.
             </p>
             <a 
-              href="https://amzn.to/4pHE6kE" 
+              href="https://amzn.to/3YourAffiliateLink" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"

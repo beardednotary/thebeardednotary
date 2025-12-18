@@ -25,6 +25,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/free-marketing-sites-notaries`,
+      lastModified: new Date('2024-12-17'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/target-industries-for-notaries`,
+      lastModified: new Date('2024-12-17'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/document-types-notaries-glossary`,
+      lastModified: new Date('2024-12-17'),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/how-to-become-a-notary-in-california`,
       lastModified: new Date('2024-12-16'),
       changeFrequency: 'monthly',

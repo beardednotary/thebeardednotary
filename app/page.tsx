@@ -3,6 +3,24 @@ import Link from 'next/link';
 export default function Home() {
   const articles = [
     {
+      title: "10 Free Sites to Market Your Notary Business (2026)",
+      slug: "free-marketing-sites-notaries",
+      excerpt: "Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency and get more clients in 2026.",
+      date: "December 2024"
+    },
+    {
+      title: "Target Industries for Notaries: Where to Find Your Best Clients",
+      slug: "target-industries-for-notaries",
+      excerpt: "Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.",
+      date: "December 2024"
+    },
+    {
+      title: "Common Documents Notaries Encounter: Complete Glossary",
+      slug: "document-types-notaries-glossary",
+      excerpt: "From affidavits to quit claim deeds - comprehensive guide to documents mobile notaries and loan signing agents will encounter.",
+      date: "December 2024"
+    },
+    {
       title: "Best Printers for Notaries & Loan Signing Agents (2025)",
       slug: "best-printers-for-notaries",
       excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
