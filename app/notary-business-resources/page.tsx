@@ -158,7 +158,7 @@ export default function NotaryBusinessResources() {
           
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 mb-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">
-              <a href="https://loansigningsystem.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
+              <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
                 Loan Signing System
               </a>
             </h3>

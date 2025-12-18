@@ -32,7 +32,7 @@ export default function DocumentTypesNotariesGlossary() {
         {/* Featured Image */}
         <div className="my-8">
           <img 
-            src="/images/document-types-notaries.jpg"
+            src="/images/document-types-notaries.png"
             alt="Document types notaries specialize in"
             className="w-full rounded shadow-lg"
           />
@@ -389,10 +389,10 @@ export default function DocumentTypesNotariesGlossary() {
               Don't risk your reputation with an error-filled signing. Get certified first.
             </p>
             <a 
-              href="https://loansigningsystem.com?tag=beardednotary-20"
+              href="http://loansigningsystem.com/?afmc=x5"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
               Get Certified with Loan Signing System
             </a>

@@ -32,7 +32,7 @@ export default function TargetIndustriesNotaries() {
         {/* Featured Image */}
         <div className="my-8">
           <img 
-            src="/images/target-industries-notaries.jpg"
+            src="/images/target-industries-notaries.png"
             alt="Target industries for mobile notaries"
             className="w-full rounded shadow-lg"
           />
@@ -79,7 +79,7 @@ export default function TargetIndustriesNotaries() {
                 <li>Email: "I'm a certified LSA covering [your area], available 24/7 for closings"</li>
               </ul>
               <p className="text-gray-700 mt-3 italic">
-                <strong>Pro tip:</strong> This is THE most lucrative notary niche. Worth getting <a href="https://loansigningsystem.com?tag=beardednotary-20" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">proper training</a> for.
+                <strong>Pro tip:</strong> This is THE most lucrative notary niche. Worth getting <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">proper training</a> for.
               </p>
             </div>
           </div>
@@ -376,7 +376,7 @@ export default function TargetIndustriesNotaries() {
               href="https://loansigningsystem.com?tag=beardednotary-20"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-white text-notary-navy px-8 py-4 font-bold text-lg hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"
             >
               Get Certified with Loan Signing System
             </a>

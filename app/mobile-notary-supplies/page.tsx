@@ -315,7 +315,7 @@ export default function MobileNotarySupplies() {
               absolute essential for budding notary public businesses.
             </p>
             <p className="text-gray-700 mb-4">
-              Mark Willis, a prolific loan signing agent and founder of The Loan Signing System, recommends the 
+              Mark Willis, a prolific loan signing agent and founder of <a href="http://loansigningsystem.com/?afmc=x5">The Loan Signing System</a>, recommends the 
               Brother HL-L5200DW laserjet printer as the best dual tray laser printer for a notary.
             </p>
             <a 

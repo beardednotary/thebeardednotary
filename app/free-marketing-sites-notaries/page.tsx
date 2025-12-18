@@ -336,10 +336,10 @@ export default function FreeMarketingSitesNotaries() {
               <strong>Loan Signing System</strong> teaches you everything from finding your first signing to building a 6-figure business. Graduates report landing signings within weeks of certification.
             </p>
             <a 
-              href="https://loansigningsystem.com?tag=beardednotary-20"
+              href="http://loansigningsystem.com/?afmc=x5"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
+              className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
               Get Certified with Loan Signing System
             </a>
