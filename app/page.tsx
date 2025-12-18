@@ -6,31 +6,31 @@ export default function Home() {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency and get more clients in 2026.",
-      date: "December 2024"
+      date: "December 2025"
     },
     {
       title: "Target Industries for Notaries: Where to Find Your Best Clients",
       slug: "target-industries-for-notaries",
       excerpt: "Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.",
-      date: "December 2024"
+      date: "December 2025"
     },
     {
       title: "Common Documents Notaries Encounter: Complete Glossary",
       slug: "document-types-notaries-glossary",
       excerpt: "From affidavits to quit claim deeds - comprehensive guide to documents mobile notaries and loan signing agents will encounter.",
-      date: "December 2024"
+      date: "December 2025"
     },
     {
       title: "Best Printers for Notaries & Loan Signing Agents (2025)",
       slug: "best-printers-for-notaries",
       excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
-      date: "December 2024"
+      date: "December 2025"
     },
     {
-      title: "Why 2025 is the Perfect Time to Become a Loan Signing Agent",
+      title: "Why 2026 is the Perfect Time to Become a Loan Signing Agent",
       slug: "why-now-is-perfect-time-loan-signing-agent",
       excerpt: "Despite market changes, 2025 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
-      date: "December 2024"
+      date: "December 2025"
     },
     {
       title: "85+ Notary Business Resources",
@@ -42,7 +42,7 @@ export default function Home() {
       title: "7 Essential Books That Will Help You Make Money As A Notary",
       slug: "essential-notary-books",
       excerpt: "A comprehensive library is essential for both seasoned and new notaries. These seven books will elevate your expertise and income.",
-      date: "Updated 2024"
+      date: "Updated 2025"
     },
     {
       title: "Mobile Notary Supplies Checklist",
