@@ -32,7 +32,7 @@ export default function FreeMarketingSitesNotaries() {
         {/* Featured Image */}
         <div className="my-8">
           <img 
-            src="/images/free-marketing-sites-notaries.jpg"
+            src="/images/free-marketing-sites-notaries.png"
             alt="10 free sites to market your notary business"
             className="w-full rounded shadow-lg"
           />
