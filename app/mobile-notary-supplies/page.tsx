@@ -71,7 +71,7 @@ export default function MobileNotarySupplies() {
               highly recommends you carry one, even if not required by law.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://www.amazon.com/dp/B0C4JJ9VJ9?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AOTNV5XXKF0A&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2AOTNV5XXKF0A_1766101057220" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -97,7 +97,7 @@ export default function MobileNotarySupplies() {
               affordable shipping. You're sure to find just the right business card to help you stand out from the crowd.
             </p>
             <a 
-              href="https://www.vistaprint.com/" 
+              href="https://bit.ly/bearded20" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -123,7 +123,7 @@ export default function MobileNotarySupplies() {
               works best for you.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4jb44uG" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -143,7 +143,7 @@ export default function MobileNotarySupplies() {
               follow up with you to walk you through the steps needed to have it made.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4s3tjD9" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -158,13 +158,13 @@ export default function MobileNotarySupplies() {
               Stapler/Staple Remover
             </h2>
             <p className="text-gray-700 mb-4">
-              Very useful for keeping documents organized, a stapler with a built-in staple remover is a 
+              Very useful for keeping documents organized, a stapler and staple remover is a 
               must have item for mobile notaries. You don't need a full-size desktop stapler, as carrying that 
               around will add unnecessary weight to your supply kit. A small, handheld stapler and remover 
               are all you need to keep documents neat and accessible.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://www.amazon.com/dp/B0CC5GJKM1?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.26MSLRILODF7K&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.26MSLRILODF7K_1766100860744" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -183,7 +183,7 @@ export default function MobileNotarySupplies() {
               fingers, try an inkless thumbprint pad. Easy and no mess!
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4j4Qvws" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -222,7 +222,7 @@ export default function MobileNotarySupplies() {
               and keep you comfortable and safe on the road.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://www.amazon.com/dp/B08DKHHTFX?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2BRFFZM9UBWG6&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2BRFFZM9UBWG6_1766101671297" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -246,7 +246,7 @@ export default function MobileNotarySupplies() {
               pictures of business locations, fill out reports and submit your report to insurance agents/property owners.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4969GBD" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -270,7 +270,7 @@ export default function MobileNotarySupplies() {
               opportunity to diversify their income.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4s5Z9PC" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -295,7 +295,7 @@ export default function MobileNotarySupplies() {
               It can serve as an important "add-on" service for your mobile notary business.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/4j1Pntw" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
@@ -319,7 +319,7 @@ export default function MobileNotarySupplies() {
               Brother HL-L5200DW laserjet printer as the best dual tray laser printer for a notary.
             </p>
             <a 
-              href="https://amzn.to/3YourAffiliateLink" 
+              href="https://amzn.to/492MF2D" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
