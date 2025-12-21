@@ -3,6 +3,18 @@ import Link from 'next/link';
 export default function Home() {
   const articles = [
     {
+      title: "How Much Should You Charge as a Mobile Notary in 2026?",
+      slug: "how-much-to-charge-mobile-notary",
+      excerpt: "Complete pricing guide: state maximum fees, travel charges, loan signing rates, and package pricing strategies. Don't undercharge your services!",
+      date: "December 2025"
+    },
+    {
+      title: "Your First 30 Days as a Mobile Notary: Complete Action Plan",
+      slug: "first-30-days-new-notary",
+      excerpt: "Day-by-day checklist for new notaries. Get your first clients, build systems, and start earning $500-1,500 in your first month.",
+      date: "December 2025"
+    },   
+    {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency and get more clients in 2026.",
