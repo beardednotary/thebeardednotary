@@ -26,10 +26,19 @@ export default function NotaryPricingGuide() {
         </div>
       </header>
 
-      {/* Article Content */}
+ {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         
         <div className="prose prose-lg max-w-none">
+          
+          {/* Featured Image */}
+          <div className="my-8">
+            <img 
+              src="/images/notary-pricing-guide-featured.png"
+              alt="Guide for pricing your services as a new notary"
+              className="w-full max-w-2xl mx-auto"
+            />
+          </div>
           
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             One of the biggest mistakes new mobile notaries make? Undercharging. You're providing a professional service that requires training, licensing, bonding, and liability. You deserve to be paid fairly.
