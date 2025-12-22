@@ -123,7 +123,7 @@ export default function MobileNotarySupplies() {
               works best for you.
             </p>
             <a 
-              href="https://amzn.to/4jb44uG" 
+              href="https://www.amazon.com/dp/B0CLD4RQ8J?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1QAGFN5A9CWM7&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.1QAGFN5A9CWM7_1766375921829" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
