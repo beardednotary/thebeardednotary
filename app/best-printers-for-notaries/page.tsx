@@ -101,7 +101,7 @@ export default function BestPrintersForNotaries() {
               Customer reviews consistently note the HL-L5200DWT's 40-page-per-minute print speed and call it <strong>"particularly suitable for loan signing agents."</strong>
             </p>
             <a 
-              href="https://www.amazon.com/Brother-HL-L5200DWT-Monochrome-Networking-Printing/dp/B00MFG58N6?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/48SFGdB"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
@@ -135,7 +135,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://www.amazon.com/Brother-HL-L6210DWT-Monochrome-Networking-Printing/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/3LcxmfL"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
@@ -166,7 +166,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://www.amazon.com/Brother-HL-L6310DW-Monochrome-Networking-Security/dp/B0XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/3MSXpJk"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
@@ -198,7 +198,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://www.amazon.com/HP-LaserJet-M402n-Monochrome-Printer/dp/B01C1ZFQLE?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/48UdsPO"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
@@ -228,7 +228,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://www.amazon.com/HP-LaserJet-M404n-Monochrome-Printer/dp/B07JQ69N1H?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/4s72yO1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
@@ -259,7 +259,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="text-center my-8">
             <a 
-              href="https://www.amazon.com/HP-LaserJet-Enterprise-M528dn-Printer/dp/B07XXXXXX?&linkCode=ll1&tag=YOUR-AMAZON-TAG&linkId=XXXXX"
+              href="https://amzn.to/48TDpPx"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-3 font-bold hover:bg-opacity-90 transition shadow-lg"
