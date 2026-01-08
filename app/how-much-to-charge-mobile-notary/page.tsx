@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'How Much Should You Charge as a Mobile Notary in 2026? Complete Pricing Guide | The Bearded Notary',
-  description: 'Complete mobile notary pricing guide for 2026. State maximum fees, travel charges, package pricing, and how to justify premium rates. Don\'t undercharge!',
-  openGraph: {
+  title: 'How Much Does a Mobile Notary Cost? Complete Pricing Guide 2026 | The Bearded Notary',
+  description: 'Mobile notary costs $50-100 per appointment (signatures + travel). State fees by state, loan signing rates ($100-200), what notaries actually earn. Complete 2026 pricing guide.',  openGraph: {
     title: 'How Much Should You Charge as a Mobile Notary? (2026 Pricing Guide)',
     description: 'State fee limits, travel charges, package pricing strategies. Learn what to charge for general notarizations vs loan signings.',
     images: ['/images/notary-pricing-guide-featured.png'],
@@ -59,132 +58,358 @@ export default function NotaryPricingGuide() {
             </ul>
           </div>
 
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">How Much Does a Notary Cost? (Quick Answer)</h2>
+
+<div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
+  <p className="text-xl text-gray-800 mb-4">
+    <strong>General notarization:</strong> $10-25 per signature (state maximum applies)
+  </p>
+  <p className="text-xl text-gray-800 mb-4">
+    <strong>Mobile notary at your location:</strong> $50-100 total (notarization + travel)
+  </p>
+  <p className="text-xl text-gray-800 mb-4">
+    <strong>Loan signing (mortgage closing):</strong> $100-200 per appointment
+  </p>
+  <p className="text-xl text-gray-800">
+    <strong>After-hours/weekend:</strong> 1.5x-2x standard rates
+  </p>
+</div>
+
+<p className="text-gray-700 mb-6">
+  The cost of notary services depends on three factors: your state's maximum fee per signature, whether the notary travels to you (mobile fee), and the complexity of service (general notarization vs loan signing). Let's break down exactly what you can expect to pay—or charge if you're a notary.
+</p>
+
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Understanding State Maximum Fees</h2>
 
           <p className="text-gray-700 mb-6">
             Every state sets a <strong>maximum fee</strong> you can charge per notarial act (signature). You can charge LESS than the maximum, but never more. Violating this can result in fines or loss of commission.
           </p>
 
-          {/* State Fee Table */}
           <div className="bg-gray-50 p-6 mb-8 rounded">
-            <h3 className="text-2xl font-bold text-notary-navy mb-4">State Maximum Notary Fees (Top 20 States)</h3>
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr className="bg-notary-navy text-white">
-                    <th className="border border-gray-300 px-4 py-2 text-left">State</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">Max Fee/Signature</th>
-                    <th className="border border-gray-300 px-4 py-2 text-left">Notes</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-700">
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>California</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$15</td>
-                    <td className="border border-gray-300 px-4 py-2">Jurat or acknowledgment</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Texas</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$6 (ack), $6 (jurat)</td>
-                    <td className="border border-gray-300 px-4 py-2">Can charge travel fees separately</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Florida</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$10</td>
-                    <td className="border border-gray-300 px-4 py-2">Online notarization: $25</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>New York</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$2</td>
-                    <td className="border border-gray-300 px-4 py-2">Lowest in nation - rely on travel fees!</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Pennsylvania</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$5</td>
-                    <td className="border border-gray-300 px-4 py-2">Travel fees common</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Illinois</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$1 (ack), $1 (jurat)</td>
-                    <td className="border border-gray-300 px-4 py-2">Must charge travel fees to profit</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Ohio</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">No maximum</td>
-                    <td className="border border-gray-300 px-4 py-2">Charge what market will bear</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Georgia</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$2 (ack), $2 (jurat)</td>
-                    <td className="border border-gray-300 px-4 py-2">Low fees + travel charges</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>North Carolina</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$5</td>
-                    <td className="border border-gray-300 px-4 py-2">Electronic notarization: $25</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Michigan</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$10</td>
-                    <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>New Jersey</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$2.50</td>
-                    <td className="border border-gray-300 px-4 py-2">One of the lowest</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Virginia</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$5</td>
-                    <td className="border border-gray-300 px-4 py-2">Electronic: $25</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Washington</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$15</td>
-                    <td className="border border-gray-300 px-4 py-2">Same as California</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Arizona</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$10</td>
-                    <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Massachusetts</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">No maximum</td>
-                    <td className="border border-gray-300 px-4 py-2">Reasonable fees expected</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Tennessee</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">No maximum</td>
-                    <td className="border border-gray-300 px-4 py-2">Market-based pricing</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Indiana</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$10</td>
-                    <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Missouri</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$5</td>
-                    <td className="border border-gray-300 px-4 py-2">Can charge travel fees</td>
-                  </tr>
-                  <tr>
-                    <td className="border border-gray-300 px-4 py-2"><strong>Maryland</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$4</td>
-                    <td className="border border-gray-300 px-4 py-2">Low state fee</td>
-                  </tr>
-                  <tr className="bg-gray-100">
-                    <td className="border border-gray-300 px-4 py-2"><strong>Wisconsin</strong></td>
-                    <td className="border border-gray-300 px-4 py-2">$5</td>
-                    <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-gray-600 text-sm mt-4 italic">
-              Note: Fees current as of 2026. Always verify with your state's Secretary of State office as these can change.
-            </p>
-          </div>
+  <h3 className="text-2xl font-bold text-notary-navy mb-4">State Maximum Notary Fees (All 50 States)</h3>
+  <p className="text-gray-700 mb-4">
+    These are the <strong>maximum fees per notarial act</strong> (per signature) set by each state. Notaries can charge less, but never more.
+  </p>
+  
+  <div className="overflow-x-auto">
+    <table className="w-full border-collapse text-sm">
+      <thead>
+        <tr className="bg-notary-navy text-white">
+          <th className="border border-gray-300 px-4 py-2 text-left">State</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Acknowledgment</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Jurat</th>
+          <th className="border border-gray-300 px-4 py-2 text-left">Notes</th>
+        </tr>
+      </thead>
+      <tbody className="text-gray-700">
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Alabama</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Alaska</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Arizona</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Arkansas</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>California</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">High fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Colorado</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Connecticut</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Delaware</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Florida</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Online: $25</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Georgia</td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">Lowest fees, rely on travel</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Hawaii</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Idaho</td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">Very low</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Illinois</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$1</td>
+          <td className="border border-gray-300 px-4 py-2">$1</td>
+          <td className="border border-gray-300 px-4 py-2">Lowest in US</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Indiana</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Iowa</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Kansas</td>
+          <td className="border border-gray-300 px-4 py-2">$1</td>
+          <td className="border border-gray-300 px-4 py-2">$1</td>
+          <td className="border border-gray-300 px-4 py-2">Very low</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Kentucky</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Louisiana</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Maine</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>Maryland</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$4</td>
+          <td className="border border-gray-300 px-4 py-2">$4</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Massachusetts</strong></td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>Michigan</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Minnesota</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Mississippi</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Missouri</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Can charge travel</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Montana</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Nebraska</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Nevada</td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">High fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">New Hampshire</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>New Jersey</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$2.50</td>
+          <td className="border border-gray-300 px-4 py-2">$2.50</td>
+          <td className="border border-gray-300 px-4 py-2">Very low</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">New Mexico</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>New York</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">$2</td>
+          <td className="border border-gray-300 px-4 py-2">Lowest fees</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>North Carolina</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Electronic: $25</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">North Dakota</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Ohio</strong></td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Oklahoma</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Oregon</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>Pennsylvania</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Travel fees common</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Rhode Island</td>
+          <td className="border border-gray-300 px-4 py-2">$4</td>
+          <td className="border border-gray-300 px-4 py-2">$4</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">South Carolina</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">South Dakota</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>Tennessee</strong></td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market-based</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Texas</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$6</td>
+          <td className="border border-gray-300 px-4 py-2">$6</td>
+          <td className="border border-gray-300 px-4 py-2">Can charge travel</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Utah</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">$10</td>
+          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Vermont</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">No max</td>
+          <td className="border border-gray-300 px-4 py-2">Market rate</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2"><strong>Virginia</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Electronic: $25</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2"><strong>Washington</strong></td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">$15</td>
+          <td className="border border-gray-300 px-4 py-2">High fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">West Virginia</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr>
+          <td className="border border-gray-300 px-4 py-2">Wisconsin</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+        <tr className="bg-gray-100">
+          <td className="border border-gray-300 px-4 py-2">Wyoming</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">$5</td>
+          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <p className="text-gray-600 text-sm mt-4 italic">
+    Data current as of January 2026. Verify with your state's Secretary of State or notary regulatory authority as fees can change annually.
+  </p>
+</div>
 
           <p className="text-gray-700 mb-6">
             <strong>Key takeaway:</strong> If you're in a low-fee state (NY, IL, GA), don't panic. You'll make your money on <strong>travel fees</strong>, which are separate from notarial fees and unlimited in most states.
@@ -637,6 +862,156 @@ export default function NotaryPricingGuide() {
             </div>
           </div>
 
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">How Much Do Notaries Make? (Real Income Numbers)</h2>
+
+<p className="text-gray-700 mb-6">
+  The question everyone asks: "How much money can I actually make as a notary?" The answer depends on whether you're part-time or full-time, general notary or loan signing specialist, and how well you market yourself.
+</p>
+
+<div className="bg-gray-50 p-6 mb-8 rounded">
+  <h3 className="text-xl font-bold text-notary-navy mb-4">Average Notary Income by Type</h3>
+  
+  <div className="space-y-6">
+    <div className="border-l-4 border-notary-gold pl-6">
+      <h4 className="text-lg font-bold text-notary-navy mb-2">General Notary Public (Part-Time)</h4>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$300-1,500/month</p>
+      <p className="text-gray-700">
+        <strong>Time commitment:</strong> 5-10 hours/week<br />
+        <strong>Services:</strong> General notarizations, occasional mobile appointments<br />
+        <strong>Reality:</strong> Supplemental income, not enough to live on
+      </p>
+    </div>
+
+    <div className="border-l-4 border-notary-gold pl-6">
+      <h4 className="text-lg font-bold text-notary-navy mb-2">Mobile Notary Public (Part-Time)</h4>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$1,500-3,000/month</p>
+      <p className="text-gray-700">
+        <strong>Time commitment:</strong> 10-15 hours/week<br />
+        <strong>Services:</strong> Mobile notarizations, some loan signings<br />
+        <strong>Reality:</strong> Solid side hustle, could replace part-time job
+      </p>
+    </div>
+
+    <div className="border-l-4 border-notary-gold pl-6">
+      <h4 className="text-lg font-bold text-notary-navy mb-2">Loan Signing Agent (Part-Time)</h4>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$2,000-5,000/month</p>
+      <p className="text-gray-700">
+        <strong>Time commitment:</strong> 15-20 hours/week<br />
+        <strong>Services:</strong> Primarily loan signings ($100-150 each)<br />
+        <strong>Reality:</strong> 15-30 loan signings per month, sustainable side income
+      </p>
+    </div>
+
+    <div className="border-l-4 border-notary-gold pl-6">
+      <h4 className="text-lg font-bold text-notary-navy mb-2">Mobile Notary Public (Full-Time)</h4>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$3,000-6,000/month</p>
+      <p className="text-gray-700">
+        <strong>Time commitment:</strong> 30-40 hours/week<br />
+        <strong>Services:</strong> Mix of mobile notarizations and loan signings<br />
+        <strong>Reality:</strong> Livable wage, requires consistent marketing
+      </p>
+    </div>
+
+    <div className="border-l-4 border-notary-gold pl-6">
+      <h4 className="text-lg font-bold text-notary-navy mb-2">Loan Signing Agent (Full-Time)</h4>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$6,000-12,000/month</p>
+      <p className="text-gray-700">
+        <strong>Time commitment:</strong> 40-50 hours/week<br />
+        <strong>Services:</strong> 40-80 loan signings per month<br />
+        <strong>Reality:</strong> This is where serious money is made ($72K-144K/year)
+      </p>
+    </div>
+  </div>
+</div>
+
+<h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Factors That Affect Notary Income</h3>
+
+<ol className="list-decimal pl-6 space-y-3 text-gray-700 mb-8">
+  <li>
+    <strong>Your state's fee limits:</strong> California ($15 max) = higher potential than New York ($2 max)
+  </li>
+  <li>
+    <strong>Population density:</strong> Urban areas = more demand, more competition
+  </li>
+  <li>
+    <strong>Loan signing certification:</strong> Certified agents earn 3-10x more than general notaries
+  </li>
+  <li>
+    <strong>Marketing effort:</strong> Google Business Profile + reviews + networking = consistent bookings
+  </li>
+  <li>
+    <strong>Availability:</strong> After-hours and weekends = premium pricing opportunities
+  </li>
+  <li>
+    <strong>Specialization:</strong> Hospital/jail signings, estate planning, real estate niches = higher fees
+  </li>
+  <li>
+    <strong>Business relationships:</strong> Title companies, law firms, realtors referring you = steady income
+  </li>
+</ol>
+
+<div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
+  <h4 className="font-bold text-notary-navy mb-3">Real Example: California Loan Signing Agent</h4>
+  <div className="space-y-2 text-gray-700">
+    <p><strong>Month 1 (New):</strong> 5 signings × $100 = $500</p>
+    <p><strong>Month 3 (Building):</strong> 15 signings × $125 = $1,875</p>
+    <p><strong>Month 6 (Established):</strong> 30 signings × $135 = $4,050</p>
+    <p><strong>Month 12 (Full-time):</strong> 60 signings × $150 = $9,000</p>
+    <p className="pt-3 border-t-2 border-blue-300 font-bold">
+      Annual income (Month 12 pace): $108,000
+    </p>
+  </div>
+</div>
+
+<h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Notary Salary vs. Notary Signing Agent Salary</h3>
+
+<p className="text-gray-700 mb-6">
+  There's a massive income gap between general notaries and loan signing agents. Here's the reality:
+</p>
+
+<div className="bg-white border-2 border-gray-300 p-6 mb-8 rounded">
+  <table className="w-full text-gray-700">
+    <thead>
+      <tr className="border-b-2 border-notary-navy">
+        <th className="text-left py-2 pr-4">Category</th>
+        <th className="text-left py-2 pr-4">General Notary</th>
+        <th className="text-left py-2 pr-4">Loan Signing Agent</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="border-b border-gray-300">
+        <td className="py-2 pr-4">Fee per service</td>
+        <td className="py-2 pr-4">$15-50</td>
+        <td className="py-2 pr-4">$100-200</td>
+      </tr>
+      <tr className="border-b border-gray-300">
+        <td className="py-2 pr-4">Time per appointment</td>
+        <td className="py-2 pr-4">15-30 minutes</td>
+        <td className="py-2 pr-4">60-90 minutes</td>
+      </tr>
+      <tr className="border-b border-gray-300">
+        <td className="py-2 pr-4">Hourly rate</td>
+        <td className="py-2 pr-4">$30-60/hour</td>
+        <td className="py-2 pr-4">$80-150/hour</td>
+      </tr>
+      <tr className="border-b border-gray-300">
+        <td className="py-2 pr-4">Monthly income (part-time)</td>
+        <td className="py-2 pr-4">$500-1,500</td>
+        <td className="py-2 pr-4">$2,000-5,000</td>
+      </tr>
+      <tr>
+        <td className="py-2 pr-4">Monthly income (full-time)</td>
+        <td className="py-2 pr-4">$2,000-4,000</td>
+        <td className="py-2 pr-4">$6,000-12,000</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p className="text-gray-700 mb-8">
+  <strong>Bottom line:</strong> If you want to make serious money as a notary, get <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">loan signing certified</Link>. It's the difference between a side gig and a career.
+</p>
+
           {/* Final CTA */}
           <div className="bg-notary-navy text-white p-8 my-12 rounded text-center">
             <h3 className="text-2xl font-bold mb-4">Ready to Start Earning?</h3>
@@ -656,6 +1031,152 @@ export default function NotaryPricingGuide() {
               List Your Business for Free
             </Link>
           </div>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Frequently Asked Questions About Notary Pricing</h2>
+
+<div className="space-y-6 mb-12">
+  
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much should a mobile notary charge?</h3>
+    <p className="text-gray-700">
+      Mobile notaries should charge your state's maximum per signature ($2-15) PLUS a travel fee ($25-75 depending on distance). For a typical appointment with 1-2 signatures within 15 miles, charge $50-75 total. Premium for after-hours, weekends, or specialized services (hospitals, jails).
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">What is a typical notary fee?</h3>
+    <p className="text-gray-700">
+      The typical notary fee ranges from $5-15 per signature depending on your state. California, Washington, and Nevada charge $15 (highest). New York, Illinois, and Georgia charge $1-2 (lowest). Most states fall in the $5-10 range. Remember: this is just the notarization fee—mobile notaries add travel fees on top.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a notary cost at a bank?</h3>
+    <p className="text-gray-700">
+      Banks typically charge $0-10 per signature for existing customers, sometimes free. Non-customers may pay $10-25. However, banks require you to visit during business hours (inconvenient). Mobile notaries charge more ($50-100) but come to you at your convenience.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much is a mobile notary in California?</h3>
+    <p className="text-gray-700">
+      California mobile notaries charge $15 per signature (state maximum) plus $25-75 travel fee. Total for a typical mobile appointment: $40-90 depending on distance and number of signatures. After-hours or rush service: $75-150.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much is a mobile notary in Texas?</h3>
+    <p className="text-gray-700">
+      Texas mobile notaries charge $6 per signature (state maximum) plus travel fees. Because the notarial fee is low, Texas notaries rely heavily on travel fees ($35-100 depending on distance). Typical appointment total: $50-100.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much is a mobile notary in Florida?</h3>
+    <p className="text-gray-700">
+      Florida mobile notaries charge $10 per signature (state maximum) plus travel fees ($25-60). Online/remote notarizations can charge up to $25 per signature. Typical mobile appointment: $50-80 total.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much do notary publics charge?</h3>
+    <p className="text-gray-700">
+      Stationary notaries (at an office, bank, or shipping store) charge $5-15 per signature. Mobile notaries who travel to you charge $50-100+ per appointment (notarization + travel). Loan signing agents charge $100-200 per closing appointment.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Can a notary charge a travel fee?</h3>
+    <p className="text-gray-700">
+      Yes! Travel fees are separate from notarial fees and are unlimited in most states. Mobile notaries charge $25-75 for local travel (0-20 miles), $75-150 for distant travel (20-40 miles), and premium rates for after-hours or specialized locations (hospitals, jails).
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much can a mobile notary make?</h3>
+    <p className="text-gray-700">
+      Part-time mobile notaries earn $1,500-3,000/month. Full-time mobile notaries earn $3,000-6,000/month. Loan signing agents (full-time) can earn $6,000-12,000/month ($72K-144K annually). Income depends on volume, marketing, and whether you're loan signing certified.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Do notaries make good money?</h3>
+    <p className="text-gray-700">
+      General notaries make modest supplemental income ($300-1,500/month part-time). Mobile notaries can make decent income ($2,000-6,000/month). Loan signing agents make excellent income ($6,000-12,000/month full-time). The key is specialization and professional marketing.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a notary make per signature?</h3>
+    <p className="text-gray-700">
+      Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading—mobile notaries make money on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a traveling notary cost?</h3>
+    <p className="text-gray-700">
+      Traveling notaries (another term for mobile notaries) cost $50-100 for local appointments, $100-200 for distant travel or complex services. After-hours, weekends, and holidays command 1.5x-2x standard rates. Factor in convenience—they come to you!
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">What is the average cost of a notary?</h3>
+    <p className="text-gray-700">
+      Average notary cost depends on service type: Walk-in notary (bank, UPS store): $5-15 per signature. Mobile notary at your location: $50-100 per appointment. Loan signing: $100-200 per closing. Average across all services: ~$75 per appointment.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much should I pay a notary?</h3>
+    <p className="text-gray-700">
+      Expect to pay $50-100 for a mobile notary to come to your home or office with 1-3 signatures. More signatures, longer distances, or after-hours service increases the cost. Loan signings (mortgage closings) cost $100-200 but include extensive document review.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Can notaries set their own prices?</h3>
+    <p className="text-gray-700">
+      Notaries can charge UP TO their state's maximum per signature, but not more. However, travel fees, convenience premiums, and specialized service charges are unlimited in most states. This is how mobile notaries set competitive pricing and make sustainable income.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Do notaries charge by the hour or by the signature?</h3>
+    <p className="text-gray-700">
+      Notaries charge by the signature (per notarial act), but mobile notaries effectively charge by the appointment (signature fees + travel). Loan signing agents charge per signing package (flat rate for the entire closing, typically $100-200 regardless of how many signatures).
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a loan signing agent make per signing?</h3>
+    <p className="text-gray-700">
+      Loan signing agents earn $100-200 per signing depending on complexity, distance, and timing. Standard refinances: $100-125. Rush signings: $150-200. Distant travel (30+ miles): $150-250. Scan-backs required: add $25-50. Average experienced agent: $135/signing.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Is being a notary worth it financially?</h3>
+    <p className="text-gray-700">
+      As a side business: Yes ($1,500-3,000/month extra income). As a full-time mobile notary: Maybe ($3,000-6,000/month, livable but not lucrative). As a full-time loan signing agent: Absolutely ($6,000-12,000/month with growth potential). The key is getting certified for loan signings.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">What expenses do mobile notaries have?</h3>
+    <p className="text-gray-700">
+      Mobile notary expenses include: Notary commission/bond ($100-300), E&O insurance ($50-150/year), supplies ($100-200), vehicle (gas, maintenance), printer for loan signings ($200-400), marketing ($0-500/year), continuing education ($50-200). Annual total: $500-2,000 depending on volume.
+    </p>
+  </div>
+
+  <div className="bg-gray-50 p-6 rounded">
+    <h3 className="text-xl font-bold text-notary-navy mb-3">Can I negotiate notary fees?</h3>
+    <p className="text-gray-700">
+      For individuals: Mobile notary prices are usually firm (they're already traveling to you). For businesses: Volume discounts or monthly retainers are negotiable. Title companies: Loan signing fees may have some flexibility ($10-20 range), but undercutting too much hurts the industry.
+    </p>
+  </div>
+
+</div>
 
           {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
