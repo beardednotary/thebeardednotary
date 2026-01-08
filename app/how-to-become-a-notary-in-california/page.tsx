@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How to Become a Notary in California: Complete 2026 Guide',
     description: 'Cost breakdown, timeline, exam tips, and step-by-step process to become a California notary public.',
-    images: ['/images/how-to-become-a-notary-california-featured.png'],
+    images: ['/images/how-to-become-a-notary-california-infographic.png'],
   },
 };
 
