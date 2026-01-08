@@ -702,7 +702,7 @@ export default function HowToBecomeNotaryCalifornia() {
                 <li>List yourself on free sites like Yelp, Bing, Nextdoor (see our <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline">10 free marketing sites</Link>)</li>
                 <li>Join local Facebook groups and introduce yourself</li>
                 <li>Network with real estate agents, law firms, senior living facilities</li>
-                <li>Post on Craigslist under Services &gt; Legal</li>
+                <li>Post on Craigslist under Legal Services</li>
               </ul>
             </div>
 
