@@ -724,18 +724,19 @@ export default function HowToBecomeNotaryCalifornia() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded text-center">
-            <h3 className="text-2xl font-bold mb-4">Ready to Build Your Notary Business?</h3>
-            <p className="text-lg mb-6">
-              Follow our 30-day action plan for new notaries. Day-by-day checklist to go from "just commissioned" to "earning $1,000+ per month."
-            </p>
-            <Link 
-              href="/first-30-days-new-notary"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
-            >
-              Read the 30-Day Action Plan
-            </Link>
-          </div>
+<div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded text-center">
+  <h3 className="text-2xl font-bold mb-4">Ready to Build Your Notary Business?</h3>
+  <p className="text-lg mb-6">
+    Follow our 30-day action plan for new notaries. Day-by-day checklist to go from "just commissioned" to "earning $1,000+ per month."
+  </p>
+  <Link 
+    href="/first-30-days-new-notary"
+    className="inline-block bg-notary-gold px-8 py-4 font-bold text-lg transition-opacity hover:opacity-90 rounded"
+    style={{ color: '#1a2332' }}
+  >
+    Read the 30-Day Action Plan
+  </Link>
+</div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">How to Renew Your California Notary Commission</h2>
 
@@ -935,7 +936,8 @@ export default function HowToBecomeNotaryCalifornia() {
               href="https://www.sos.ca.gov/notary/education/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition mr-4"
+              className="inline-block bg-notary-gold px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition mr-4"
+              style={{ color: '#1a2332' }}
             >
               Find Approved Courses
             </a>
