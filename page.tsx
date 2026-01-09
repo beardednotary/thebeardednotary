@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-
 export default function Home() {
   const articles = [
     {
@@ -88,7 +87,7 @@ export default function Home() {
             Your Trusted Resource for Mobile Notaries &amp; Loan Signing Agents
           </h2>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl">
-            Whether you're a newly-sworn notary public or a seasoned pro, these resources will help you build a profitable, 
+            Whether you&apos;re a newly-sworn notary public or a seasoned pro, these resources will help you build a profitable, 
             professional mobile notary business. From essential supplies to proven marketing strategies, we've got you covered.
           </p>
           <div className="flex flex-wrap gap-4">
