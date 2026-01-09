@@ -1020,7 +1020,8 @@ export default function NotaryPricingGuide() {
             </p>
             <Link 
               href="/first-30-days-new-notary"
-              className="inline-block bg-notary-gold text-notary-navy px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition mr-4"
+              className="inline-block bg-notary-gold px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition mr-4"
+              style={{ color: '#1a2332' }}
             >
               Read the 30-Day Action Plan
             </Link>
