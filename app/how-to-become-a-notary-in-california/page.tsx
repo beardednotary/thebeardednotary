@@ -972,6 +972,10 @@ export default function HowToBecomeNotaryCalifornia() {
                 <h4 className="font-bold text-notary-navy mb-2">Why Become a Loan Signing Agent</h4>
                 <p className="text-gray-600 text-sm">Earn $100-200 per signing vs $15-50</p>
               </Link>
+              <Link href="/smart-money-management-mobile-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+  <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Mobile Notaries</h4>
+  <p className="text-gray-600 text-sm">Business accounts, expense tracking, tax deductions, and quarterly planning</p>
+</Link>
             </div>
           </div>
 
