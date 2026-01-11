@@ -838,7 +838,7 @@ export default function NotaryPricingGuide() {
           </ul>
 
           <p className="text-gray-700 mb-8">
-  Proper bookkeeping isn't just about tracking income—it's about maximizing deductions, separating business from personal finances, and actually understanding your profitability per signing. Read our complete <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide for mobile notaries</Link> to set up a system that takes 10 minutes per week and saves you thousands at tax time.
+  Proper bookkeeping isn't just about tracking income—it's about maximizing deductions, separating business from personal finances, and actually understanding your profitability per signing. Read our complete <Link href="/smart-money-management-for-notaries" className="text-notary-gold hover:underline">money management guide for mobile notaries</Link> to set up a system that takes 10 minutes per week and saves you thousands at tax time.
 </p>
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
@@ -1199,7 +1199,7 @@ export default function NotaryPricingGuide() {
                 <h4 className="font-bold text-notary-navy mb-2">Why 2026 is Perfect for Loan Signing Agents</h4>
                 <p className="text-gray-600 text-sm">The highest-paying notary niche explained</p>
               </Link>
-              <Link href="/smart-money-management-mobile-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
   <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Mobile Notaries</h4>
   <p className="text-gray-600 text-sm">Business accounts, expense tracking, tax deductions, and quarterly planning</p>
 </Link>
