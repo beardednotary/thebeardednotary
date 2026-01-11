@@ -837,6 +837,10 @@ export default function NotaryPricingGuide() {
             <li>Set income goals and review progress weekly</li>
           </ul>
 
+          <p className="text-gray-700 mb-8">
+  Proper bookkeeping isn't just about tracking income—it's about maximizing deductions, separating business from personal finances, and actually understanding your profitability per signing. Read our complete <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide for mobile notaries</Link> to set up a system that takes 10 minutes per week and saves you thousands at tax time.
+</p>
+
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Income Goal Examples</h3>
             <div className="space-y-3 text-gray-700">
