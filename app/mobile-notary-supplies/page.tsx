@@ -152,6 +152,15 @@ export default function MobileNotarySupplies() {
             </a>
           </div>
 
+          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+  <p className="text-gray-800 font-semibold mb-2">
+    💡 Pro Tax Tip:
+  </p>
+  <p className="text-gray-700">
+    Every item on this list is a tax-deductible business expense. Track your purchases properly and you could save hundreds at tax time. See our <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide</Link> for expense tracking systems that actually work.
+  </p>
+</div>
+
           {/* Supply 5 */}
           <div className="mb-12 border-b pb-8">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">
