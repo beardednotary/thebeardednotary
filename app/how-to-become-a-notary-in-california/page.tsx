@@ -692,7 +692,7 @@ export default function HowToBecomeNotaryCalifornia() {
                 <li>Create a Google Business Profile (free, gets you found in "notary near me" searches)</li>
                 <li>Order business cards with your name, phone, email, and "California Notary Public"</li>
                 <li>
-  Set up separate business finances—business bank account, expense tracking, mileage log. See our <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide</Link> for the exact setup process.
+  Set up separate business finances—business bank account, expense tracking, mileage log. See our <Link href="/smart-money-management-for-notaries" className="text-notary-gold hover:underline">money management guide</Link> for the exact setup process.
 </li>
                 <li>Set up payment methods (Venmo, Zelle, Square for credit cards)</li>
                 <li>Create a simple pricing structure (see our <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">pricing guide</Link>)</li>
@@ -972,7 +972,7 @@ export default function HowToBecomeNotaryCalifornia() {
                 <h4 className="font-bold text-notary-navy mb-2">Why Become a Loan Signing Agent</h4>
                 <p className="text-gray-600 text-sm">Earn $100-200 per signing vs $15-50</p>
               </Link>
-              <Link href="/smart-money-management-mobile-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
   <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Mobile Notaries</h4>
   <p className="text-gray-600 text-sm">Business accounts, expense tracking, tax deductions, and quarterly planning</p>
 </Link>
