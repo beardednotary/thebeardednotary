@@ -827,6 +827,10 @@ export default function First30DaysNewNotary() {
                 <h4 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h4>
                 <p className="text-gray-600 text-sm">Dual-tray printers for loan signing scan-backs</p>
               </Link>
+              <Link href="/smart-money-management-mobile-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+  <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Mobile Notaries</h4>
+  <p className="text-gray-600 text-sm">Business accounts, expense tracking, tax deductions, and quarterly planning</p>
+</Link>
             </div>
           </div>
 
