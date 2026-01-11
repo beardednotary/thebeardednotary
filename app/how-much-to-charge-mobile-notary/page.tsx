@@ -1199,6 +1199,10 @@ export default function NotaryPricingGuide() {
                 <h4 className="font-bold text-notary-navy mb-2">Why 2026 is Perfect for Loan Signing Agents</h4>
                 <p className="text-gray-600 text-sm">The highest-paying notary niche explained</p>
               </Link>
+              <Link href="/smart-money-management-mobile-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+  <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Mobile Notaries</h4>
+  <p className="text-gray-600 text-sm">Business accounts, expense tracking, tax deductions, and quarterly planning</p>
+</Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">7 Essential Notary Books</h4>
                 <p className="text-gray-600 text-sm">Build expertise that justifies premium pricing</p>
