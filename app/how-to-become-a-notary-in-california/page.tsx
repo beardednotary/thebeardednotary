@@ -691,6 +691,9 @@ export default function HowToBecomeNotaryCalifornia() {
               <ul className="list-disc pl-6 text-gray-700 space-y-2">
                 <li>Create a Google Business Profile (free, gets you found in "notary near me" searches)</li>
                 <li>Order business cards with your name, phone, email, and "California Notary Public"</li>
+                <li>
+  Set up separate business finances—business bank account, expense tracking, mileage log. See our <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide</Link> for the exact setup process.
+</li>
                 <li>Set up payment methods (Venmo, Zelle, Square for credit cards)</li>
                 <li>Create a simple pricing structure (see our <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">pricing guide</Link>)</li>
               </ul>
