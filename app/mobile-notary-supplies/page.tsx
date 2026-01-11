@@ -157,7 +157,7 @@ export default function MobileNotarySupplies() {
     💡 Pro Tax Tip:
   </p>
   <p className="text-gray-700">
-    Every item on this list is a tax-deductible business expense. Track your purchases properly and you could save hundreds at tax time. See our <Link href="/smart-money-management-mobile-notaries" className="text-notary-gold hover:underline">money management guide</Link> for expense tracking systems that actually work.
+    Every item on this list is a tax-deductible business expense. Track your purchases properly and you could save hundreds at tax time. See our <Link href="/smart-money-management-for-notaries" className="text-notary-gold hover:underline">money management guide</Link> for expense tracking systems that actually work.
   </p>
 </div>
 
