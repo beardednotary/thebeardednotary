@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Common Documents Notaries Encounter: Complete Glossary (2026) | The Bearded Notary',
   description: 'Comprehensive guide to documents mobile notaries and loan signing agents will encounter. Learn what each document is, when it\'s used, and what to watch for.',
+  alternates: {
+    canonical: '/document-types-notaries-glossary', 
+  },
   openGraph: {
     title: 'Common Documents Notaries Encounter: Complete Glossary',
     description: 'From affidavits to quit claim deeds - everything notaries need to know about document types.',
