@@ -252,9 +252,9 @@ export default function BestPrintersForNotaries() {
 
 <div className="bg-gray-50 p-8 mb-8 rounded border-l-4 border-notary-gold">
   <div className="flex items-start mb-4">
-    <img src="/images/mark-willis-headshot.png" className="w-20 h-20 rounded-full mr-4" />
+    <img src="/images/mark-wills-headshot.png" className="w-20 h-20 rounded-full mr-4" />
     <div>
-      <h3 className="font-bold text-notary-navy">Mark Willis</h3>
+      <h3 className="font-bold text-notary-navy">Mark Wills</h3>
       <p className="text-gray-600">Founder, Loan Signing System</p>
     </div>
   </div>
@@ -262,7 +262,7 @@ export default function BestPrintersForNotaries() {
     "The printer I personally use in my own loan signing agent business is a Brother dual tray laser printer. It's wireless and prints at a very affordable price per sheet."
   </blockquote>
   <p className="text-gray-700">
-    Mark Willis has trained over 100,000 loan signing agents through his <a href="http://loansigningsystem.com/?afmc=x5" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>, and consistently emphasizes the importance of having reliable, professional equipment from day one.
+    Mark Wills has trained over 100,000 loan signing agents through his <a href="http://loansigningsystem.com/?afmc=x5" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>, and consistently emphasizes the importance of having reliable, professional equipment from day one.
   </p>
 </div>
 
