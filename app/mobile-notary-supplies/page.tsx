@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
   description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
+  alternates: {
+    canonical: '/mobile-notary-supplies', 
+  },
   openGraph: {
     title: 'Mobile Notary Supplies Checklist',
     description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
