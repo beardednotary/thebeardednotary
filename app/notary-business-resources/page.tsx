@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '85+ Notary Business Resources | The Bearded Notary',
   description: 'Essential resources for mobile notaries and loan signing agents. Professional associations, marketing sites, training programs, and business tools.',
+  alternates: {
+    canonical: '/notary-business-resources', 
+  },
   openGraph: {
     title: '85+ Notary Business Resources',
     description: 'Essential resources for mobile notaries and loan signing agents. Professional associations, marketing sites, training programs, and business tools.',
