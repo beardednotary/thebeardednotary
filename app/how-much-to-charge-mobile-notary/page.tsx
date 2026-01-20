@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     description: 'State fee limits, travel charges, package pricing strategies. Learn what to charge for general notarizations vs loan signings.',
     images: ['/images/notary-pricing-guide-featured.png'],
   },
+  alternates: {
+    canonical: '/how-much-to-charge-mobile-notary', 
+  }, 
 };
 
 export default function NotaryPricingGuide() {
