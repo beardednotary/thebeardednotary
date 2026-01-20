@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Target Industries for Notaries: Where to Find Your Best Clients (2026) | The Bearded Notary',
   description: 'Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.',
+   alternates: {
+    canonical: '/target-industries-for-notaries', 
+  },
   openGraph: {
     title: 'Target Industries for Notaries: Where to Find Your Best Clients',
     description: '15 industries that need notary services regularly - your roadmap to consistent income.',
