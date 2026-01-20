@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: '10 Free Sites to Market Your Notary Business (2026 Guide) | The Bearded Notary',
   description: 'Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency best practices and get more clients in 2026.',
+  alternates: {
+    canonical: '/free-marketing-sites-notaries', 
+  },
   openGraph: {
     title: '10 Free Sites to Market Your Notary Business (2026)',
     description: 'Free business listing sites every mobile notary should use to get more clients.',
