@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
   description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+    alternates: {
+    canonical: '/why-now-is-perfect-time-loan-signing-agent', 
+  },
   openGraph: {
     title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
     description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
