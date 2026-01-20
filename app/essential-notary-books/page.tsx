@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: '7 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
   description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
+  alternates: {
+    canonical: '/essential-notary-books', 
+  },
   openGraph: {
     title: '7 Essential Books That Will Help You Make Money As A Notary',
     description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
