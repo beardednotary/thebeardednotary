@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'How to Become a Notary in California: Complete 2026 Guide (Cost, Timeline, Exam) | The Bearded Notary',
   description: 'Complete guide to becoming a California notary in 2026. Total cost: $400-600. Timeline: 6-8 weeks. Exam pass rate: 65%. Step-by-step process, study tips, and what happens after.',
+  alternates: {
+    canonical: '/how-to-become-a-notary-in-california', 
+  },
   openGraph: {
     title: 'How to Become a Notary in California: Complete 2026 Guide',
     description: 'Cost breakdown, timeline, exam tips, and step-by-step process to become a California notary public.',
