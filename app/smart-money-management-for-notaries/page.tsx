@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Smart Money Management for Mobile Notaries: Complete Financial Guide (2026) | The Bearded Notary',
   description: 'Complete financial guide for mobile notary businesses: bank accounts, credit cards, tax deductions, bookkeeping, and money-saving strategies for 2026.',
+  alternates: {
+    canonical: '/smart-money-management-for-notaries', 
+  },
   openGraph: {
     title: 'Smart Money Management for Mobile Notaries: Complete Financial Guide',
     description: 'Bank accounts, credit cards, tax deductions, bookkeeping, and money management strategies for notary businesses.',
@@ -1273,3 +1276,4 @@ export default function NotaryFinancialGuide() {
     </div>
   );
 }
+
