@@ -4,6 +4,9 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Best Printer for Notaries & Loan Signing Agents 2026: Complete Buying Guide | The Bearded Notary',
   description: 'Complete 2026 printer buying guide for notaries. Compare laser vs inkjet, dual-tray vs single, portable options, cost analysis, and specific recommendations with real notary reviews.',
+  alternates: {
+    canonical: '/best-printers-for-notaries', 
+  },
   openGraph: {
     title: 'Best Printer for Notaries & Loan Signing Agents 2026',
     description: 'Dual-tray laser printers, portable options, cost breakdown, and buying guide for mobile notaries.',
