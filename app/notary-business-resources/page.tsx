@@ -27,7 +27,7 @@ export default function NotaryBusinessResources() {
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-8">
-          <p className="text-sm text-gray-500 mb-2">April 16, 2020</p>
+          <p className="text-sm text-gray-500 mb-2">Updated July 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold text-notary-navy mb-4">
             85+ Notary Business Resources
           </h1>

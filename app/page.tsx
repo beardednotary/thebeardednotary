@@ -6,7 +6,7 @@ export default function Home() {
       title: "How Much Should You Charge as a Mobile Notary in 2026?",
       slug: "how-much-to-charge-mobile-notary",
       excerpt: "Complete pricing guide: state maximum fees, travel charges, loan signing rates, and package pricing strategies. Don't undercharge your services!",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
       title: "Your First 30 Days as a Mobile Notary: Complete Action Plan",
@@ -18,7 +18,7 @@ export default function Home() {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency and get more clients in 2026.",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
       title: "Target Industries for Notaries: Where to Find Your Best Clients",
@@ -36,7 +36,13 @@ export default function Home() {
       title: "Best Printers for Notaries & Loan Signing Agents (2025)",
       slug: "best-printers-for-notaries",
       excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
-      date: "December 2025"
+      date: "Updated July 2026"
+    },
+    {
+      title: "Best Scanners for Notaries & Loan Signing Agents (2026)",
+      slug: "best-scanners-for-notaries",
+      excerpt: "Portable scanner picks, scan-back workflow advice, and the best options for working notaries who need reliable document handling.",
+      date: "July 2026"
     },
     {
       title: "Why 2026 is the Perfect Time to Become a Loan Signing Agent",
@@ -48,7 +54,7 @@ export default function Home() {
       title: "85+ Notary Business Resources",
       slug: "notary-business-resources",
       excerpt: "Essential resources for taking your notary business to the next level, from professional associations to marketing sites.",
-      date: "April 16, 2020"
+      date: "Updated July 2026"
     },
     {
       title: "7 Essential Books That Will Help You Make Money As A Notary",
@@ -60,7 +66,7 @@ export default function Home() {
       title: "Mobile Notary Supplies Checklist",
       slug: "mobile-notary-supplies",
       excerpt: "The 12 essential supplies every mobile notary needs to succeed, from sequential journals to dual tray laser printers.",
-      date: "April 16, 2020"
+      date: "Updated July 2026"
     },
     {
       title: "How to Become a Notary in California in Seven Easy Steps",
@@ -97,7 +103,7 @@ export default function Home() {
       text: "Build trust with working notaries who need printers, scanners, toner, paper, bags, and backup gear.",
       links: [
         { href: "/best-printers-for-notaries", label: "Best Printers for Notaries" },
-        { href: "/mobile-notary-supplies", label: "Mobile Notary Supplies Checklist" }
+        { href: "/best-scanners-for-notaries", label: "Best Scanners for Notaries" }
       ]
     },
     {

@@ -675,7 +675,7 @@ export default function NotaryFinancialGuide() {
             <li>Business cards</li>
             <li>Pens, folders, clipboards</li>
             <li>Thumbprint pad and ink</li>
-            <li>Printer and scanner (see our <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">printer guide</Link>)</li>
+            <li>Printer and scanner (see our <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">printer guide</Link> and <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">scanner guide</Link>)</li>
             <li>Paper, ink, toner</li>
             <li>Laptop or tablet (business use %)</li>
             <li>Mobile hotspot or data plan</li>
@@ -1267,6 +1267,10 @@ export default function NotaryFinancialGuide() {
               <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h4>
                 <p className="text-gray-600 text-sm">Dual-tray printers for loan signings</p>
+              </Link>
+              <Link href="/best-scanners-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Scanners for Notaries</h4>
+                <p className="text-gray-600 text-sm">Portable scanner picks for scan-backs and mobile workflow</p>
               </Link>
             </div>
           </div>

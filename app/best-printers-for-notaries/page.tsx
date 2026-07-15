@@ -983,6 +983,10 @@ export default function BestPrintersForNotaries() {
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
             <h3 className="text-2xl font-bold text-notary-navy mb-6">Complete Your Mobile Notary Setup:</h3>
             <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/best-scanners-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Scanners for Notaries</h4>
+                <p className="text-gray-600 text-sm">The best portable scanner picks for scan-backs and mobile document handling</p>
+              </Link>
               <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h4>
                 <p className="text-gray-600 text-sm">12 essential items every loan signing agent needs beyond just a printer</p>
@@ -990,10 +994,6 @@ export default function BestPrintersForNotaries() {
               <Link href="/how-much-to-charge-mobile-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Notary Pricing Guide 2026</h4>
                 <p className="text-gray-600 text-sm">What to charge for signings to cover your printer investment</p>
-              </Link>
-              <Link href="/why-now-is-perfect-time-loan-signing-agent" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">Why 2026 is Perfect for Loan Signing Agents</h4>
-                <p className="text-gray-600 text-sm">Market conditions and training to start your signing business</p>
               </Link>
               <Link href="/first-30-days-new-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Your First 30 Days as a Mobile Notary</h4>

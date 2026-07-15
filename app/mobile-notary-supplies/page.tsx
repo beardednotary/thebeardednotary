@@ -24,7 +24,7 @@ export default function MobileNotarySupplies() {
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-8">
-          <p className="text-sm text-gray-500 mb-2">April 16, 2020</p>
+          <p className="text-sm text-gray-500 mb-2">Updated July 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold text-notary-navy mb-4">
             Mobile Notary Supplies Checklist
           </h1>
@@ -294,6 +294,9 @@ export default function MobileNotarySupplies() {
               A mobile document scanner can provide an on-demand digital backup for both sides of the transaction. 
               It can serve as an important "add-on" service for your mobile notary business.
             </p>
+            <p className="text-gray-700 mb-4">
+              Want help choosing one? Read our <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">best scanner guide for notaries</Link> for the top portable and office-friendly picks.
+            </p>
             <a 
               href="https://amzn.to/4j1Pntw" 
               target="_blank" 
@@ -340,6 +343,10 @@ export default function MobileNotarySupplies() {
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
           <h2 className="text-2xl font-bold text-notary-navy mb-6">Build the Rest of Your Setup</h2>
           <div className="grid md:grid-cols-2 gap-6">
+            <Link href="/best-scanners-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">Best Scanners for Notaries</h3>
+              <p className="text-gray-600 text-sm">Choose the right scanner for scan-backs, travel, and mobile document work.</p>
+            </Link>
             <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
               <h3 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h3>
               <p className="text-gray-600 text-sm">Go deeper on dual-tray, portable, and budget-friendly printer picks.</p>
