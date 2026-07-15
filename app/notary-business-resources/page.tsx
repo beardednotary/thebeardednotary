@@ -20,7 +20,7 @@ export default function NotaryBusinessResources() {
       {/* Header */}
       <header className="bg-notary-navy text-white py-4 border-b-4 border-notary-gold">
         <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline">← Back to Home</Link>
+          <Link href="/" className="text-notary-gold hover:underline">Back to Home</Link>
         </div>
       </header>
 
@@ -323,9 +323,9 @@ export default function NotaryBusinessResources() {
               </a>
             </h4>
             <p className="text-gray-700">
-              Hiscox offers professional service businesses a new way to buy small business insurance online in minutes. 
-              They specialize in protecting IT/technology, marketing, consulting, and many other professional service businesses—
-              including notaries!—tailoring coverage to the specific risks in each industry.
+              Hiscox offers professional service businesses a new way to buy small business insurance online in minutes.
+              They specialize in protecting IT/technology, marketing, consulting, and many other professional service businesses,
+              including notaries, while tailoring coverage to the specific risks in each industry.
             </p>
           </div>
 
@@ -362,7 +362,7 @@ export default function NotaryBusinessResources() {
                 </a>
               </h4>
               <p className="text-gray-700">
-                Take credit and debit card payments anywhere – straight from your smartphone or tablet. 
+                Take credit and debit card payments anywhere - straight from your smartphone or tablet. 
                 Just pay a small processing fee. Join today and receive free processing on your first $1000 in sales.
               </p>
             </div>
@@ -423,10 +423,12 @@ export default function NotaryBusinessResources() {
       <footer className="bg-notary-navy text-white py-8 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
+            (c) {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
           </p>
         </div>
       </footer>
     </div>
   );
 }
+
+

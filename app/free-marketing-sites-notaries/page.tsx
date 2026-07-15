@@ -18,7 +18,7 @@ export default function FreeMarketingSitesNotaries() {
       <header className="bg-notary-navy text-white py-6">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
+            Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold">
             10 Free Sites to Market Your Notary Business (2026)
@@ -272,11 +272,11 @@ export default function FreeMarketingSitesNotaries() {
               Beyond general business sites, list yourself on notary-specific platforms where people actively search for signing agents:
             </p>
             <ul className="space-y-2 text-white">
-              <li>• <strong>NotaryRotary.com</strong> - Free profile + premium options</li>
-              <li>• <strong>123Notary.com</strong> - Free listing in your area</li>
-              <li>• <strong>NotaryCafe.com</strong> - Free directory + job board</li>
-              <li>• <strong>SigningAgent.com</strong> - Free profile for loan signings</li>
-              <li>• <strong>SnapDocs.com</strong> - Platform for loan signing orders</li>
+              <li>- <strong>NotaryRotary.com</strong> - Free profile + premium options</li>
+              <li>- <strong>123Notary.com</strong> - Free listing in your area</li>
+              <li>- <strong>NotaryCafe.com</strong> - Free directory + job board</li>
+              <li>- <strong>SigningAgent.com</strong> - Free profile for loan signings</li>
+              <li>- <strong>SnapDocs.com</strong> - Platform for loan signing orders</li>
             </ul>
             <p className="text-lg mt-4">
               For a complete list with setup instructions, check out our <Link href="/notary-business-resources" className="text-notary-gold hover:underline font-bold">85+ Notary Business Resources guide</Link>.
@@ -394,3 +394,5 @@ export default function FreeMarketingSitesNotaries() {
     </div>
   );
 }
+
+

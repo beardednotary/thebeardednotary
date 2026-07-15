@@ -18,7 +18,7 @@ export default function BestPrintersForNotaries() {
       <header className="bg-notary-navy text-white py-6">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
+            Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold">
             Best Printer for Notaries & Loan Signing Agents: Complete 2026 Buying Guide
@@ -64,12 +64,12 @@ export default function BestPrintersForNotaries() {
           <div className="bg-gray-50 p-6 mb-8 rounded">
             <h3 className="text-xl font-bold text-notary-navy mb-4">What Makes a Printer "Loan Signing Ready"?</h3>
             <ul className="space-y-2 text-gray-700">
-              <li>✓ <strong>Dual paper trays</strong> - Automatic switching between letter and legal</li>
-              <li>✓ <strong>Laser printing</strong> - Fast, crisp text that won't smudge</li>
-              <li>✓ <strong>High paper capacity</strong> - 500+ sheets to print full packages without reloading</li>
-              <li>✓ <strong>Duplex printing</strong> - Automatic two-sided for efficiency</li>
-              <li>✓ <strong>40+ ppm speed</strong> - Print 200-page packages in 5-6 minutes</li>
-              <li>✓ <strong>Wireless connectivity</strong> - Print from phone/laptop/tablet</li>
+              <li><strong>Dual paper trays</strong> - Automatic switching between letter and legal</li>
+              <li><strong>Laser printing</strong> - Fast, crisp text that won't smudge</li>
+              <li><strong>High paper capacity</strong> - 500+ sheets to print full packages without reloading</li>
+              <li><strong>Duplex printing</strong> - Automatic two-sided for efficiency</li>
+              <li><strong>40+ ppm speed</strong> - Print 200-page packages in 5-6 minutes</li>
+              <li><strong>Wireless connectivity</strong> - Print from phone/laptop/tablet</li>
             </ul>
           </div>
 
@@ -188,7 +188,7 @@ export default function BestPrintersForNotaries() {
 
           <div className="space-y-6 mb-8">
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ Print Speed: 40+ Pages Per Minute</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">Print Speed: 40+ Pages Per Minute</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> A 200-page loan package takes 5 minutes at 40 ppm vs 13 minutes at 15 ppm.
               </p>
@@ -198,7 +198,7 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ Paper Capacity: 500+ Sheets</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">Paper Capacity: 500+ Sheets</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> Large loan packages can be 250-350 pages. You don't want to reload paper mid-print.
               </p>
@@ -208,7 +208,7 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ Automatic Duplex Printing</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">Automatic Duplex Printing</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> Some signing companies request two-sided printing to save paper. Manual duplex is a nightmare.
               </p>
@@ -218,7 +218,7 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ Wireless Connectivity</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">Wireless Connectivity</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> Print from your laptop at the kitchen table, or from your phone if you get a last-minute doc change.
               </p>
@@ -228,7 +228,7 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ High Monthly Duty Cycle</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">High Monthly Duty Cycle</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> "Duty cycle" is the maximum pages per month the printer can handle without damage.
               </p>
@@ -238,7 +238,7 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">✓ Low Cost Per Page</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">Low Cost Per Page</h3>
               <p className="text-gray-700 mb-2">
                 <strong>Why it matters:</strong> Toner costs add up fast. A printer with $0.02/page vs $0.05/page saves you $60 per 2,000 pages.
               </p>
@@ -285,17 +285,17 @@ export default function BestPrintersForNotaries() {
           <div className="space-y-6 mb-8">
             <blockquote className="border-l-4 border-notary-gold pl-6 py-2 italic text-gray-700 bg-gray-50 p-4">
               "Working perfectly for my job as a notary signing agent. I print 250-page mixed letter/legal packages and it prints very quickly and the print is clear. The printer automatically pulls the right size from each tray."
-              <footer className="text-sm text-gray-600 mt-2 not-italic">— Verified Notary Signing Agent Review</footer>
+              <footer className="text-sm text-gray-600 mt-2 not-italic">- Verified Notary Signing Agent Review</footer>
             </blockquote>
 
             <blockquote className="border-l-4 border-notary-gold pl-6 py-2 italic text-gray-700 bg-gray-50 p-4">
               "This will work on a Mac! I am a notary signing agent and thought I would have to get a different computer so that I could print multi-sized signing packages. I bought three printers and this is the last one I will buy until it dies."
-              <footer className="text-sm text-gray-600 mt-2 not-italic">— macOS Notary User</footer>
+              <footer className="text-sm text-gray-600 mt-2 not-italic">- macOS Notary User</footer>
             </blockquote>
 
             <blockquote className="border-l-4 border-notary-gold pl-6 py-2 italic text-gray-700 bg-gray-50 p-4">
-              "I use this dual paper printer for notarized documents that are 2/3 letter and 1/3 legal. It works incredibly fast and prints well. I print 2,500–7,500 pages per month and need a reliable printer. The 500- and 250-page trays are perfect, and I had it working in about 30 minutes."
-              <footer className="text-sm text-gray-600 mt-2 not-italic">— High-Volume Notary</footer>
+              "I use this dual paper printer for notarized documents that are 2/3 letter and 1/3 legal. It works incredibly fast and prints well. I print 2,500-7,500 pages per month and need a reliable printer. The 500- and 250-page trays are perfect, and I had it working in about 30 minutes."
+              <footer className="text-sm text-gray-600 mt-2 not-italic">- High-Volume Notary</footer>
             </blockquote>
           </div>
 
@@ -1007,3 +1007,4 @@ export default function BestPrintersForNotaries() {
     </div>
   );
 }
+

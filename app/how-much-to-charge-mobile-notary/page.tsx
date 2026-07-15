@@ -20,7 +20,7 @@ export default function NotaryPricingGuide() {
       <header className="bg-notary-navy text-white py-6">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
+            Back to Home
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold">
             How Much Should You Charge as a Mobile Notary in 2026?
@@ -53,11 +53,11 @@ export default function NotaryPricingGuide() {
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Quick Pricing Overview</h3>
             <ul className="space-y-2 text-gray-800">
-              <li>✓ <strong>General notarization:</strong> $15-25 per signature (state maximums apply)</li>
-              <li>✓ <strong>Mobile travel fee:</strong> $25-75 (within 20 miles)</li>
-              <li>✓ <strong>Loan signing package:</strong> $75-200 per appointment</li>
-              <li>✓ <strong>After-hours/weekend:</strong> 1.5x-2x your base rate</li>
-              <li>✓ <strong>Hospital/jail visits:</strong> $150-300 (specialized service)</li>
+              <li><strong>General notarization:</strong> $15-25 per signature (state maximums apply)</li>
+              <li><strong>Mobile travel fee:</strong> $25-75 (within 20 miles)</li>
+              <li><strong>Loan signing package:</strong> $75-200 per appointment</li>
+              <li><strong>After-hours/weekend:</strong> 1.5x-2x your base rate</li>
+              <li><strong>Hospital/jail visits:</strong> $150-300 (specialized service)</li>
             </ul>
           </div>
 
@@ -79,7 +79,7 @@ export default function NotaryPricingGuide() {
 </div>
 
 <p className="text-gray-700 mb-6">
-  The cost of notary services depends on three factors: your state's maximum fee per signature, whether the notary travels to you (mobile fee), and the complexity of service (general notarization vs loan signing). Let's break down exactly what you can expect to pay—or charge if you're a notary.
+  The cost of notary services depends on three factors: your state's maximum fee per signature, whether the notary travels to you (mobile fee), and the complexity of service (general notarization vs loan signing). Let's break down exactly what you can expect to pay, or charge if you're a notary.
 </p>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Understanding State Maximum Fees</h2>
@@ -521,11 +521,11 @@ export default function NotaryPricingGuide() {
               <strong>Loan Signing System</strong> teaches you:
             </p>
             <ul className="space-y-2 mb-6">
-              <li>• How to handle every document in a closing package</li>
-              <li>• What title companies expect from signing agents</li>
-              <li>• How to get on signing company rosters</li>
-              <li>• Common mistakes and how to avoid them</li>
-              <li>• How to build a 6-figure loan signing business</li>
+              <li>- How to handle every document in a closing package</li>
+              <li>- What title companies expect from signing agents</li>
+              <li>- How to get on signing company rosters</li>
+              <li>- Common mistakes and how to avoid them</li>
+              <li>- How to build a 6-figure loan signing business</li>
             </ul>
             <a 
               href="http://loansigningsystem.com/?afmc=x5"
@@ -1050,7 +1050,7 @@ export default function NotaryPricingGuide() {
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">What is a typical notary fee?</h3>
     <p className="text-gray-700">
-      The typical notary fee ranges from $5-15 per signature depending on your state. California, Washington, and Nevada charge $15 (highest). New York, Illinois, and Georgia charge $1-2 (lowest). Most states fall in the $5-10 range. Remember: this is just the notarization fee—mobile notaries add travel fees on top.
+      The typical notary fee ranges from $5-15 per signature depending on your state. California, Washington, and Nevada charge $15 (highest). New York, Illinois, and Georgia charge $1-2 (lowest). Most states fall in the $5-10 range. Remember: this is just the notarization fee, and mobile notaries add travel fees on top.
     </p>
   </div>
 
@@ -1113,14 +1113,14 @@ export default function NotaryPricingGuide() {
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a notary make per signature?</h3>
     <p className="text-gray-700">
-      Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading—mobile notaries make money on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).
+      Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading because mobile notaries make money on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).
     </p>
   </div>
 
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a traveling notary cost?</h3>
     <p className="text-gray-700">
-      Traveling notaries (another term for mobile notaries) cost $50-100 for local appointments, $100-200 for distant travel or complex services. After-hours, weekends, and holidays command 1.5x-2x standard rates. Factor in convenience—they come to you!
+      Traveling notaries (another term for mobile notaries) cost $50-100 for local appointments, $100-200 for distant travel or complex services. After-hours, weekends, and holidays command 1.5x-2x standard rates. Factor in the convenience: they come to you.
     </p>
   </div>
 
@@ -1186,6 +1186,10 @@ export default function NotaryPricingGuide() {
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
             <h3 className="text-2xl font-bold text-notary-navy mb-6">Continue Building Your Business:</h3>
             <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h4>
+                <p className="text-gray-600 text-sm">Choose gear that protects your margins and saves time on every signing</p>
+              </Link>
               <Link href="/target-industries-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">15 Target Industries for Notaries</h4>
                 <p className="text-gray-600 text-sm">Where to find clients who pay premium rates</p>
@@ -1194,13 +1198,13 @@ export default function NotaryPricingGuide() {
                 <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h4>
                 <p className="text-gray-600 text-sm">Look professional and command higher fees</p>
               </Link>
-              <Link href="/why-now-is-perfect-time-loan-signing-agent" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">Why 2026 is Perfect for Loan Signing Agents</h4>
-                <p className="text-gray-600 text-sm">The highest-paying notary niche explained</p>
-              </Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">7 Essential Notary Books</h4>
                 <p className="text-gray-600 text-sm">Build expertise that justifies premium pricing</p>
+              </Link>
+              <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Notaries</h4>
+                <p className="text-gray-600 text-sm">Track profit, mileage, and expenses so higher fees turn into real income</p>
               </Link>
             </div>
           </div>
@@ -1210,3 +1214,4 @@ export default function NotaryPricingGuide() {
     </div>
   );
 }
+

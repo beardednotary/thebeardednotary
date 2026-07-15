@@ -17,7 +17,7 @@ export default function MobileNotarySupplies() {
       {/* Header */}
       <header className="bg-notary-navy text-white py-4 border-b-4 border-notary-gold">
         <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline">← Back to Home</Link>
+          <Link href="/" className="text-notary-gold hover:underline">Back to Home</Link>
         </div>
       </header>
 
@@ -338,16 +338,23 @@ export default function MobileNotarySupplies() {
 
         {/* Related Articles */}
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
-          <h2 className="text-2xl font-bold text-notary-navy mb-6">More from The Bearded Notary</h2>
-          <div className="space-y-3">
-            <Link href="/notary-business-resources" className="block text-notary-gold hover:underline font-semibold">
-              70+ Notary Business Resources
+          <h2 className="text-2xl font-bold text-notary-navy mb-6">Build the Rest of Your Setup</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h3>
+              <p className="text-gray-600 text-sm">Go deeper on dual-tray, portable, and budget-friendly printer picks.</p>
             </Link>
-            <Link href="/essential-notary-books" className="block text-notary-gold hover:underline font-semibold">
-              7 Essential Notary Books That Will Benefit Every Notary Business
+            <Link href="/how-much-to-charge-mobile-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">Notary Pricing Guide</h3>
+              <p className="text-gray-600 text-sm">Make sure your rates cover the gear and time your business requires.</p>
             </Link>
-            <Link href="/how-to-become-a-notary-in-california" className="block text-notary-gold hover:underline font-semibold">
-              How to Become a Notary in California
+            <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">Smart Money Management for Notaries</h3>
+              <p className="text-gray-600 text-sm">Track supplies, mileage, and margins so your setup actually pays off.</p>
+            </Link>
+            <Link href="/notary-business-resources" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">85+ Notary Business Resources</h3>
+              <p className="text-gray-600 text-sm">Expand into training, directories, and tools once your core setup is ready.</p>
             </Link>
           </div>
         </div>
@@ -366,10 +373,12 @@ export default function MobileNotarySupplies() {
       <footer className="bg-notary-navy text-white py-8 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
+            (c) {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
           </p>
         </div>
       </footer>
     </div>
   );
 }
+
+
