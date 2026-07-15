@@ -333,9 +333,9 @@ export default function BestPrintersForNotaries() {
             <strong>Bottom line:</strong> The HL-L5200DWT is the gold standard for loan signing agents. It's what most successful signing agents use, and for good reason.
           </p>
 
-          {/* Brother HL-L6210DWT */}
+          {/* Brother HL-L5210DWT */}
           <div className="bg-gray-50 p-8 mb-12 rounded">
-            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L6210DWT - Upgraded Dual-Tray Beast</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L5210DWT - Upgraded Dual-Tray Beast</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
               <div>
@@ -368,6 +368,19 @@ export default function BestPrintersForNotaries() {
                 View on Amazon
               </a>
             </div>
+
+            <p className="text-gray-700 text-sm text-center">
+              Want the step-up <strong>Brother HL-L6210DWT</strong> instead?{' '}
+              <a
+                href="https://amzn.to/3RCdRAr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-notary-gold hover:underline font-semibold"
+              >
+                View it here
+              </a>
+              .
+            </p>
           </div>
 
           {/* Brother HL-L6310DW */}
@@ -618,7 +631,7 @@ export default function BestPrintersForNotaries() {
                   <td className="border border-gray-300 p-2">~$400</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L6210DWT</td>
+                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L5210DWT</td>
                   <td className="border border-gray-300 p-2">48-50 ppm</td>
                   <td className="border border-gray-300 p-2">Dual (520+520)</td>
                   <td className="border border-gray-300 p-2">1,140 sheets</td>
@@ -794,8 +807,8 @@ export default function BestPrintersForNotaries() {
               <div className="border-l-4 border-notary-gold pl-6">
                 <p className="font-bold text-notary-navy mb-2">What's your monthly page volume?</p>
                 <p className="text-gray-700 mb-2"><strong>Under 2,000 pages →</strong> Brother HL-L5200DWT</p>
-                <p className="text-gray-700 mb-2"><strong>2,000-5,000 pages →</strong> Brother HL-L5200DWT or HL-L6210DWT</p>
-                <p className="text-gray-700"><strong>5,000+ pages →</strong> Brother HL-L6210DWT or HL-L6310DW</p>
+                <p className="text-gray-700 mb-2"><strong>2,000-5,000 pages →</strong> Brother HL-L5200DWT or HL-L5210DWT</p>
+                <p className="text-gray-700"><strong>5,000+ pages →</strong> Brother HL-L5210DWT or HL-L6310DW</p>
               </div>
 
               <div className="border-l-4 border-notary-gold pl-6">
@@ -815,7 +828,7 @@ export default function BestPrintersForNotaries() {
                 <p className="font-bold text-notary-navy mb-2">What's your budget?</p>
                 <p className="text-gray-700 mb-2"><strong>Under $250 →</strong> Brother HL-L2395DW (single-tray)</p>
                 <p className="text-gray-700 mb-2"><strong>$400-500 →</strong> Brother HL-L5200DWT (the standard)</p>
-                <p className="text-gray-700 mb-2"><strong>$500-700 →</strong> Brother HL-L6210DWT or HL-L6310DW</p>
+                <p className="text-gray-700 mb-2"><strong>$500-700 →</strong> Brother HL-L5210DWT or HL-L6310DW</p>
                 <p className="text-gray-700"><strong>$1,000+ →</strong> HP M528dn (if you need all-in-one)</p>
               </div>
             </div>
@@ -892,9 +905,9 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">What's the difference between Brother HL-L5200DWT and HL-L6210DWT?</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">What's the difference between Brother HL-L5200DWT and HL-L5210DWT?</h3>
               <p className="text-gray-700">
-                The HL-L6210DWT is newer and has bigger trays (dual 520-sheet trays vs 250+520), slightly faster speed (48-50 ppm vs 42 ppm), and lower cost per page (~$0.018 vs $0.023). It costs about $100-150 more. Get the L6210 if you print 5,000+ pages per month, otherwise the L5200 is fine.
+                The HL-L5210DWT is newer and has bigger trays (dual 520-sheet trays vs 250+520), slightly faster speed (48-50 ppm vs 42 ppm), and lower cost per page (~$0.018 vs $0.023). It costs about $100-150 more. Get the L5210 if you print 5,000+ pages per month, otherwise the L5200 is fine.
               </p>
             </div>
 

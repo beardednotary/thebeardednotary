@@ -45,6 +45,12 @@ export default function Home() {
       date: "July 2026"
     },
     {
+      title: "Best Portable Printers for Notaries (2026)",
+      slug: "best-portable-printers-for-notaries",
+      excerpt: "Backup and travel-friendly portable printer picks for last-minute corrections, emergency pages, and true mobile notary workflows.",
+      date: "July 2026"
+    },
+    {
       title: "Why 2026 is the Perfect Time to Become a Loan Signing Agent",
       slug: "why-now-is-perfect-time-loan-signing-agent",
       excerpt: "Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
@@ -103,7 +109,8 @@ export default function Home() {
       text: "Build trust with working notaries who need printers, scanners, toner, paper, bags, and backup gear.",
       links: [
         { href: "/best-printers-for-notaries", label: "Best Printers for Notaries" },
-        { href: "/best-scanners-for-notaries", label: "Best Scanners for Notaries" }
+        { href: "/best-scanners-for-notaries", label: "Best Scanners for Notaries" },
+        { href: "/best-portable-printers-for-notaries", label: "Best Portable Printers for Notaries" }
       ]
     },
     {

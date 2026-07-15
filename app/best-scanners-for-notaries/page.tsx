@@ -43,10 +43,10 @@ export default function BestScannersForNotaries() {
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer: Best Scanners for Notaries</h2>
             <div className="space-y-3 text-gray-700">
-              <p><strong>Best Overall Portable:</strong> <a href="#epson-es-300w" className="text-notary-navy underline">Epson WorkForce ES-300W</a></p>
-              <p><strong>Best Budget Portable:</strong> <a href="#brother-ds-640" className="text-notary-navy underline">Brother DS-640</a></p>
-              <p><strong>Best Ultra-Portable:</strong> <a href="#epson-es-50" className="text-notary-navy underline">Epson ES-50</a></p>
-              <p><strong>Best Office Upgrade:</strong> <a href="#scansnap-ix1600" className="text-notary-navy underline">Fujitsu ScanSnap iX1600</a></p>
+              <p><strong>Best Overall Portable:</strong> <a href="https://amzn.to/3TzOoYS" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson WorkForce ES-300W</a></p>
+              <p><strong>Best Budget Portable:</strong> <a href="https://www.amazon.com/dp/B083R36CY4?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B083R36CY4_1784098041631" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Brother DS-640</a></p>
+              <p><strong>Best Ultra-Portable:</strong> <a href="https://amzn.to/4f3rdPe" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson ES-50</a></p>
+              <p><strong>Best Office Upgrade:</strong> <a href="https://www.amazon.com/dp/B0F9B1H5VN?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0F9B1H5VN_1784098222762" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Fujitsu ScanSnap iX1600</a></p>
             </div>
           </div>
 
@@ -338,60 +338,48 @@ export default function BestScannersForNotaries() {
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3">The best mobile all-around scanner</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#epson-es-300w" className="text-notary-navy underline">Epson ES-300W</a>
+                      <a href="https://amzn.to/3TzOoYS" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson ES-300W</a>
                     </td>
                     <td className="border border-gray-300 p-3">Portable, duplex, and practical for regular scan-backs.</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 p-3">The lowest-cost bag-friendly option</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#brother-ds-640" className="text-notary-navy underline">Brother DS-640</a>
+                      <a href="https://www.amazon.com/dp/B083R36CY4?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B083R36CY4_1784098041631" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Brother DS-640</a>
                     </td>
                     <td className="border border-gray-300 p-3">Good starter choice if your volume is still light.</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3">A compact backup scanner</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#epson-es-50" className="text-notary-navy underline">Epson ES-50</a>
+                      <a href="https://amzn.to/4f3rdPe" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson ES-50</a>
                     </td>
                     <td className="border border-gray-300 p-3">Tiny and easy to carry, but not ideal for heavy batches.</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 p-3">A strong home-office upgrade</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#epson-es-500w-ii" className="text-notary-navy underline">Epson ES-500W II</a>
+                      <a href="https://www.amazon.com/dp/B08P3Z4M6Q?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B08P3Z4M6Q_1784098901467" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson ES-500W II</a>
                     </td>
                     <td className="border border-gray-300 p-3">Better fit for desk-based scan-backs and heavier volume.</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3">A premium office workflow</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#epson-es-580w" className="text-notary-navy underline">Epson ES-580W</a>
+                      <a href="https://www.amazon.com/dp/B08P3ZT5WH?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B08P3ZT5WH_1784098901466" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Epson ES-580W</a>
                     </td>
                     <td className="border border-gray-300 p-3">Best convenience-focused upsell for full-time notaries.</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-300 p-3">The nicest overall office experience</td>
                     <td className="border border-gray-300 p-3">
-                      <a href="#scansnap-ix1600" className="text-notary-navy underline">ScanSnap iX1600</a>
+                      <a href="https://www.amazon.com/dp/B0F9B1H5VN?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0F9B1H5VN_1784098222762" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">ScanSnap iX1600</a>
                     </td>
                     <td className="border border-gray-300 p-3">Great software and comfort if portability matters less.</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-          </div>
-
-          <div className="bg-blue-50 border border-blue-200 rounded p-6 mb-10">
-            <h3 className="text-2xl font-bold text-notary-navy mb-3">Better Than Thin Review Pages</h3>
-            <p className="text-gray-700 mb-4">
-              I would not copy the competitor&apos;s thin review-page structure yet. Your stronger play is:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700">
-              <li>Keep one strong roundup page like this for ranking and buyer intent</li>
-              <li>Use direct section links to each scanner pick for emails, buttons, and internal links</li>
-              <li>Create future comparison pages only where search intent is obvious, like ES-300W vs ES-500W II</li>
-            </ul>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Do You Need a Scanner If Your Printer Can Scan?</h2>

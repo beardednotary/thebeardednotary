@@ -39,8 +39,8 @@ export default function BestPortablePrintersForNotaries() {
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer: Best Portable Printers</h2>
             <div className="space-y-3 text-gray-700">
-              <p><strong>Best Overall:</strong> HP OfficeJet 250</p>
-              <p><strong>Best Value:</strong> Canon PIXMA TR150</p>
+              <p><strong>Best Overall:</strong> <a href="https://www.amazon.com/dp/B01HGD8R5S?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B01HGD8R5S_1784100100383" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">HP OfficeJet 250</a></p>
+              <p><strong>Best Value:</strong> <a href="https://www.amazon.com/dp/B0F1Z1VLV6?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0F1Z1VLV6_1784100159835" target="_blank" rel="noopener noreferrer" className="text-notary-navy underline">Canon PIXMA TR160</a></p>
               <p><strong>Best Lightweight Option:</strong> Epson WorkForce WF-110</p>
               <p><strong>Best Specialty Pick:</strong> Brother PocketJet PJ-883</p>
             </div>
@@ -119,10 +119,19 @@ export default function BestPortablePrintersForNotaries() {
                 <p><strong>Verdict:</strong> Best portable printer for most notary use cases</p>
               </div>
             </div>
+            <a
+              href="https://www.amazon.com/dp/B01HGD8R5S?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B01HGD8R5S_1784100100383"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 bg-notary-gold px-6 py-3 font-bold hover:bg-opacity-90 transition"
+              style={{ color: '#1a2332' }}
+            >
+              Check Current Price
+            </a>
           </div>
 
           <div className="bg-gray-50 p-6 mb-8 rounded">
-            <h3 className="text-2xl font-bold text-notary-navy mb-3">Canon PIXMA TR150</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-3">Canon PIXMA TR160</h3>
             <p className="text-gray-700 mb-4">
               A strong value pick if you want something compact and document-friendly without paying top-tier portable-printer pricing.
             </p>
@@ -131,6 +140,16 @@ export default function BestPortablePrintersForNotaries() {
               <li>Compact and easier to carry than bigger mobile all-in-ones</li>
               <li>Best for notaries who want a backup printer, not a substitute office setup</li>
             </ul>
+            <div className="text-center my-6">
+              <a
+                href="https://www.amazon.com/dp/B0F1Z1VLV6?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0F1Z1VLV6_1784100159835"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-notary-navy text-white px-6 py-3 font-bold transition-opacity hover:opacity-90 rounded"
+              >
+                View on Amazon
+              </a>
+            </div>
           </div>
 
           <div className="bg-gray-50 p-6 mb-8 rounded">
@@ -143,6 +162,16 @@ export default function BestPortablePrintersForNotaries() {
               <li>Good option for car-office setups</li>
               <li>Better as a backup/mobile printer than a high-volume daily machine</li>
             </ul>
+            <div className="text-center my-6">
+              <a
+                href="https://www.amazon.com/dp/B07X6WFH4B?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B07X6WFH4B_1784100223752"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-notary-navy text-white px-6 py-3 font-bold transition-opacity hover:opacity-90 rounded"
+              >
+                View on Amazon
+              </a>
+            </div>
           </div>
 
           <div className="bg-gray-50 p-6 mb-8 rounded">
@@ -155,6 +184,16 @@ export default function BestPortablePrintersForNotaries() {
               <li>Business-oriented mobile printing option</li>
               <li>More niche and more expensive than what most notaries need</li>
             </ul>
+            <div className="text-center my-6">
+              <a
+                href="https://amzn.to/44xgDtH"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-notary-navy text-white px-6 py-3 font-bold transition-opacity hover:opacity-90 rounded"
+              >
+                View on Amazon
+              </a>
+            </div>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Portable Printer vs Full-Size Loan Signing Printer</h2>
