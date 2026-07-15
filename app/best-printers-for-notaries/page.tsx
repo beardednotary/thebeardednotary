@@ -20,6 +20,7 @@ export default function BestPrintersForNotaries() {
           <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
             Back to Home
           </Link>
+          <p className="text-sm text-gray-300 mb-2">Updated July 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold">
             Best Printer for Notaries & Loan Signing Agents: Complete 2026 Buying Guide
           </h1>
@@ -452,6 +453,10 @@ export default function BestPrintersForNotaries() {
 
           <p className="text-gray-700 mb-6">
             Most loan packages are printed at home before you leave, but sometimes you need to print on-site (document corrections, last-minute changes, etc.). Here's the best portable option:
+          </p>
+
+          <p className="text-gray-700 mb-6">
+            Want the dedicated breakdown? Read our <Link href="/best-portable-printers-for-notaries" className="text-notary-gold hover:underline font-semibold">best portable printers for notaries guide</Link> for a narrower look at backup and travel-friendly options.
           </p>
 
           <div className="bg-gray-50 p-8 mb-12 rounded">
@@ -983,17 +988,21 @@ export default function BestPrintersForNotaries() {
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
             <h3 className="text-2xl font-bold text-notary-navy mb-6">Complete Your Mobile Notary Setup:</h3>
             <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/best-portable-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Portable Printers for Notaries</h4>
+                <p className="text-gray-600 text-sm">Backup and travel-friendly printer picks for corrections and emergency pages</p>
+              </Link>
               <Link href="/best-scanners-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Best Scanners for Notaries</h4>
                 <p className="text-gray-600 text-sm">The best portable scanner picks for scan-backs and mobile document handling</p>
               </Link>
-              <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h4>
-                <p className="text-gray-600 text-sm">12 essential items every loan signing agent needs beyond just a printer</p>
-              </Link>
               <Link href="/how-much-to-charge-mobile-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Notary Pricing Guide 2026</h4>
                 <p className="text-gray-600 text-sm">What to charge for signings to cover your printer investment</p>
+              </Link>
+              <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h4>
+                <p className="text-gray-600 text-sm">12 essential items every loan signing agent needs beyond just a printer</p>
               </Link>
               <Link href="/first-30-days-new-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Your First 30 Days as a Mobile Notary</h4>

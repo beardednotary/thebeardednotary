@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }> = [
     { path: '', changeFrequency: 'weekly', priority: 1 },
     { path: '/best-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9 },
+    { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9 },
     { path: '/best-scanners-for-notaries', changeFrequency: 'monthly', priority: 0.9 },
     { path: '/how-much-to-charge-mobile-notary', changeFrequency: 'monthly', priority: 0.9 },
     { path: '/first-30-days-new-notary', changeFrequency: 'monthly', priority: 0.85 },
