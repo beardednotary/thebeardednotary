@@ -1,7 +1,21 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { FormEvent, useEffect, useState } from "react";
+
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+const ATTRIBUTION_KEYS = {
+  landingPage: "bn_landing_page",
+  referrer: "bn_referrer",
+  utmSource: "bn_utm_source",
+  utmMedium: "bn_utm_medium",
+  utmCampaign: "bn_utm_campaign",
+};
 
 type EmailCaptureProps = {
   className?: string;
@@ -23,10 +37,28 @@ export default function EmailCapture({
   successRedirect = "/thank-you",
 }: EmailCaptureProps) {
   const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const currentPath = `${window.location.pathname}${window.location.search}`;
+
+    if (!sessionStorage.getItem(ATTRIBUTION_KEYS.landingPage)) {
+      sessionStorage.setItem(ATTRIBUTION_KEYS.landingPage, currentPath);
+      sessionStorage.setItem(ATTRIBUTION_KEYS.referrer, document.referrer || "direct");
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmSource, searchParams.get("utm_source") || "");
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmMedium, searchParams.get("utm_medium") || "");
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmCampaign, searchParams.get("utm_campaign") || "");
+    }
+  }, [searchParams]);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -40,6 +72,15 @@ export default function EmailCapture({
       return;
     }
 
+    const currentPath = `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
+    const landingPage =
+      typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.landingPage) || currentPath : currentPath;
+    const referrer =
+      typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.referrer) || document.referrer || "direct" : "direct";
+    const utmSource = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmSource) || "" : "";
+    const utmMedium = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmMedium) || "" : "";
+    const utmCampaign = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmCampaign) || "" : "";
+
     try {
       const response = await fetch(endpoint, {
         method: "POST",
@@ -52,6 +93,12 @@ export default function EmailCapture({
           source,
           message: `Newsletter signup from ${source}`,
           _subject: `New email signup: ${source}`,
+          currentPage: currentPath,
+          landingPage,
+          referrer,
+          utmSource,
+          utmMedium,
+          utmCampaign,
         }),
       });
 
@@ -68,6 +115,16 @@ export default function EmailCapture({
       setStatus("success");
       setMessage("Thanks. You're on the list.");
       setEmail("");
+      window.gtag?.("event", "sign_up", {
+        method: "formspree",
+        form_source: source,
+        page_path: currentPath,
+        landing_page: landingPage,
+        referrer,
+        utm_source: utmSource,
+        utm_medium: utmMedium,
+        utm_campaign: utmCampaign,
+      });
       router.push(successRedirect);
     } catch (error) {
       setStatus("error");

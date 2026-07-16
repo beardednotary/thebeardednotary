@@ -94,6 +94,21 @@ export default function ThankYouPage() {
       <section className="bg-white py-14">
         <div className="mx-auto grid max-w-5xl gap-10 px-4 md:grid-cols-[1.7fr_1fr]">
           <div>
+            <div className="mb-8 border-2 border-notary-gold bg-notary-navy p-8 text-white">
+              <p className="mb-2 text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold">Best Next Step</p>
+              <h2 className="mb-3 text-3xl font-bold">Read the full 30-day guide now.</h2>
+              <p className="mb-6 max-w-2xl text-lg text-gray-200">
+                The PDF gives you the roadmap. The full guide gives you the day-by-day execution plan, supporting links,
+                and the exact actions to take this week.
+              </p>
+              <Link
+                href="/first-30-days-new-notary"
+                className="inline-block bg-notary-gold px-6 py-3 font-bold text-notary-navy transition hover:bg-[#c79f1f]"
+              >
+                Open the full 30-day article
+              </Link>
+            </div>
+
             <div className="mb-8 flex flex-wrap gap-4">
               <a
                 href="/downloads/first-30-days-mobile-notary-action-plan.pdf"
