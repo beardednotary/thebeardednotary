@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EmailCapture from '../components/EmailCapture';
 
 export default function Home() {
   const articles = [
@@ -245,32 +246,45 @@ export default function Home() {
 
       <section className="bg-gray-100 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-notary-navy mb-4">
-            Ready to Build Your Notary Business?
-          </h2>
-          <p className="text-xl text-gray-700 mb-8">
-            Join 1,000+ notaries who follow The Bearded Notary for actionable advice,
-            essential resources, and industry insights.
-          </p>
-          <a
-            href="https://www.instagram.com/thebeardednotary"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-notary-gold text-notary-navy px-8 py-3 font-bold hover:bg-opacity-90 transition"
-          >
-            Follow on Instagram
-          </a>
+          <EmailCapture
+            heading="Get New Notary Growth Tips by Email"
+            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more."
+            buttonLabel="Subscribe"
+            source="homepage-cta"
+          />
+          <div className="mt-8">
+            <a
+              href="https://www.instagram.com/thebeardednotary"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border-2 border-notary-navy px-8 py-3 font-bold text-notary-navy transition hover:bg-notary-navy hover:text-white"
+            >
+              Follow on Instagram
+            </a>
+          </div>
         </div>
       </section>
 
       <footer className="bg-notary-navy text-white py-8">
-        <div className="max-w-6xl mx-auto px-4 text-center">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="border-b border-white/10 pb-8 mb-8">
+            <EmailCapture
+              heading="Stay in the loop"
+              description="Get fresh notary business tips and new guides in your inbox."
+              buttonLabel="Join free"
+              source="footer-signup"
+              compact
+              className="max-w-3xl"
+            />
+          </div>
+          <div className="text-center">
           <p className="text-gray-400">
             (c) {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Helping notaries build profitable businesses since 2019
           </p>
+          </div>
         </div>
       </footer>
     </div>
