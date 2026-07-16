@@ -19,6 +19,7 @@ export default function EmailCapture({
   buttonLabel = "Join the list",
   source,
 }: EmailCaptureProps) {
+  const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -29,26 +30,39 @@ export default function EmailCapture({
     setStatus("loading");
     setMessage("");
 
+    if (!endpoint) {
+      setStatus("error");
+      setMessage("Email signup is not connected yet. Add NEXT_PUBLIC_FORMSPREE_ENDPOINT to enable it.");
+      return;
+    }
+
     try {
-      const response = await fetch("/api/subscribe", {
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify({
           email,
           source,
+          message: `Newsletter signup from ${source}`,
+          _subject: `New email signup: ${source}`,
         }),
       });
 
-      const data = (await response.json()) as { message?: string };
+      const contentType = response.headers.get("content-type") || "";
+      const data = contentType.includes("application/json")
+        ? ((await response.json()) as { errors?: Array<{ message?: string }> })
+        : null;
 
       if (!response.ok) {
-        throw new Error(data.message || "Something went wrong. Please try again.");
+        const errorMessage = data?.errors?.[0]?.message || "Something went wrong. Please try again.";
+        throw new Error(errorMessage);
       }
 
       setStatus("success");
-      setMessage(data.message || "Thanks for subscribing.");
+      setMessage("Thanks. You're on the list.");
       setEmail("");
     } catch (error) {
       setStatus("error");
@@ -68,6 +82,7 @@ export default function EmailCapture({
         </label>
         <input
           id={`${source}-email`}
+          name="email"
           type="email"
           inputMode="email"
           autoComplete="email"
