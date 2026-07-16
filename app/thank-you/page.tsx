@@ -96,11 +96,11 @@ export default function ThankYouPage() {
           <div>
             <div className="mb-8 flex flex-wrap gap-4">
               <a
-                href="/downloads/first-30-days-mobile-notary-action-plan.txt"
+                href="/downloads/first-30-days-mobile-notary-action-plan.pdf"
                 download
                 className="bg-notary-gold px-6 py-3 font-bold text-notary-navy transition hover:bg-[#c79f1f]"
               >
-                Download the action plan
+                Download the PDF
               </a>
               <Link
                 href="/first-30-days-new-notary"
