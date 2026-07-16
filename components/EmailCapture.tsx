@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 
 type EmailCaptureProps = {
@@ -9,6 +10,7 @@ type EmailCaptureProps = {
   description: string;
   buttonLabel?: string;
   source: string;
+  successRedirect?: string;
 };
 
 export default function EmailCapture({
@@ -18,8 +20,10 @@ export default function EmailCapture({
   description,
   buttonLabel = "Join the list",
   source,
+  successRedirect = "/thank-you",
 }: EmailCaptureProps) {
   const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
+  const router = useRouter();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -64,6 +68,7 @@ export default function EmailCapture({
       setStatus("success");
       setMessage("Thanks. You're on the list.");
       setEmail("");
+      router.push(successRedirect);
     } catch (error) {
       setStatus("error");
       setMessage(error instanceof Error ? error.message : "Something went wrong. Please try again.");

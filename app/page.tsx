@@ -247,9 +247,9 @@ export default function Home() {
       <section className="bg-gray-100 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <EmailCapture
-            heading="Get New Notary Growth Tips by Email"
-            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more."
-            buttonLabel="Subscribe"
+            heading="Get New Notary Growth Tips and the Free First 30 Days Action Plan"
+            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more. You’ll also get the free First 30 Days Mobile Notary Action Plan right away."
+            buttonLabel="Get the free action plan"
             source="homepage-cta"
           />
           <div className="mt-8">
@@ -270,8 +270,8 @@ export default function Home() {
           <div className="border-b border-white/10 pb-8 mb-8">
             <EmailCapture
               heading="Stay in the loop"
-              description="Get fresh notary business tips and new guides in your inbox."
-              buttonLabel="Join free"
+              description="Get fresh notary business tips and the free First 30 Days Mobile Notary Action Plan."
+              buttonLabel="Send my action plan"
               source="footer-signup"
               compact
               className="max-w-3xl"
