@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: 'Best Printer for Notaries & Loan Signing Agents 2026: Complete Buying Guide | The Bearded Notary',
@@ -14,18 +15,10 @@ export const metadata: Metadata = {
 export default function BestPrintersForNotaries() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-6">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            Back to Home
-          </Link>
-          <p className="text-sm text-gray-300 mb-2">Updated July 2026</p>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            Best Printer for Notaries & Loan Signing Agents: Complete 2026 Buying Guide
-          </h1>
-        </div>
-      </header>
+      <ArticleHeader
+        title="Best Printer for Notaries & Loan Signing Agents: Complete 2026 Buying Guide"
+        eyebrow="Updated July 2026"
+      />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">

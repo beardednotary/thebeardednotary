@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: 'How to Become a Notary in California: Complete 2026 Guide (Cost, Timeline, Exam) | The Bearded Notary',
@@ -17,17 +18,7 @@ export const metadata: Metadata = {
 export default function HowToBecomeNotaryCalifornia() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-6">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            How to Become a Notary in California: Complete 2026 Guide
-          </h1>
-        </div>
-      </header>
+      <ArticleHeader title="How to Become a Notary in California: Complete 2026 Guide" />
 
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">

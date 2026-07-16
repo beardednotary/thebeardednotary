@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: '10 Free Sites to Market Your Notary Business (2026 Guide) | The Bearded Notary',
@@ -14,17 +15,7 @@ export const metadata: Metadata = {
 export default function FreeMarketingSitesNotaries() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-6">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            Back to Home
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            10 Free Sites to Market Your Notary Business (2026)
-          </h1>
-        </div>
-      </header>
+      <ArticleHeader title="10 Free Sites to Market Your Notary Business (2026)" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">

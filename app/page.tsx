@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import EmailCapture from '../components/EmailCapture';
+import PrimaryNav from '../components/PrimaryNav';
 
 export default function Home() {
   const articles = [
@@ -136,8 +137,13 @@ export default function Home() {
     <div className="min-h-screen">
       <header className="bg-notary-navy text-white py-6 border-b-4 border-notary-gold">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-3xl font-bold">The Bearded Notary</h1>
-          <p className="text-gray-300 mt-1">Building Profitable Notary Businesses Since 2019</p>
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h1 className="text-3xl font-bold">The Bearded Notary</h1>
+              <p className="text-gray-300 mt-1">Building Profitable Notary Businesses Since 2019</p>
+            </div>
+            <PrimaryNav light />
+          </div>
         </div>
       </header>
 

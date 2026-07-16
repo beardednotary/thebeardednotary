@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: 'Common Documents Notaries Encounter: Complete Glossary (2026) | The Bearded Notary',
@@ -14,17 +15,7 @@ export const metadata: Metadata = {
 export default function DocumentTypesNotariesGlossary() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-6">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            Common Documents Notaries Encounter: Complete Glossary
-          </h1>
-        </div>
-      </header>
+      <ArticleHeader title="Common Documents Notaries Encounter: Complete Glossary" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">

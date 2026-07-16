@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
@@ -14,17 +15,7 @@ export const metadata: Metadata = {
 export default function PerfectTimeLoanSigningAgent() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-6">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline text-sm mb-2 block">
-            ← Back to Home
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            Why 2026 is the Perfect Time to Become a Loan Signing Agent
-          </h1>
-        </div>
-      </header>
+      <ArticleHeader title="Why 2026 is the Perfect Time to Become a Loan Signing Agent" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">

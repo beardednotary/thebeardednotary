@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
@@ -14,20 +15,11 @@ export const metadata: Metadata = {
 export default function MobileNotarySupplies() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
-      <header className="bg-notary-navy text-white py-4 border-b-4 border-notary-gold">
-        <div className="max-w-4xl mx-auto px-4">
-          <Link href="/" className="text-notary-gold hover:underline">Back to Home</Link>
-        </div>
-      </header>
+      <ArticleHeader title="Mobile Notary Supplies Checklist" eyebrow="Updated July 2026" />
 
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-8">
-          <p className="text-sm text-gray-500 mb-2">Updated July 2026</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-notary-navy mb-4">
-            Mobile Notary Supplies Checklist
-          </h1>
           <p className="text-xl text-gray-700">
             Mobile notaries carry their gear with them from signing to signing, and it is important to have all 
             your mobile notary supplies with you for each appointment. As a mobile notary, you never want 
