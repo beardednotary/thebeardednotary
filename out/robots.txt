@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+
+User-Agent: Amazonbot
+Allow: /
+
+Sitemap: https://thebeardednotary.com/sitemap.xml

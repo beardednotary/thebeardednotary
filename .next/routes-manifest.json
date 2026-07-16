@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/best-portable-printers-for-notaries",
+      "regex": "^/best\\-portable\\-printers\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/best\\-portable\\-printers\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/best-printers-for-notaries",
+      "regex": "^/best\\-printers\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/best\\-printers\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/best-scanners-for-notaries",
+      "regex": "^/best\\-scanners\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/best\\-scanners\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/document-types-notaries-glossary",
+      "regex": "^/document\\-types\\-notaries\\-glossary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/document\\-types\\-notaries\\-glossary(?:/)?$"
+    },
+    {
+      "page": "/essential-notary-books",
+      "regex": "^/essential\\-notary\\-books(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/essential\\-notary\\-books(?:/)?$"
+    },
+    {
+      "page": "/first-30-days-new-notary",
+      "regex": "^/first\\-30\\-days\\-new\\-notary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/first\\-30\\-days\\-new\\-notary(?:/)?$"
+    },
+    {
+      "page": "/free-marketing-sites-notaries",
+      "regex": "^/free\\-marketing\\-sites\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/free\\-marketing\\-sites\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/how-much-to-charge-mobile-notary",
+      "regex": "^/how\\-much\\-to\\-charge\\-mobile\\-notary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/how\\-much\\-to\\-charge\\-mobile\\-notary(?:/)?$"
+    },
+    {
+      "page": "/how-to-become-a-notary-in-california",
+      "regex": "^/how\\-to\\-become\\-a\\-notary\\-in\\-california(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/how\\-to\\-become\\-a\\-notary\\-in\\-california(?:/)?$"
+    },
+    {
+      "page": "/icon.png",
+      "regex": "^/icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/mobile-notary-supplies",
+      "regex": "^/mobile\\-notary\\-supplies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile\\-notary\\-supplies(?:/)?$"
+    },
+    {
+      "page": "/notary-business-resources",
+      "regex": "^/notary\\-business\\-resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/notary\\-business\\-resources(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/smart-money-management-for-notaries",
+      "regex": "^/smart\\-money\\-management\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/smart\\-money\\-management\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/target-industries-for-notaries",
+      "regex": "^/target\\-industries\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/target\\-industries\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/thank-you",
+      "regex": "^/thank\\-you(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/thank\\-you(?:/)?$"
+    },
+    {
+      "page": "/why-now-is-perfect-time-loan-signing-agent",
+      "regex": "^/why\\-now\\-is\\-perfect\\-time\\-loan\\-signing\\-agent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/why\\-now\\-is\\-perfect\\-time\\-loan\\-signing\\-agent(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

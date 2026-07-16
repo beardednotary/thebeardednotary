@@ -1,0 +1,6 @@
+var R=require("../../chunks/[turbopack]_runtime.js")("server/app/sitemap.xml/route.js")
+R.c("server/chunks/[root-of-the-server]__7672bb07._.js")
+R.c("server/chunks/[root-of-the-server]__cb7a124d._.js")
+R.c("server/chunks/b1735_notary-site__next-internal_server_app_sitemap_xml_route_actions_f6adaf48.js")
+R.m(64939)
+module.exports=R.m(64939).exports

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/why-now-is-perfect-time-loan-signing-agent/layout,_N_T_/why-now-is-perfect-time-loan-signing-agent/page,_N_T_/why-now-is-perfect-time-loan-signing-agent"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/why-now-is-perfect-time-loan-signing-agent/__PAGE__",
+    "/why-now-is-perfect-time-loan-signing-agent",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/best-portable-printers-for-notaries/layout,_N_T_/best-portable-printers-for-notaries/page,_N_T_/best-portable-printers-for-notaries"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/best-portable-printers-for-notaries/__PAGE__",
+    "/best-portable-printers-for-notaries",
+    "/_index",
+    "/_head"
+  ]
+}

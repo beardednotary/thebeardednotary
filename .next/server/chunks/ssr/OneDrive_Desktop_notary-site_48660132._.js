@@ -1,0 +1,8 @@
+module.exports=[49314,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40421);a.n(d("[project]/OneDrive/Desktop/notary-site/node_modules/next/dist/client/script.js <module evaluation>"))},29752,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40421);a.n(d("[project]/OneDrive/Desktop/notary-site/node_modules/next/dist/client/script.js"))},37126,a=>{"use strict";a.i(49314);var b=a.i(29752);a.n(b)},88530,(a,b,c)=>{b.exports=a.r(37126)},4554,a=>{"use strict";var b=a.i(63308),c=a.i(88530);let d={metadataBase:new URL("https://thebeardednotary.com"),title:"The Bearded Notary | Resources for Mobile Notaries & Loan Signing Agents",description:"Your trusted resource for building a profitable mobile notary and loan signing business. Essential guides, books, supplies, and training for aspiring and seasoned notaries.",alternates:{canonical:"/"}};function e({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsxs)("body",{className:"bg-notary-cream",children:[(0,b.jsx)(c.default,{src:"https://www.googletagmanager.com/gtag/js?id=G-1P1X5KPFKC",strategy:"afterInteractive"}),(0,b.jsx)(c.default,{id:"google-analytics",strategy:"afterInteractive",children:`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1P1X5KPFKC');
+          `}),a]})})}a.s(["default",()=>e,"metadata",0,d])}];
+
+//# sourceMappingURL=OneDrive_Desktop_notary-site_48660132._.js.map

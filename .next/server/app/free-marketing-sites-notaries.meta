@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/free-marketing-sites-notaries/layout,_N_T_/free-marketing-sites-notaries/page,_N_T_/free-marketing-sites-notaries"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/free-marketing-sites-notaries/__PAGE__",
+    "/free-marketing-sites-notaries",
+    "/_index",
+    "/_head"
+  ]
+}

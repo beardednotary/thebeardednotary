@@ -1,6 +1,6 @@
 "use client";
 
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { FormEvent, useEffect, useState } from "react";
 
 declare global {
@@ -38,7 +38,6 @@ export default function EmailCapture({
 }: EmailCaptureProps) {
   const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT;
   const pathname = usePathname();
-  const searchParams = useSearchParams();
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -54,11 +53,12 @@ export default function EmailCapture({
     if (!sessionStorage.getItem(ATTRIBUTION_KEYS.landingPage)) {
       sessionStorage.setItem(ATTRIBUTION_KEYS.landingPage, currentPath);
       sessionStorage.setItem(ATTRIBUTION_KEYS.referrer, document.referrer || "direct");
-      sessionStorage.setItem(ATTRIBUTION_KEYS.utmSource, searchParams.get("utm_source") || "");
-      sessionStorage.setItem(ATTRIBUTION_KEYS.utmMedium, searchParams.get("utm_medium") || "");
-      sessionStorage.setItem(ATTRIBUTION_KEYS.utmCampaign, searchParams.get("utm_campaign") || "");
+      const params = new URLSearchParams(window.location.search);
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmSource, params.get("utm_source") || "");
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmMedium, params.get("utm_medium") || "");
+      sessionStorage.setItem(ATTRIBUTION_KEYS.utmCampaign, params.get("utm_campaign") || "");
     }
-  }, [searchParams]);
+  }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -72,7 +72,8 @@ export default function EmailCapture({
       return;
     }
 
-    const currentPath = `${pathname}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
+    const currentPath =
+      typeof window !== "undefined" ? `${window.location.pathname}${window.location.search}` : pathname || "/";
     const landingPage =
       typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.landingPage) || currentPath : currentPath;
     const referrer =

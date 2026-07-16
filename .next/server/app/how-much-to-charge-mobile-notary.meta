@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/how-much-to-charge-mobile-notary/layout,_N_T_/how-much-to-charge-mobile-notary/page,_N_T_/how-much-to-charge-mobile-notary"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/how-much-to-charge-mobile-notary/__PAGE__",
+    "/how-much-to-charge-mobile-notary",
+    "/_index",
+    "/_head"
+  ]
+}

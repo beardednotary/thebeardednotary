@@ -1,0 +1,3 @@
+module.exports=[96586,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40421);a.n(d("[project]/OneDrive/Desktop/notary-site/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},53775,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(40421);a.n(d("[project]/OneDrive/Desktop/notary-site/node_modules/next/dist/client/components/builtin/global-error.js"))},31279,a=>{"use strict";a.i(96586);var b=a.i(53775);a.n(b)}];
+
+//# sourceMappingURL=35c11_next_dist_client_components_builtin_global-error_8715ff31.js.map
