@@ -3,258 +3,140 @@ import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
 
 export const metadata: Metadata = {
-  title: '7 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
-  description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
+  title: '9 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
+  description:
+    'A practical 9-book library for mobile notaries and loan signing agents covering business building, marketing, loan documents, specialty work, and ID awareness.',
   openGraph: {
-    title: '7 Essential Books That Will Help You Make Money As A Notary',
-    description: 'Comprehensive library of essential books for mobile notaries and loan signing agents. Elevate your expertise, efficiency, and income.',
+    title: '9 Essential Books That Will Help You Make Money As A Notary',
+    description:
+      'A practical reading list for mobile notaries and loan signing agents who want stronger skills, better systems, and more income opportunities.',
     images: ['/images/essential-notary-books-featured.png'],
   },
 };
 
+const books = [
+  {
+    title: 'Sign and Thrive: How to Make Six Figures As a Mobile Notary and Loan Signing Agent',
+    href: 'https://amzn.to/4pt6S9E',
+    paragraphs: [
+      'Bill Soroka\'s Sign and Thrive is still one of the most practical books for notaries who want to treat this like a real business instead of a casual side hustle. It focuses on building income through mobile notary and loan signing work while also helping you think more strategically about marketing, client experience, and long-term growth.',
+      'What makes this one useful is that it speaks to the bigger picture. It does not just explain what the work is. It helps you think about how to build a six-figure operation with better habits, stronger positioning, and more confidence.',
+    ],
+  },
+  {
+    title: 'The Best Kept Secret In The Real Estate Industry: How To Become A Successful Notary Loan Signing Agent',
+    href: 'https://amzn.to/4f6j78x',
+    paragraphs: [
+      'Mark Wills\' book remains one of the better entry points for people who are specifically interested in loan signing work. It frames the opportunity clearly, explains why the field can be lucrative, and gives newer notaries a simple path into a niche that often feels confusing from the outside.',
+      'If your goal is to understand the loan signing side of the business and decide whether it fits your income goals, this is still worth reading. It pairs especially well with hands-on training because it helps you understand the why behind the work.',
+    ],
+  },
+  {
+    title: '$50k to Sign Your Name: A Definitive Guide to Becoming a Mobile Signing Agent',
+    href: 'https://amzn.to/4gCzXgp',
+    paragraphs: [
+      'This book is a straightforward overview of the mobile signing agent path, especially for people trying to understand the economics of the business. It breaks down the opportunity in a simple way and helps readers think through time, expenses, and the workflow of loan signing appointments.',
+      'It is useful because it keeps the conversation practical. If you want a book that helps you picture what the job looks like in the real world and what it might take to make it worthwhile, this one belongs on the list.',
+    ],
+  },
+  {
+    title: 'Just Win! How To Be A Great Notary Public: A Business Guide For Mobile Notaries and Loan Signing Agents',
+    href: 'https://amzn.to/4gZuuk3',
+    paragraphs: [
+      'Rhonda DeYampert\'s Just Win! is a business-minded guide for notaries who want help turning a commission into something profitable and sustainable. It covers the mindset, resourcefulness, and practical foundation needed to grow beyond the basics.',
+      'One of the strengths of this book is that it feels grounded in experience. It is written for notaries who want practical direction, not fluff, and it can help you tighten your systems early instead of learning every lesson the hard way.',
+    ],
+  },
+  {
+    title: 'Notary Marketing',
+    href: 'https://amzn.to/4w8V7aR',
+    paragraphs: [
+      'This updated marketing-focused addition replaces the older Notary Marketing 2019 recommendation. The value here is obvious: many notaries know how to complete the work, but far fewer know how to consistently attract new clients and stand out in a crowded market.',
+      'Based on the synopsis, this book leans into scripts, networking, sales techniques, referrals, and positioning. That makes it especially useful for general notary work and for anyone who feels stuck waiting on platforms instead of building direct client demand.',
+    ],
+  },
+  {
+    title: 'Start Your Notary Public & Loan Signing Agent Business: The Insiders Guide to Starting a Six-Figure Notary Side Hustle',
+    href: 'https://amzn.to/3QW2uTN',
+    paragraphs: [
+      'This is a strong option for readers who want a broader business-startup perspective around notary and loan signing work. It focuses on building a side hustle that can scale, while also addressing common startup concerns like positioning, insurance, and mistakes to avoid.',
+      'If you are in the early stages and want a book that combines opportunity, setup, and business-building advice in one place, this is a solid pick for your shelf.',
+    ],
+  },
+  {
+    title: 'Loan Documents Cheat Sheet: Descriptions of Loan Documents with images! (ESA Notary Academy)',
+    href: 'https://amzn.to/4yqvOlW',
+    paragraphs: [
+      'This is one of the most practical additions on the list because it helps bridge the gap between theory and live signings. A lot of newer notaries freeze up when they are sitting in front of a borrower and trying to remember what a document is or how to describe it confidently.',
+      'The compact format, document images, and short descriptions make this a great desk reference or bag reference. It is especially helpful for newer signing agents who want a confidence booster before and during appointments.',
+    ],
+  },
+  {
+    title: 'Beyond Loan Signings: The Ultimate Guide to Monetizing Your Notary Commission with Specialty Work',
+    href: 'https://amzn.to/4fdxcQg',
+    paragraphs: [
+      'This is a smart addition because it pushes beyond the usual "become a signing agent" conversation. Beyond Loan Signings explores specialty work, alternative service lines, and adjacent revenue opportunities that can make a notary business more resilient and more profitable.',
+      'That matters because not every market behaves the same way, and not every notary wants to depend only on loan signings. If you want to diversify into areas like apostille work, fingerprinting, inspections, family law appointments, or other specialty niches, this book is highly relevant.',
+    ],
+  },
+  {
+    title: 'The Novice-Friendly State I. D. Verification Guide Book 2026: Understanding Identity Checks, Document Features, Verification Basics, and Common Identification Review Practices',
+    href: 'https://amzn.to/4bNRfUn',
+    paragraphs: [
+      'This replaces the older I.D. checking recommendation with a more beginner-friendly resource. The strength of this book is that it helps readers build awareness around identification review without pretending to replace official policy, legal requirements, or formal training.',
+      'For notaries, that makes it a helpful support resource. It can sharpen your awareness of document features, common review habits, and frequent verification mistakes, which is valuable for newer notaries who want to be more careful and consistent with ID-related decisions.',
+    ],
+  },
+];
+
 export default function EssentialNotaryBooks() {
   return (
     <div className="min-h-screen bg-white">
-      <ArticleHeader title="7 Essential Books That Will Help You Make Money As A Notary" eyebrow="Updated 2024" />
+      <ArticleHeader title="9 Essential Books That Will Help You Make Money As A Notary" eyebrow="Updated July 2026" />
 
-      {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-8">
           <p className="text-xl text-gray-700">
-            A comprehensive library is essential for both seasoned and new notaries to master their craft 
-            and make money as a notary. These seven indispensable books are designed to elevate your expertise, 
-            efficiency, and adaptability in the ever-evolving landscape of notary services.
+            A strong notary business is built on more than just a commission and a stamp. These nine books cover
+            the skills that actually move the business forward: loan signings, marketing, specialty work, document
+            familiarity, and better decision-making in the field.
           </p>
         </div>
 
         <div className="prose prose-lg max-w-none">
-          
-          {/* Featured Image */}
           <div className="my-8">
-            <img 
+            <img
               src="/images/essential-notary-books-featured.png"
-              alt="Top 7 Books to Make Money as a Notary - Essential reading for mobile notaries and loan signing agents"
+              alt="9 essential books for mobile notaries and loan signing agents"
               className="w-full max-w-2xl mx-auto"
             />
           </div>
 
-          {/* Book 1 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Sign and Thrive: How to Make Six Figures As a Mobile Notary and Loan Signing Agent
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Start your journey to financial freedom with "Sign & Thrive: How to Make Six Figures as a Mobile 
-              Notary and Loan Signing Agent" by Bill Soroka. Soroka shares his comprehensive knowledge on 
-              building a profitable mobile notary and loan signing business. His approach goes beyond the 
-              basics of notarization. He delves into effective marketing strategies, relationship-building 
-              techniques, and the mindset needed to thrive.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Giving insight on the opportunities as a notary and Loan Signing Agent (LSA), this book is a 
-              valuable reference. Readers have praised its role as a foundational resource that complements 
-              formal training, offering practical tips and best practices.
-            </p>
-            <p className="text-gray-700 mb-4">
-              If you're ready to turn your notary work into a serious business, don't just dream about a flexible, 
-              profitable career—go out and make money as a notary.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 2 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              The Best Kept Secret In The Real Estate Industry: How To Become A Successful Notary Loan Signing Agent
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Discover the real estate industry's best-kept secret with Mark Wills' enlightening guide. This book 
-              is for those seeking a lucrative, flexible career without the need for formal education or prior 
-              industry experience. Wills is a seasoned professional and the brains behind America's #1 Notary Public 
-              Loan Signing Agent Training Course, Loan Signing System. He offers a straightforward path to earning 
-              between $75 to $200 per hour-long appointment, highlighting the immense potential for both part-time 
-              and full-time agents.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Readers rave about the simplicity and effectiveness of Wills' methods, praising the book as an 
-              essential resource for anyone looking to transition into a less grueling career or searching for a 
-              profitable side hustle. From detailing the minimal startup costs to revealing insider tips for 
-              securing signing jobs, Wills provides everything you need to embark on this underexplored 
-              avenue towards financial independence.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Embrace the opportunity to be your own boss, set your schedule, and move towards the life you've always wanted.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 3 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              $50k to Sign Your Name: A Definitive Guide to Becoming a Mobile Signing Agent
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Uncover the path to earning a significant income with minimal hassle. This book breaks down the 
-              lucrative world of a mobile signing agent, a notary public specializing in real estate 
-              transactions. The author shows that anyone can earn between $75-$125 for about 90 minutes 
-              of work, potentially multiple times a day.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Readers have found this guide to be an invaluable resource. It offers a mix of foundational 
-              knowledge and practical tips for both newcomers and experienced signing agents. From 
-              understanding the minimal startup requirements to optimizing your business for efficiency, the 
-              book is praised for its clear, concise advice and real-world applicability.
-            </p>
-            <p className="text-gray-700 mb-4">
-              This guide covers expenses, hours needed, and challenges for part-timers, weekend warriors, or 
-              full-timers in this profession.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 4 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Just Win! How To Be A Great Notary Public: A Business Guide For Mobile Notaries and Loan Signing Agents
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Dive into the essential guide for embarking on a successful notary and loan signing career. Whether 
-              you're newly commissioned or anxiously waiting for your first assignment, this book is the treasure 
-              trove of advice. Written by Rhonda DeYampert, a seasoned mobile notary and loan signing agent, the 
-              guide offers invaluable insights into turning your notary certification into a thriving business.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Rhonda's straightforward, easy-to-follow advice is drawn from her extensive experience. From 
-              practical tips on supplementing your income and marketing strategies to embracing eNotarization, 
-              the book is packed with actionable information. It even includes a resource index with a printable 
-              Notary Call Sheet.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Readers praise "Just Win!" for its comprehensive overview, useful resources, and clear 
-              guidance on establishing a solid foundation for success. If you're looking to elevate your notary 
-              business, Rhonda DeYampert's guidebook is the key to unlocking your potential.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 5 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Notary Marketing 2019: Effective techniques to get general notary work
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Dive into notary marketing with "Notary Marketing 2019: Effective Techniques to Get 
-              General Notary Work." It's a guide to expand clients beyond loans, offering practical strategies.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Learn to use marketing materials, engage clients, and grow your network. Discover how to get 
-              referrals and stand out locally. Explore low-cost online marketing, networking, and professional 
-              protection tips. With chapters ranging from understanding your income dynamics to tapping 
-              into resources like government agencies for free consulting services, this book is a 
-              comprehensive toolkit for any notary public.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Praised for its innovation, it helps notaries think creatively. "Notary Marketing 2019" is essential 
-              for new and experienced notaries, enhancing general notary work.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 6 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Start Your Notary Public & Loan Signing Agent Business: The Insiders Guide to Starting a Six-Figure Notary Side Hustle
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Start a profitable notary and loan signing business with "Start Your Notary Public & Loan 
-              Signing Agent Business: The Insider's Guide to Starting a Six-Figure Notary Side Hustle." 
-              Learn to earn over $200 per job, focusing on LSA, NSA, and RON roles, some of the best ways to 
-              make money as a notary. Explore a niche that surged 546% last year, offering high profits.
-            </p>
-            <p className="text-gray-700 mb-4">
-              The guide details strategies for securing assignments, emphasizes E&O insurance, and outlines 
-              common pitfalls. FAQs assist both novices and veterans make money as a notary.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Praised for comprehensive content and practical advice, it underlines crucial points for clarity. 
-              Essential for starting or growing a notary business, including insights on LSA, NSA, and remote 
-              online notarization.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Book 7 */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              I.D. Checking Guide, U.S. & Canada Edition 2024
-            </h2>
-            <p className="text-gray-700 mb-4">
-              This reference tool is crucial for notaries. It boosts accuracy and confidence in ID verification. 
-              Access requires commission proof. It lists valid ID formats for the U.S., Canada, and territories.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Notaries can trust it for up-to-date, valid ID formats. It ensures notarial act integrity. This guide 
-              is reliable until February 28, 2025.
-            </p>
-            <a 
-              href="https://amzn.to/3YourAffiliateLink" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
+          {books.map((book, index) => (
+            <div key={book.title} className={index === books.length - 1 ? 'mb-12' : 'mb-12 border-b pb-8'}>
+              <h2 className="text-2xl font-bold text-notary-navy mb-4">{book.title}</h2>
+              {book.paragraphs.map((paragraph) => (
+                <p key={paragraph} className="text-gray-700 mb-4">
+                  {paragraph}
+                </p>
+              ))}
+              <a
+                href={book.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
+              >
+                View on Amazon
+              </a>
+            </div>
+          ))}
         </div>
 
-        {/* Related Articles */}
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
           <h2 className="text-2xl font-bold text-notary-navy mb-6">More from The Bearded Notary</h2>
           <div className="space-y-3">
             <Link href="/mobile-notary-supplies" className="block text-notary-gold hover:underline font-semibold">
-              10 Mobile Notary Supplies You Can't Live Without
+              Mobile Notary Supplies Checklist
             </Link>
             <Link href="/how-to-become-a-notary-in-california" className="block text-notary-gold hover:underline font-semibold">
               How to Become a Notary in California
@@ -265,17 +147,14 @@ export default function EssentialNotaryBooks() {
           </div>
         </div>
 
-        {/* Disclaimer */}
         <div className="mt-12 p-4 bg-gray-100 text-sm text-gray-600">
           <p>
-            The Bearded Notary is a participant in the Amazon Services LLC Associates Program, an affiliate 
-            advertising program. Making a purchase through one of these links may earn us a small 
-            commission at no cost to you.
+            The Bearded Notary is a participant in the Amazon Services LLC Associates Program, an affiliate advertising
+            program. Making a purchase through one of these links may earn us a small commission at no cost to you.
           </p>
         </div>
       </article>
 
-      {/* Footer */}
       <footer className="bg-notary-navy text-white py-8 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-400">
@@ -286,4 +165,3 @@ export default function EssentialNotaryBooks() {
     </div>
   );
 }
-
