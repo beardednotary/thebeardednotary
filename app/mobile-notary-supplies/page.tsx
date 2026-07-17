@@ -112,6 +112,27 @@ const staplerOptions: OptionPick[] = [
   },
 ];
 
+const bagOptions: OptionPick[] = [
+  {
+    label: 'Best Budget',
+    href: 'https://amzn.to/3RFYgQk',
+    cta: 'View budget bag',
+    note: 'A simple lower-cost locking document bag for newer notaries who want better protection without jumping straight to a full rolling case.',
+  },
+  {
+    label: 'Best Overall',
+    href: 'https://www.amazon.com/dp/B0DTJWWDQZ?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0DTJWWDQZ_1784267993790',
+    cta: 'View best overall case',
+    note: 'A strong middle-ground choice if you want structure, organization, and better protection for documents and gear.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://amzn.to/3RC3psG',
+    cta: 'View premium case',
+    note: 'A better fit if you want a more substantial locking case with wheels and a more professional mobile-office feel.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -172,14 +193,12 @@ const sections: SupplySection[] = [
       'The goal here is simple: stay organized, move quickly, and keep your supplies protected between appointments.',
     picks: [
       {
-        title: 'Messenger Bag or Briefcase',
+        title: 'Notary Bag / Document Case',
         badge: 'Best for organization',
-        href: 'https://amzn.to/4jb44uG',
-        cta: 'Shop briefcases',
-        why: 'A dedicated bag keeps your journal, certificates, pens, and tech in one reliable grab-and-go setup.',
+        why: 'A dedicated locking bag or document case helps you protect your journal, certificates, pens, and tech in one reliable grab-and-go setup.',
         bullets: [
-          'Useful for protecting sensitive tools and staying appointment-ready.',
-          'Look for security, comfort, and enough structure to separate gear.',
+          'Many jurisdictions expect notaries to keep their journal secured when it is not in use.',
+          'Look for locking storage, easy carrying, and enough structure to separate documents from gear.',
         ],
       },
       {
@@ -440,6 +459,23 @@ export default function MobileNotarySupplies() {
                     ) : pick.title === 'Inkless Thumbprint Pad' ? (
                       <div className="space-y-3">
                         {thumbprintPadOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.title === 'Notary Bag / Document Case' ? (
+                      <div className="space-y-3">
+                        {bagOptions.map((option) => (
                           <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
                             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
                             <p className="mb-3 text-sm text-gray-700">{option.note}</p>
