@@ -91,6 +91,27 @@ const thumbprintPadOptions: OptionPick[] = [
   },
 ];
 
+const staplerOptions: OptionPick[] = [
+  {
+    label: 'Best Budget',
+    href: 'https://amzn.to/4f7GT43',
+    cta: 'View budget stapler',
+    note: 'A practical starter option that already includes staples and a remover, which makes it easy to buy once and move on.',
+  },
+  {
+    label: 'Best Overall',
+    href: 'https://amzn.to/4birH1J',
+    cta: 'View best overall stapler',
+    note: 'A stronger all-around choice if you want better capacity and smoother day-to-day use with thicker document sets.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://www.amazon.com/dp/B001PME0WG?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B001PME0WG_1784266470580',
+    cta: 'View premium stapler',
+    note: 'A better fit if you want a more effortless stapling experience and expect to handle a lot of packets regularly.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -164,12 +185,11 @@ const sections: SupplySection[] = [
       {
         title: 'Stapler and Staple Remover',
         badge: 'Cheap but essential',
-        href: 'https://www.amazon.com/dp/B0CC5GJKM1?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.26MSLRILODF7K&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.26MSLRILODF7K_1766100860744',
-        cta: 'View stapler set',
         why: 'Small tools like this make a big difference when you need to keep document packets neat and fix mistakes fast.',
         bullets: [
           'Helps you stay organized without hauling around bulky desk gear.',
           'Especially useful during loan signing appointments with thick packages.',
+          'Keep extra staples on hand, and make sure you have a remover if your stapler kit does not include one.',
         ],
       },
       {
@@ -420,6 +440,23 @@ export default function MobileNotarySupplies() {
                     ) : pick.title === 'Inkless Thumbprint Pad' ? (
                       <div className="space-y-3">
                         {thumbprintPadOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.title === 'Stapler and Staple Remover' ? (
+                      <div className="space-y-3">
+                        {staplerOptions.map((option) => (
                           <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
                             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
                             <p className="mb-3 text-sm text-gray-700">{option.note}</p>
