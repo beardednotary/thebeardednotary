@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Common Documents Notaries Encounter: Complete Glossary (2026) | The Bearded Notary',
@@ -13,12 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function DocumentTypesNotariesGlossary() {
+  const articleSchema = buildArticleSchema({
+    title: 'Common Documents Notaries Encounter: Complete Glossary',
+    description:
+      "Comprehensive guide to documents mobile notaries and loan signing agents will encounter. Learn what each document is, when it's used, and what to watch for.",
+    path: '/document-types-notaries-glossary',
+    image: '/images/document-types-notaries.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Common Documents Notaries Encounter', url: getAbsoluteUrl('/document-types-notaries-glossary') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Common Documents Notaries Encounter: Complete Glossary" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         {/* Featured Image */}
         <div className="my-8">

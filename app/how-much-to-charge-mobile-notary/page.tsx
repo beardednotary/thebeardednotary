@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'How Much Does a Mobile Notary Cost? Complete Pricing Guide 2026 | The Bearded Notary',
@@ -15,12 +17,48 @@ export const metadata: Metadata = {
 };
 
 export default function NotaryPricingGuide() {
+  const articleSchema = buildArticleSchema({
+    title: 'How Much Should You Charge as a Mobile Notary in 2026?',
+    description:
+      'Mobile notary costs $50-100 per appointment (signatures plus travel). State fees by state, loan signing rates, and what notaries actually earn in 2026.',
+    path: '/how-much-to-charge-mobile-notary',
+    image: '/images/notary-pricing-guide-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'How Much Should You Charge as a Mobile Notary?', url: getAbsoluteUrl('/how-much-to-charge-mobile-notary') },
+  ]);
+  const faqSchema = buildFaqSchema([
+    {
+      question: 'How much should a mobile notary charge?',
+      answer:
+        "Mobile notaries typically charge their state's allowed notarization fee plus a travel fee, which often puts a local appointment around fifty to one hundred dollars total.",
+    },
+    {
+      question: 'What is a typical notary fee?',
+      answer:
+        'Typical per-signature fees vary by state, often from a few dollars up to about fifteen dollars, with mobile travel fees charged separately.',
+    },
+    {
+      question: 'Can a notary charge a travel fee?',
+      answer:
+        'In many states, yes. Travel fees are separate from the notarial act fee and are a major part of mobile notary pricing.',
+    },
+    {
+      question: 'How much can a mobile notary make?',
+      answer:
+        'Income depends on volume and specialization, but mobile notaries and loan signing agents can earn anywhere from modest part-time income to strong full-time revenue.',
+    },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="How Much Should You Charge as a Mobile Notary in 2026?" />
 
  {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
         
         <div className="prose prose-lg max-w-none">
           

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Best Portable Printers for Notaries 2026 | The Bearded Notary',
@@ -16,6 +18,19 @@ export const metadata: Metadata = {
 };
 
 export default function BestPortablePrintersForNotaries() {
+  const articleSchema = buildArticleSchema({
+    title: 'Best Portable Printers for Notaries (2026 Guide)',
+    description:
+      'The best portable printers for mobile notaries and loan signing agents. Learn which portable printer works best for backup printing, corrections, and true on-the-go use.',
+    path: '/best-portable-printers-for-notaries',
+    image: '/images/best-printers-notaries-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Best Portable Printers for Notaries', url: getAbsoluteUrl('/best-portable-printers-for-notaries') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader
@@ -24,6 +39,7 @@ export default function BestPortablePrintersForNotaries() {
       />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         <div className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             Most notaries should not use a portable printer as their main printer. But as a backup tool for on-site corrections,

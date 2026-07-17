@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Smart Money Management for Mobile Notaries: Complete Financial Guide (2026) | The Bearded Notary',
@@ -16,12 +18,26 @@ export const metadata: Metadata = {
 };
 
 export default function NotaryFinancialGuide() {
+  const articleSchema = buildArticleSchema({
+    title: 'Smart Money Management for Mobile Notaries: Complete Financial Guide',
+    description:
+      'Complete financial guide for mobile notary businesses: bank accounts, credit cards, tax deductions, bookkeeping, and money-saving strategies for 2026.',
+    path: '/smart-money-management-for-notaries',
+    image: '/images/notary-finances-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Smart Money Management for Mobile Notaries', url: getAbsoluteUrl('/smart-money-management-for-notaries') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Smart Money Management for Mobile Notaries: Complete Financial Guide" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         <div className="prose prose-lg max-w-none">
           

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Target Industries for Notaries: Where to Find Your Best Clients (2026) | The Bearded Notary',
@@ -16,12 +18,26 @@ export const metadata: Metadata = {
 };
 
 export default function TargetIndustriesNotaries() {
+  const articleSchema = buildArticleSchema({
+    title: 'Target Industries for Notaries: Where to Find Your Best Clients',
+    description:
+      'Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.',
+    path: '/target-industries-for-notaries',
+    image: '/images/target-industries-notaries.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Target Industries for Notaries', url: getAbsoluteUrl('/target-industries-for-notaries') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Target Industries for Notaries: Where to Find Your Best Clients" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         {/* Featured Image */}
         <div className="my-8">

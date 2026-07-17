@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: '9 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
@@ -90,11 +92,29 @@ const books = [
 ];
 
 export default function EssentialNotaryBooks() {
+  const collectionSchema = buildCollectionPageSchema({
+    title: '9 Essential Books That Will Help You Make Money As A Notary',
+    description:
+      'A practical 9-book library for mobile notaries and loan signing agents covering business building, marketing, loan documents, specialty work, and ID awareness.',
+    path: '/essential-notary-books',
+    items: books.map((book) => ({ name: book.title, url: book.href })),
+  });
+  const itemListSchema = buildItemListSchema({
+    title: 'Essential Notary Books',
+    path: '/essential-notary-books',
+    items: books.map((book) => ({ name: book.title, url: book.href })),
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Essential Notary Books', url: getAbsoluteUrl('/essential-notary-books') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="9 Essential Books That Will Help You Make Money As A Notary" eyebrow="Updated July 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[collectionSchema, itemListSchema, breadcrumbSchema]} />
         <div className="mb-8">
           <p className="text-xl text-gray-700">
             A strong notary business is built on more than just a commission and a stamp. These nine books cover

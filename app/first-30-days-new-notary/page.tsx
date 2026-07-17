@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan (2026) | The Bearded Notary',
@@ -13,12 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function First30DaysNewNotary() {
+  const articleSchema = buildArticleSchema({
+    title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan',
+    description:
+      'Day-by-day action plan for new mobile notaries. What to do in your first month to get clients, build your business, and start earning $2,000+ monthly.',
+    path: '/first-30-days-new-notary',
+    image: '/images/first-30-days-notary-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'First 30 Days as a Mobile Notary', url: getAbsoluteUrl('/first-30-days-new-notary') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Your First 30 Days as a Mobile Notary: Complete Action Plan" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         <div className="prose prose-lg max-w-none">
           

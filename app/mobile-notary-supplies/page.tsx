@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
 
 type SupportingLink = {
   href: string;
@@ -382,11 +384,35 @@ const setupBundles: SetupBundle[] = [
 ];
 
 export default function MobileNotarySupplies() {
+  const supplyItems = sections.flatMap((section) =>
+    section.picks.map((pick) => ({
+      name: `${pick.title} (${section.label})`,
+      url: getAbsoluteUrl('/mobile-notary-supplies'),
+    }))
+  );
+  const collectionSchema = buildCollectionPageSchema({
+    title: 'Mobile Notary Supplies Checklist',
+    description:
+      "A practical buyer's guide to mobile notary supplies, from journals and stamps to scanners, tablets, and dual-tray printers.",
+    path: '/mobile-notary-supplies',
+    items: supplyItems,
+  });
+  const itemListSchema = buildItemListSchema({
+    title: 'Mobile Notary Supplies Checklist',
+    path: '/mobile-notary-supplies',
+    items: supplyItems,
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Mobile Notary Supplies Checklist', url: getAbsoluteUrl('/mobile-notary-supplies') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Mobile Notary Supplies Checklist" eyebrow="Updated July 2026" />
 
       <article className="max-w-5xl mx-auto px-4 py-12">
+        <JsonLd data={[collectionSchema, itemListSchema, breadcrumbSchema]} />
         <div className="mb-8 max-w-4xl">
           <p className="text-xl text-gray-700">
             This page is meant to help you build a setup that actually supports the work. Instead of treating

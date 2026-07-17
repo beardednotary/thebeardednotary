@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Best Scanners for Notaries & Loan Signing Agents 2026 | The Bearded Notary',
@@ -16,6 +18,41 @@ export const metadata: Metadata = {
 };
 
 export default function BestScannersForNotaries() {
+  const articleSchema = buildArticleSchema({
+    title: 'Best Scanners for Notaries & Loan Signing Agents (2026 Guide)',
+    description:
+      'Find the best scanner for mobile notary and loan signing work. Compare portable scanners, duplex speed, scan-back workflow, and the best picks for 2026.',
+    path: '/best-scanners-for-notaries',
+    image: '/images/mobile-notary-supplies-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Best Scanners for Notaries', url: getAbsoluteUrl('/best-scanners-for-notaries') },
+  ]);
+  const faqSchema = buildFaqSchema([
+    {
+      question: 'What is the best scanner for a mobile notary?',
+      answer:
+        'For most working notaries, a portable duplex scanner with reliable paper feed and flexible power options is the best fit.',
+    },
+    {
+      question: 'Do loan signing agents need a scanner?',
+      answer:
+        'If you handle scan-backs regularly, yes. A scanner helps you send signed pages quickly, catch issues early, and work more professionally.',
+    },
+    {
+      question: 'Can I use an all-in-one printer instead of a scanner?',
+      answer:
+        'You can, especially from a home office, but a dedicated portable scanner is usually easier to carry and more convenient for mobile work.',
+    },
+    {
+      question: 'What matters more for notaries: speed or portability?',
+      answer:
+        'For most notaries, portability and reliability matter more than top-end speed because a scanner you actually carry with you is often more useful.',
+    },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader
@@ -24,6 +61,7 @@ export default function BestScannersForNotaries() {
       />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
         <div className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             A good scanner saves deals, speeds up scan-backs, and makes you look more professional to title companies.

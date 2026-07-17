@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'How to Become a Notary in California: Complete 2026 Guide (Cost, Timeline, Exam) | The Bearded Notary',
@@ -16,29 +18,49 @@ export const metadata: Metadata = {
 };
 
 export default function HowToBecomeNotaryCalifornia() {
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: 'How to Become a Notary in California: Complete 2026 Guide',
+  const articleSchema = buildArticleSchema({
+    title: 'How to Become a Notary in California: Complete 2026 Guide',
     description:
       'Complete guide to becoming a California notary in 2026. Total cost: $400-600. Timeline: 6-8 weeks. Exam pass rate: 65%. Step-by-step process, study tips, and what happens after.',
+    path: '/how-to-become-a-notary-in-california',
+    image: '/images/how-to-become-a-notary-california-infographic.png',
     datePublished: '2020-05-18',
     dateModified: '2026-07-17',
-    author: {
-      '@type': 'Organization',
-      name: 'The Bearded Notary',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    {
+      name: 'How to Become a Notary in California',
+      url: getAbsoluteUrl('/how-to-become-a-notary-in-california'),
     },
-    publisher: {
-      '@type': 'Organization',
-      name: 'The Bearded Notary',
-      logo: {
-        '@type': 'ImageObject',
-        url: 'https://thebeardednotary.com/icon.png',
-      },
+  ]);
+  const faqSchema = buildFaqSchema([
+    {
+      question: 'How long does it take to become a notary in California?',
+      answer:
+        'It typically takes about six to eight weeks from the time you begin your education course to the point where you are commissioned and ready to work.',
     },
-    mainEntityOfPage: 'https://thebeardednotary.com/how-to-become-a-notary-in-california',
-    image: 'https://thebeardednotary.com/images/how-to-become-a-notary-california-infographic.png',
-  };
+    {
+      question: 'How much does it cost to become a notary in California?',
+      answer:
+        'Most new California notaries should expect to spend roughly four hundred to six hundred dollars total when you include education, exam fees, fingerprinting, bond, stamp, and supplies.',
+    },
+    {
+      question: 'What are the requirements to become a notary in California?',
+      answer:
+        'You must be at least eighteen, be a legal California resident, pass a background check, complete a state-approved education course, and pass the California notary exam.',
+    },
+    {
+      question: 'How hard is the California notary exam?',
+      answer:
+        'The exam is manageable with real preparation, but it is not something to take lightly. You need a passing score of seventy percent and many applicants benefit from one to two weeks of focused study.',
+    },
+    {
+      question: 'Can I start notarizing immediately after passing my exam?',
+      answer:
+        'No. You must first receive your commission, obtain your bond and supplies, and file your oath and bond with the county clerk before you are authorized to notarize.',
+    },
+  ]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -46,10 +68,7 @@ export default function HowToBecomeNotaryCalifornia() {
 
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
+        <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
         
         <div className="prose prose-lg max-w-none">
           

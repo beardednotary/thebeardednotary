@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: '85+ Notary Business Resources | The Bearded Notary',
@@ -16,12 +18,26 @@ export const metadata: Metadata = {
 };
 
 export default function NotaryBusinessResources() {
+  const articleSchema = buildArticleSchema({
+    title: '85+ Notary Business Resources',
+    description:
+      'Essential resources for mobile notaries and loan signing agents. Professional associations, marketing sites, training programs, and business tools.',
+    path: '/notary-business-resources',
+    image: '/images/notary-business-resources-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Notary Business Resources', url: getAbsoluteUrl('/notary-business-resources') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="85+ Notary Business Resources" eyebrow="Updated July 2026" />
 
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         <div className="mb-8">
           <p className="text-xl text-gray-700">
             Whether you're a newly-sworn in Notary Public or a long-time pro, these notary business 

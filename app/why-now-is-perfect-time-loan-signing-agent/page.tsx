@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
@@ -13,12 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function PerfectTimeLoanSigningAgent() {
+  const articleSchema = buildArticleSchema({
+    title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
+    description:
+      'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+    path: '/why-now-is-perfect-time-loan-signing-agent',
+    image: '/images/perfect-time-loan-signing-agent-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Why 2026 Is the Perfect Time to Become a Loan Signing Agent', url: getAbsoluteUrl('/why-now-is-perfect-time-loan-signing-agent') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Why 2026 is the Perfect Time to Become a Loan Signing Agent" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         {/* Featured Image */}
         <div className="my-8">

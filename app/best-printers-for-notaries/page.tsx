@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: 'Best Printer for Notaries & Loan Signing Agents 2026: Complete Buying Guide | The Bearded Notary',
@@ -13,6 +15,41 @@ export const metadata: Metadata = {
 };
 
 export default function BestPrintersForNotaries() {
+  const articleSchema = buildArticleSchema({
+    title: 'Best Printer for Notaries & Loan Signing Agents: Complete 2026 Buying Guide',
+    description:
+      'Complete 2026 printer buying guide for notaries. Compare laser vs inkjet, dual-tray vs single, portable options, cost analysis, and specific recommendations with real notary reviews.',
+    path: '/best-printers-for-notaries',
+    image: '/images/best-printers-notaries-featured.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Best Printers for Notaries', url: getAbsoluteUrl('/best-printers-for-notaries') },
+  ]);
+  const faqSchema = buildFaqSchema([
+    {
+      question: 'What is the best printer for a notary signing agent?',
+      answer:
+        "The Brother HL-L5200DWT is one of the strongest choices for loan signing agents because it has dual trays for automatic letter and legal switching, strong speed, and a reputation for reliability.",
+    },
+    {
+      question: 'Do I need a laser printer for notary work?',
+      answer:
+        'If you do loan signings regularly, yes. Laser printers are faster, cheaper per page, and more practical for high-volume document packages than inkjets.',
+    },
+    {
+      question: 'Do I really need a dual-tray printer?',
+      answer:
+        'If you handle mixed letter and legal loan packages regularly, dual trays save significant time and make the workflow much smoother.',
+    },
+    {
+      question: 'Can I use an inkjet printer for loan signings?',
+      answer:
+        'You can for very light volume, but it is usually not recommended because inkjets are slower and more expensive per page for signing work.',
+    },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader
@@ -22,6 +59,7 @@ export default function BestPrintersForNotaries() {
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
         
         <div className="prose prose-lg max-w-none">
 

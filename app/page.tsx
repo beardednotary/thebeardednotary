@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import EmailCapture from '../components/EmailCapture';
+import JsonLd from '../components/JsonLd';
 import PrimaryNav from '../components/PrimaryNav';
+import { buildCollectionPageSchema, getAbsoluteUrl } from '../lib/schema';
 
 export default function Home() {
   const articles = [
@@ -133,8 +135,20 @@ export default function Home() {
     }
   ];
 
+  const homepageSchema = buildCollectionPageSchema({
+    title: 'The Bearded Notary | Resources for Mobile Notaries & Loan Signing Agents',
+    description:
+      'A collection of guides, tools, and business resources for mobile notaries and loan signing agents.',
+    path: '/',
+    items: articles.map((article) => ({
+      name: article.title,
+      url: getAbsoluteUrl(`/${article.slug}`),
+    })),
+  });
+
   return (
     <div className="min-h-screen">
+      <JsonLd data={homepageSchema} />
       <header className="bg-notary-navy text-white py-6 border-b-4 border-notary-gold">
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
@@ -296,4 +310,3 @@ export default function Home() {
     </div>
   );
 }
-

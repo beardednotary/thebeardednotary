@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import JsonLd from '../../components/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
   title: '10 Free Sites to Market Your Notary Business (2026 Guide) | The Bearded Notary',
@@ -13,12 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function FreeMarketingSitesNotaries() {
+  const articleSchema = buildArticleSchema({
+    title: '10 Free Sites to Market Your Notary Business (2026)',
+    description:
+      'Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency best practices and get more clients in 2026.',
+    path: '/free-marketing-sites-notaries',
+    image: '/images/free-marketing-sites-notaries.png',
+    dateModified: '2026-07-15',
+  });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Home', url: getAbsoluteUrl('/') },
+    { name: 'Free Marketing Sites for Notaries', url: getAbsoluteUrl('/free-marketing-sites-notaries') },
+  ]);
+
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="10 Free Sites to Market Your Notary Business (2026)" />
 
       {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         {/* Featured Image */}
         <div className="my-8">
