@@ -59,8 +59,13 @@ export default function NotaryBusinessResources() {
           <p className="text-gray-700 mb-8">
             Just beginning your Notary Public business? Check out our list of the{' '}
             <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
-              10 essential supplies every Notary Public needs
-            </Link>.
+              mobile notary supplies every working notary should have
+            </Link>{' '}
+            and the{' '}
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
+            </Link>
+            .
           </p>
 
           <h2 className="text-2xl font-bold text-notary-navy mt-12 mb-4">Professional Associations</h2>
@@ -413,7 +418,7 @@ export default function NotaryBusinessResources() {
               How to Become a Notary in California
             </Link>
             <Link href="/essential-notary-books" className="block text-notary-gold hover:underline font-semibold">
-              7 Essential Notary Books That Will Benefit Every Notary Business
+              9 Essential Notary Books That Will Benefit Every Notary Business
             </Link>
           </div>
         </div>

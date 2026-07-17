@@ -80,6 +80,18 @@ export default function BestPortablePrintersForNotaries() {
             It is your emergency tool, not your workhorse.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            That is why most notaries are better off treating portable printing as part of a bigger setup. Start with the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline font-semibold">
+              full supplies checklist
+            </Link>{' '}
+            and your{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline font-semibold">
+              pricing structure
+            </Link>{' '}
+            so backup gear supports profit instead of quietly eating into it.
+          </p>
+
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">What to Look for in a Portable Notary Printer</h2>
 
           <div className="space-y-6 mb-8">

@@ -55,6 +55,22 @@ export default function First30DaysNewNotary() {
             This isn't theory - it's a practical, day-by-day action plan that takes you from "brand new notary" to "earning your first $1,000+" in 30 days. Follow this plan, check off each task, and you'll build a solid foundation for a profitable notary business in 2026.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            Keep three companion pages open while you work through this: the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              Mobile Notary Supplies Checklist
+            </Link>
+            , the{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing guide
+            </Link>
+            , and the{' '}
+            <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline">
+              free marketing sites list
+            </Link>
+            . Those three pages fill in most of the gaps as you build.
+          </p>
+
           <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">What You'll Accomplish in 30 Days</h3>
             <ul className="space-y-2 text-gray-800">
@@ -110,7 +126,7 @@ export default function First30DaysNewNotary() {
                 <li>Business cards (500 minimum)</li>
               </ul>
               <p className="text-gray-700 mt-3">
-                Complete checklist: <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline font-semibold">12 Essential Mobile Notary Supplies</Link>
+                Complete checklist: <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline font-semibold">Mobile Notary Supplies Checklist</Link>
               </p>
             </div>
 

@@ -58,6 +58,18 @@ export default function TargetIndustriesNotaries() {
             After <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline">listing your business on free sites</Link>, the next step is targeted outreach to these 15 industries that consistently need notary services.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            This works even better if you already know your{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing structure
+            </Link>{' '}
+            and have the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              right setup
+            </Link>{' '}
+            to serve professional clients without scrambling.
+          </p>
+
           {/* Why Target Industries */}
           <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Why Target Industries Instead of Random Marketing?</h3>

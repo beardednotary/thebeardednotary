@@ -51,6 +51,18 @@ export default function FreeMarketingSitesNotaries() {
             You've invested in your notary commission, gotten your <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">supplies</Link>, and maybe even <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">completed loan signing training</Link>. Now it's time to get clients. These 10 free business listing sites will put you in front of people actively searching for notary services.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            Once your listings are live, the next step is knowing{' '}
+            <Link href="/target-industries-for-notaries" className="text-notary-gold hover:underline">
+              which industries to target
+            </Link>{' '}
+            and making sure your{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing
+            </Link>{' '}
+            reflects the value of mobile service.
+          </p>
+
           {/* NAP Consistency Section */}
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Critical: NAP Consistency</h3>

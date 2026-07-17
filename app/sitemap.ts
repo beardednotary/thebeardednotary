@@ -11,21 +11,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: number
     lastModified: Date
   }> = [
-    { path: '', changeFrequency: 'weekly', priority: 1, lastModified: new Date('2026-07-15') },
-    { path: '/best-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
-    { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
+    { path: '', changeFrequency: 'weekly', priority: 1, lastModified: new Date('2026-07-17') },
+    { path: '/best-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
+    { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-scanners-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
-    { path: '/how-much-to-charge-mobile-notary', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
-    { path: '/first-30-days-new-notary', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-15') },
-    { path: '/smart-money-management-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-15') },
-    { path: '/free-marketing-sites-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
-    { path: '/target-industries-for-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
-    { path: '/document-types-notaries-glossary', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
-    { path: '/how-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
+    { path: '/how-much-to-charge-mobile-notary', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
+    { path: '/first-30-days-new-notary', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-17') },
+    { path: '/smart-money-management-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-17') },
+    { path: '/free-marketing-sites-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/target-industries-for-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/document-types-notaries-glossary', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/how-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/essential-notary-books', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
-    { path: '/mobile-notary-supplies', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-16') },
-    { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
-    { path: '/why-now-is-perfect-time-loan-signing-agent', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
+    { path: '/mobile-notary-supplies', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/why-now-is-perfect-time-loan-signing-agent', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
   ]
 
   return routes.map(({ path, changeFrequency, priority, lastModified }) => ({

@@ -79,6 +79,18 @@ export default function NotaryPricingGuide() {
             But how much should you actually charge? The answer depends on your state's maximum fees, the type of service, travel distance, timing, and your market. This comprehensive guide breaks down exactly what to charge for every notary service in 2026.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            If you are still building the business side of the operation, pair this with the{' '}
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
+            </Link>{' '}
+            and the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              Mobile Notary Supplies Checklist
+            </Link>{' '}
+            so your pricing matches the gear, travel, and workflow you are actually taking on.
+          </p>
+
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Quick Pricing Overview</h3>
             <ul className="space-y-2 text-gray-800">
@@ -1228,7 +1240,7 @@ export default function NotaryPricingGuide() {
                 <p className="text-gray-600 text-sm">Look professional and command higher fees</p>
               </Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">7 Essential Notary Books</h4>
+                <h4 className="font-bold text-notary-navy mb-2">9 Essential Notary Books</h4>
                 <p className="text-gray-600 text-sm">Build expertise that justifies premium pricing</p>
               </Link>
               <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">

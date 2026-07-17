@@ -51,6 +51,18 @@ export default function DocumentTypesNotariesGlossary() {
             As a mobile notary or loan signing agent, you'll encounter dozens of different document types. Understanding what each document is, when it's used, and what to watch for will make you more confident, faster, and more valuable to clients.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            If you want to turn that document familiarity into better income, pair this page with the{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing guide
+            </Link>{' '}
+            and the{' '}
+            <Link href="/essential-notary-books" className="text-notary-gold hover:underline">
+              9 essential notary books
+            </Link>
+            .
+          </p>
+
           <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Important Note</h3>
             <p className="text-gray-800">
@@ -451,7 +463,7 @@ export default function DocumentTypesNotariesGlossary() {
             </p>
             <ul className="space-y-2 text-gray-800">
               <li>• Your state's notary handbook (required reading)</li>
-              <li>• <Link href="/essential-notary-books" className="text-notary-gold hover:underline font-semibold">7 Essential Notary Books</Link> for deeper knowledge</li>
+              <li>• <Link href="/essential-notary-books" className="text-notary-gold hover:underline font-semibold">9 Essential Notary Books</Link> for deeper knowledge</li>
               <li>• <Link href="/notary-business-resources" className="text-notary-gold hover:underline font-semibold">85+ Notary Business Resources</Link> including training</li>
               <li>• National Notary Association (NNA) for continuing education</li>
             </ul>
@@ -474,7 +486,7 @@ export default function DocumentTypesNotariesGlossary() {
                 <p className="text-gray-600 text-sm">What you need to notarize these documents professionally</p>
               </Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">7 Essential Notary Books</h4>
+                <h4 className="font-bold text-notary-navy mb-2">9 Essential Notary Books</h4>
                 <p className="text-gray-600 text-sm">Deepen your knowledge of documents and procedures</p>
               </Link>
             </div>

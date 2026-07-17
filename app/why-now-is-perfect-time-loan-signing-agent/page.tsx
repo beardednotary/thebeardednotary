@@ -60,6 +60,22 @@ export default function PerfectTimeLoanSigningAgent() {
           </p>
 
           <p className="text-gray-700 mb-8">
+            If you decide to move forward, the best follow-up pages are the{' '}
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
+            </Link>
+            , the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              supplies checklist
+            </Link>
+            , and the{' '}
+            <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">
+              printer guide
+            </Link>
+            .
+          </p>
+
+          <p className="text-gray-700 mb-8">
             So, the question isn't whether you missed the boat – it's whether you're ready to chart your own course in this dynamic and rewarding field. Let's dive into the specific reasons why now is the perfect time to become a loan signing agent and navigate the journey together.
           </p>
 
@@ -291,7 +307,7 @@ export default function PerfectTimeLoanSigningAgent() {
                 <p className="text-gray-600 text-sm">Complete 7-step guide to getting your notary commission</p>
               </Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">7 Essential Notary Books</h4>
+                <h4 className="font-bold text-notary-navy mb-2">9 Essential Notary Books</h4>
                 <p className="text-gray-600 text-sm">Must-read books for building a 6-figure notary business</p>
               </Link>
               <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">

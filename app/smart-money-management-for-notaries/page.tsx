@@ -49,6 +49,18 @@ export default function NotaryFinancialGuide() {
             The difference between notaries who build sustainable income and those who struggle? Smart money management. Separate accounts, strategic credit cards, proper bookkeeping, and knowing every deduction you're entitled to. This guide covers everything you need to run your notary business like a profitable, professional operation.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            This page works best alongside the{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing guide
+            </Link>{' '}
+            and the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              supplies checklist
+            </Link>
+            , because better margins come from both charging correctly and controlling what your business spends.
+          </p>
+
           <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">What You'll Learn</h3>
             <ul className="space-y-2 text-gray-800">
@@ -436,7 +448,7 @@ export default function NotaryFinancialGuide() {
           </div>
 
           <p className="text-gray-700 mb-8">
-            For a complete list of supplies every mobile notary needs, check out our <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline font-semibold">12 Essential Mobile Notary Supplies</Link> guide.
+            For a complete list of supplies every mobile notary needs, check out our <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline font-semibold">Mobile Notary Supplies Checklist</Link>.
           </p>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Accounting Software for Mobile Notaries</h2>

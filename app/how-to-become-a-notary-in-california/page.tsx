@@ -76,6 +76,18 @@ export default function HowToBecomeNotaryCalifornia() {
             Becoming a notary public in California takes 6-8 weeks and costs $400-600. You'll need to complete a 6-hour course, pass a state exam, clear a background check, and file your commission. This comprehensive guide walks you through every step.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            If you are planning beyond the commission itself, the next two pages most California readers need are the{' '}
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
+            </Link>{' '}
+            and the{' '}
+            <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
+              Mobile Notary Supplies Checklist
+            </Link>
+            . Those will help you turn the commission into actual booked work.
+          </p>
+
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Overview: California Notary Process</h2>
             <div className="grid md:grid-cols-2 gap-6">

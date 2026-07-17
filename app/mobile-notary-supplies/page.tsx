@@ -584,6 +584,10 @@ export default function MobileNotarySupplies() {
               <h3 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h3>
               <p className="text-gray-600 text-sm">Go deeper on dual-tray, portable, and budget-friendly printer picks.</p>
             </Link>
+            <Link href="/best-portable-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+              <h3 className="font-bold text-notary-navy mb-2">Best Portable Printers for Notaries</h3>
+              <p className="text-gray-600 text-sm">See which portable printers make sense for corrections, travel, and backup workflows.</p>
+            </Link>
             <Link href="/how-much-to-charge-mobile-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
               <h3 className="font-bold text-notary-navy mb-2">Notary Pricing Guide</h3>
               <p className="text-gray-600 text-sm">Make sure your rates cover the gear and time your business requires.</p>
