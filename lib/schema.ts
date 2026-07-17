@@ -25,6 +25,14 @@ export function getAbsoluteUrl(path: string) {
   return path.startsWith('http') ? path : `${siteUrl}${path}`;
 }
 
+function toIsoDateTime(value: string) {
+  if (value.includes('T')) {
+    return /(?:Z|[+-]\d{2}:\d{2})$/.test(value) ? value : `${value}Z`;
+  }
+
+  return `${value}T00:00:00Z`;
+}
+
 export function buildOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
@@ -47,6 +55,7 @@ export function buildWebsiteSchema() {
     publisher: {
       '@type': 'Organization',
       name: siteName,
+      url: siteUrl,
       logo: {
         '@type': 'ImageObject',
         url: logoUrl,
@@ -110,17 +119,19 @@ export function buildArticleSchema({
     author: {
       '@type': 'Organization',
       name: siteName,
+      url: siteUrl,
     },
     publisher: {
       '@type': 'Organization',
       name: siteName,
+      url: siteUrl,
       logo: {
         '@type': 'ImageObject',
         url: logoUrl,
       },
     },
-    ...(datePublished ? { datePublished } : {}),
-    ...(dateModified ? { dateModified } : {}),
+    ...(datePublished ? { datePublished: toIsoDateTime(datePublished) } : {}),
+    ...(dateModified ? { dateModified: toIsoDateTime(dateModified) } : {}),
     ...(image ? { image: getAbsoluteUrl(image) } : {}),
   };
 }
