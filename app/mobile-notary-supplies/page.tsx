@@ -2,336 +2,368 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleHeader from '../../components/ArticleHeader';
 
+type SupportingLink = {
+  href: string;
+  label: string;
+};
+
+type SupplyPick = {
+  title: string;
+  badge: string;
+  why: string;
+  bullets: string[];
+  href?: string;
+  cta?: string;
+  supportingLink?: SupportingLink;
+};
+
+type SupplySection = {
+  id: string;
+  label: string;
+  title: string;
+  description: string;
+  picks: SupplyPick[];
+};
+
+type SetupBundle = {
+  title: string;
+  items: string[];
+};
+
 export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
-  description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
+  description:
+    "A practical buyer's guide to mobile notary supplies, from journals and stamps to scanners, tablets, and dual-tray printers.",
   openGraph: {
     title: 'Mobile Notary Supplies Checklist',
-    description: 'Complete checklist of 12 essential supplies every mobile notary needs to succeed. From sequential journals to dual tray laser printers.',
+    description:
+      "A practical buyer's guide to mobile notary supplies, from journals and stamps to scanners, tablets, and dual-tray printers.",
     images: ['/images/mobile-notary-supplies-featured.png'],
   },
 };
+
+const sections: SupplySection[] = [
+  {
+    id: 'legal-essentials',
+    label: 'Legal Essentials',
+    title: 'The core tools every notary needs',
+    description:
+      'These are the foundational supplies that protect your commission, document your work, and help you complete notarizations correctly.',
+    picks: [
+      {
+        title: 'Notary Sequential Journal',
+        badge: 'Must-have',
+        href: 'https://www.amazon.com/dp/B0C4JJ9VJ9?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AOTNV5XXKF0A&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2AOTNV5XXKF0A_1766101057220',
+        cta: 'View journal',
+        why: 'This is the recordkeeping tool that protects you when questions come up later.',
+        bullets: [
+          'Required in many states and strongly recommended in the rest.',
+          'Helps you prove what was signed, when it was signed, and who appeared.',
+        ],
+      },
+      {
+        title: 'Self-Inking Notary Stamp',
+        badge: 'Commission-ready',
+        href: 'https://amzn.to/4s3tjD9',
+        cta: 'Order your stamp',
+        why: 'A clean, reliable stamp saves time and helps you avoid sloppy impressions on important documents.',
+        bullets: [
+          'One of the final pieces you need before taking live work.',
+          'Self-inking models are faster and easier for back-to-back appointments.',
+        ],
+      },
+      {
+        title: 'Inkless Thumbprint Pad',
+        badge: 'Best for clean signings',
+        href: 'https://amzn.to/4j4Qvws',
+        cta: 'View thumbprint pad',
+        why: 'Thumbprints can be required, and an inkless option keeps the process quick and less messy.',
+        bullets: [
+          'Helpful for states and document types where thumbprints matter.',
+          'Cleaner experience for both you and the signer.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'mobile-workflow',
+    label: 'Mobile Workflow',
+    title: 'What keeps you organized on the road',
+    description:
+      'The goal here is simple: stay organized, move quickly, and keep your supplies protected between appointments.',
+    picks: [
+      {
+        title: 'Messenger Bag or Briefcase',
+        badge: 'Best for organization',
+        href: 'https://amzn.to/4jb44uG',
+        cta: 'Shop briefcases',
+        why: 'A dedicated bag keeps your journal, certificates, pens, and tech in one reliable grab-and-go setup.',
+        bullets: [
+          'Useful for protecting sensitive tools and staying appointment-ready.',
+          'Look for security, comfort, and enough structure to separate gear.',
+        ],
+      },
+      {
+        title: 'Stapler and Staple Remover',
+        badge: 'Cheap but essential',
+        href: 'https://www.amazon.com/dp/B0CC5GJKM1?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.26MSLRILODF7K&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.26MSLRILODF7K_1766100860744',
+        cta: 'View stapler set',
+        why: 'Small tools like this make a big difference when you need to keep document packets neat and fix mistakes fast.',
+        bullets: [
+          'Helps you stay organized without hauling around bulky desk gear.',
+          'Especially useful during loan signing appointments with thick packages.',
+        ],
+      },
+      {
+        title: 'Cell Phone Mount',
+        badge: 'Best for safer travel',
+        href: 'https://www.amazon.com/dp/B08DKHHTFX?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2BRFFZM9UBWG6&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2BRFFZM9UBWG6_1766101671297',
+        cta: 'Shop phone mounts',
+        why: "If you're driving from signer to signer, navigation visibility and safer hands-free use matter.",
+        bullets: [
+          'Makes directions easier to follow while keeping your hands free.',
+          'A simple upgrade that reduces friction on appointment-heavy days.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'business-and-client-tools',
+    label: 'Business Tools',
+    title: 'The items that help you book and serve more clients',
+    description:
+      'Notary income does not come from gear alone. These tools help you market yourself, communicate clearly, and get paid efficiently.',
+    picks: [
+      {
+        title: 'Business Cards',
+        badge: 'Best for referrals',
+        href: 'https://bit.ly/bearded20',
+        cta: 'Get business cards',
+        why: 'For newer notaries especially, business cards are still one of the easiest ways to generate word-of-mouth business.',
+        bullets: [
+          'Simple, clean cards usually convert better than overdesigned ones.',
+          'Useful for title offices, real estate contacts, and every signer you meet.',
+        ],
+      },
+      {
+        title: 'Cell Phone',
+        badge: 'Operational essential',
+        why: 'This is the command center of a mobile notary business: calls, scheduling, directions, and follow-up all run through it.',
+        bullets: [
+          'Keep key contacts saved and easy to reach.',
+          'A dependable phone setup makes you easier to book and easier to trust.',
+        ],
+      },
+      {
+        title: 'Tablet',
+        badge: 'Best for admin on the go',
+        href: 'https://amzn.to/4s5Z9PC',
+        cta: 'Shop tablets',
+        why: 'A tablet helps with email, payments, quick document access, and everyday business management while you are mobile.',
+        bullets: [
+          'Pairs well with payment processing tools like Square.',
+          'Useful when you need a lightweight device instead of a full laptop.',
+        ],
+      },
+    ],
+  },
+  {
+    id: 'loan-signing-upgrades',
+    label: 'Loan Signing Upgrades',
+    title: 'The gear that matters more as your business grows',
+    description:
+      'These are the upgrades that become much more important once you move deeper into loan signings, scan-backs, and higher-volume work.',
+    picks: [
+      {
+        title: 'Portable Document Scanner',
+        badge: 'Best for scan-backs',
+        href: 'https://amzn.to/4j1Pntw',
+        cta: 'Shop scanners',
+        why: 'A good scanner gives you faster scan-backs, better backups, and more flexibility when handling lender packages.',
+        bullets: [
+          'Especially useful for loan signing agents handling time-sensitive documents.',
+          'Read our scanner guide if you want a deeper comparison before buying.',
+        ],
+        supportingLink: {
+          href: '/best-scanners-for-notaries',
+          label: 'Read the best scanner guide',
+        },
+      },
+      {
+        title: 'Dual Tray Laser Printer',
+        badge: 'Best overall upgrade',
+        href: 'https://amzn.to/492MF2D',
+        cta: 'View printer',
+        why: 'If you plan to do loan signings, this is one of the most important investments you can make.',
+        bullets: [
+          'Handles both letter and legal paper efficiently.',
+          'Faster and more practical than inkjet for consistent signing work.',
+        ],
+        supportingLink: {
+          href: '/best-printers-for-notaries',
+          label: 'Read the best printer guide',
+        },
+      },
+      {
+        title: 'Digital Camera',
+        badge: 'Best for extra service lines',
+        href: 'https://amzn.to/4969GBD',
+        cta: 'Shop cameras',
+        why: 'Not required for standard notary work, but useful if you add property inspection or field service work.',
+        bullets: [
+          'Can help you branch into other appointment-based income streams.',
+          'A good optional upgrade for notaries looking to diversify.',
+        ],
+      },
+    ],
+  },
+];
+
+const setupBundles: SetupBundle[] = [
+  {
+    title: 'New Notary Starter Setup',
+    items: ['Journal', 'Stamp', 'Thumbprint pad', 'Business cards', 'Bag or briefcase', 'Cell phone'],
+  },
+  {
+    title: 'Working Mobile Notary Setup',
+    items: ['Everything above', 'Stapler/remover', 'Phone mount', 'Tablet', 'Portable scanner'],
+  },
+  {
+    title: 'Loan Signing Agent Upgrade Setup',
+    items: ['Everything above', 'Dual tray laser printer', 'Extra paper and toner', 'Optional camera for adjacent service lines'],
+  },
+];
 
 export default function MobileNotarySupplies() {
   return (
     <div className="min-h-screen bg-white">
       <ArticleHeader title="Mobile Notary Supplies Checklist" eyebrow="Updated July 2026" />
 
-      {/* Article */}
-      <article className="max-w-4xl mx-auto px-4 py-12">
-        <div className="mb-8">
+      <article className="max-w-5xl mx-auto px-4 py-12">
+        <div className="mb-8 max-w-4xl">
           <p className="text-xl text-gray-700">
-            Mobile notaries carry their gear with them from signing to signing, and it is important to have all 
-            your mobile notary supplies with you for each appointment. As a mobile notary, you never want 
-            to get to your appointment and not have what you need. Here's a list of the 12 best mobile 
-            notary supplies you'll need to succeed.
+            This page is meant to help you build a setup that actually supports the work. Instead of treating
+            supplies like a random checklist, think of them in layers: legal essentials, mobile workflow tools,
+            business-building tools, and the upgrades that matter once loan signing work starts growing.
           </p>
         </div>
 
-        <div className="prose prose-lg max-w-none">
-          
-          {/* Featured Image */}
-          <div className="my-8">
-            <img 
-              src="/images/mobile-notary-supplies-featured.png"
-              alt="Mobile Notary Supplies Checklist - Everything you need to start your essential business and make money on your schedule"
-              className="w-full max-w-2xl mx-auto"
-            />
-          </div>
+        <div className="my-8">
+          <img
+            src="/images/mobile-notary-supplies-featured.png"
+            alt="Mobile notary supplies checklist and buyer's guide"
+            className="w-full max-w-2xl mx-auto"
+          />
+        </div>
 
-          <p className="text-gray-700 mb-8">
-            Just beginning your Notary Public business?{' '}
+        <div className="grid gap-6 mb-12 md:grid-cols-[1.15fr_0.85fr]">
+          <section className="border-2 border-notary-gold/40 bg-gray-50 p-6">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">Quick Jump</p>
+            <div className="grid gap-3 sm:grid-cols-2">
+              {sections.map((section) => (
+                <a key={section.id} href={`#${section.id}`} className="border border-gray-200 bg-white px-4 py-3 font-semibold text-notary-navy transition hover:border-notary-gold">
+                  {section.label}
+                </a>
+              ))}
+            </div>
+          </section>
+
+          <section className="border border-gray-200 bg-white p-6">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">How I Choose</p>
+            <ul className="space-y-3 text-gray-700">
+              <li>Reliable for real mobile notary workflows, not just generic office use.</li>
+              <li>Easy to carry, organize, or use during live appointments.</li>
+              <li>Worth the cost for newer notaries trying to build a practical setup.</li>
+              <li>Helpful for the kind of work that leads to repeat clients and smoother signings.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div className="mb-10 rounded bg-notary-navy p-6 text-white">
+          <h2 className="text-2xl font-bold mb-3">Just getting started?</h2>
+          <p className="text-gray-200">
+            Use this page as your gear guide, then pair it with{' '}
             <Link href="/notary-business-resources" className="text-notary-gold hover:underline">
-              Click here
+              85+ Notary Business Resources
             </Link>{' '}
-            for a list of resources to take your Notary Public business to the next level.
+            and the{' '}
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
+            </Link>{' '}
+            so your setup actually turns into signed appointments.
           </p>
-
-          {/* Supply 1 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Notary Sequential Journal
-            </h2>
-            <p className="text-gray-700 mb-4">
-              This is the item to have for a mobile notary. Most states and jurisdictions require that a notary 
-              public carries and records all acts that they perform in a sequential journal. Keeping diligent 
-              records of notarial acts provides security for the notary, as notarial acts are public records and 
-              subpoenas can be issued for the review of notarial acts.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Not sure if your state requires you to keep a sequential journal? The National Notary Association 
-              highly recommends you carry one, even if not required by law.
-            </p>
-            <a 
-              href="https://www.amazon.com/dp/B0C4JJ9VJ9?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AOTNV5XXKF0A&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2AOTNV5XXKF0A_1766101057220" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Supply 2 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Business Cards
-            </h2>
-            <p className="text-gray-700 mb-4">
-              When starting a mobile notary business, you should never, EVER, leave the house without your 
-              mobile notary business cards. They are THE primary way for small, mobile businesses to gain 
-              word of mouth while just starting out.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Business cards don't need to be super fancy, as cleaner designs help to convey the information you 
-              want to share (your name, business name, job title/role/service offered, contact info). VistaPrint 
-              is the best-known printing service on the web, with thousands of customizable templates and fast, 
-              affordable shipping. You're sure to find just the right business card to help you stand out from the crowd.
-            </p>
-            <a 
-              href="https://bit.ly/bearded20" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Get Business Cards
-            </a>
-          </div>
-
-          {/* Supply 3 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Messenger Bag/Briefcase
-            </h2>
-            <p className="text-gray-700 mb-4">
-              The briefcase is another important piece of equipment for any serious mobile notary. Not only 
-              do they provide security for your sequential journal and equipment, but they are quite often 
-              required for many mobile notaries public to have.
-            </p>
-            <p className="text-gray-700 mb-4">
-              When shopping for a good locking briefcase there are several things to consider: key/passcode access, 
-              portable power supply for tablets/scanners, ease of use and carrying, etc. There are any number of 
-              locking briefcases online in all sizes and styles. You're sure to find one that you love and that 
-              works best for you.
-            </p>
-            <a 
-              href="https://amzn.to/4jb44uG" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Shop Briefcases
-            </a>
-          </div>
-
-          {/* Supply 4 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Self-Inking Notary Stamp
-            </h2>
-            <p className="text-gray-700 mb-4">
-              A requirement for all notaries, ordering your stamp is one of the last steps before beginning 
-              work. Order your self-inking stamp from Amazon is very easy. Just order it and the seller will 
-              follow up with you to walk you through the steps needed to have it made.
-            </p>
-            <a 
-              href="https://amzn.to/4s3tjD9" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Order Your Stamp
-            </a>
-          </div>
-
-          {/* Supply 5 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Stapler/Staple Remover
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Very useful for keeping documents organized, a stapler and staple remover is a 
-              must have item for mobile notaries. You don't need a full-size desktop stapler, as carrying that 
-              around will add unnecessary weight to your supply kit. A small, handheld stapler and remover 
-              are all you need to keep documents neat and accessible.
-            </p>
-            <a 
-              href="https://www.amazon.com/dp/B0CC5GJKM1?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.26MSLRILODF7K&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.26MSLRILODF7K_1766100860744" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Supply 6 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Inkless Thumbprint Pad
-            </h2>
-            <p className="text-gray-700 mb-4">
-              Many notarizations require a thumbprint for completion. Rather than use an inkpad that dirties 
-              fingers, try an inkless thumbprint pad. Easy and no mess!
-            </p>
-            <a 
-              href="https://amzn.to/4j4Qvws" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          {/* Supply 7 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Cell Phone
-            </h2>
-            <p className="text-gray-700 mb-4">
-              It should go without saying, but all mobile notaries should carry a cell phone. From booking 
-              clients to finding directions to your next client, a good cell phone with reliable service is the 
-              lifeblood of a good mobile notary business. Before your first day on duty, put all of the most 
-              important numbers into your address book on your phone, or even better, into speed dial so 
-              they can be dialed almost immediately.
-            </p>
-          </div>
-
-          {/* Supply 8 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Cell Phone Mount
-            </h2>
-            <p className="text-gray-700 mb-4">
-              By now, everyone should know that texting and talking on the phone while driving can be 
-              dangerous. Mobile notaries are often glued to their phones, so it's a good idea to use a cell 
-              phone mount or holder in your car while traveling to client destinations.
-            </p>
-            <p className="text-gray-700 mb-4">
-              A good mount will stay securely in place, allow easy access to charger outlets, and provide a clean 
-              line of sight for GPS directions while on the road. A cell phone mount can make life so much easier 
-              and keep you comfortable and safe on the road.
-            </p>
-            <a 
-              href="https://www.amazon.com/dp/B08DKHHTFX?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2BRFFZM9UBWG6&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2BRFFZM9UBWG6_1766101671297" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Shop Phone Mounts
-            </a>
-          </div>
-
-          {/* Supply 9 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Digital Camera
-            </h2>
-            <p className="text-gray-700 mb-4">
-              A digital camera can be a useful addition to a mobile notary's supply kit. While not required in 
-              notarial acts or loan signings, a digital camera could be quite beneficial for those looking to 
-              expand their earnings by serving as a property inspector.
-            </p>
-            <p className="text-gray-700 mb-4">
-              These jobs require very small commitments and pay pretty well. As a property inspector you will take 
-              pictures of business locations, fill out reports and submit your report to insurance agents/property owners.
-            </p>
-            <a 
-              href="https://amzn.to/4969GBD" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Shop Cameras
-            </a>
-          </div>
-
-          {/* Supply 10 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Tablet
-            </h2>
-            <p className="text-gray-700 mb-4">
-              At this point in time, everyone should understand the value a tablet adds to a small, mobile 
-              business. From sending emails on the go, to managing your website, to collecting customer 
-              payments, a tablet makes life easier for mobile businesses.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Point-of-Sale services such as Square make payment processing easy and give mobile notaries an 
-              opportunity to diversify their income.
-            </p>
-            <a 
-              href="https://amzn.to/4s5Z9PC" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Shop Tablets
-            </a>
-          </div>
-
-          {/* Supply 11 */}
-          <div className="mb-12 border-b pb-8">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Portable Document Scanner
-            </h2>
-            <p className="text-gray-700 mb-4">
-              A portable document scanner is a very handy tool to have, ESPECIALLY as a loan signing 
-              agent. During loan signings, two copies are produced: the borrower copy and the lender copy. 
-              After completion of signing the borrower receives their copy and you send the lender's copy 
-              back to them via mail or fax.
-            </p>
-            <p className="text-gray-700 mb-4">
-              A mobile document scanner can provide an on-demand digital backup for both sides of the transaction. 
-              It can serve as an important "add-on" service for your mobile notary business.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Want help choosing one? Read our <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">best scanner guide for notaries</Link> for the top portable and office-friendly picks.
-            </p>
-            <a 
-              href="https://amzn.to/4j1Pntw" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              Shop Scanners
-            </a>
-          </div>
-
-          {/* Supply 12 */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold text-notary-navy mb-4">
-              Dual Tray Laser Printer
-            </h2>
-            <p className="text-gray-700 mb-4">
-              The Notary Loan Signing Agent's best friend. With more efficient printing than inkjet printers, as 
-              well as the capability to print letter and legal size documents, a dual tray laser printer is an 
-              absolute essential for budding notary public businesses.
-            </p>
-            <p className="text-gray-700 mb-4">
-              Mark Willis, a prolific loan signing agent and founder of <a href="http://loansigningsystem.com/?afmc=x5">The Loan Signing System</a>, recommends the 
-              Brother HL-L5200DW laserjet printer as the best dual tray laser printer for a notary.
-            </p>
-            <a 
-              href="https://amzn.to/492MF2D" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-notary-navy text-white px-6 py-3 font-semibold hover:bg-opacity-90 transition"
-            >
-              View on Amazon
-            </a>
-          </div>
-
-          <div className="bg-notary-navy text-white p-6 my-8">
-            <p className="text-lg">
-              With these mobile notary supplies on hand, you should have no problems delivering A+ 
-              service to your clients.
-            </p>
-          </div>
         </div>
 
-        {/* Related Articles */}
+        <div className="space-y-16">
+          {sections.map((section) => (
+            <section key={section.id} id={section.id} className="scroll-mt-28">
+              <div className="mb-8 max-w-3xl">
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">{section.label}</p>
+                <h2 className="text-3xl font-bold text-notary-navy mb-4">{section.title}</h2>
+                <p className="text-lg text-gray-700">{section.description}</p>
+              </div>
+
+              <div className="grid gap-6 lg:grid-cols-3">
+                {section.picks.map((pick) => (
+                  <div key={pick.title} className="border-2 border-gray-200 bg-white p-6">
+                    <div className="mb-4 inline-block bg-notary-gold/15 px-3 py-1 text-sm font-semibold text-notary-navy">
+                      {pick.badge}
+                    </div>
+                    <h3 className="text-2xl font-bold text-notary-navy mb-3">{pick.title}</h3>
+                    <p className="text-gray-700 mb-4">{pick.why}</p>
+                    <ul className="mb-5 space-y-2 text-gray-700">
+                      {pick.bullets.map((bullet) => (
+                        <li key={bullet}>- {bullet}</li>
+                      ))}
+                    </ul>
+                    {pick.supportingLink ? (
+                      <p className="mb-4 text-sm">
+                        <Link href={pick.supportingLink.href} className="font-semibold text-notary-gold hover:underline">
+                          {pick.supportingLink.label}
+                        </Link>
+                      </p>
+                    ) : null}
+                    {pick.href ? (
+                      <a
+                        href={pick.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
+                      >
+                        {pick.cta}
+                      </a>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+
+        <section className="mt-16 border-t-2 border-gray-200 pt-12">
+          <div className="mb-8 max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">Complete Setup</p>
+            <h2 className="text-3xl font-bold text-notary-navy mb-4">Build your kit in stages</h2>
+            <p className="text-lg text-gray-700">
+              You do not need every upgrade on day one. Build the starter kit first, then add the higher-end gear
+              as your appointment volume and income justify it.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            {setupBundles.map((bundle) => (
+              <div key={bundle.title} className="border border-gray-200 bg-gray-50 p-6">
+                <h3 className="text-2xl font-bold text-notary-navy mb-4">{bundle.title}</h3>
+                <ul className="space-y-2 text-gray-700">
+                  {bundle.items.map((item) => (
+                    <li key={item}>- {item}</li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
           <h2 className="text-2xl font-bold text-notary-navy mb-6">Build the Rest of Your Setup</h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -358,17 +390,15 @@ export default function MobileNotarySupplies() {
           </div>
         </div>
 
-        {/* Disclaimer */}
         <div className="mt-12 p-4 bg-gray-100 text-sm text-gray-600">
           <p>
-            The Bearded Notary is a participant in the Amazon Services LLC Associates Program, an affiliate 
-            advertising program. Making a purchase through one of these links may earn us a small 
-            commission at no cost to you.
+            The Bearded Notary is a participant in the Amazon Services LLC Associates Program, an affiliate
+            advertising program. Making a purchase through one of these links may earn us a small commission at no
+            cost to you.
           </p>
         </div>
       </article>
 
-      {/* Footer */}
       <footer className="bg-notary-navy text-white py-8 mt-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-gray-400">
@@ -379,5 +409,3 @@ export default function MobileNotarySupplies() {
     </div>
   );
 }
-
-
