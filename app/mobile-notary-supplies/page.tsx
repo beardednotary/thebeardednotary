@@ -133,6 +133,48 @@ const bagOptions: OptionPick[] = [
   },
 ];
 
+const phoneMountOptions: OptionPick[] = [
+  {
+    label: 'Best Budget',
+    href: 'https://amzn.to/44zu4JI',
+    cta: 'View budget mount',
+    note: 'A simple lower-cost vent mount for notaries who want a cleaner hands-free setup without spending much.',
+  },
+  {
+    label: 'Best Overall',
+    href: 'https://www.amazon.com/dp/B0BRSTWMFD?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1GLFT3M573QCR&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.1GLFT3M573QCR_1784268810456',
+    cta: 'View best overall mount',
+    note: 'A stronger all-around option if you want flexibility across dashboard, windshield, or vent use while driving between appointments.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://www.amazon.com/dp/B0GY3D7X2W?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0GY3D7X2W_1784268673387',
+    cta: 'View premium mount',
+    note: 'A better fit if you want a sturdier build, stronger hold, and a more polished long-term setup.',
+  },
+];
+
+const scannerOptions: OptionPick[] = [
+  {
+    label: 'Best Budget',
+    href: 'https://amzn.to/4f3rdPe',
+    cta: 'View budget scanner',
+    note: 'A very portable backup-style scanner that works best if your scan-back volume is still light.',
+  },
+  {
+    label: 'Best Overall',
+    href: 'https://www.amazon.com/dp/B083R36CY4?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B083R36CY4_1784098041631',
+    cta: 'View best overall scanner',
+    note: 'A smart low-friction pick for newer notaries who want something slim, simple, and easy to keep in the bag.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://amzn.to/3TzOoYS',
+    cta: 'View premium scanner',
+    note: 'A stronger fit for notaries doing regular scan-backs who want more speed, portability, and flexibility in one tool.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -153,12 +195,12 @@ const sections: SupplySection[] = [
       {
         title: 'Self-Inking Notary Stamp',
         badge: 'Commission-ready',
-        href: 'https://www.amazon.com/dp/B0043GD4EG?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0043GD4EG_1784263285226',
-        cta: 'Order your stamp',
-        why: 'A clean, reliable state-compliant stamp saves time and helps you avoid sloppy impressions on important documents.',
+        href: 'https://notary.net/?ref=32597',
+        cta: 'Order from Notary.net',
+        why: 'A clean, reliable state-compliant stamp saves time and helps you avoid sloppy impressions on important documents, and a specialist supplier makes the ordering process easier.',
         bullets: [
           'One of the final pieces you need before taking live work.',
-          'Self-inking models are faster and easier for back-to-back appointments.',
+          'Specialist notary suppliers are often easier to work with than general marketplaces for state-specific stamp requirements.',
         ],
       },
       {
@@ -212,7 +254,7 @@ const sections: SupplySection[] = [
         ],
       },
       {
-        title: 'Cell Phone Mount',
+        title: 'Phone Mounts / Holders',
         badge: 'Best for safer travel',
         href: 'https://www.amazon.com/dp/B08DKHHTFX?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2BRFFZM9UBWG6&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2BRFFZM9UBWG6_1766101671297',
         cta: 'Shop phone mounts',
@@ -274,8 +316,6 @@ const sections: SupplySection[] = [
       {
         title: 'Portable Document Scanner',
         badge: 'Best for scan-backs',
-        href: 'https://amzn.to/4j1Pntw',
-        cta: 'Shop scanners',
         why: 'A good scanner gives you faster scan-backs, better backups, and more flexibility when handling lender packages.',
         bullets: [
           'Especially useful for loan signing agents handling time-sensitive documents.',
@@ -476,6 +516,40 @@ export default function MobileNotarySupplies() {
                     ) : pick.title === 'Notary Bag / Document Case' ? (
                       <div className="space-y-3">
                         {bagOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.title === 'Phone Mounts / Holders' ? (
+                      <div className="space-y-3">
+                        {phoneMountOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.title === 'Portable Document Scanner' ? (
+                      <div className="space-y-3">
+                        {scannerOptions.map((option) => (
                           <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
                             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
                             <p className="mb-3 text-sm text-gray-700">{option.note}</p>
