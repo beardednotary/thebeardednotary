@@ -15,6 +15,7 @@ type SupplyPick = {
   href?: string;
   cta?: string;
   supportingLink?: SupportingLink;
+  options?: OptionPick[];
 };
 
 type SupplySection = {
@@ -175,6 +176,27 @@ const scannerOptions: OptionPick[] = [
   },
 ];
 
+const printerOptions: OptionPick[] = [
+  {
+    label: 'Best Budget',
+    href: 'https://www.amazon.com/dp/B0CPL8JTLW?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0CPL8JTLW_1783024885486',
+    cta: 'View budget printer',
+    note: 'Brother HL-L2480DW. Best for part-time notaries and general notarizations when a reliable single-tray printer makes more sense than a bigger dual-tray investment.',
+  },
+  {
+    label: 'Best Overall',
+    href: 'https://amzn.to/48SFGdB',
+    cta: 'View best overall printer',
+    note: 'Brother HL-L5200DWT. The notary standard for mixed letter and legal packages, with dual trays, strong speed, and the reliability most signing agents actually care about.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://www.amazon.com/dp/B0CKWNDCN1?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0CKWNDCN1_1783024885490',
+    cta: 'View premium printer',
+    note: 'Brother HL-L6310DW. A better fit for very high-volume notaries, signing agencies, or anyone who wants enterprise-grade speed and security.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -191,6 +213,7 @@ const sections: SupplySection[] = [
           'Required in many states and strongly recommended in the rest.',
           'Helps you prove what was signed, when it was signed, and who appeared.',
         ],
+        options: journalOptions,
       },
       {
         title: 'Self-Inking Notary Stamp',
@@ -206,13 +229,12 @@ const sections: SupplySection[] = [
       {
         title: 'Inkless Thumbprint Pad',
         badge: 'Best for clean signings',
-        href: 'https://amzn.to/4j4Qvws',
-        cta: 'View thumbprint pad',
         why: 'Thumbprints can be required, and an inkless option keeps the process quick and less messy.',
         bullets: [
           'Helpful for states and document types where thumbprints matter.',
           'Cleaner experience for both you and the signer.',
         ],
+        options: thumbprintPadOptions,
       },
       {
         title: 'Blue and Black Ink Pens',
@@ -242,6 +264,7 @@ const sections: SupplySection[] = [
           'Many jurisdictions expect notaries to keep their journal secured when it is not in use.',
           'Look for locking storage, easy carrying, and enough structure to separate documents from gear.',
         ],
+        options: bagOptions,
       },
       {
         title: 'Stapler and Staple Remover',
@@ -252,17 +275,17 @@ const sections: SupplySection[] = [
           'Especially useful during loan signing appointments with thick packages.',
           'Keep extra staples on hand, and make sure you have a remover if your stapler kit does not include one.',
         ],
+        options: staplerOptions,
       },
       {
         title: 'Phone Mounts / Holders',
         badge: 'Best for safer travel',
-        href: 'https://www.amazon.com/dp/B08DKHHTFX?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2BRFFZM9UBWG6&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2BRFFZM9UBWG6_1766101671297',
-        cta: 'Shop phone mounts',
         why: "If you're driving from signer to signer, navigation visibility and safer hands-free use matter.",
         bullets: [
           'Makes directions easier to follow while keeping your hands free.',
           'A simple upgrade that reduces friction on appointment-heavy days.',
         ],
+        options: phoneMountOptions,
       },
     ],
   },
@@ -294,14 +317,12 @@ const sections: SupplySection[] = [
         ],
       },
       {
-        title: 'Tablet',
-        badge: 'Best for admin on the go',
-        href: 'https://amzn.to/4s5Z9PC',
-        cta: 'Shop tablets',
-        why: 'A tablet helps with email, payments, quick document access, and everyday business management while you are mobile.',
+        title: 'Tablet or Lightweight Admin Device',
+        badge: 'Optional convenience',
+        why: 'A tablet can be helpful for email, scheduling, invoicing, payments, and quick document review, but this is one category where personal workflow matters more than a hard recommendation.',
         bullets: [
-          'Pairs well with payment processing tools like Square.',
-          'Useful when you need a lightweight device instead of a full laptop.',
+          'Helpful if you want a bigger screen than your phone without carrying a full laptop.',
+          'Choose this based on your own habits and comfort level rather than chasing a specific product link.',
         ],
       },
     ],
@@ -325,32 +346,21 @@ const sections: SupplySection[] = [
           href: '/best-scanners-for-notaries',
           label: 'Read the best scanner guide',
         },
+        options: scannerOptions,
       },
       {
-        title: 'Dual Tray Laser Printer',
-        badge: 'Best overall upgrade',
-        href: 'https://amzn.to/492MF2D',
-        cta: 'View printer',
-        why: 'If you plan to do loan signings, this is one of the most important investments you can make.',
+        title: 'Loan Signing Printer',
+        badge: 'Highest-ROI upgrade',
+        why: 'If you plan to do loan signings, your printer is one of the most important purchases you will make. This is where speed, paper handling, and reliability start affecting income directly.',
         bullets: [
-          'Handles both letter and legal paper efficiently.',
-          'Faster and more practical than inkjet for consistent signing work.',
+          'Budget single-tray models can work early on, but dual-tray printers save serious time once mixed paper packages become normal.',
+          'The right printer pays you back in smoother workflows, fewer bottlenecks, and better readiness for signing work.',
         ],
         supportingLink: {
           href: '/best-printers-for-notaries',
           label: 'Read the best printer guide',
         },
-      },
-      {
-        title: 'Digital Camera',
-        badge: 'Best for extra service lines',
-        href: 'https://amzn.to/4969GBD',
-        cta: 'Shop cameras',
-        why: 'Not required for standard notary work, but useful if you add property inspection or field service work.',
-        bullets: [
-          'Can help you branch into other appointment-based income streams.',
-          'A good optional upgrade for notaries looking to diversify.',
-        ],
+        options: printerOptions,
       },
     ],
   },
@@ -367,7 +377,7 @@ const setupBundles: SetupBundle[] = [
   },
   {
     title: 'Loan Signing Agent Upgrade Setup',
-    items: ['Everything above', 'Dual tray laser printer', 'Extra paper and toner', 'Optional camera for adjacent service lines'],
+    items: ['Everything above', 'Loan-signing-ready printer', 'Extra paper and toner'],
   },
 ];
 
@@ -479,94 +489,9 @@ export default function MobileNotarySupplies() {
                         </Link>
                       </p>
                     ) : null}
-                    {pick.title === 'Notary Sequential Journal' ? (
+                    {pick.options ? (
                       <div className="space-y-3">
-                        {journalOptions.map((option) => (
-                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
-                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
-                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
-                            <a
-                              href={option.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
-                            >
-                              {option.cta}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    ) : pick.title === 'Inkless Thumbprint Pad' ? (
-                      <div className="space-y-3">
-                        {thumbprintPadOptions.map((option) => (
-                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
-                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
-                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
-                            <a
-                              href={option.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
-                            >
-                              {option.cta}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    ) : pick.title === 'Notary Bag / Document Case' ? (
-                      <div className="space-y-3">
-                        {bagOptions.map((option) => (
-                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
-                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
-                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
-                            <a
-                              href={option.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
-                            >
-                              {option.cta}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    ) : pick.title === 'Phone Mounts / Holders' ? (
-                      <div className="space-y-3">
-                        {phoneMountOptions.map((option) => (
-                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
-                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
-                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
-                            <a
-                              href={option.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
-                            >
-                              {option.cta}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    ) : pick.title === 'Portable Document Scanner' ? (
-                      <div className="space-y-3">
-                        {scannerOptions.map((option) => (
-                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
-                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
-                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
-                            <a
-                              href={option.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
-                            >
-                              {option.cta}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    ) : pick.title === 'Stapler and Staple Remover' ? (
-                      <div className="space-y-3">
-                        {staplerOptions.map((option) => (
+                        {pick.options.map((option) => (
                           <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
                             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
                             <p className="mb-3 text-sm text-gray-700">{option.note}</p>
