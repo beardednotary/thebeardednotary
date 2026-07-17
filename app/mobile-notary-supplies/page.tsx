@@ -70,6 +70,27 @@ const journalOptions: OptionPick[] = [
   },
 ];
 
+const thumbprintPadOptions: OptionPick[] = [
+  {
+    label: 'Best Overall',
+    href: 'https://www.amazon.com/dp/B00I2XJZG2?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B00I2XJZG2_1784263667931',
+    cta: 'View best overall pad',
+    note: 'A strong all-around pick for notaries who want a clean, easy thumbprint process without much guesswork.',
+  },
+  {
+    label: 'Best Budget',
+    href: 'https://www.amazon.com/dp/B0G66RD668?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0G66RD668_1784263667933',
+    cta: 'View budget pad',
+    note: 'A lower-cost option for newer notaries who want a simple thumbprint solution that gets the job done.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://www.amazon.com/dp/B0DBVNXC2B?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0DBVNXC2B_1784263667933',
+    cta: 'View premium pad',
+    note: 'A better fit if you want a more polished option and expect to use it regularly across a lot of signings.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -90,9 +111,9 @@ const sections: SupplySection[] = [
       {
         title: 'Self-Inking Notary Stamp',
         badge: 'Commission-ready',
-        href: 'https://amzn.to/4s3tjD9',
+        href: 'https://www.amazon.com/dp/B0043GD4EG?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0043GD4EG_1784263285226',
         cta: 'Order your stamp',
-        why: 'A clean, reliable stamp saves time and helps you avoid sloppy impressions on important documents.',
+        why: 'A clean, reliable state-compliant stamp saves time and helps you avoid sloppy impressions on important documents.',
         bullets: [
           'One of the final pieces you need before taking live work.',
           'Self-inking models are faster and easier for back-to-back appointments.',
@@ -107,6 +128,17 @@ const sections: SupplySection[] = [
         bullets: [
           'Helpful for states and document types where thumbprints matter.',
           'Cleaner experience for both you and the signer.',
+        ],
+      },
+      {
+        title: 'Blue and Black Ink Pens',
+        badge: 'Everyday essential',
+        href: 'https://amzn.to/4fG6wcg',
+        cta: 'View pen set',
+        why: 'Pens are easy to overlook until an appointment stalls because a signer needs a different ink color or your main pen stops cooperating.',
+        bullets: [
+          'Keep multiple blue and black pens in your bag at all times.',
+          'A reliable pen set is a tiny expense that prevents unnecessary friction during signings.',
         ],
       },
     ],
@@ -320,6 +352,25 @@ export default function MobileNotarySupplies() {
           </p>
         </div>
 
+        <div className="mb-12 grid gap-6 md:grid-cols-2">
+          <div className="border border-gray-200 bg-gray-50 p-6">
+            <h2 className="text-xl font-bold text-notary-navy mb-3">Loose certificates matter</h2>
+            <p className="text-gray-700">
+              Keep compliant loose certificates on hand, but buy them carefully. Wording can be state-specific, so
+              this is one category where it usually makes more sense to follow your state rules than to copy a
+              generic recommendation from someone else&apos;s supply list.
+            </p>
+          </div>
+          <div className="border border-gray-200 bg-gray-50 p-6">
+            <h2 className="text-xl font-bold text-notary-navy mb-3">Backup supplies save appointments</h2>
+            <p className="text-gray-700">
+              Even if you do not need a specific recommendation here, keep backup stamp ink, extra pens, and basic
+              refill-type supplies on hand. These are the small things that prevent a simple appointment from turning
+              into a reschedule.
+            </p>
+          </div>
+        </div>
+
         <div className="space-y-16">
           {sections.map((section) => (
             <section key={section.id} id={section.id} className="scroll-mt-28">
@@ -352,6 +403,23 @@ export default function MobileNotarySupplies() {
                     {pick.title === 'Notary Sequential Journal' ? (
                       <div className="space-y-3">
                         {journalOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.title === 'Inkless Thumbprint Pad' ? (
+                      <div className="space-y-3">
+                        {thumbprintPadOptions.map((option) => (
                           <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
                             <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
                             <p className="mb-3 text-sm text-gray-700">{option.note}</p>
