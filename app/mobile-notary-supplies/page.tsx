@@ -30,6 +30,13 @@ type SetupBundle = {
   items: string[];
 };
 
+type OptionPick = {
+  label: string;
+  href: string;
+  cta: string;
+  note: string;
+};
+
 export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
   description:
@@ -42,6 +49,27 @@ export const metadata: Metadata = {
   },
 };
 
+const journalOptions: OptionPick[] = [
+  {
+    label: 'Best Overall',
+    href: 'https://amzn.to/4yiwud8',
+    cta: 'View best overall journal',
+    note: 'A strong all-around pick for most notaries who want a dependable journal without overcomplicating the choice.',
+  },
+  {
+    label: 'Best Budget',
+    href: 'https://www.amazon.com/dp/B0GV879B11?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0GV879B11_1784262605213',
+    cta: 'View budget journal',
+    note: 'A lower-cost option for newer notaries who want to get started and stay compliant without overspending.',
+  },
+  {
+    label: 'Best Premium',
+    href: 'https://www.amazon.com/dp/B0C4JJ6VYS?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.1TA5O12IDPJSQ&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.1TA5O12IDPJSQ_1784184125395',
+    cta: 'View premium journal',
+    note: 'A better fit if you want a more polished journal setup and expect heavier long-term use.',
+  },
+];
+
 const sections: SupplySection[] = [
   {
     id: 'legal-essentials',
@@ -53,8 +81,6 @@ const sections: SupplySection[] = [
       {
         title: 'Notary Sequential Journal',
         badge: 'Must-have',
-        href: 'https://www.amazon.com/dp/B0C4JJ9VJ9?ref=t_ac_view_request_product_image&campaignId=amzn1.campaign.2AOTNV5XXKF0A&linkCode=tr1&tag=beardednotary-20&linkId=amzn1.campaign.2AOTNV5XXKF0A_1766101057220',
-        cta: 'View journal',
         why: 'This is the recordkeeping tool that protects you when questions come up later.',
         bullets: [
           'Required in many states and strongly recommended in the rest.',
@@ -323,7 +349,24 @@ export default function MobileNotarySupplies() {
                         </Link>
                       </p>
                     ) : null}
-                    {pick.href ? (
+                    {pick.title === 'Notary Sequential Journal' ? (
+                      <div className="space-y-3">
+                        {journalOptions.map((option) => (
+                          <div key={option.label} className="border border-gray-200 bg-gray-50 p-4">
+                            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-notary-gold">{option.label}</p>
+                            <p className="mb-3 text-sm text-gray-700">{option.note}</p>
+                            <a
+                              href={option.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-block bg-notary-navy px-4 py-2 text-sm font-semibold text-white transition hover:bg-opacity-90"
+                            >
+                              {option.cta}
+                            </a>
+                          </div>
+                        ))}
+                      </div>
+                    ) : pick.href ? (
                       <a
                         href={pick.href}
                         target="_blank"
