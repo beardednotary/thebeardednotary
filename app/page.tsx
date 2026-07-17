@@ -80,7 +80,7 @@ export default function Home() {
       title: "How to Become a Notary in California in Seven Easy Steps",
       slug: "how-to-become-a-notary-in-california",
       excerpt: "Complete guide to becoming a commissioned notary public in California, from education to filing your oath and bond.",
-      date: "May 18, 2020"
+      date: "Updated July 2026"
     }
   ];
 

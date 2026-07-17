@@ -16,12 +16,40 @@ export const metadata: Metadata = {
 };
 
 export default function HowToBecomeNotaryCalifornia() {
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'How to Become a Notary in California: Complete 2026 Guide',
+    description:
+      'Complete guide to becoming a California notary in 2026. Total cost: $400-600. Timeline: 6-8 weeks. Exam pass rate: 65%. Step-by-step process, study tips, and what happens after.',
+    datePublished: '2020-05-18',
+    dateModified: '2026-07-17',
+    author: {
+      '@type': 'Organization',
+      name: 'The Bearded Notary',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'The Bearded Notary',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://thebeardednotary.com/icon.png',
+      },
+    },
+    mainEntityOfPage: 'https://thebeardednotary.com/how-to-become-a-notary-in-california',
+    image: 'https://thebeardednotary.com/images/how-to-become-a-notary-california-infographic.png',
+  };
+
   return (
     <div className="min-h-screen bg-white">
-      <ArticleHeader title="How to Become a Notary in California: Complete 2026 Guide" />
+      <ArticleHeader title="How to Become a Notary in California: Complete 2026 Guide" eyebrow="Updated July 2026" />
 
       {/* Article */}
       <article className="max-w-4xl mx-auto px-4 py-12">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
         
         <div className="prose prose-lg max-w-none">
           
