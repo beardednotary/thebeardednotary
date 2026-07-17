@@ -65,7 +65,7 @@ export default function Home() {
       date: "Updated July 2026"
     },
     {
-      title: "7 Essential Books That Will Help You Make Money As A Notary",
+      title: "9 Essential Books That Will Help You Make Money As A Notary",
       slug: "essential-notary-books",
       excerpt: "A comprehensive library is essential for both seasoned and new notaries. These seven books will elevate your expertise and income.",
       date: "Updated 2025"
