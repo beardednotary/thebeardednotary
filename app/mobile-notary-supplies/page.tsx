@@ -322,7 +322,7 @@ const sections: SupplySection[] = [
         why: 'A tablet can be helpful for email, scheduling, invoicing, payments, and quick document review, but this is one category where personal workflow matters more than a hard recommendation.',
         bullets: [
           'Helpful if you want a bigger screen than your phone without carrying a full laptop.',
-          'Choose this based on your own habits and comfort level rather than chasing a specific product link.',
+          'The best choice here usually comes down to your preferred screen size, operating system, and how you like to work on the go.',
         ],
       },
     ],
