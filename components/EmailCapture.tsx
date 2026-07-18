@@ -2,20 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 import { FormEvent, useEffect, useState } from "react";
-
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
-
-const ATTRIBUTION_KEYS = {
-  landingPage: "bn_landing_page",
-  referrer: "bn_referrer",
-  utmSource: "bn_utm_source",
-  utmMedium: "bn_utm_medium",
-  utmCampaign: "bn_utm_campaign",
-};
+import { ATTRIBUTION_KEYS, type PendingSignupPayload } from "../lib/signupAttribution";
 
 type EmailCaptureProps = {
   className?: string;
@@ -116,7 +103,8 @@ export default function EmailCapture({
       setStatus("success");
       setMessage("Thanks. You're on the list.");
       setEmail("");
-      window.gtag?.("event", "sign_up", {
+
+      const pendingSignup: PendingSignupPayload = {
         method: "formspree",
         form_source: source,
         page_path: currentPath,
@@ -125,7 +113,12 @@ export default function EmailCapture({
         utm_source: utmSource,
         utm_medium: utmMedium,
         utm_campaign: utmCampaign,
-      });
+      };
+
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem(ATTRIBUTION_KEYS.pendingSignup, JSON.stringify(pendingSignup));
+      }
+
       router.push(successRedirect);
     } catch (error) {
       setStatus("error");

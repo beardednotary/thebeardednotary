@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ThankYouAnalytics from "../../components/ThankYouAnalytics";
 
 export const metadata: Metadata = {
   title: "Thank You | The Bearded Notary",
@@ -78,6 +79,7 @@ const nextSteps = [
 export default function ThankYouPage() {
   return (
     <main className="min-h-screen bg-notary-cream">
+      <ThankYouAnalytics />
       <section className="border-b-4 border-notary-gold bg-notary-navy text-white">
         <div className="mx-auto max-w-5xl px-4 py-16">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold">
