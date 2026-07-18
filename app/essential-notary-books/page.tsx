@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -151,6 +152,8 @@ export default function EssentialNotaryBooks() {
             </div>
           ))}
         </div>
+
+        <ArticleSignupCta source="essential-books-article" />
 
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
           <h2 className="text-2xl font-bold text-notary-navy mb-6">More from The Bearded Notary</h2>

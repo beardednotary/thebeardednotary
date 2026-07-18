@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -1266,6 +1267,8 @@ export default function NotaryFinancialGuide() {
               Smart money management isn't about being cheap. It's about being intentional. Track what you earn. Deduct what you're entitled to. Save for taxes. Invest in growth. That's how you build a sustainable notary business.
             </p>
           </div>
+
+          <ArticleSignupCta source="money-management-article" />
 
           {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">

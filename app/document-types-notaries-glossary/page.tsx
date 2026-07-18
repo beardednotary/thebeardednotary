@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -468,6 +469,8 @@ export default function DocumentTypesNotariesGlossary() {
               <li>• National Notary Association (NNA) for continuing education</li>
             </ul>
           </div>
+
+          <ArticleSignupCta source="document-types-article" />
 
           {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -259,6 +260,8 @@ export default function BestPortablePrintersForNotaries() {
               <strong>Best strategy:</strong> Use a dual-tray laser printer as your main office machine and a portable printer as a backup or mobile correction tool.
             </p>
           </div>
+
+          <ArticleSignupCta source="best-portable-printers-article" />
 
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
             <h3 className="text-2xl font-bold text-notary-navy mb-6">Related Printer Resources:</h3>

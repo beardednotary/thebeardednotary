@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -297,6 +298,8 @@ export default function PerfectTimeLoanSigningAgent() {
               Start Your Loan Signing Training Now
             </a>
           </div>
+
+          <ArticleSignupCta source="loan-signing-opportunity-article" />
 
           {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">

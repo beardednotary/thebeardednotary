@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -384,6 +385,8 @@ export default function FreeMarketingSitesNotaries() {
           <p className="text-gray-700 mb-8">
             The notaries who consistently maintain their online presence get 3-5x more inquiries than those who don't. It's worth 30 minutes per week.
           </p>
+
+          <ArticleSignupCta source="free-marketing-sites-article" />
 
           {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">

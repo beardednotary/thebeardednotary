@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -408,6 +409,8 @@ export default function NotaryBusinessResources() {
         </div>
 
         {/* Related Articles */}
+        <ArticleSignupCta source="resources-article" />
+
         <div className="mt-16 pt-8 border-t-2 border-gray-200">
           <h2 className="text-2xl font-bold text-notary-navy mb-6">More from The Bearded Notary</h2>
           <div className="space-y-3">
