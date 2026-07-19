@@ -83,6 +83,18 @@ export default function Home() {
       slug: "how-to-become-a-notary-in-california",
       excerpt: "Complete guide to becoming a commissioned notary public in California, from education to filing your oath and bond.",
       date: "Updated July 2026"
+    },
+    {
+      title: "How Much Does It Cost to Become a Notary in California in 2026?",
+      slug: "cost-to-become-a-notary-in-california",
+      excerpt: "Required fees, startup costs, optional extras, and realistic budget ranges for becoming a California notary.",
+      date: "Updated July 2026"
+    },
+    {
+      title: "How to Pass the California Notary Exam",
+      slug: "how-to-pass-california-notary-exam",
+      excerpt: "What to study, what to bring, common mistakes, and a practical plan for passing the California notary exam with less stress.",
+      date: "Updated July 2026"
     }
   ];
 

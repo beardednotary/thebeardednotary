@@ -22,6 +22,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/target-industries-for-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/document-types-notaries-glossary', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/how-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/cost-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-19') },
+    { path: '/how-to-pass-california-notary-exam', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-19') },
     { path: '/essential-notary-books', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
     { path: '/mobile-notary-supplies', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },

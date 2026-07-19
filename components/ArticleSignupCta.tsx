@@ -82,6 +82,16 @@ const copyBySource: Record<
     description: "If loan signings are part of the goal, get the action plan that helps you build the notary business underneath that opportunity.",
     buttonLabel: "Send my action plan",
   },
+  "ca-notary-cost-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Once you know the startup costs, get the step-by-step plan that helps you make those first dollars back faster.",
+    buttonLabel: "Send my action plan",
+  },
+  "ca-notary-exam-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Pass the exam, then use the action plan to turn that win into a real first-month game plan.",
+    buttonLabel: "Get the free plan",
+  },
 };
 
 export default function ArticleSignupCta({ source }: ArticleSignupCtaProps) {
