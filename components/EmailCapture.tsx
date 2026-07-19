@@ -68,6 +68,10 @@ export default function EmailCapture({
     const utmSource = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmSource) || "" : "";
     const utmMedium = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmMedium) || "" : "";
     const utmCampaign = typeof window !== "undefined" ? sessionStorage.getItem(ATTRIBUTION_KEYS.utmCampaign) || "" : "";
+    const debugMode =
+      typeof window !== "undefined" &&
+      (new URLSearchParams(window.location.search).get("debug_ga") === "1" ||
+        sessionStorage.getItem(ATTRIBUTION_KEYS.gaDebug) === "1");
 
     try {
       const response = await fetch(endpoint, {
@@ -113,9 +117,14 @@ export default function EmailCapture({
         utm_source: utmSource,
         utm_medium: utmMedium,
         utm_campaign: utmCampaign,
+        ...(debugMode ? { debug_mode: true } : {}),
       };
 
       if (typeof window !== "undefined") {
+        if (debugMode) {
+          sessionStorage.setItem(ATTRIBUTION_KEYS.gaDebug, "1");
+        }
+
         sessionStorage.setItem(ATTRIBUTION_KEYS.pendingSignup, JSON.stringify(pendingSignup));
       }
 

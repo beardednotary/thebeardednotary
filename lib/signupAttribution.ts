@@ -5,6 +5,7 @@ export const ATTRIBUTION_KEYS = {
   utmMedium: "bn_utm_medium",
   utmCampaign: "bn_utm_campaign",
   pendingSignup: "bn_pending_signup",
+  gaDebug: "bn_ga_debug",
 } as const;
 
 export type PendingSignupPayload = {
@@ -16,4 +17,5 @@ export type PendingSignupPayload = {
   utm_medium: string;
   utm_campaign: string;
   method: string;
+  debug_mode?: boolean;
 };
