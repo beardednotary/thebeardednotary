@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: number
     lastModified: Date
   }> = [
-    { path: '', changeFrequency: 'weekly', priority: 1, lastModified: new Date('2026-07-17') },
+    { path: '', changeFrequency: 'weekly', priority: 1, lastModified: new Date('2026-07-20') },
     { path: '/best-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-scanners-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/how-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/cost-to-become-a-notary-in-california', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-19') },
     { path: '/how-to-pass-california-notary-exam', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-19') },
+    { path: '/notary-public-vs-loan-signing-agent', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-20') },
     { path: '/essential-notary-books', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-15') },
     { path: '/mobile-notary-supplies', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },

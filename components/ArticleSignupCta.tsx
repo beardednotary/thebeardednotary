@@ -92,6 +92,11 @@ const copyBySource: Record<
     description: "Pass the exam, then use the action plan to turn that win into a real first-month game plan.",
     buttonLabel: "Get the free plan",
   },
+  "notary-vs-signing-agent-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Whether you stay general or move toward signings, get the first-month plan that helps you build a real business foundation.",
+    buttonLabel: "Send my action plan",
+  },
 };
 
 export default function ArticleSignupCta({ source }: ArticleSignupCtaProps) {

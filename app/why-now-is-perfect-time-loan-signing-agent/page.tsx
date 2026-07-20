@@ -3,330 +3,346 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
-import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent | The Bearded Notary',
-  description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+  title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent | The Bearded Notary',
+  description:
+    'A grounded look at why loan signing work can still make sense in 2026, who it fits best, what the tradeoffs are, and how to get started without overhyping it.',
+  alternates: {
+    canonical: '/why-now-is-perfect-time-loan-signing-agent',
+  },
   openGraph: {
-    title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
-    description: 'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+    title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent',
+    description:
+      'Who loan signing work fits, what the tradeoffs are, and how to get started without overhyping it.',
     images: ['/images/perfect-time-loan-signing-agent-featured.png'],
   },
 };
 
+const faqItems = [
+  {
+    question: 'Is 2026 still a good time to become a loan signing agent?',
+    answer:
+      'For the right person, yes. Loan signing work can still be a strong niche in 2026, especially for notaries who want higher-ticket appointments and are willing to handle printing, scan-backs, scheduling pressure, and relationship building.',
+  },
+  {
+    question: 'Do I need to be a notary before becoming a loan signing agent?',
+    answer:
+      'Yes. You must first become a commissioned notary public before you can work as a loan signing agent.',
+  },
+  {
+    question: 'Is loan signing work better than general notary work?',
+    answer:
+      'Not automatically. Loan signing work usually pays more per appointment, but it also demands more equipment, more precision, and a more operational workflow than general notary work.',
+  },
+  {
+    question: 'What equipment do new loan signing agents usually need?',
+    answer:
+      'Most serious signing agents need a dependable dual-tray printer, a reliable scanner, paper, toner, and a clean document-handling setup in addition to their normal notary supplies.',
+  },
+  {
+    question: 'Should I buy training before I have any notary experience?',
+    answer:
+      'It depends on your confidence and goals. Many people benefit from learning general notary work first, then adding specialized loan signing training once they know they want that path.',
+  },
+];
+
+const fitChecks = [
+  'You want higher-value appointments than standard general notarizations.',
+  'You are comfortable with deadlines, logistics, and detailed document handling.',
+  'You are willing to invest in a printer, scanner, and better workflow systems.',
+  'You like building repeat business relationships instead of relying only on one-off local calls.',
+];
+
+const cautionChecks = [
+  'You want a very low-cost or ultra-simple way to start.',
+  'You dislike printing, scanning, or package-heavy work.',
+  'You want immediate income without a learning curve or setup time.',
+  'You are still shaky on basic notarial procedures and need a simpler foundation first.',
+];
+
+const firstYearSteps = [
+  'Get commissioned and tighten your general notary fundamentals first.',
+  'Learn the economics of the business so you understand pricing, travel, and time costs.',
+  'Upgrade equipment only when you are confident you want to support signing work.',
+  'Choose structured training if you want help with loan packages, workflow, and hiring expectations.',
+  'Market consistently and treat the path like a business, not a one-week flip.',
+];
+
 export default function PerfectTimeLoanSigningAgent() {
   const articleSchema = buildArticleSchema({
-    title: 'Why 2026 is the Perfect Time to Become a Loan Signing Agent',
+    title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent',
     description:
-      'Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.',
+      'A grounded look at why loan signing work can still make sense in 2026, who it fits best, what the tradeoffs are, and how to get started without overhyping it.',
     path: '/why-now-is-perfect-time-loan-signing-agent',
     image: '/images/perfect-time-loan-signing-agent-featured.png',
-    dateModified: '2026-07-15',
+    dateModified: '2026-07-20',
   });
+
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Home', url: getAbsoluteUrl('/') },
-    { name: 'Why 2026 Is the Perfect Time to Become a Loan Signing Agent', url: getAbsoluteUrl('/why-now-is-perfect-time-loan-signing-agent') },
+    { name: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent', url: getAbsoluteUrl('/why-now-is-perfect-time-loan-signing-agent') },
   ]);
+
+  const faqSchema = buildFaqSchema(faqItems);
 
   return (
     <div className="min-h-screen bg-white">
-      <ArticleHeader title="Why 2026 is the Perfect Time to Become a Loan Signing Agent" />
+      <ArticleHeader title="Why 2026 Is Still a Good Time to Become a Loan Signing Agent" eyebrow="Updated July 2026" />
 
-      {/* Article Content */}
       <article className="max-w-4xl mx-auto px-4 py-12">
-        <JsonLd data={[articleSchema, breadcrumbSchema]} />
-        
-        {/* Featured Image */}
+        <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
+
         <div className="my-8">
-          <img 
+          <img
             src="/images/perfect-time-loan-signing-agent-featured.png"
-            alt="2026 is the Perfect Time to Become a Notary Loan Signing Agent"
+            alt="Why 2026 is still a good time to become a loan signing agent"
             className="w-full max-w-2xl mx-auto"
           />
         </div>
 
         <div className="prose prose-lg max-w-none">
-          
-          <p className="text-gray-700 mb-8">
-            While the housing boom of a few years ago saw a surge in notary loan signing agents, some might think that opportunity has passed. However, I'm here to dispel that myth! The current market dynamics heading into 2026 present a unique and potentially even more advantageous time to embark on this fulfilling career path.
+          <p className="text-xl text-gray-700 mb-8 font-semibold">
+            If you are wondering whether you already missed the loan-signing opportunity, the honest answer is no. But
+            this path works best for a specific kind of notary, and that is the part most hype-heavy articles skip.
           </p>
 
           <p className="text-gray-700 mb-8">
-            With expected interest rate adjustments and steady homebuying activity, the demand for qualified loan signing agents remains strong. This translates to greater access to high-quality signings and the potential for consistent income. Moreover, unlike the earlier frenzy, entering the field now grants you the benefit of a stabilized landscape, allowing you to build a sustainable practice without the pressure of a saturated market.
+            Loan signing work can still be attractive in 2026 because it usually pays better than standard general
+            notary appointments, rewards stronger systems, and gives growth-minded notaries a more specialized lane. At
+            the same time, it is not magic. It takes gear, accuracy, follow-through, and a willingness to run the work
+            like a real business.
           </p>
 
-          <p className="text-gray-700 mb-8">
-            Beyond the market conditions, becoming a loan signing agent offers an attractive blend of flexibility, financial stability, and personal fulfillment. You control your schedule, work from anywhere, and earn based on your own initiative. Add to that the privilege of guiding clients through a momentous milestone, and you have a recipe for a truly rewarding career.
-          </p>
+          <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
+            <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Take</h2>
+            <div className="space-y-3 text-gray-700">
+              <p><strong>Yes, it can still be a strong path in 2026.</strong></p>
+              <p><strong>No, it is not the right first move for everyone.</strong></p>
+              <p><strong>Best fit:</strong> notaries who want higher-ticket work and are ready for a more operational business.</p>
+            </div>
+          </div>
 
           <p className="text-gray-700 mb-8">
-            If you decide to move forward, the best follow-up pages are the{' '}
-            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
-              First 30 Days action plan
+            If you are not commissioned yet, start with the{' '}
+            <Link href="/how-to-become-a-notary-in-california" className="text-notary-gold hover:underline">
+              California notary guide
+            </Link>{' '}
+            or the{' '}
+            <Link href="/notary-public-vs-loan-signing-agent" className="text-notary-gold hover:underline">
+              notary public vs. loan signing agent comparison
+            </Link>
+            . This page is meant for people who are already thinking about specialization.
+          </p>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Why the Path Still Makes Sense</h2>
+
+          <p className="text-gray-700 mb-6">
+            The strongest argument for this niche is not a flashy macro forecast. It is that loan signings sit in a
+            different value tier than routine general notary work. When you can handle larger packages, manage the
+            appointment well, and avoid mistakes, you become more useful and more difficult to replace.
+          </p>
+
+          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
+            <p className="text-gray-800 font-semibold mb-3">
+              <strong>More specialization:</strong> the work is narrower and more skill-sensitive than general notary calls.
+            </p>
+            <p className="text-gray-800 font-semibold mb-3">
+              <strong>Higher equipment barrier:</strong> that can be annoying, but it also filters out many casual entrants.
+            </p>
+            <p className="text-gray-800 font-semibold">
+              <strong>Better revenue per appointment:</strong> not guaranteed, but often meaningfully better than standard mobile notarizations.
+            </p>
+          </div>
+
+          <p className="text-gray-700 mb-8">
+            In other words, this path can still work because it is not just about “being a notary.” It is about
+            becoming the person who can handle a higher-trust, higher-friction appointment smoothly.
+          </p>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Who This Path Fits Best</h2>
+
+          <div className="bg-white border-2 border-gray-300 p-6 rounded mb-8">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">Loan signing may be a strong fit if:</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              {fitChecks.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="bg-white border-2 border-gray-300 p-6 rounded mb-8">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">You may want to wait or start simpler if:</h3>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              {cautionChecks.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <p className="text-gray-700 mb-8">
+            That is one reason many people do better when they start by learning core notary work first. You can build
+            confidence, get local appointments, and understand your workflow before you pile on printers, scan-backs,
+            and package pressure.
+          </p>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">What Makes the Path Harder Than It Looks</h2>
+
+          <div className="space-y-6 mb-8">
+            <div className="bg-gray-50 p-6 rounded border-l-4 border-notary-gold">
+              <h3 className="text-2xl font-bold text-notary-navy mb-3">1. The equipment is real</h3>
+              <p className="text-gray-700">
+                Once you move beyond general notary work, good equipment stops being optional. A dependable{' '}
+                <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">
+                  dual-tray printer
+                </Link>{' '}
+                and a reliable{' '}
+                <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">
+                  scanner
+                </Link>{' '}
+                matter because sloppy document handling costs you time and credibility.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded border-l-4 border-notary-gold">
+              <h3 className="text-2xl font-bold text-notary-navy mb-3">2. The workflow is less forgiving</h3>
+              <p className="text-gray-700">
+                The income per appointment may be higher, but so is the cost of missed initials, shipping mistakes, or
+                poor document prep.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-6 rounded border-l-4 border-notary-gold">
+              <h3 className="text-2xl font-bold text-notary-navy mb-3">3. You still have to market yourself</h3>
+              <p className="text-gray-700">
+                Training alone does not create signings. You still need visibility, relationships, professionalism, and
+                a plan for getting in front of the right companies and referral sources.
+              </p>
+            </div>
+          </div>
+
+          <p className="text-gray-700 mb-8">
+            This is exactly why some pages convert poorly when they oversell the dream. Readers usually know there is
+            work involved. What builds trust is showing them the opportunity and the tradeoffs at the same time.
+          </p>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Where Training Fits In</h2>
+
+          <p className="text-gray-700 mb-6">
+            If you already know you want the signing-agent path, structured training can help shorten the learning
+            curve. It can be especially useful if you want help understanding package flow, signing expectations,
+            workflow discipline, and how the business side tends to operate.
+          </p>
+
+          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">One training option to research</h3>
+            <p className="text-gray-700 mb-4">
+              <a
+                href="http://loansigningsystem.com/?afmc=x5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-notary-gold hover:underline font-semibold"
+              >
+                Loan Signing System
+              </a>{' '}
+              is one of the better-known programs in the space. If you are comparing options, it is a reasonable place
+              to look if you want structured curriculum, community, and a training path built specifically around loan
+              signings.
+            </p>
+            <p className="text-gray-700 mb-4">
+              It is not the only route, and I would not treat any course as a substitute for actual execution. But for
+              readers who want more structure than piecing everything together alone, it can make the path feel much
+              clearer.
+            </p>
+            <a
+              href="http://loansigningsystem.com/?afmc=x5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
+            >
+              Check Out Loan Signing System
+            </a>
+          </div>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">A Smarter First-Year Path</h2>
+
+          <div className="bg-gray-50 p-6 mb-10 rounded">
+            <ol className="list-decimal pl-6 text-gray-700 space-y-3">
+              {firstYearSteps.map((step) => (
+                <li key={step}>{step}</li>
+              ))}
+            </ol>
+          </div>
+
+          <p className="text-gray-700 mb-8">
+            If you want the practical business side of this first, pair this with the{' '}
+            <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">
+              pricing guide
             </Link>
             , the{' '}
             <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">
               supplies checklist
             </Link>
             , and the{' '}
-            <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">
-              printer guide
+            <Link href="/first-30-days-new-notary" className="text-notary-gold hover:underline">
+              First 30 Days action plan
             </Link>
             .
           </p>
 
-          <p className="text-gray-700 mb-8">
-            So, the question isn't whether you missed the boat – it's whether you're ready to chart your own course in this dynamic and rewarding field. Let's dive into the specific reasons why now is the perfect time to become a loan signing agent and navigate the journey together.
-          </p>
-
-          {/* Section 1 */}
-          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">The Evolving Market – Your Path to Stability and Opportunity</h2>
-
-          <p className="text-gray-700 mb-6">
-            While the era of ultra-low rates may have passed, the housing market heading into 2026 presents a stable and promising landscape for loan signing agents.
-          </p>
-
-          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
-            <p className="text-gray-800 font-semibold mb-3">
-              <strong>Rate cuts expected:</strong> The Federal Reserve has signaled potential rate reductions in 2026, which historically triggers refinancing waves and increased home purchases.
-            </p>
-            <p className="text-gray-800 font-semibold">
-              <strong>Millennials and Gen Z driving demand:</strong> First-time homebuyers are entering the market in force, with millennials making up nearly 40% of home purchases and Gen Z beginning their homeownership journey.
-            </p>
-          </div>
-
-          <p className="text-gray-700 mb-6">
-            This translates to a reliable stream of high-quality signings – no more scrambling for appointments or competing in a hyper-saturated market. It's about building a sustainable practice with consistent income and long-term growth potential.
-          </p>
-
-          <p className="text-gray-700 mb-6">
-            The industry is no longer characterized by intense pressure and constant competition. The current market offers a favorable environment where you can:
-          </p>
-
-          <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-            <li><strong>Sharpen your skills:</strong> Take the time to master your craft and become a trusted advisor to your clients.</li>
-            <li><strong>Expand your network:</strong> Build valuable relationships with lenders, title companies, and other real estate professionals.</li>
-            <li><strong>Solidify your reputation:</strong> Earn a reputation for reliability, efficiency, and professionalism, setting yourself apart from the competition.</li>
-          </ul>
-
-          <p className="text-gray-700 mb-6">
-            Are you feeling like you missed out? Ditch that sentiment. This market is primed for success, with opportunities abound for those seeking a fulfilling career with solid earning potential.
-          </p>
-
-          <div className="bg-notary-navy text-white p-8 my-12 rounded">
-            <h3 className="text-2xl font-bold mb-4">And the Numbers Speak for Themselves:</h3>
-            <ul className="space-y-3 text-lg">
-              <li>• Loan signing agent positions are projected to grow by 11% over the next decade, significantly faster than the average for all occupations.</li>
-              <li>• The median annual wage for loan signing agents is $71,850, with the top 10% earning over $114,000.</li>
-              <li>• Most signing agents charge $75-$200 per appointment, with experienced agents completing 2-6 signings daily.</li>
-            </ul>
-          </div>
-
-          <p className="text-gray-700 mb-8">
-            So, if you're seeking a career that offers freedom, stability, and a strong earning potential, becoming a loan signing agent in this evolving market might be the perfect investment in your future.
-          </p>
-
-          {/* Section 2 */}
-          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">What Are the Advantages of Becoming a Loan Signing Agent?</h2>
-
-          <p className="text-gray-700 mb-8">
-            With the market's stable foundation set, let's dive into the concrete advantages of becoming a loan signing agent in 2026:
-          </p>
-
-          <div className="space-y-8 mb-12">
-            <div>
-              <h3 className="text-2xl font-bold text-notary-navy mb-3">1. Freedom and Flexibility</h3>
-              <p className="text-gray-700">
-                Ditch the rigid office cube for a schedule crafted by you. Work as little or as much as you wish, around life's other priorities. Travel to beautiful homes, soak up sunshine between appointments, and rediscover the joys of lunch breaks taken on your own terms. This isn't just a job – it's a life designed around you.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-notary-navy mb-3">2. Earning Potential with Stability</h3>
-              <p className="text-gray-700">
-                Forget the feast-or-famine days of the boom. Now, it's about building a predictable income stream through consistent signings. No chasing elusive leads or feeling the pressure of a saturated market. With dedication and hustle, you can easily hit the median annual wage of $71,850, with the top 10% exceeding $114,000 – all while being your own boss.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-notary-navy mb-3">3. Personal Fulfillment and Impact</h3>
-              <p className="text-gray-700">
-                Every signing isn't just paperwork – it's the culmination of someone's dream. You play a pivotal role in guiding them through this momentous occasion, witnessing the joy of homeownership firsthand. Imagine the satisfaction of knowing you've helped families secure their future, each closing becoming a mini-celebration of your shared success.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-notary-navy mb-3">4. Low Barrier to Entry</h3>
-              <p className="text-gray-700">
-                Don't let the "agent" title intimidate you. This career path doesn't require years of schooling or mountains of debt. With dedicated training and certification, you can be ready to work within weeks, not years. The investment is minimal compared to the potential rewards, making it an accessible career leap for many.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-notary-navy mb-3">5. Future-Proof Career</h3>
-              <p className="text-gray-700">
-                Forget fearing the next market shift. Loan signing agents are essential cogs in the real estate machine, needed no matter the interest rate climate. The projected 11% growth over the next decade speaks volumes about this career's resilience and continued demand. Invest in a future with staying power, not one at the mercy of the latest market trend.
-              </p>
-            </div>
-          </div>
-
-          <p className="text-gray-700 mb-8">
-            Becoming a loan signing agent isn't just about filling paperwork – it's about shaping your ideal life. Freedom, stable income, impactful moments, low barriers, and a bright future – it's a recipe for professional and personal success. Are you ready to grab your pen and write your own signing success story?
-          </p>
-
-          {/* Section 3 - Training */}
-          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Getting Started as a Loan Signing Agent: Your Launchpad to Success</h2>
-
-          <p className="text-gray-700 mb-6">
-            So, the market's singing your siren song, and you're ready to grab that pen and chart your own signing journey. But where do you start? Enter training and certification, your launchpad to this fulfilling career.
-          </p>
-
-          <p className="text-gray-700 mb-6">
-            Becoming a loan signing agent doesn't require years of academic grind. All you need is the right foundation of knowledge and practical skills, which you can easily build through reputable programs like <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>.
-          </p>
-
-          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
-            <h3 className="text-xl font-bold text-notary-navy mb-4">
-              Why <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Loan Signing System</a>?
-            </h3>
-            <p className="text-gray-700 mb-4">
-              This comprehensive program ticks all the boxes:
-            </p>
-            <ul className="space-y-3 text-gray-700">
-              <li><strong>Proven Track Record:</strong> Founded by Mark Wills, a seasoned notary and signing agent himself, Loan Signing System boasts a high success rate for its graduates, many of whom land lucrative signing gigs within months.</li>
-              <li><strong>Hands-On Learning:</strong> Forget dry textbooks. Loan Signing System utilizes interactive modules, real-world scenarios, and live Q&A sessions, ensuring you're prepared for any signing situation.</li>
-              <li><strong>Certification Advantage:</strong> As a Loan Signing System graduate, you earn a recognized certification, giving you a competitive edge when applying for signings and standing out to potential clients.</li>
-              <li><strong>Community and Support:</strong> You're not alone! Loan Signing System provides a thriving online community of fellow agents, offering ongoing mentorship, networking opportunities, and access to valuable resources.</li>
-            </ul>
-            <div className="mt-6">
-              <a 
-                href="http://loansigningsystem.com/?afmc=x5" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition"
-              >
-                Get Started with Loan Signing System
-              </a>
-            </div>
-          </div>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Beyond Training: Key Steps to Launch Your Career</h3>
-
-          <div className="space-y-6 mb-8">
-            <div>
-              <h4 className="text-xl font-bold text-notary-navy mb-2">1. State Notary Public Commission</h4>
-              <p className="text-gray-700">
-                Fulfill your state's requirements to become a notary public, the essential legal foundation for any loan signing agent. Check out our <Link href="/how-to-become-a-notary-in-california" className="text-notary-gold hover:underline">guide to becoming a notary in California</Link> or visit your state's Secretary of State website for requirements.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-notary-navy mb-2">2. Background Check and Bonding</h4>
-              <p className="text-gray-700">
-                Ensure your professional standing with a clean background check and secure a surety bond to protect your clients. Most states require this as part of the notary commissioning process.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-notary-navy mb-2">3. Get Your Supplies</h4>
-              <p className="text-gray-700">
-                Invest in professional equipment that will set you apart. Check our <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">complete mobile notary supplies checklist</Link> to ensure you have everything you need for loan signings.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-notary-navy mb-2">4. Marketing and Networking</h4>
-              <p className="text-gray-700">
-                Build your reputation! Reach out to lenders, title companies, and real estate agents to establish your presence and land those initial signings. Our <Link href="/notary-business-resources" className="text-notary-gold hover:underline">85+ business resources guide</Link> includes marketing sites where you can list your services for free.
-              </p>
-            </div>
-          </div>
-
-          <p className="text-gray-700 mb-8">
-            Becoming a loan signing agent is an exciting, empowering journey. With the right training, certification, and proactive approach, you can transform your aspirations into a thriving career. Remember, <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a> is one of many options – research, compare programs, and find the one that resonates with your learning style and career goals.
-          </p>
-
-          <p className="text-gray-700 mb-8">
-            So, dive into the resources, polish your skills, and prepare to step into the spotlight. The vibrant world of loan signings awaits, ready to reward your dedication with freedom, fulfillment, and a lucrative paycheck. Are you ready to write your own signing success story?
-          </p>
-
-          {/* Call to Action Section */}
-          <div className="bg-notary-gold text-notary-navy p-8 my-12 rounded">
-            <h2 className="text-3xl font-bold mb-4">The Time Is Right to Become a Loan Signing Agent Today</h2>
-            <p className="text-lg mb-4">
-              The rat race calling? Ditch it. The dream of freedom beckoning? Answer it. Becoming a loan signing agent is a life rewrite, not just a job.
-            </p>
-            <p className="text-lg mb-6">
-              <strong>Imagine:</strong>
-            </p>
-            <ul className="space-y-2 text-lg mb-6">
-              <li>• <strong>No more alarm clocks:</strong> Set your own schedule, work from home, soak up sunshine between signings.</li>
-              <li>• <strong>Stable income, fulfilling impact:</strong> Witness the joy of homeownership firsthand while earning $75-$200 per signing.</li>
-              <li>• <strong>Low barrier, quick launch:</strong> Training programs like Loan Signing System equip you within weeks, not years.</li>
-            </ul>
-          </div>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Ready to Swap Paperwork for Freedom? Here's Your Roadmap:</h3>
-
-          <ol className="list-decimal pl-6 space-y-4 text-gray-700 mb-8">
-            <li>
-              <strong>Get your Notary Public commission:</strong> Your legal foundation. Easy peasy. Visit your state's Secretary of State's website for the requirements of becoming a notary public in your area, or check our <Link href="/how-to-become-a-notary-in-california" className="text-notary-gold hover:underline">California notary guide</Link>.
-            </li>
-            <li>
-              <strong>Level up with <a href="http://loansigningsystem.com/?afmc=x5" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">Loan Signing System</a>:</strong> Learn the ropes from the pros, gain a recognized certification, and tap into a thriving community of fellow agents. Mark Wills' proven training has helped thousands of notaries build 6-figure businesses.
-            </li>
-            <li>
-              <strong>Get equipped:</strong> Invest in the <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">essential supplies</Link> that will make you look and feel professional from day one.
-            </li>
-            <li>
-              <strong>Market yourself:</strong> Network with lenders, title companies, and real estate agents. List your services on <Link href="/notary-business-resources" className="text-notary-gold hover:underline">free marketing sites</Link>. Your skills are in demand – spread the word!
-            </li>
-          </ol>
-
           <div className="bg-notary-navy text-white p-8 my-12 rounded text-center">
-            <h3 className="text-2xl font-bold mb-4">Don't Wait – Start Your Journey Today</h3>
-            <p className="text-lg mb-6">
-              The market's humming, the stage is set, and the pen waits for your hand. Stop dreaming, start signing. Stop feeling like you missed the boat and start building a career during the best time to become a loan signing agent.
+            <h3 className="text-2xl font-bold mb-4">The better question is not “is it perfect?”</h3>
+            <p className="text-lg mb-6 text-gray-200">
+              It is whether this is the right niche for the kind of business you want to build. If you want higher-value
+              work and you are willing to support it properly, 2026 is still a very workable time to move in that direction.
             </p>
-            <a 
-              href="http://loansigningsystem.com/?afmc=x5" 
-              target="_blank" 
+            <a
+              href="http://loansigningsystem.com/?afmc=x5"
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-notary-navy px-10 py-4 font-bold text-xl hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"
             >
-              Start Your Loan Signing Training Now
+              Explore Loan Signing Training
             </a>
+          </div>
+
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Frequently Asked Questions</h2>
+
+          <div className="space-y-6 mb-12">
+            {faqItems.map((faq) => (
+              <div key={faq.question} className="bg-gray-50 p-6 rounded">
+                <h3 className="text-xl font-bold text-notary-navy mb-3">{faq.question}</h3>
+                <p className="text-gray-700">{faq.answer}</p>
+              </div>
+            ))}
           </div>
 
           <ArticleSignupCta source="loan-signing-opportunity-article" />
 
-          {/* Related Resources */}
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
-            <h3 className="text-2xl font-bold text-notary-navy mb-6">Continue Your Journey:</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-6">Continue Your Journey</h3>
             <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/notary-public-vs-loan-signing-agent" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Notary Public vs. Loan Signing Agent</h4>
+                <p className="text-gray-600 text-sm">Compare the two paths side by side before you commit to specialization.</p>
+              </Link>
               <Link href="/how-to-become-a-notary-in-california" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">How to Become a Notary in California</h4>
-                <p className="text-gray-600 text-sm">Complete 7-step guide to getting your notary commission</p>
+                <p className="text-gray-600 text-sm">Start with the commission if you are still at the beginning.</p>
               </Link>
-              <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">9 Essential Notary Books</h4>
-                <p className="text-gray-600 text-sm">Must-read books for building a 6-figure notary business</p>
-              </Link>
-              <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h4>
-                <p className="text-gray-600 text-sm">12 essential items every loan signing agent needs</p>
+              <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h4>
+                <p className="text-gray-600 text-sm">See the gear most useful once you move into serious signing work.</p>
               </Link>
               <Link href="/notary-business-resources" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">85+ Notary Business Resources</h4>
-                <p className="text-gray-600 text-sm">Free marketing sites, training programs, and business tools</p>
+                <p className="text-gray-600 text-sm">Training, tools, directories, and business-building resources in one place.</p>
               </Link>
             </div>
           </div>
-
         </div>
       </article>
     </div>
   );
 }
-

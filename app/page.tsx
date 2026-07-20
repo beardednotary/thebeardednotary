@@ -95,6 +95,12 @@ export default function Home() {
       slug: "how-to-pass-california-notary-exam",
       excerpt: "What to study, what to bring, common mistakes, and a practical plan for passing the California notary exam with less stress.",
       date: "Updated July 2026"
+    },
+    {
+      title: "Notary Public vs. Loan Signing Agent: What Is the Difference?",
+      slug: "notary-public-vs-loan-signing-agent",
+      excerpt: "A practical comparison of duties, startup costs, equipment, and income potential so new notaries can choose the right path.",
+      date: "Updated July 2026"
     }
   ];
 
