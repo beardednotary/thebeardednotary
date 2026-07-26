@@ -425,6 +425,36 @@ export default function MobileNotarySupplies() {
           </p>
         </div>
 
+        <div className="mb-10 border-2 border-notary-gold bg-white p-8">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold">Best Choice Early Answer</p>
+          <h2 className="mb-4 text-3xl font-bold text-notary-navy">If you only buy the essential starter kit first, start with the legal-essentials core</h2>
+          <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr]">
+            <div>
+              <p className="text-gray-700 mb-4">
+                The smartest first setup for most new notaries is not “everything on the page.” It is the minimum kit that lets you work confidently:
+                journal, stamp, thumbprint pad, pens, a secure bag, and a phone workflow you can trust.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li>- Buy the legal essentials before the shiny extras</li>
+                <li>- Add organization and travel tools next</li>
+                <li>- Add scanner and dual-tray printer only when signing volume or goals justify them</li>
+              </ul>
+            </div>
+            <div className="border border-gray-200 bg-gray-50 p-5">
+              <p className="font-semibold text-notary-navy mb-2">Best first upgrade path</p>
+              <p className="text-sm text-gray-700 mb-3">Starter kit first, then scanner and printer only when loan signing work becomes real.</p>
+              <div className="space-y-2 text-sm">
+                <Link href="/best-printers-for-notaries" className="block font-semibold text-notary-gold hover:underline">
+                  See the best main printer pick
+                </Link>
+                <Link href="/best-scanners-for-notaries" className="block font-semibold text-notary-gold hover:underline">
+                  See the best scanner pick
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="my-8">
           <img
             src="/images/mobile-notary-supplies-featured.png"

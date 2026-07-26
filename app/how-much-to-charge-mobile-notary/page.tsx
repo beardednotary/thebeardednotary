@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
+import NotaryPricingCalculator from '../../components/NotaryPricingCalculator';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
@@ -169,6 +170,8 @@ export default function NotaryPricingGuide() {
     If your rates feel tight, your equipment and workflow may be the real issue.
   </p>
 </div>
+
+          <NotaryPricingCalculator />
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Understanding State Maximum Fees</h2>
 

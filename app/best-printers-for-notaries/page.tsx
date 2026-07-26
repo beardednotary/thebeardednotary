@@ -82,6 +82,51 @@ export default function BestPrintersForNotaries() {
             </div>
           </div>
 
+          <div className="border-2 border-notary-gold bg-white p-8 mb-8 rounded">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">Best Choice Early Answer</p>
+            <h2 className="text-3xl font-bold text-notary-navy mb-4">If you want the safest pick, buy the Brother HL-L5200DWT</h2>
+            <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr]">
+              <div>
+                <p className="text-gray-700 mb-4">
+                  For most working notaries and loan signing agents, this is the best balance of price, speed, dual-tray convenience,
+                  and long-term reliability. It is the one I would point most people to first unless they have a very specific reason
+                  to go cheaper, smaller, or higher-volume.
+                </p>
+                <ul className="space-y-2 text-gray-700">
+                  <li>- Best for mixed letter and legal loan packages</li>
+                  <li>- Best for notaries who want one strong main printer and do not want to overthink it</li>
+                  <li>- Best choice if you expect to do regular signings and want to protect your margins</li>
+                </ul>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-5">
+                <p className="font-semibold text-notary-navy mb-2">Buy this if:</p>
+                <p className="text-sm text-gray-700 mb-4">You do or expect to do at least a handful of loan signings each month and want the lowest-friction daily workflow.</p>
+                <a
+                  href="https://amzn.to/48SFGdB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
+                >
+                  Check current price
+                </a>
+              </div>
+            </div>
+            <div className="mt-6 grid gap-4 md:grid-cols-3 text-sm">
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Go cheaper</p>
+                <p className="text-gray-600">Choose a single-tray model only if you are still mostly doing general notarizations.</p>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Go bigger</p>
+                <p className="text-gray-600">Move up only if your monthly volume is high enough to justify the extra spend.</p>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Need portability</p>
+                <p className="text-gray-600">Use the portable printer guide if your main concern is emergency pages on the road.</p>
+              </div>
+            </div>
+          </div>
+
           {/* Featured Image */}
           <div className="my-8">
             <img 
@@ -177,6 +222,24 @@ export default function BestPrintersForNotaries() {
             <p className="text-gray-800 font-semibold">
               <strong>Bottom line:</strong> If you do more than 5 loan signings per month, laser printers pay for themselves within 6 months through speed and lower cost per page.
             </p>
+          </div>
+
+          <div className="bg-gray-50 border border-gray-200 p-6 mb-8 rounded">
+            <h3 className="text-xl font-bold text-notary-navy mb-3">The shortest version</h3>
+            <div className="grid gap-4 md:grid-cols-3 text-gray-700">
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">Most notaries</p>
+                <p>Buy the Brother HL-L5200DWT.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">Part-time / general work</p>
+                <p>Use a cheaper single-tray option until loan signings become consistent.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">High-volume operation</p>
+                <p>Upgrade to the HL-L6310DW class when your monthly output clearly justifies it.</p>
+              </div>
+            </div>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Dual-Tray vs Single-Tray: Do You Really Need Dual Trays?</h2>

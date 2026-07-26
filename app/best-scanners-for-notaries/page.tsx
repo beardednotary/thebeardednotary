@@ -83,6 +83,50 @@ export default function BestScannersForNotaries() {
             </div>
           </div>
 
+          <div className="border-2 border-notary-gold bg-white p-8 mb-8 rounded">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">Best Choice Early Answer</p>
+            <h2 className="text-3xl font-bold text-notary-navy mb-4">If you want the safest scanner pick, start with the Epson WorkForce ES-300W</h2>
+            <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr]">
+              <div>
+                <p className="text-gray-700 mb-4">
+                  It is the best overall fit for most notaries because it balances portability, duplex scanning, battery-friendly mobility,
+                  and a workflow that still feels serious enough for regular scan-backs.
+                </p>
+                <ul className="space-y-2 text-gray-700">
+                  <li>- Best for working notaries who want one scanner that can actually travel</li>
+                  <li>- Best for loan signing agents who need cleaner scan-back handling</li>
+                  <li>- Best first serious scanner if you are moving beyond occasional document work</li>
+                </ul>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-5">
+                <p className="font-semibold text-notary-navy mb-2">Buy this if:</p>
+                <p className="text-sm text-gray-700 mb-4">You want one scanner that can live in the car, the bag, or the home office without feeling like a compromise.</p>
+                <a
+                  href="https://amzn.to/3TzOoYS"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
+                >
+                  Check current price
+                </a>
+              </div>
+            </div>
+            <div className="mt-6 grid gap-4 md:grid-cols-3 text-sm">
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Go cheaper</p>
+                <p className="text-gray-600">Choose the Brother DS-640 if your scan-back volume is still light.</p>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Go smaller</p>
+                <p className="text-gray-600">Use the Epson ES-50 only if you mainly want a backup or emergency scanner.</p>
+              </div>
+              <div className="border border-gray-200 bg-gray-50 p-4">
+                <p className="font-semibold text-notary-navy mb-1">Go office-first</p>
+                <p className="text-gray-600">Upgrade to the ScanSnap iX1600 when portability matters less than desk workflow.</p>
+              </div>
+            </div>
+          </div>
+
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Why Notaries Need a Scanner</h2>
 
           <p className="text-gray-700 mb-6">
@@ -106,6 +150,24 @@ export default function BestScannersForNotaries() {
             <p className="text-gray-800 font-semibold">
               <strong>Bottom line:</strong> If you do 5 or more loan signings per month, a duplex scanner is a strong ROI purchase.
             </p>
+          </div>
+
+          <div className="bg-gray-50 border border-gray-200 p-6 mb-8 rounded">
+            <h3 className="text-xl font-bold text-notary-navy mb-3">The shortest version</h3>
+            <div className="grid gap-4 md:grid-cols-3 text-gray-700">
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">Most notaries</p>
+                <p>Buy the Epson ES-300W.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">Light volume</p>
+                <p>Start with the Brother DS-640 if cost matters more than speed and comfort.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-notary-navy mb-1">Desk-heavy workflow</p>
+                <p>Move to the ScanSnap iX1600 if your scan-backs mostly happen from a home office.</p>
+              </div>
+            </div>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Portable Scanner vs Desktop Scanner</h2>
