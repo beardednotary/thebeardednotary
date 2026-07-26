@@ -45,6 +45,9 @@ export const metadata: Metadata = {
   title: 'Mobile Notary Supplies Checklist | The Bearded Notary',
   description:
     "A practical buyer's guide to mobile notary supplies, from journals and stamps to scanners, tablets, and dual-tray printers.",
+  alternates: {
+    canonical: '/mobile-notary-supplies',
+  },
   openGraph: {
     title: 'Mobile Notary Supplies Checklist',
     description:

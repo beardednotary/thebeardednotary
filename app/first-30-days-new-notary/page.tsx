@@ -8,6 +8,9 @@ import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../..
 export const metadata: Metadata = {
   title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan (2026) | The Bearded Notary',
   description: 'Day-by-day action plan for new mobile notaries. What to do in your first month to get clients, build your business, and start earning $2,000+ monthly.',
+  alternates: {
+    canonical: '/first-30-days-new-notary',
+  },
   openGraph: {
     title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan',
     description: 'Week-by-week checklist for new notaries. Get clients, build systems, start earning.',

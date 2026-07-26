@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: '9 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
   description:
     'A practical 9-book library for mobile notaries and loan signing agents covering business building, marketing, loan documents, specialty work, and ID awareness.',
+  alternates: {
+    canonical: '/essential-notary-books',
+  },
   openGraph: {
     title: '9 Essential Books That Will Help You Make Money As A Notary',
     description:
