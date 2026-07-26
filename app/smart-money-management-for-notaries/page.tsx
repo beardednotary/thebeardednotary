@@ -439,7 +439,7 @@ export default function NotaryFinancialGuide() {
 
           <div className="text-center my-8">
             <a 
-              href="https://business.amazon.com&tag=beardednotary-20"
+              href="https://business.amazon.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition border-2 border-notary-gold"

@@ -408,7 +408,7 @@ export default function FreeMarketingSitesNotaries() {
                 <p className="text-gray-600 text-sm">Everything you need to look professional at signings</p>
               </Link>
               <Link href="/why-now-is-perfect-time-loan-signing-agent" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
-                <h4 className="font-bold text-notary-navy mb-2">Why 2025 is Perfect for Loan Signing Agents</h4>
+                <h4 className="font-bold text-notary-navy mb-2">Why 2026 Is Still a Good Time for Loan Signing Agents</h4>
                 <p className="text-gray-600 text-sm">Market analysis and how to get started</p>
               </Link>
             </div>

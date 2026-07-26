@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import AffiliateClickTracker from "../components/AffiliateClickTracker";
 import JsonLd from "../components/JsonLd";
 import { buildOrganizationSchema, buildWebsiteSchema } from "../lib/schema";
 import "./globals.css";
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-notary-cream">
+        <AffiliateClickTracker />
         <JsonLd data={structuredData} />
         {/* Google Analytics */}
         <Script

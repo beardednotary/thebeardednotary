@@ -5,6 +5,10 @@ import ThankYouAnalytics from "../../components/ThankYouAnalytics";
 export const metadata: Metadata = {
   title: "Thank You | The Bearded Notary",
   description: "Download your free First 30 Days Mobile Notary Action Plan and keep building your notary business.",
+  robots: {
+    index: false,
+    follow: false,
+  },
   alternates: {
     canonical: "/thank-you",
   },

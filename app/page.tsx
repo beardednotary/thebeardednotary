@@ -16,7 +16,7 @@ export default function Home() {
       title: "Your First 30 Days as a Mobile Notary: Complete Action Plan",
       slug: "first-30-days-new-notary",
       excerpt: "Day-by-day checklist for new notaries. Get your first clients, build systems, and start earning $500-1,500 in your first month.",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
       title: "10 Free Sites to Market Your Notary Business (2026)",
@@ -28,16 +28,16 @@ export default function Home() {
       title: "Target Industries for Notaries: Where to Find Your Best Clients",
       slug: "target-industries-for-notaries",
       excerpt: "Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
       title: "Common Documents Notaries Encounter: Complete Glossary",
       slug: "document-types-notaries-glossary",
       excerpt: "From affidavits to quit claim deeds - comprehensive guide to documents mobile notaries and loan signing agents will encounter.",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
-      title: "Best Printers for Notaries & Loan Signing Agents (2025)",
+      title: "Best Printers for Notaries & Loan Signing Agents (2026)",
       slug: "best-printers-for-notaries",
       excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
       date: "Updated July 2026"
@@ -58,7 +58,7 @@ export default function Home() {
       title: "Why 2026 is the Perfect Time to Become a Loan Signing Agent",
       slug: "why-now-is-perfect-time-loan-signing-agent",
       excerpt: "Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
-      date: "December 2025"
+      date: "Updated July 2026"
     },
     {
       title: "85+ Notary Business Resources",
@@ -286,7 +286,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <EmailCapture
             heading="Get New Notary Growth Tips and the Free First 30 Days Action Plan"
-            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more. You’ll also get the free First 30 Days Mobile Notary Action Plan right away."
+            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more. You'll also get the free First 30 Days Mobile Notary Action Plan right away."
             buttonLabel="Get the free action plan"
             source="homepage-cta"
           />

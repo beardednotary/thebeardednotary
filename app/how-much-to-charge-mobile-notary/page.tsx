@@ -6,10 +6,12 @@ import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'How Much Does a Mobile Notary Cost? Complete Pricing Guide 2026 | The Bearded Notary',
-  description: 'Mobile notary costs $50-100 per appointment (signatures + travel). State fees by state, loan signing rates ($100-200), what notaries actually earn. Complete 2026 pricing guide.',  openGraph: {
-    title: 'How Much Should You Charge as a Mobile Notary? (2026 Pricing Guide)',
-    description: 'State fee limits, travel charges, package pricing strategies. Learn what to charge for general notarizations vs loan signings.',
+  title: 'Mobile Notary Price List 2026: Travel Fees, Loan Signing Fees, and What to Charge | The Bearded Notary',
+  description:
+    'Mobile notary price list for 2026: general notarization fees, travel charges, loan signing rates, and real examples of what to charge without underpricing.',
+  openGraph: {
+    title: 'Mobile Notary Price List 2026: What to Charge',
+    description: 'State fee limits, travel charges, loan signing rates, and simple examples for setting mobile notary pricing.',
     images: ['/images/notary-pricing-guide-featured.png'],
   },
   alternates: {
@@ -92,6 +94,24 @@ export default function NotaryPricingGuide() {
             so your pricing matches the gear, travel, and workflow you are actually taking on.
           </p>
 
+          <div className="bg-notary-navy text-white p-6 mb-8 rounded">
+            <h2 className="text-2xl font-bold mb-3">Start Here if You Need a Mobile Notary Price List</h2>
+            <div className="grid gap-4 md:grid-cols-3 text-sm">
+              <div className="border border-white/15 p-4">
+                <p className="font-semibold text-notary-gold mb-2">General notarization</p>
+                <p className="text-gray-200">Usually your state maximum fee per signature, often plus a minimum trip fee if you travel.</p>
+              </div>
+              <div className="border border-white/15 p-4">
+                <p className="font-semibold text-notary-gold mb-2">Mobile appointment</p>
+                <p className="text-gray-200">Most local mobile appointments land around $50 to $100 total once travel is included.</p>
+              </div>
+              <div className="border border-white/15 p-4">
+                <p className="font-semibold text-notary-gold mb-2">Loan signing</p>
+                <p className="text-gray-200">A realistic signing range is usually $100 to $200 depending on distance, timing, and scan-backs.</p>
+              </div>
+            </div>
+          </div>
+
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Quick Pricing Overview</h3>
             <ul className="space-y-2 text-gray-800">
@@ -123,6 +143,32 @@ export default function NotaryPricingGuide() {
 <p className="text-gray-700 mb-6">
   The cost of notary services depends on three factors: your state's maximum fee per signature, whether the notary travels to you (mobile fee), and the complexity of service (general notarization vs loan signing). Let's break down exactly what you can expect to pay, or charge if you're a notary.
 </p>
+
+<div className="bg-gray-50 border-2 border-notary-gold/40 p-6 mb-10 rounded">
+  <h3 className="text-2xl font-bold text-notary-navy mb-4">What your price needs to cover</h3>
+  <div className="grid gap-4 md:grid-cols-2 text-gray-700">
+    <div>
+      <p className="font-semibold text-notary-navy mb-2">Visible costs</p>
+      <ul className="space-y-2">
+        <li>- Travel time, gas, tolls, parking, and vehicle wear</li>
+        <li>- Paper, toner, pens, journals, and loose certificates</li>
+        <li>- Scan-backs, printing, and after-hours availability</li>
+      </ul>
+    </div>
+    <div>
+      <p className="font-semibold text-notary-navy mb-2">Hidden costs</p>
+      <ul className="space-y-2">
+        <li>- The printer and scanner setup that serious signings require</li>
+        <li>- Time spent on scheduling, confirmations, and follow-up</li>
+        <li>- Taxes, insurance, and the dead time between appointments</li>
+      </ul>
+    </div>
+  </div>
+  <p className="text-gray-700 mt-4">
+    That is why this page works best as part of a full setup plan, not as a standalone number list.
+    If your rates feel tight, your equipment and workflow may be the real issue.
+  </p>
+</div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Understanding State Maximum Fees</h2>
 
@@ -1056,6 +1102,28 @@ export default function NotaryPricingGuide() {
 <p className="text-gray-700 mb-8">
   <strong>Bottom line:</strong> If you want to make serious money as a notary, get <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">loan signing certified</Link>. It's the difference between a side gig and a career.
 </p>
+
+          <div className="bg-white border-2 border-notary-gold p-8 my-12 rounded">
+            <h2 className="text-3xl font-bold text-notary-navy mb-4">Charge like a pro, then set up like one</h2>
+            <p className="text-gray-700 mb-6">
+              Better pricing only works when your setup can support it. The notaries who hold the line on fees usually
+              have a smoother printer, scanner, and supply workflow behind the scenes.
+            </p>
+            <div className="grid gap-4 md:grid-cols-3">
+              <Link href="/best-printers-for-notaries" className="block border border-gray-200 bg-gray-50 p-5 transition hover:border-notary-gold">
+                <h3 className="font-bold text-notary-navy mb-2">Best Printers for Notaries</h3>
+                <p className="text-sm text-gray-600">Protect margins by choosing a printer that saves time on every signing.</p>
+              </Link>
+              <Link href="/best-scanners-for-notaries" className="block border border-gray-200 bg-gray-50 p-5 transition hover:border-notary-gold">
+                <h3 className="font-bold text-notary-navy mb-2">Best Scanners for Notaries</h3>
+                <p className="text-sm text-gray-600">Scan-backs and cleaner document handling help justify stronger rates.</p>
+              </Link>
+              <Link href="/mobile-notary-supplies" className="block border border-gray-200 bg-gray-50 p-5 transition hover:border-notary-gold">
+                <h3 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies Checklist</h3>
+                <p className="text-sm text-gray-600">See the full setup that supports premium service instead of rushed appointments.</p>
+              </Link>
+            </div>
+          </div>
 
           {/* Final CTA */}
           <div className="bg-notary-navy text-white p-8 my-12 rounded text-center">
