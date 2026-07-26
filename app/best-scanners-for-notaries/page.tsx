@@ -107,7 +107,7 @@ export default function BestScannersForNotaries() {
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
                 >
-                  Check current price
+                  Check price on Amazon
                 </a>
               </div>
             </div>
@@ -124,6 +124,49 @@ export default function BestScannersForNotaries() {
                 <p className="font-semibold text-notary-navy mb-1">Go office-first</p>
                 <p className="text-gray-600">Upgrade to the ScanSnap iX1600 when portability matters less than desk workflow.</p>
               </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 border border-gray-200 p-6 mb-8 rounded">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">Fast Compare</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 text-sm">
+                <thead>
+                  <tr className="bg-notary-navy text-white">
+                    <th className="border border-gray-300 p-3 text-left">Best For</th>
+                    <th className="border border-gray-300 p-3 text-left">Pick</th>
+                    <th className="border border-gray-300 p-3 text-left">Budget</th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700">
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Most notaries</td>
+                    <td className="border border-gray-300 p-3">Epson ES-300W</td>
+                    <td className="border border-gray-300 p-3">~$250-$300</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">Cheapest starter pick</td>
+                    <td className="border border-gray-300 p-3">Brother DS-640</td>
+                    <td className="border border-gray-300 p-3">~$100-$130</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Tiny backup pick</td>
+                    <td className="border border-gray-300 p-3">Epson ES-50</td>
+                    <td className="border border-gray-300 p-3">~$100</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">Desk-heavy upgrade</td>
+                    <td className="border border-gray-300 p-3">ScanSnap iX1600</td>
+                    <td className="border border-gray-300 p-3">~$400-$500</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <a href="#brother-ds-640" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Budget</a>
+              <a href="#epson-es-300w" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Best Overall</a>
+              <a href="#epson-es-50" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Backup</a>
+              <a href="#scansnap-ix1600" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Office</a>
             </div>
           </div>
 
@@ -283,7 +326,7 @@ export default function BestScannersForNotaries() {
               className="inline-block mt-6 bg-notary-gold px-6 py-3 font-bold hover:bg-opacity-90 transition"
               style={{ color: '#1a2332' }}
             >
-              Check Current Price
+              Check price on Amazon
             </a>
           </div>
 

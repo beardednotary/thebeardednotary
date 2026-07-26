@@ -81,7 +81,7 @@ export default function BestPortablePrintersForNotaries() {
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
                 >
-                  Check current price
+                  Check price on Amazon
                 </a>
               </div>
             </div>
@@ -101,6 +101,49 @@ export default function BestPortablePrintersForNotaries() {
             </div>
           </div>
 
+          <div className="bg-gray-50 border border-gray-200 p-6 mb-8 rounded">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">Fast Compare</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 text-sm">
+                <thead>
+                  <tr className="bg-notary-navy text-white">
+                    <th className="border border-gray-300 p-3 text-left">Best For</th>
+                    <th className="border border-gray-300 p-3 text-left">Pick</th>
+                    <th className="border border-gray-300 p-3 text-left">Budget</th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700">
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Most notaries</td>
+                    <td className="border border-gray-300 p-3">HP OfficeJet 250</td>
+                    <td className="border border-gray-300 p-3">~$300</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">Lower-cost backup</td>
+                    <td className="border border-gray-300 p-3">Canon PIXMA TR160</td>
+                    <td className="border border-gray-300 p-3">~$200-$250</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Smaller carry option</td>
+                    <td className="border border-gray-300 p-3">Epson WF-110</td>
+                    <td className="border border-gray-300 p-3">~$250-$300</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">Specialty field use</td>
+                    <td className="border border-gray-300 p-3">Brother PocketJet PJ-883</td>
+                    <td className="border border-gray-300 p-3">~$500+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <a href="#canon-tr160" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Value</a>
+              <a href="#hp-officejet-250" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Best Overall</a>
+              <a href="#epson-wf-110" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Lightweight</a>
+              <a href="#pocketjet-pj-883" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Specialty</a>
+            </div>
+          </div>
+
           <p className="text-gray-700 mb-8">
             If you still need a primary loan-signing printer, start with our{' '}
             <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline font-semibold">
@@ -111,7 +154,7 @@ export default function BestPortablePrintersForNotaries() {
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Who Actually Needs a Portable Printer?</h2>
 
-          <div className="bg-gray-50 p-6 mb-8 rounded">
+          <div id="canon-tr160" className="bg-gray-50 p-6 mb-8 rounded scroll-mt-24">
             <ul className="space-y-2 text-gray-700">
               <li><strong>Loan signing agents</strong> who sometimes get last-minute corrected pages</li>
               <li><strong>Mobile notaries</strong> who want a true backup plan in the car</li>
@@ -186,7 +229,7 @@ export default function BestPortablePrintersForNotaries() {
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Best Portable Printer Picks</h2>
 
-          <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-10 rounded">
+          <div id="hp-officejet-250" className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-10 rounded scroll-mt-24">
             <div className="flex items-center mb-4">
               <span className="bg-notary-gold text-notary-navy px-3 py-1 rounded font-bold mr-3">BEST OVERALL</span>
               <h3 className="text-2xl font-bold">HP OfficeJet 250</h3>
@@ -211,11 +254,11 @@ export default function BestPortablePrintersForNotaries() {
               className="inline-block mt-6 bg-notary-gold px-6 py-3 font-bold hover:bg-opacity-90 transition"
               style={{ color: '#1a2332' }}
             >
-              Check Current Price
+              Check price on Amazon
             </a>
           </div>
 
-          <div className="bg-gray-50 p-6 mb-8 rounded">
+          <div id="epson-wf-110" className="bg-gray-50 p-6 mb-8 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-3">Canon PIXMA TR160</h3>
             <p className="text-gray-700 mb-4">
               A strong value pick if you want something compact and document-friendly without paying top-tier portable-printer pricing.
@@ -237,7 +280,7 @@ export default function BestPortablePrintersForNotaries() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 mb-8 rounded">
+          <div id="pocketjet-pj-883" className="bg-gray-50 p-6 mb-8 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-3">Epson WorkForce WF-110</h3>
             <p className="text-gray-700 mb-4">
               A lighter-weight mobile option that leans into portability first. Good if you care more about travel friendliness than extra all-in-one features.

@@ -107,7 +107,7 @@ export default function BestPrintersForNotaries() {
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy px-5 py-3 font-semibold text-white transition hover:bg-opacity-90"
                 >
-                  Check current price
+                  Check price on Amazon
                 </a>
               </div>
             </div>
@@ -124,6 +124,49 @@ export default function BestPrintersForNotaries() {
                 <p className="font-semibold text-notary-navy mb-1">Need portability</p>
                 <p className="text-gray-600">Use the portable printer guide if your main concern is emergency pages on the road.</p>
               </div>
+            </div>
+          </div>
+
+          <div className="bg-gray-50 border border-gray-200 p-6 mb-8 rounded">
+            <h3 className="text-xl font-bold text-notary-navy mb-4">Fast Compare</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse border border-gray-300 text-sm">
+                <thead>
+                  <tr className="bg-notary-navy text-white">
+                    <th className="border border-gray-300 p-3 text-left">Best For</th>
+                    <th className="border border-gray-300 p-3 text-left">Pick</th>
+                    <th className="border border-gray-300 p-3 text-left">Budget</th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700">
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Most notaries</td>
+                    <td className="border border-gray-300 p-3">Brother HL-L5200DWT</td>
+                    <td className="border border-gray-300 p-3">~$400</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">Cheaper starter pick</td>
+                    <td className="border border-gray-300 p-3">Brother HL-L2395DW</td>
+                    <td className="border border-gray-300 p-3">~$200</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="border border-gray-300 p-3">Portable backup</td>
+                    <td className="border border-gray-300 p-3">HP OfficeJet 250</td>
+                    <td className="border border-gray-300 p-3">~$300</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="border border-gray-300 p-3">High-volume upgrade</td>
+                    <td className="border border-gray-300 p-3">Brother HL-L6310DW</td>
+                    <td className="border border-gray-300 p-3">~$600</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-3 text-sm">
+              <a href="#budget-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Budget</a>
+              <a href="#hl-l5200dwt" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Best Overall</a>
+              <a href="#portable-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Portable</a>
+              <a href="#premium-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Premium</a>
             </div>
           </div>
 
@@ -354,7 +397,7 @@ export default function BestPrintersForNotaries() {
           </p>
 
           {/* Brother HL-L5200DWT */}
-          <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-12 rounded">
+          <div id="hl-l5200dwt" className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-12 rounded scroll-mt-24">
             <div className="flex items-center mb-4">
               <span className="bg-notary-gold text-notary-navy px-3 py-1 rounded font-bold mr-3">#1 PICK</span>
               <h3 className="text-2xl font-bold">Brother HL-L5200DWT - The Notary Standard</h3>
@@ -423,7 +466,7 @@ export default function BestPrintersForNotaries() {
               className="inline-block bg-notary-gold px-8 py-4 font-bold text-lg transition-opacity hover:opacity-90 rounded"
               style={{ color: '#1a2332' }}
             >
-              Check Current Price on Amazon
+              Check price on Amazon
             </a>
           </div>
 
@@ -432,7 +475,7 @@ export default function BestPrintersForNotaries() {
           </p>
 
           {/* Brother HL-L5210DWT */}
-          <div className="bg-gray-50 p-8 mb-12 rounded">
+            <div id="premium-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L5210DWT - Upgraded Dual-Tray Beast</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
@@ -482,7 +525,7 @@ export default function BestPrintersForNotaries() {
           </div>
 
           {/* Brother HL-L6310DW */}
-          <div className="bg-gray-50 p-8 mb-12 rounded">
+            <div id="budget-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L6310DW - Enterprise-Grade Speed Machine</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
@@ -523,7 +566,7 @@ export default function BestPrintersForNotaries() {
           </div>
 
           {/* Budget Option */}
-          <div className="bg-gray-50 p-8 mb-12 rounded">
+            <div id="portable-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L2480DW - Best Budget Single-Tray Option</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
