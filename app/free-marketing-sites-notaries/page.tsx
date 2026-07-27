@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -50,6 +51,7 @@ export default function FreeMarketingSitesNotaries() {
         </div>
 
         <div className="prose prose-lg max-w-none">
+          <AffiliateDisclosure className="mb-8" />
           
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             You've invested in your notary commission, gotten your <Link href="/mobile-notary-supplies" className="text-notary-gold hover:underline">supplies</Link>, and maybe even <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">completed loan signing training</Link>. Now it's time to get clients. These 10 free business listing sites will put you in front of people actively searching for notary services.

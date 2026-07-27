@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -41,6 +42,7 @@ export default function First30DaysNewNotary() {
         <JsonLd data={[articleSchema, breadcrumbSchema]} />
         
         <div className="prose prose-lg max-w-none">
+          <AffiliateDisclosure className="mb-8" />
           
           {/* Featured Image */}
           <div className="my-8">

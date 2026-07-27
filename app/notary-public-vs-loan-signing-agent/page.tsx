@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -107,6 +108,8 @@ export default function NotaryVsLoanSigningAgentPage() {
         <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
 
         <div className="prose prose-lg max-w-none">
+          <AffiliateDisclosure className="mb-8" />
+
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             The short version is simple: a loan signing agent is a notary public, but with a narrower and more
             specialized role. If you are trying to choose your path, the real question is not which one is better. It

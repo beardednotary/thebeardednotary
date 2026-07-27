@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -48,6 +49,8 @@ export default function TargetIndustriesNotaries() {
         </div>
 
         <div className="prose prose-lg max-w-none">
+          <AffiliateDisclosure className="mb-8" />
+
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             Not all notary clients reach out in the same way. Some industries need notaries regularly and can lead to repeat appointments, while others are more occasional. This guide focuses on places where mobile notaries are commonly needed.
           </p>

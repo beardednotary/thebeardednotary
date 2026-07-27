@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import NotaryPricingCalculator from '../../components/NotaryPricingCalculator';
@@ -65,6 +66,7 @@ export default function NotaryPricingGuide() {
         <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
         
         <div className="prose prose-lg max-w-none">
+          <AffiliateDisclosure className="mb-8" />
           
           {/* Featured Image */}
           <div className="my-8">
