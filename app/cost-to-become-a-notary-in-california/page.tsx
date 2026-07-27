@@ -355,7 +355,7 @@ export default function CaliforniaNotaryCostPage() {
               </Link>
               <Link href="/notary-business-resources" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">85+ Notary Business Resources</h4>
-                <p className="text-gray-600 text-sm">Explore tools, associations, directories, and business-building resources once you are ready.</p>
+                <p className="text-gray-600 text-sm">Explore tools, associations, directories, and practical resources once you are ready.</p>
               </Link>
             </div>
           </div>

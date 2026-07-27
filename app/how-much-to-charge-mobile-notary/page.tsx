@@ -512,7 +512,7 @@ export default function NotaryPricingGuide() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Mobile Notary Travel Fees</h2>
 
           <p className="text-gray-700 mb-6">
-            This is where mobile notaries actually make money, especially in low-fee states. Travel fees are charged ON TOP of your per-signature fees.
+            This is where mobile notaries cover their time, mileage, and inconvenience, especially in low-fee states. Travel fees are charged ON TOP of your per-signature fees.
           </p>
 
           <div className="bg-gray-50 p-6 mb-8 rounded">
@@ -604,19 +604,19 @@ export default function NotaryPricingGuide() {
           </div>
 
           <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded">
-            <h3 className="text-2xl font-bold mb-4">Want to Earn $100-200 Per Signing?</h3>
+            <h3 className="text-2xl font-bold mb-4">Thinking About Loan Signing Work?</h3>
             <p className="text-lg mb-4">
               Loan signing isn't something you can wing. Title companies expect precision, speed, and professionalism. One mistake can delay a closing and cost you repeat business.
             </p>
             <p className="text-lg mb-6">
-              <strong>Loan Signing System</strong> teaches you:
+              <strong>Loan Signing System</strong> teaches:
             </p>
             <ul className="space-y-2 mb-6">
               <li>- How to handle every document in a closing package</li>
               <li>- What title companies expect from signing agents</li>
               <li>- How to get on signing company rosters</li>
               <li>- Common mistakes and how to avoid them</li>
-              <li>- How to build a 6-figure loan signing business</li>
+              <li>- How to build a steadier loan signing workflow</li>
             </ul>
             <a 
               href="http://loansigningsystem.com/?afmc=x5"
@@ -624,7 +624,7 @@ export default function NotaryPricingGuide() {
               rel="noopener noreferrer"
               className="inline-block bg-white text-notary-navy px-8 py-4 font-bold text-lg hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"
             >
-              Get Certified with Loan Signing System
+              See Loan Signing System
             </a>
           </div>
 
@@ -760,7 +760,7 @@ export default function NotaryPricingGuide() {
           </div>
 
           <p className="text-gray-700 mb-8">
-            Package pricing removes the "nickel and dime" feeling for clients while giving you predictable revenue. Learn more about <Link href="/target-industries-for-notaries" className="text-notary-gold hover:underline">which industries to target</Link> for package deals.
+            Package pricing removes the "nickel and dime" feeling for clients while giving them a clearer total for the job. Learn more about <Link href="/target-industries-for-notaries" className="text-notary-gold hover:underline">which industries are often a good fit</Link> for package deals.
           </p>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">How to Justify Premium Pricing</h2>
@@ -800,7 +800,7 @@ export default function NotaryPricingGuide() {
                 <strong>Reviews:</strong> 50+ five-star Google reviews = instant credibility
               </li>
               <li>
-                <strong>Niche expertise:</strong> "I specialize in hospital signings" or "I only do loan signings" = expert positioning
+                <strong>Niche expertise:</strong> "I specialize in hospital signings" or "I only do loan signings" can make your services easier for clients to understand
               </li>
             </ol>
           </div>
@@ -982,7 +982,7 @@ export default function NotaryPricingGuide() {
       <p className="text-gray-700">
         <strong>Time commitment:</strong> 10-15 hours/week<br />
         <strong>Services:</strong> Mobile notarizations, some loan signings<br />
-        <strong>Reality:</strong> Solid side hustle, could replace part-time job
+        <strong>Reality:</strong> Solid part-time income, and in some markets it can replace a part-time job
       </p>
     </div>
 
@@ -1130,9 +1130,9 @@ export default function NotaryPricingGuide() {
 
           {/* Final CTA */}
           <div className="bg-notary-navy text-white p-8 my-12 rounded text-center">
-            <h3 className="text-2xl font-bold mb-4">Ready to Start Earning?</h3>
+            <h3 className="text-2xl font-bold mb-4">Next Step</h3>
             <p className="text-lg mb-6">
-              Now you know what to charge. Next step: Learn exactly what to do in your first 30 days as a mobile notary.
+              Now you know what to charge. Next step: see what to focus on during your first 30 days as a mobile notary.
             </p>
             <Link 
               href="/first-30-days-new-notary"
@@ -1212,21 +1212,21 @@ export default function NotaryPricingGuide() {
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">How much can a mobile notary make?</h3>
     <p className="text-gray-700">
-      Part-time mobile notaries earn $1,500-3,000/month. Full-time mobile notaries earn $3,000-6,000/month. Loan signing agents (full-time) can earn $6,000-12,000/month ($72K-144K annually). Income depends on volume, marketing, and whether you're loan signing certified.
+      Part-time mobile notaries often earn $1,500-3,000/month. Full-time mobile notaries often earn $3,000-6,000/month. Loan signing agents sometimes earn more, but results depend on volume, market conditions, training, and consistency.
     </p>
   </div>
 
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">Do notaries make good money?</h3>
     <p className="text-gray-700">
-      General notaries make modest supplemental income ($300-1,500/month part-time). Mobile notaries can make decent income ($2,000-6,000/month). Loan signing agents make excellent income ($6,000-12,000/month full-time). The key is specialization and professional marketing.
+      General notaries often make modest supplemental income. Mobile notaries can make steadier part-time or full-time income. Loan signing agents may earn more, but that depends on specialization, market conditions, and how consistently they book work.
     </p>
   </div>
 
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a notary make per signature?</h3>
     <p className="text-gray-700">
-      Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading because mobile notaries make money on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).
+      Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading because mobile notaries usually rely on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).
     </p>
   </div>
 
@@ -1268,14 +1268,14 @@ export default function NotaryPricingGuide() {
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">How much does a loan signing agent make per signing?</h3>
     <p className="text-gray-700">
-      Loan signing agents earn $100-200 per signing depending on complexity, distance, and timing. Standard refinances: $100-125. Rush signings: $150-200. Distant travel (30+ miles): $150-250. Scan-backs required: add $25-50. Average experienced agent: $135/signing.
+      Loan signing agents often earn $100-200 per signing depending on complexity, distance, and timing. Standard refinances may be closer to $100-125, while rush signings or longer travel can push the fee higher.
     </p>
   </div>
 
   <div className="bg-gray-50 p-6 rounded">
     <h3 className="text-xl font-bold text-notary-navy mb-3">Is being a notary worth it financially?</h3>
     <p className="text-gray-700">
-      As a side business: Yes ($1,500-3,000/month extra income). As a full-time mobile notary: Maybe ($3,000-6,000/month, livable but not lucrative). As a full-time loan signing agent: Absolutely ($6,000-12,000/month with growth potential). The key is getting certified for loan signings.
+      It can be, especially if you understand your costs, charge appropriately, and build repeat work. For some people it stays part-time income, while for others it grows into a fuller schedule over time.
     </p>
   </div>
 

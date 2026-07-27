@@ -1006,7 +1006,7 @@ export default function BestPrintersForNotaries() {
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded text-center">
-            <h3 className="text-2xl font-bold mb-4">Ready to Set Up Your Notary Business?</h3>
+            <h3 className="text-2xl font-bold mb-4">What to Read Next</h3>
             <p className="text-lg mb-6">
               A great printer is just the start. Check out our complete mobile notary supplies guide for everything else you need.
             </p>

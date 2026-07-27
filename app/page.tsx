@@ -15,19 +15,19 @@ export default function Home() {
     {
       title: "Your First 30 Days as a Mobile Notary: Complete Action Plan",
       slug: "first-30-days-new-notary",
-      excerpt: "Day-by-day checklist for new notaries. Get your first clients, build systems, and start earning $500-1,500 in your first month.",
+      excerpt: "Day-by-day checklist for new notaries. Set up your business basics, get listed, and start taking appointments in your first month.",
       date: "Updated July 2026"
     },
     {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
-      excerpt: "Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency and get more clients in 2026.",
+      excerpt: "List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your info consistent.",
       date: "Updated July 2026"
     },
     {
       title: "Target Industries for Notaries: Where to Find Your Best Clients",
       slug: "target-industries-for-notaries",
-      excerpt: "Discover the 15 most profitable industries for mobile notaries. Learn where to market your services for steady income and consistent signings.",
+      excerpt: "Discover 15 industries that regularly need mobile notary services, plus practical ways to reach the right contacts.",
       date: "Updated July 2026"
     },
     {
@@ -55,9 +55,9 @@ export default function Home() {
       date: "July 2026"
     },
     {
-      title: "Why 2026 is the Perfect Time to Become a Loan Signing Agent",
+      title: "Loan Signing Agent in 2026: Is It Still Worth It?",
       slug: "why-now-is-perfect-time-loan-signing-agent",
-      excerpt: "Despite market changes, 2026 presents unique opportunities for new loan signing agents. Learn why now is the ideal time to start this flexible, profitable career.",
+      excerpt: "Despite market changes, 2026 can still be a strong time to look at loan signing work if the training, equipment, and workflow fit your goals.",
       date: "Updated July 2026"
     },
     {
@@ -67,9 +67,9 @@ export default function Home() {
       date: "Updated July 2026"
     },
     {
-      title: "9 Essential Books That Will Help You Make Money As A Notary",
+      title: "Best Notary Books and Loan Signing Books (2026)",
       slug: "essential-notary-books",
-      excerpt: "A comprehensive library is essential for both seasoned and new notaries. These seven books will elevate your expertise and income.",
+      excerpt: "9 practical books for mobile notaries and loan signing agents, covering loan documents, specialty work, marketing, and ID checks.",
       date: "Updated July 2026"
     },
     {
@@ -108,19 +108,19 @@ export default function Home() {
     {
       title: "Best Printers for Notaries",
       slug: "best-printers-for-notaries",
-      description: "High-intent gear buyers looking for dual-tray laser printers and portable options.",
+      description: "If you are preparing for loan signings, start here to choose a printer that can handle mixed letter and legal packages without slowing you down.",
       label: "Equipment"
     },
     {
       title: "How Much Should You Charge as a Mobile Notary?",
       slug: "how-much-to-charge-mobile-notary",
-      description: "Commercial pricing traffic that can feed gear, tools, and training offers.",
+      description: "Use this guide to set fair rates for travel, signings, scan-backs, and after-hours work without second-guessing every quote.",
       label: "Pricing"
     },
     {
       title: "Mobile Notary Supplies Checklist",
       slug: "mobile-notary-supplies",
-      description: "A buyer-friendly checklist that supports affiliate clicks across the full setup.",
+      description: "Build your starter setup in the right order so you cover the essentials first and add bigger upgrades when the work justifies them.",
       label: "Operations"
     }
   ];
@@ -128,7 +128,7 @@ export default function Home() {
   const growthTracks = [
     {
       title: "Equipment Guides",
-      text: "Build trust with working notaries who need printers, scanners, toner, paper, bags, and backup gear.",
+      text: "Choose the gear that makes appointments smoother, scan-backs easier, and document handling more reliable.",
       links: [
         { href: "/best-printers-for-notaries", label: "Best Printers for Notaries" },
         { href: "/best-scanners-for-notaries", label: "Best Scanners for Notaries" },
@@ -137,7 +137,7 @@ export default function Home() {
     },
     {
       title: "Pricing and Profit",
-      text: "Capture commercial search intent around fees, travel charges, and profitable signing work.",
+      text: "Learn what to charge, what to track, and how to make sure the work is actually worth your time.",
       links: [
         { href: "/how-much-to-charge-mobile-notary", label: "Notary Pricing Guide" },
         { href: "/smart-money-management-for-notaries", label: "Smart Money Management for Notaries" }
@@ -145,7 +145,7 @@ export default function Home() {
     },
     {
       title: "Client Acquisition",
-      text: "Turn motivated new notaries into repeat readers with marketing and niche guidance.",
+      text: "Get found more easily, choose better target clients, and build momentum beyond friends-and-family referrals.",
       links: [
         { href: "/free-marketing-sites-notaries", label: "Free Marketing Sites for Notaries" },
         { href: "/target-industries-for-notaries", label: "Target Industries for Notaries" }
@@ -185,8 +185,8 @@ export default function Home() {
             Your Trusted Resource for Mobile Notaries &amp; Loan Signing Agents
           </h2>
           <p className="text-xl text-gray-700 mb-8 max-w-3xl">
-            Whether you&apos;re a newly-sworn notary public or a seasoned pro, these resources will help you build a profitable,
-            professional mobile notary business. From essential supplies to proven marketing strategies, we&apos;ve got you covered.
+            Whether you&apos;re newly commissioned or already taking appointments, these guides are here to help you price your work well,
+            stay organized, choose the right equipment, and build a notary business that actually works day to day.
           </p>
           <div className="flex flex-wrap gap-4">
             <a
@@ -214,10 +214,10 @@ export default function Home() {
               Best Starting Points
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-notary-navy mb-4">
-              The strongest paths for working notaries
+              Good places to begin
             </h2>
             <p className="text-lg text-gray-700">
-              These pages line up best with buyer intent: gear research, pricing decisions, and the tools needed to run a profitable mobile notary business.
+              If you are figuring out what to charge, what gear you really need, or what to buy first, these are the pages most people should start with.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -286,7 +286,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <EmailCapture
             heading="Get New Notary Growth Tips and the Free First 30 Days Action Plan"
-            description="Join the list for actionable guidance on pricing, equipment, marketing, and the systems that help mobile notaries earn more. You'll also get the free First 30 Days Mobile Notary Action Plan right away."
+            description="Join the list for practical guidance on pricing, equipment, marketing, and the systems that help mobile notaries stay organized. You'll also get the free First 30 Days Mobile Notary Action Plan right away."
             buttonLabel="Get the free action plan"
             source="homepage-cta"
           />
@@ -320,7 +320,7 @@ export default function Home() {
             (c) {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Helping notaries build profitable businesses since 2019
+            Helping notaries build steadier, better-run businesses since 2019
           </p>
           </div>
         </div>

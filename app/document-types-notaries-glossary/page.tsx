@@ -372,7 +372,7 @@ export default function DocumentTypesNotariesGlossary() {
             <div className="bg-gray-50 p-6 mb-4 rounded">
               <h4 className="text-xl font-bold text-notary-navy mb-2">Mortgage Closing Package</h4>
               <p className="text-gray-700 mb-3">
-                The most complex and highest-paying notary work. A typical loan signing includes 100-300 pages with multiple notarizations.
+                One of the most complex types of notary work. A typical loan signing includes 100-300 pages with multiple notarizations.
               </p>
               <div className="bg-white p-4 mt-3">
                 <p className="font-semibold text-notary-navy mb-2">Key documents in closing package:</p>
@@ -395,12 +395,12 @@ export default function DocumentTypesNotariesGlossary() {
 
           {/* Training CTA */}
           <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded">
-            <h3 className="text-2xl font-bold mb-4">Want to Master Loan Signing Documents?</h3>
+            <h3 className="text-2xl font-bold mb-4">Need More Help With Loan Signing Documents?</h3>
             <p className="text-lg mb-4">
-              Loan closings are the most profitable notary work ($75-200 per signing), but they're also the most complex. One mistake can delay a closing and cost you the client.
+              Loan closings often pay more than routine notarizations ($75-200 per signing), but they are also some of the most complex. One mistake can delay a closing and cost you the client.
             </p>
             <p className="text-lg mb-6">
-              <strong>Loan Signing System</strong> teaches you:
+              <strong>Loan Signing System</strong> covers:
             </p>
             <ul className="space-y-2 mb-6">
               <li>• Every document in a closing package (what it is, what to watch for)</li>
@@ -409,7 +409,7 @@ export default function DocumentTypesNotariesGlossary() {
               <li>• How to get hired by title companies</li>
             </ul>
             <p className="text-lg mb-6">
-              Don't risk your reputation with an error-filled signing. Get certified first.
+              If you want more guided practice before taking these appointments, structured training can help.
             </p>
             <a 
               href="http://loansigningsystem.com/?afmc=x5"
@@ -417,7 +417,7 @@ export default function DocumentTypesNotariesGlossary() {
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
-              Get Certified with Loan Signing System
+              See Loan Signing System
             </a>
           </div>
 
@@ -485,7 +485,7 @@ export default function DocumentTypesNotariesGlossary() {
               </Link>
               <Link href="/why-now-is-perfect-time-loan-signing-agent" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Become a Loan Signing Agent</h4>
-                <p className="text-gray-600 text-sm">Master the most profitable document type</p>
+                <p className="text-gray-600 text-sm">Get more comfortable with one of the most detailed document sets you may handle</p>
               </Link>
               <Link href="/mobile-notary-supplies" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Mobile Notary Supplies</h4>

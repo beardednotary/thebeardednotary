@@ -43,11 +43,11 @@ export default function NotaryFinancialGuide() {
         <div className="prose prose-lg max-w-none">
           
           <p className="text-xl text-gray-700 mb-8 font-semibold">
-            You're making money as a mobile notary - congratulations! But are you managing it like a business owner or winging it like a side hustle?
+            You're bringing in mobile notary income - now make sure the recordkeeping side stays just as organized.
           </p>
 
           <p className="text-gray-700 mb-8">
-            The difference between notaries who build sustainable income and those who struggle? Smart money management. Separate accounts, strategic credit cards, proper bookkeeping, and knowing every deduction you're entitled to. This guide covers everything you need to run your notary business like a profitable, professional operation.
+            Smart money management makes taxes easier, keeps expenses clearer, and helps you see what the work is actually costing you. Separate accounts, useful credit cards, clean bookkeeping, and good records all make the business side of notary work far easier to manage.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -198,7 +198,7 @@ export default function NotaryFinancialGuide() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Business Credit Cards for Mobile Notaries</h2>
 
           <p className="text-gray-700 mb-6">
-            Here's where smart notaries make money back on expenses they're already paying. The right business credit card earns 2-5% cash back on supplies, gas, and services.
+            Here's where notaries can save a little on expenses they're already paying. The right business credit card can earn cash back on supplies, gas, and services.
           </p>
 
           <div className="bg-notary-navy text-white p-6 mb-8 rounded">
@@ -1171,7 +1171,7 @@ export default function NotaryFinancialGuide() {
                 <li>• Taking home office deduction</li>
                 <li>• Have employees or contractors</li>
                 <li>• Want tax planning (not just tax filing)</li>
-                <li>• Want to minimize taxes legally</li>
+                <li>• Need to minimize taxes legally</li>
               </ul>
               <p className="mt-4 text-gray-700">
                 <strong>Cost:</strong> $400-600/year (basic), $800-1,500 (LLC/S-Corp)
@@ -1202,7 +1202,7 @@ export default function NotaryFinancialGuide() {
           </ol>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-            <h4 className="font-bold text-notary-navy mb-2">💡 The ROI Test</h4>
+            <h4 className="font-bold text-notary-navy mb-2">The Worth-It Test</h4>
             <p className="text-gray-700">
               Good CPA charges $500. They save you $800 in deductions you missed + give tax planning advice that saves $500 next year = Worth it.
             </p>

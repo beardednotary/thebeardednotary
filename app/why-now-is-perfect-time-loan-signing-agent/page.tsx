@@ -6,16 +6,16 @@ import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent | The Bearded Notary',
+  title: 'Loan Signing Agent in 2026: Is It Still Worth It? | The Bearded Notary',
   description:
-    'A grounded look at why loan signing work can still make sense in 2026, who it fits best, what the tradeoffs are, and how to get started without overhyping it.',
+    'Is it still worth becoming a loan signing agent in 2026? A grounded look at pay, equipment, tradeoffs, and who this path fits best.',
   alternates: {
     canonical: '/why-now-is-perfect-time-loan-signing-agent',
   },
   openGraph: {
-    title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent',
+    title: 'Loan Signing Agent in 2026: Is It Still Worth It?',
     description:
-      'Who loan signing work fits, what the tradeoffs are, and how to get started without overhyping it.',
+      'A grounded look at pay, equipment, tradeoffs, and who the loan signing path fits best.',
     images: ['/images/perfect-time-loan-signing-agent-featured.png'],
   },
 };
@@ -72,9 +72,9 @@ const firstYearSteps = [
 
 export default function PerfectTimeLoanSigningAgent() {
   const articleSchema = buildArticleSchema({
-    title: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent',
+    title: 'Loan Signing Agent in 2026: Is It Still Worth It?',
     description:
-      'A grounded look at why loan signing work can still make sense in 2026, who it fits best, what the tradeoffs are, and how to get started without overhyping it.',
+      'Is it still worth becoming a loan signing agent in 2026? A grounded look at pay, equipment, tradeoffs, and who this path fits best.',
     path: '/why-now-is-perfect-time-loan-signing-agent',
     image: '/images/perfect-time-loan-signing-agent-featured.png',
     dateModified: '2026-07-20',
@@ -82,14 +82,14 @@ export default function PerfectTimeLoanSigningAgent() {
 
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Home', url: getAbsoluteUrl('/') },
-    { name: 'Why 2026 Is Still a Good Time to Become a Loan Signing Agent', url: getAbsoluteUrl('/why-now-is-perfect-time-loan-signing-agent') },
+    { name: 'Loan Signing Agent in 2026: Is It Still Worth It?', url: getAbsoluteUrl('/why-now-is-perfect-time-loan-signing-agent') },
   ]);
 
   const faqSchema = buildFaqSchema(faqItems);
 
   return (
     <div className="min-h-screen bg-white">
-      <ArticleHeader title="Why 2026 Is Still a Good Time to Become a Loan Signing Agent" eyebrow="Updated July 2026" />
+      <ArticleHeader title="Loan Signing Agent in 2026: Is It Still Worth It?" eyebrow="Updated July 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
         <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
@@ -110,7 +110,7 @@ export default function PerfectTimeLoanSigningAgent() {
 
           <p className="text-gray-700 mb-8">
             Loan signing work can still be attractive in 2026 because it usually pays better than standard general
-            notary appointments, rewards stronger systems, and gives growth-minded notaries a more specialized lane. At
+            notary appointments, rewards stronger systems, and gives notaries a more specialized type of work. At
             the same time, it is not magic. It takes gear, accuracy, follow-through, and a willingness to run the work
             like a real business.
           </p>
@@ -120,7 +120,7 @@ export default function PerfectTimeLoanSigningAgent() {
             <div className="space-y-3 text-gray-700">
               <p><strong>Yes, it can still be a strong path in 2026.</strong></p>
               <p><strong>No, it is not the right first move for everyone.</strong></p>
-              <p><strong>Best fit:</strong> notaries who want higher-ticket work and are ready for a more operational business.</p>
+              <p><strong>Best fit:</strong> notaries who want higher-ticket work and are ready for a more structured workflow.</p>
             </div>
           </div>
 
@@ -140,7 +140,7 @@ export default function PerfectTimeLoanSigningAgent() {
 
           <p className="text-gray-700 mb-6">
             The strongest argument for this niche is not a flashy macro forecast. It is that loan signings sit in a
-            different value tier than routine general notary work. When you can handle larger packages, manage the
+            different service tier than routine general notary work. When you can handle larger packages, manage the
             appointment well, and avoid mistakes, you become more useful and more difficult to replace.
           </p>
 
@@ -149,7 +149,7 @@ export default function PerfectTimeLoanSigningAgent() {
               <strong>More specialization:</strong> the work is narrower and more skill-sensitive than general notary calls.
             </p>
             <p className="text-gray-800 font-semibold mb-3">
-              <strong>Higher equipment barrier:</strong> that can be annoying, but it also filters out many casual entrants.
+              <strong>Higher equipment barrier:</strong> that can be annoying, but it also means the work asks more of you up front.
             </p>
             <p className="text-gray-800 font-semibold">
               <strong>Better revenue per appointment:</strong> not guaranteed, but often meaningfully better than standard mobile notarizations.
@@ -223,7 +223,7 @@ export default function PerfectTimeLoanSigningAgent() {
           </div>
 
           <p className="text-gray-700 mb-8">
-            This is exactly why some pages convert poorly when they oversell the dream. Readers usually know there is
+            This is exactly why some pages miss the mark when they oversell the dream. Readers usually know there is
             work involved. What builds trust is showing them the opportunity and the tradeoffs at the same time.
           </p>
 
@@ -337,7 +337,7 @@ export default function PerfectTimeLoanSigningAgent() {
               </Link>
               <Link href="/notary-business-resources" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">85+ Notary Business Resources</h4>
-                <p className="text-gray-600 text-sm">Training, tools, directories, and business-building resources in one place.</p>
+                <p className="text-gray-600 text-sm">Training, tools, directories, and practical resources in one place.</p>
               </Link>
             </div>
           </div>

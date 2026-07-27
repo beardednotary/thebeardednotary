@@ -323,7 +323,7 @@ export default function CaliforniaNotaryExamPage() {
               </Link>
               <Link href="/essential-notary-books" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">9 Essential Notary Books</h4>
-                <p className="text-gray-600 text-sm">Go deeper on notary business-building, loan signings, and document familiarity.</p>
+                <p className="text-gray-600 text-sm">Go deeper on everyday notary work, loan signings, and document familiarity.</p>
               </Link>
               <Link href="/first-30-days-new-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Your First 30 Days as a Mobile Notary</h4>

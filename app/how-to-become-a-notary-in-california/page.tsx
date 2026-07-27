@@ -7,13 +7,13 @@ import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteU
 
 export const metadata: Metadata = {
   title: 'How to Become a Notary in California: Complete 2026 Guide (Cost, Timeline, Exam) | The Bearded Notary',
-  description: 'Complete guide to becoming a California notary in 2026. Total cost: $400-600. Timeline: 6-8 weeks. Exam pass rate: 65%. Step-by-step process, study tips, and what happens after.',
+  description: 'How to become a California notary in 2026: step-by-step process, cost, timeline, exam, oath and bond filing, and what to do after you are commissioned.',
   alternates: {
     canonical: '/how-to-become-a-notary-in-california', 
   },  
   openGraph: {
     title: 'How to Become a Notary in California: Complete 2026 Guide',
-    description: 'Cost breakdown, timeline, exam tips, and step-by-step process to become a California notary public.',
+    description: 'Step-by-step California notary guide with cost, timeline, exam tips, and what to do after you pass.',
     images: ['/images/how-to-become-a-notary-california-infographic.png'],
   },
 };
@@ -22,7 +22,7 @@ export default function HowToBecomeNotaryCalifornia() {
   const articleSchema = buildArticleSchema({
     title: 'How to Become a Notary in California: Complete 2026 Guide',
     description:
-      'Complete guide to becoming a California notary in 2026. Total cost: $400-600. Timeline: 6-8 weeks. Exam pass rate: 65%. Step-by-step process, study tips, and what happens after.',
+      'How to become a California notary in 2026: step-by-step process, cost, timeline, exam, oath and bond filing, and what to do after you are commissioned.',
     path: '/how-to-become-a-notary-in-california',
     image: '/images/how-to-become-a-notary-california-infographic.png',
     datePublished: '2020-05-18',
@@ -145,13 +145,13 @@ export default function HowToBecomeNotaryCalifornia() {
                 <strong>Unlimited travel fees</strong> - Mobile notaries add $25-75 per appointment
               </li>
               <li>
-                <strong>Flexible income</strong> - Part-time side hustle or full-time career
+                <strong>Flexible income</strong> - Part-time work or a full-time path, depending on your market
               </li>
             </ul>
           </div>
 
           <p className="text-gray-700 mb-8">
-            <strong>Income potential:</strong> Part-time mobile notaries earn $1,500-3,000/month. Full-time loan signing agents can earn $6,000-12,000/month. See our <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">complete pricing guide</Link>.
+            <strong>Income potential:</strong> Part-time mobile notaries often earn around $1,500-3,000/month, while loan signing work can pay more for notaries who want that niche. See our <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline">complete pricing guide</Link>.
           </p>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">California Notary Requirements</h2>
@@ -763,10 +763,10 @@ export default function HowToBecomeNotaryCalifornia() {
             <div className="bg-gray-50 p-6 rounded">
               <h3 className="text-xl font-bold text-notary-navy mb-3">3. Consider Loan Signing Certification</h3>
               <p className="text-gray-700 mb-3">
-                General notaries earn $15-50 per appointment. Loan signing agents earn $100-200 per signing. The training pays for itself in 2-3 signings.
+                General notaries often charge less per appointment than loan signing agents. If you are considering that niche, training can help you decide whether it fits.
               </p>
               <p className="text-gray-700">
-                Learn more: <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">Why 2026 is the Perfect Time to Become a Loan Signing Agent</Link>
+                Learn more: <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">Why 2026 Is Still a Good Time to Become a Loan Signing Agent</Link>
               </p>
             </div>
 
@@ -779,9 +779,9 @@ export default function HowToBecomeNotaryCalifornia() {
           </div>
 
 <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded text-center">
-  <h3 className="text-2xl font-bold mb-4">Ready to Build Your Notary Business?</h3>
+  <h3 className="text-2xl font-bold mb-4">Need a Practical Next Step?</h3>
   <p className="text-lg mb-6">
-    Follow our 30-day action plan for new notaries. Day-by-day checklist to go from "just commissioned" to "earning $1,000+ per month."
+    Follow our 30-day action plan for new notaries. It gives you a simple day-by-day checklist for getting organized and starting to take appointments.
   </p>
   <Link 
     href="/first-30-days-new-notary"
@@ -918,7 +918,7 @@ export default function HowToBecomeNotaryCalifornia() {
             <div className="bg-gray-50 p-6 rounded">
               <h3 className="text-xl font-bold text-notary-navy mb-3">How much can I make as a California notary?</h3>
               <p className="text-gray-700">
-                Part-time mobile notaries typically earn $1,500-3,000/month. Full-time mobile notaries can earn $3,000-6,000/month. Full-time loan signing agents (with specialized training) can earn $6,000-12,000/month. California allows $15 per signature (highest in the nation) plus unlimited travel fees.
+                Part-time mobile notaries in California often earn around $1,500-3,000/month. Full-time schedules may go higher, especially when travel fees and more specialized work are part of the mix.
               </p>
             </div>
 
@@ -982,9 +982,9 @@ export default function HowToBecomeNotaryCalifornia() {
 
           {/* Final CTA */}
           <div className="bg-notary-navy text-white p-8 my-12 rounded text-center">
-            <h3 className="text-2xl font-bold mb-4">Ready to Get Started?</h3>
+            <h3 className="text-2xl font-bold mb-4">Start With the Official Steps</h3>
             <p className="text-lg mb-6">
-              Now that you know the complete process, start with Step 1: Find an approved 6-hour course and get rolling!
+              Now that you know the complete process, start with Step 1: find an approved 6-hour course and begin the official process.
             </p>
             <a 
               href="https://www.sos.ca.gov/notary/education/" 

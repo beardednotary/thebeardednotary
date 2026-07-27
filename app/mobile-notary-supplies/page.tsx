@@ -309,7 +309,7 @@ const sections: SupplySection[] = [
         cta: 'Get business cards',
         why: 'For newer notaries especially, business cards are still one of the easiest ways to generate word-of-mouth business.',
         bullets: [
-          'Simple, clean cards usually convert better than overdesigned ones.',
+          'Simple, clean cards are usually easier to read and hand out than overdesigned ones.',
           'Useful for title offices, real estate contacts, and every signer you meet.',
         ],
       },
@@ -356,7 +356,7 @@ const sections: SupplySection[] = [
       },
       {
         title: 'Loan Signing Printer',
-        badge: 'Highest-ROI upgrade',
+        badge: 'High-impact upgrade',
         why: 'If you plan to do loan signings, your printer is one of the most important purchases you will make. This is where speed, paper handling, and reliability start affecting income directly.',
         bullets: [
           'Budget single-tray models can work early on, but dual-tray printers save serious time once mixed paper packages become normal.',
@@ -421,7 +421,7 @@ export default function MobileNotarySupplies() {
           <p className="text-xl text-gray-700">
             This page is meant to help you build a setup that actually supports the work. Instead of treating
             supplies like a random checklist, think of them in layers: legal essentials, mobile workflow tools,
-            business-building tools, and the upgrades that matter once loan signing work starts growing.
+            day-to-day business tools, and the upgrades that matter once loan signing work starts growing.
           </p>
         </div>
 

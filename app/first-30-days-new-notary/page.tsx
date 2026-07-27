@@ -6,23 +6,23 @@ import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan (2026) | The Bearded Notary',
-  description: 'Day-by-day action plan for new mobile notaries. What to do in your first month to get clients, build your business, and start earning $2,000+ monthly.',
+  title: 'New Notary Checklist: First 30 Days as a Mobile Notary (2026) | The Bearded Notary',
+  description: 'New notary checklist and 30-day action plan for mobile notaries. Set up your business, get listed, and start taking appointments in your first month.',
   alternates: {
     canonical: '/first-30-days-new-notary',
   },
   openGraph: {
-    title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan',
-    description: 'Week-by-week checklist for new notaries. Get clients, build systems, start earning.',
+    title: 'New Notary Checklist: First 30 Days as a Mobile Notary',
+    description: 'Week-by-week checklist for new notaries. Set up your business, get listed, and start taking appointments.',
     images: ['/images/first-30-days-notary-featured.png'],
   },
 };
 
 export default function First30DaysNewNotary() {
   const articleSchema = buildArticleSchema({
-    title: 'Your First 30 Days as a Mobile Notary: Complete Action Plan',
+    title: 'New Notary Checklist: First 30 Days as a Mobile Notary',
     description:
-      'Day-by-day action plan for new mobile notaries. What to do in your first month to get clients, build your business, and start earning $2,000+ monthly.',
+      'New notary checklist and 30-day action plan for mobile notaries. Set up your business, get listed, and start taking appointments in your first month.',
     path: '/first-30-days-new-notary',
     image: '/images/first-30-days-notary-featured.png',
     dateModified: '2026-07-15',
@@ -56,7 +56,7 @@ export default function First30DaysNewNotary() {
           </p>
 
           <p className="text-gray-700 mb-8">
-            This isn't theory - it's a practical, day-by-day action plan that takes you from "brand new notary" to "earning your first $1,000+" in 30 days. Follow this plan, check off each task, and you'll build a solid foundation for a profitable notary business in 2026.
+            This isn't theory - it's a practical, day-by-day action plan that takes you from "brand new notary" to "earning your first $1,000+" in 30 days. Follow this plan, check off each task, and you'll build a solid foundation for a working notary business in 2026.
           </p>
 
           <p className="text-gray-700 mb-8">
@@ -158,7 +158,7 @@ export default function First30DaysNewNotary() {
               <h4 className="font-bold text-notary-navy mb-2">Create Professional Contact Info:</h4>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>
-                  <strong>Business Email:</strong> yourname@gmail.com or get a custom domain ($12/year at Namecheap)
+                  <strong>Business Email:</strong> start with `yourname@gmail.com`, or use a custom domain from <a href="https://www.dpbolvw.net/click-101584161-12892698" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Namecheap</a> and connect it to <a href="https://workspace.google.com/landing/partners/referral/gws2/?utm_source=sign-up&utm_medium=referral&utm_campaign=apps-referral-program&utm_content=FEAGC6Z" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Google Workspace</a> for a more professional setup
                 </li>
                 <li>
                   <strong>Business Phone:</strong> Use your personal cell OR get a Google Voice number (free) for separation
@@ -284,7 +284,7 @@ export default function First30DaysNewNotary() {
                 <li>Local Chamber of Commerce</li>
               </ol>
               <p className="text-gray-700 mt-3">
-                <strong>Complete guide with NAP consistency tips:</strong> <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline font-semibold">10 Free Sites to Market Your Notary Business</Link>
+                <strong>Complete guide for keeping your business info matched across listings:</strong> <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline font-semibold">10 Free Sites to Market Your Notary Business</Link>
               </p>
             </div>
 
@@ -312,23 +312,23 @@ export default function First30DaysNewNotary() {
 
           {/* Days 11-13 */}
           <div className="bg-gray-50 p-6 mb-6 rounded border-l-4 border-notary-navy">
-            <h3 className="text-2xl font-bold text-notary-navy mb-4">Days 11-13: Get Loan Signing Training</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-4">Days 11-13: Look Into Loan Signing Training</h3>
             
             <p className="text-gray-700 mb-4">
-              General notarizations pay $15-50. Loan signings pay $75-200. The math is simple: if you want to make real money, learn loan signing.
+              General notarizations often pay less per appointment than loan signings. If you think you may want to handle mortgage closings later, this is a good time to start learning what that path involves.
             </p>
 
             <div className="bg-notary-navy text-white p-6 mb-4 rounded">
-              <h4 className="text-xl font-bold mb-3">Why Loan Signing System?</h4>
+              <h4 className="text-xl font-bold mb-3">Why People Use Loan Signing System</h4>
               <ul className="space-y-2">
-                <li>✓ <strong>Proven training:</strong> Founded by Mark Wills, former loan signing agent who built a 7-figure business</li>
+                <li>✓ <strong>Proven training:</strong> Founded by Mark Wills, a former loan signing agent with extensive experience in the field</li>
                 <li>✓ <strong>Industry recognition:</strong> Title companies know and trust LSS certification</li>
                 <li>✓ <strong>Complete curriculum:</strong> Every document explained, common mistakes covered, real-world scenarios</li>
                 <li>✓ <strong>Community access:</strong> Private Facebook group with 20,000+ signing agents</li>
                 <li>✓ <strong>Fast results:</strong> Graduates report landing their first signings within 2-4 weeks</li>
               </ul>
               <p className="mt-4 text-lg">
-                <strong>Investment:</strong> ~$200-300 (pays for itself with 2-3 signings)
+                <strong>Cost:</strong> About $200-300, depending on the version you choose
               </p>
               <div className="mt-6">
                 <a 
@@ -337,14 +337,14 @@ export default function First30DaysNewNotary() {
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-notary-navy px-8 py-4 font-bold text-lg hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"
                 >
-                  Get Certified with Loan Signing System
+                  See Loan Signing System
                 </a>
               </div>
             </div>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-4">
               <p className="text-gray-800">
-                <strong>Alternative:</strong> If you're not ready for loan signing yet, that's okay! Focus on general mobile notary work and add loan signing later. But if you want to earn $2,000+ monthly, certification is essential.
+                <strong>Alternative:</strong> If you're not ready for loan signing yet, that's okay. Focus on general mobile notary work first and add loan signing later if it still fits your goals.
               </p>
             </div>
 
@@ -636,7 +636,7 @@ export default function First30DaysNewNotary() {
             <div className="bg-white p-4 mb-4">
               <h4 className="font-bold text-notary-navy mb-2">Review Building Strategy:</h4>
               <p className="text-gray-700 mb-2">
-                <strong>Goal: 5 Google reviews by end of month.</strong> Reviews are social proof that converts browsers into clients.
+                <strong>Goal: 5 Google reviews by end of month.</strong> Reviews help new clients feel more comfortable choosing you.
               </p>
               <ul className="list-disc pl-6 space-y-1 text-gray-700">
                 <li>After EVERY signing, send review request within 24 hours</li>
@@ -803,12 +803,12 @@ export default function First30DaysNewNotary() {
 
           {/* Final CTA */}
           <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded">
-            <h3 className="text-2xl font-bold mb-4">Ready to Accelerate Your Success?</h3>
+            <h3 className="text-2xl font-bold mb-4">Loan Signing Path</h3>
             <p className="text-lg mb-6">
-              This 30-day plan works. But if you want to skip straight to the highest-paying work, get loan signing certified NOW.
+              This 30-day plan will help you get moving. If you already know you want to pursue loan signings, formal training can help you understand the documents, workflow, and expectations sooner.
             </p>
             <p className="text-lg mb-6">
-              <strong>Loan Signing System</strong> graduates report:
+              <strong>Loan Signing System</strong> focuses on:
             </p>
             <ul className="space-y-2 mb-6">
               <li>✓ First signing within 2-4 weeks of certification</li>
@@ -822,7 +822,7 @@ export default function First30DaysNewNotary() {
               rel="noopener noreferrer"
               className="inline-block bg-white text-notary-navy px-8 py-4 font-bold text-lg hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"
             >
-              Get Certified with Loan Signing System
+              See Loan Signing System
             </a>
           </div>
 

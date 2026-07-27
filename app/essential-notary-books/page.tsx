@@ -6,16 +6,16 @@ import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: '9 Essential Books That Will Help You Make Money As A Notary | The Bearded Notary',
+  title: 'Best Notary Books and Loan Signing Books (2026) | The Bearded Notary',
   description:
-    'A practical 9-book library for mobile notaries and loan signing agents covering business building, marketing, loan documents, specialty work, and ID awareness.',
+    '9 notary books for mobile notaries and loan signing agents, including books on loan documents, marketing, specialty services, and ID checks.',
   alternates: {
     canonical: '/essential-notary-books',
   },
   openGraph: {
-    title: '9 Essential Books That Will Help You Make Money As A Notary',
+    title: 'Best Notary Books and Loan Signing Books',
     description:
-      'A practical reading list for mobile notaries and loan signing agents who want stronger skills, better systems, and more income opportunities.',
+      'A practical reading list for mobile notaries and loan signing agents who want stronger document knowledge, better systems, and useful field references.',
     images: ['/images/essential-notary-books-featured.png'],
   },
 };
@@ -25,15 +25,15 @@ const books = [
     title: 'Sign and Thrive: How to Make Six Figures As a Mobile Notary and Loan Signing Agent',
     href: 'https://amzn.to/4pt6S9E',
     paragraphs: [
-      'Bill Soroka\'s Sign and Thrive is still one of the most practical books for notaries who want to treat this like a real business instead of a casual side hustle. It focuses on building income through mobile notary and loan signing work while also helping you think more strategically about marketing, client experience, and long-term growth.',
-      'What makes this one useful is that it speaks to the bigger picture. It does not just explain what the work is. It helps you think about how to build a six-figure operation with better habits, stronger positioning, and more confidence.',
+      'Bill Soroka\'s Sign and Thrive is still one of the most practical books for notaries who want a clearer picture of how mobile notary and loan signing work fits together day to day. It covers marketing, client experience, and the habits that make the work easier to manage over time.',
+      'What makes this one useful is that it looks beyond the commission itself. It does not just explain what the work is. It helps you think through routines, service standards, and the kind of structure that makes you feel more confident in the field.',
     ],
   },
   {
     title: 'The Best Kept Secret In The Real Estate Industry: How To Become A Successful Notary Loan Signing Agent',
     href: 'https://amzn.to/4f6j78x',
     paragraphs: [
-      'Mark Wills\' book remains one of the better entry points for people who are specifically interested in loan signing work. It frames the opportunity clearly, explains why the field can be lucrative, and gives newer notaries a simple path into a niche that often feels confusing from the outside.',
+      'Mark Wills\' book remains one of the better entry points for people who are specifically interested in loan signing work. It frames the opportunity clearly, explains what makes the niche different, and gives newer notaries a simple path into work that often feels confusing from the outside.',
       'If your goal is to understand the loan signing side of the business and decide whether it fits your income goals, this is still worth reading. It pairs especially well with hands-on training because it helps you understand the why behind the work.',
     ],
   },
@@ -49,7 +49,7 @@ const books = [
     title: 'Just Win! How To Be A Great Notary Public: A Business Guide For Mobile Notaries and Loan Signing Agents',
     href: 'https://amzn.to/4gZuuk3',
     paragraphs: [
-      'Rhonda DeYampert\'s Just Win! is a business-minded guide for notaries who want help turning a commission into something profitable and sustainable. It covers the mindset, resourcefulness, and practical foundation needed to grow beyond the basics.',
+      'Rhonda DeYampert\'s Just Win! is a practical guide for notaries who want help turning a commission into steady, organized work. It covers mindset, resourcefulness, and the basics you need once you are ready to move beyond the earliest setup stage.',
       'One of the strengths of this book is that it feels grounded in experience. It is written for notaries who want practical direction, not fluff, and it can help you tighten your systems early instead of learning every lesson the hard way.',
     ],
   },
@@ -58,15 +58,15 @@ const books = [
     href: 'https://amzn.to/4w8V7aR',
     paragraphs: [
       'This updated marketing-focused addition replaces the older Notary Marketing 2019 recommendation. The value here is obvious: many notaries know how to complete the work, but far fewer know how to consistently attract new clients and stand out in a crowded market.',
-      'Based on the synopsis, this book leans into scripts, networking, sales techniques, referrals, and positioning. That makes it especially useful for general notary work and for anyone who feels stuck waiting on platforms instead of building direct client demand.',
+      'Based on the synopsis, this book leans into scripts, networking, sales techniques, and referrals. That makes it especially useful for general notary work and for anyone who wants more direct outreach ideas instead of relying only on platforms.',
     ],
   },
   {
     title: 'Start Your Notary Public & Loan Signing Agent Business: The Insiders Guide to Starting a Six-Figure Notary Side Hustle',
     href: 'https://amzn.to/3QW2uTN',
     paragraphs: [
-      'This is a strong option for readers who want a broader business-startup perspective around notary and loan signing work. It focuses on building a side hustle that can scale, while also addressing common startup concerns like positioning, insurance, and mistakes to avoid.',
-      'If you are in the early stages and want a book that combines opportunity, setup, and business-building advice in one place, this is a solid pick for your shelf.',
+      'This is a strong option for readers who want a broader startup perspective around notary and loan signing work. It focuses on early setup, insurance, common mistakes, and what it takes to get moving without feeling lost.',
+      'If you are in the early stages and want a book that combines opportunity, setup, and practical guidance in one place, this is a solid pick for your shelf.',
     ],
   },
   {
@@ -81,7 +81,7 @@ const books = [
     title: 'Beyond Loan Signings: The Ultimate Guide to Monetizing Your Notary Commission with Specialty Work',
     href: 'https://amzn.to/4fdxcQg',
     paragraphs: [
-      'This is a smart addition because it pushes beyond the usual "become a signing agent" conversation. Beyond Loan Signings explores specialty work, alternative service lines, and adjacent revenue opportunities that can make a notary business more resilient and more profitable.',
+      'This is a smart addition because it pushes beyond the usual "become a signing agent" conversation. Beyond Loan Signings explores specialty work, alternative service lines, and adjacent services that can make your schedule more flexible and less dependent on one type of appointment.',
       'That matters because not every market behaves the same way, and not every notary wants to depend only on loan signings. If you want to diversify into areas like apostille work, fingerprinting, inspections, family law appointments, or other specialty niches, this book is highly relevant.',
     ],
   },
@@ -97,9 +97,9 @@ const books = [
 
 export default function EssentialNotaryBooks() {
   const collectionSchema = buildCollectionPageSchema({
-    title: '9 Essential Books That Will Help You Make Money As A Notary',
+    title: 'Best Notary Books and Loan Signing Books',
     description:
-      'A practical 9-book library for mobile notaries and loan signing agents covering business building, marketing, loan documents, specialty work, and ID awareness.',
+      '9 notary books for mobile notaries and loan signing agents, including books on loan documents, marketing, specialty services, and ID checks.',
     path: '/essential-notary-books',
     items: books.map((book) => ({ name: book.title, url: book.href })),
   });
@@ -115,7 +115,7 @@ export default function EssentialNotaryBooks() {
 
   return (
     <div className="min-h-screen bg-white">
-      <ArticleHeader title="9 Essential Books That Will Help You Make Money As A Notary" eyebrow="Updated July 2026" />
+      <ArticleHeader title="Best Notary Books and Loan Signing Books" eyebrow="Updated July 2026" />
 
       <article className="max-w-4xl mx-auto px-4 py-12">
         <JsonLd data={[collectionSchema, itemListSchema, breadcrumbSchema]} />

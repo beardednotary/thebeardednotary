@@ -191,7 +191,7 @@ export default function BestScannersForNotaries() {
 
           <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 mb-8">
             <p className="text-gray-800 font-semibold">
-              <strong>Bottom line:</strong> If you do 5 or more loan signings per month, a duplex scanner is a strong ROI purchase.
+              <strong>Bottom line:</strong> If you do 5 or more loan signings per month, a duplex scanner is usually worth adding.
             </p>
           </div>
 
@@ -456,7 +456,7 @@ export default function BestScannersForNotaries() {
               <h3 className="text-2xl font-bold text-notary-navy mb-3">What About the Epson ES-400 II Color?</h3>
               <p className="text-gray-700">
                 I would not make this a priority add right now. It is more of a lower-cost wired office option, but it does not
-                give you as clear a positioning jump as the ES-500W II or ES-580W.
+                give you as clear an upgrade as the ES-500W II or ES-580W.
               </p>
             </div>
           </div>
@@ -589,7 +589,7 @@ export default function BestScannersForNotaries() {
               </Link>
               <Link href="/smart-money-management-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Smart Money Management for Notaries</h4>
-                <p className="text-gray-600 text-sm">Track mileage, supplies, and scanner ROI like a real business</p>
+                <p className="text-gray-600 text-sm">Track mileage, supplies, and equipment costs so nothing gets messy later</p>
               </Link>
             </div>
           </div>
@@ -602,7 +602,7 @@ export default function BestScannersForNotaries() {
             (c) {new Date().getFullYear()} The Bearded Notary. Amazon Associates Participant.
           </p>
           <p className="text-sm text-gray-500 mt-2">
-            Helping notaries build profitable businesses since 2019
+            Helping notaries build steadier, better-run businesses since 2019
           </p>
         </div>
       </footer>

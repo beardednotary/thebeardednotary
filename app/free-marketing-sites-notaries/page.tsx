@@ -7,13 +7,13 @@ import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../..
 
 export const metadata: Metadata = {
   title: '10 Free Sites to Market Your Notary Business (2026 Guide) | The Bearded Notary',
-  description: 'Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency best practices and get more clients in 2026.',
+  description: 'List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your business info consistent.',
   alternates: {
     canonical: '/free-marketing-sites-notaries',
   },
   openGraph: {
     title: '10 Free Sites to Market Your Notary Business (2026)',
-    description: 'Free business listing sites every mobile notary should use to get more clients.',
+    description: 'Free business listing sites every mobile notary should use, plus profile setup tips that help clients find you.',
     images: ['/images/free-marketing-sites-notaries.png'],
   },
 };
@@ -22,7 +22,7 @@ export default function FreeMarketingSitesNotaries() {
   const articleSchema = buildArticleSchema({
     title: '10 Free Sites to Market Your Notary Business (2026)',
     description:
-      'Boost your mobile notary visibility with these 10 free business listing sites. Learn NAP consistency best practices and get more clients in 2026.',
+      'List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your business info consistent.',
     path: '/free-marketing-sites-notaries',
     image: '/images/free-marketing-sites-notaries.png',
     dateModified: '2026-07-15',
@@ -343,7 +343,7 @@ export default function FreeMarketingSitesNotaries() {
               <ul className="list-disc pl-6 space-y-1 text-gray-700">
                 <li>YellowPages, Superpages, CitySearch</li>
                 <li>NotaryRotary, 123Notary, NotaryCafe</li>
-                <li>Double-check NAP consistency across all sites</li>
+                <li>Double-check that your business name, address, and phone number match across all sites</li>
                 <li>Add photos to every listing</li>
               </ul>
             </div>
@@ -351,12 +351,12 @@ export default function FreeMarketingSitesNotaries() {
 
           {/* Training CTA */}
           <div className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-8 my-12 rounded">
-            <h3 className="text-2xl font-bold mb-4">Ready to Start Getting Signings?</h3>
+            <h3 className="text-2xl font-bold mb-4">Thinking About Loan Signing Work?</h3>
             <p className="text-lg mb-6">
-              Listings are just the first step. To truly succeed as a loan signing agent, you need proper training on how to handle closings, work with title companies, and provide exceptional service.
+              Listings are just the first step. If you want to move into loan signing work, it helps to understand how closings work, what title companies expect, and how to handle the documents cleanly.
             </p>
             <p className="text-lg mb-6">
-              <strong>Loan Signing System</strong> teaches you everything from finding your first signing to building a 6-figure business. Graduates report landing signings within weeks of certification.
+              <strong>Loan Signing System</strong> teaches you everything from finding your first signing to handling loan signing work with more confidence. Graduates report landing signings within weeks of certification.
             </p>
             <a 
               href="http://loansigningsystem.com/?afmc=x5"
@@ -364,7 +364,7 @@ export default function FreeMarketingSitesNotaries() {
               rel="noopener noreferrer"
               className="inline-block bg-notary-navy text-white px-8 py-4 font-bold text-lg hover:bg-opacity-90 transition shadow-lg"
             >
-              Get Certified with Loan Signing System
+              See Loan Signing System
             </a>
           </div>
 
@@ -372,7 +372,7 @@ export default function FreeMarketingSitesNotaries() {
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Maintaining Your Listings (Ongoing)</h2>
 
           <p className="text-gray-700 mb-6">
-            Don't "set it and forget it." Active listings rank higher and convert better:
+            Don't "set it and forget it." Active listings usually stay more accurate, visible, and useful:
           </p>
 
           <div className="bg-gray-50 p-6 mb-8">
