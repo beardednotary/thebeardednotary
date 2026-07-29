@@ -179,6 +179,13 @@ export default function First30DaysNewNotary() {
                 <li>Square or PayPal for credit cards (~3% fee)</li>
                 <li>Always accept cash (have change on hand)</li>
               </ul>
+              <p className="text-gray-700 mt-3">
+                If you want a simple setup to follow, use the{' '}
+                <Link href="/payment-methods-for-notaries" className="text-notary-gold hover:underline">
+                  payment methods for notaries guide
+                </Link>
+                .
+              </p>
             </div>
 
             <div className="bg-white p-4">

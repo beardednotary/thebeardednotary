@@ -122,6 +122,14 @@ export default function NotaryFinancialGuide() {
             </div>
           </div>
 
+          <p className="text-gray-700 mb-8">
+            If you are still deciding how clients should pay you, start with the{' '}
+            <Link href="/payment-methods-for-notaries" className="text-notary-gold hover:underline">
+              payment methods for notaries guide
+            </Link>{' '}
+            and then come back here to tighten up the recordkeeping side.
+          </p>
+
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Best Business Bank Accounts for Mobile Notaries</h2>
 
           <p className="text-gray-700 mb-6">

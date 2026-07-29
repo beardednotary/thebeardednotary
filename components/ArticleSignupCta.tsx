@@ -102,6 +102,11 @@ const copyBySource: Record<
     description: "Once your business email is set up, get the first-month plan that shows what to do next.",
     buttonLabel: "Send my action plan",
   },
+  "payment-methods-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Once your payment setup is ready, get the first-month plan that shows what to tackle next.",
+    buttonLabel: "Send my action plan",
+  },
 };
 
 export default function ArticleSignupCta({ source }: ArticleSignupCtaProps) {

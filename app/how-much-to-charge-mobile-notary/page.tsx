@@ -919,6 +919,14 @@ export default function NotaryPricingGuide() {
             <strong>Payment timing:</strong> For individuals, collect payment before leaving. For businesses, NET 15 or NET 30 terms are standard.
           </p>
 
+          <p className="text-gray-700 mb-8">
+            If you want help choosing which apps and payment types to offer, read the{' '}
+            <Link href="/payment-methods-for-notaries" className="text-notary-gold hover:underline">
+              payment methods for notaries guide
+            </Link>
+            .
+          </p>
+
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Tracking Your Income</h2>
 
           <p className="text-gray-700 mb-6">

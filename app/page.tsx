@@ -25,6 +25,12 @@ export default function Home() {
       date: "Updated July 2026"
     },
     {
+      title: "Best Payment Methods for Notaries (2026)",
+      slug: "payment-methods-for-notaries",
+      excerpt: "A practical guide to cash, Zelle, Venmo, card readers, checks, invoices, and when to collect payment from notary clients.",
+      date: "Updated July 2026"
+    },
+    {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your info consistent.",
