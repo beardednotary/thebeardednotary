@@ -775,6 +775,9 @@ export default function HowToBecomeNotaryCalifornia() {
               <p className="text-gray-700">
                 Start by offering to notarize documents for friends, family, coworkers (charge them - you need the practice and the reviews!). Ask them to leave you a Google review after.
               </p>
+              <p className="text-gray-700 mt-3">
+                Before you order cards or set up listings, make sure you have one business email you plan to keep. The <Link href="/business-email-for-notaries" className="text-notary-gold hover:underline">business email for notaries guide</Link> walks through that setup.
+              </p>
             </div>
           </div>
 

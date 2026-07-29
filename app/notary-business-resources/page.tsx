@@ -369,10 +369,10 @@ export default function NotaryBusinessResources() {
 
           <h3 className="text-xl font-semibold text-notary-navy mt-8 mb-3">Business Finance</h3>
           <div className="space-y-6 mb-8">
-            <div className="bg-gray-50 border-l-4 border-notary-gold p-6">
-              <h4 className="font-bold text-notary-navy mb-2">
-                <a href="https://squareup.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
-                  Square
+          <div className="bg-gray-50 border-l-4 border-notary-gold p-6">
+            <h4 className="font-bold text-notary-navy mb-2">
+              <a href="https://squareup.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
+                Square
                 </a>
               </h4>
               <p className="text-gray-700">
@@ -404,6 +404,18 @@ export default function NotaryBusinessResources() {
               Crowdfire is a social media management platform used by brands, businesses, agencies, and individuals 
               all over the world to help drive social media engagement and growth. Features range from content publishing 
               to content curation to customer service to engagement.
+            </p>
+          </div>
+
+          <h3 className="text-xl font-semibold text-notary-navy mt-8 mb-3">Business Email</h3>
+          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 mb-8">
+            <h4 className="font-bold text-notary-navy mb-2">
+              <Link href="/business-email-for-notaries" className="text-notary-gold hover:underline">
+                Business Email for Notaries
+              </Link>
+            </h4>
+            <p className="text-gray-700">
+              A simple guide to choosing a domain name, setting up a professional inbox, and using one consistent email across cards, listings, and client communication.
             </p>
           </div>
         </div>

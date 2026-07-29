@@ -19,6 +19,12 @@ export default function Home() {
       date: "Updated July 2026"
     },
     {
+      title: "Best Business Email for Notaries (2026)",
+      slug: "business-email-for-notaries",
+      excerpt: "How to set up a business email for your notary work, choose a domain, and decide when Google Workspace is worth it.",
+      date: "Updated July 2026"
+    },
+    {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your info consistent.",

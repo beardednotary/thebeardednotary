@@ -160,7 +160,7 @@ export default function First30DaysNewNotary() {
               <h4 className="font-bold text-notary-navy mb-2">Create Professional Contact Info:</h4>
               <ul className="list-disc pl-6 space-y-2 text-gray-700">
                 <li>
-                  <strong>Business Email:</strong> start with `yourname@gmail.com`, or use a custom domain from <a href="https://www.dpbolvw.net/click-101584161-12892698" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Namecheap</a> and connect it to <a href="https://workspace.google.com/landing/partners/referral/gws2/?utm_source=sign-up&utm_medium=referral&utm_campaign=apps-referral-program&utm_content=FEAGC6Z" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Google Workspace</a> for a more professional setup
+                  <strong>Business Email:</strong> start with `yourname@gmail.com`, or use a custom domain from <a href="https://www.dpbolvw.net/click-101584161-12892698" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Namecheap</a> and connect it to <a href="https://workspace.google.com/landing/partners/referral/gws2/?utm_source=sign-up&utm_medium=referral&utm_campaign=apps-referral-program&utm_content=FEAGC6Z" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">Google Workspace</a> for a more professional setup. If you want the simple version, use our <Link href="/business-email-for-notaries" className="text-notary-gold hover:underline">business email for notaries guide</Link>.
                 </li>
                 <li>
                   <strong>Business Phone:</strong> Use your personal cell OR get a Google Voice number (free) for separation

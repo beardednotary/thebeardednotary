@@ -83,6 +83,9 @@ export default function FreeMarketingSitesNotaries() {
             <p className="text-gray-800 mt-3">
               Google and search engines use NAP to verify your business legitimacy. Inconsistent information confuses them and hurts your local SEO rankings.
             </p>
+            <p className="text-gray-800 mt-3">
+              Use one business email everywhere too. If you are still setting that up, start with the <Link href="/business-email-for-notaries" className="text-notary-gold hover:underline">business email for notaries guide</Link>.
+            </p>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">The 10 Essential Free Listing Sites</h2>

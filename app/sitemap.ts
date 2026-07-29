@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-scanners-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },
     { path: '/how-much-to-charge-mobile-notary', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
+    { path: '/business-email-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-29') },
     { path: '/first-30-days-new-notary', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-17') },
     { path: '/smart-money-management-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-07-17') },
     { path: '/free-marketing-sites-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
