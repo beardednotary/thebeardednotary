@@ -193,7 +193,7 @@ const printerOptions: OptionPick[] = [
     label: 'Best Overall',
     href: 'https://amzn.to/48SFGdB',
     cta: 'View best overall printer',
-    note: 'Brother HL-L5200DWT. The notary standard for mixed letter and legal packages, with dual trays, strong speed, and the reliability most signing agents actually care about.',
+    note: 'Brother HL-L5210DWT. The notary standard for mixed letter and legal packages, with dual trays, strong speed, and the reliability most signing agents actually care about.',
   },
   {
     label: 'Best Premium',

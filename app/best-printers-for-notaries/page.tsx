@@ -35,7 +35,7 @@ export default function BestPrintersForNotaries() {
     {
       question: 'What is the best printer for a notary signing agent?',
       answer:
-        "The Brother HL-L5200DWT is one of the strongest choices for loan signing agents because it has dual trays for automatic letter and legal switching, strong speed, and a reputation for reliability.",
+        "The Brother HL-L5210DWT is one of the strongest choices for loan signing agents because it has dual trays for automatic letter and legal switching, strong speed, and a reputation for reliability.",
     },
     {
       question: 'Do I need a laser printer for notary work?',
@@ -74,17 +74,17 @@ export default function BestPrintersForNotaries() {
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer: Best Printers for Notaries</h2>
             <div className="space-y-3 text-gray-700">
-              <p><strong>Best Overall:</strong> Brother HL-L5200DWT (~$400) - Proven dual-tray workhorse</p>
-              <p><strong>Best Budget:</strong> Brother HL-L2395DW (~$200) - Single tray, manual paper switching</p>
+              <p><strong>Best Overall:</strong> Brother HL-L5210DWT (~$480) - Proven dual-tray workhorse</p>
+              <p><strong>Best Budget:</strong> Brother HL-L2480DW (~$250) - Single tray, manual paper switching</p>
               <p><strong>Best Portable:</strong> HP OfficeJet 250 (~$300) - Prints anywhere, includes battery</p>
-              <p><strong>Best Premium:</strong> Brother HL-L6310DW (~$600) - 52 ppm, enterprise security</p>
-              <p><strong>Best All-in-One:</strong> Brother MFC-L2750DW (~$250) - Print, scan, copy, fax</p>
+              <p><strong>Best Premium:</strong> Brother HL-L6310DW (~$470) - 52 ppm, enterprise security</p>
+              <p><strong>Best All-in-One:</strong> Brother MFC-L2900DW (~$330) - Print, scan, copy, fax</p>
             </div>
           </div>
 
           <div className="border-2 border-notary-gold bg-white p-8 mb-8 rounded">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-notary-gold mb-3">Best Choice Early Answer</p>
-            <h2 className="text-3xl font-bold text-notary-navy mb-4">If you want the safest pick, buy the Brother HL-L5200DWT</h2>
+            <h2 className="text-3xl font-bold text-notary-navy mb-4">If you want the safest pick, buy the Brother HL-L5210DWT</h2>
             <div className="grid gap-6 md:grid-cols-[1.2fr_0.8fr]">
               <div>
                 <p className="text-gray-700 mb-4">
@@ -141,13 +141,13 @@ export default function BestPrintersForNotaries() {
                 <tbody className="text-gray-700">
                   <tr className="bg-white">
                     <td className="border border-gray-300 p-3">Most notaries</td>
-                    <td className="border border-gray-300 p-3">Brother HL-L5200DWT</td>
-                    <td className="border border-gray-300 p-3">~$400</td>
+                    <td className="border border-gray-300 p-3">Brother HL-L5210DWT</td>
+                    <td className="border border-gray-300 p-3">~$480</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3">Cheaper starter pick</td>
-                    <td className="border border-gray-300 p-3">Brother HL-L2395DW</td>
-                    <td className="border border-gray-300 p-3">~$200</td>
+                    <td className="border border-gray-300 p-3">Brother HL-L2480DW</td>
+                    <td className="border border-gray-300 p-3">~$250</td>
                   </tr>
                   <tr className="bg-white">
                     <td className="border border-gray-300 p-3">Portable backup</td>
@@ -157,14 +157,14 @@ export default function BestPrintersForNotaries() {
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 p-3">High-volume upgrade</td>
                     <td className="border border-gray-300 p-3">Brother HL-L6310DW</td>
-                    <td className="border border-gray-300 p-3">~$600</td>
+                    <td className="border border-gray-300 p-3">~$470</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div className="mt-4 flex flex-wrap gap-3 text-sm">
               <a href="#budget-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Budget</a>
-              <a href="#hl-l5200dwt" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Best Overall</a>
+              <a href="#hl-l5210dwt" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Best Overall</a>
               <a href="#portable-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Portable</a>
               <a href="#premium-printer" className="border border-gray-300 bg-white px-4 py-2 font-semibold text-notary-navy hover:border-notary-gold">Premium</a>
             </div>
@@ -272,7 +272,7 @@ export default function BestPrintersForNotaries() {
             <div className="grid gap-4 md:grid-cols-3 text-gray-700">
               <div>
                 <p className="font-semibold text-notary-navy mb-1">Most notaries</p>
-                <p>Buy the Brother HL-L5200DWT.</p>
+                <p>Buy the Brother HL-L5210DWT.</p>
               </div>
               <div>
                 <p className="font-semibold text-notary-navy mb-1">Part-time / general work</p>
@@ -396,11 +396,11 @@ export default function BestPrintersForNotaries() {
             Now let's look at specific models. These are ranked by popularity among working notary signing agents.
           </p>
 
-          {/* Brother HL-L5200DWT */}
-          <div id="hl-l5200dwt" className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-12 rounded scroll-mt-24">
+          {/* Brother HL-L5210DWT */}
+          <div id="hl-l5210dwt" className="bg-gradient-to-r from-notary-navy to-blue-900 text-white p-6 mb-12 rounded scroll-mt-24">
             <div className="flex items-center mb-4">
               <span className="bg-notary-gold text-notary-navy px-3 py-1 rounded font-bold mr-3">#1 PICK</span>
-              <h3 className="text-2xl font-bold">Brother HL-L5200DWT - The Notary Standard</h3>
+              <h3 className="text-2xl font-bold">Brother HL-L5210DWT - The Notary Standard</h3>
             </div>
           </div>
 
@@ -408,16 +408,16 @@ export default function BestPrintersForNotaries() {
             <h4 className="text-xl font-bold text-notary-navy mb-4">Key Specifications</h4>
             <div className="grid md:grid-cols-2 gap-4 text-gray-700">
               <div>
-                <p><strong>Print Speed:</strong> 42 pages per minute</p>
+                <p><strong>Print Speed:</strong> 48 pages per minute</p>
                 <p><strong>Paper Capacity:</strong> 770 sheets standard (250 + 520-sheet trays)</p>
-                <p><strong>Expandable To:</strong> 1,340 sheets with optional tray</p>
+                <p><strong>Expandable To:</strong> 1,390 sheets with optional tray</p>
                 <p><strong>Duplex:</strong> Automatic two-sided printing</p>
               </div>
               <div>
                 <p><strong>Connectivity:</strong> Wi-Fi, Ethernet, USB, Wi-Fi Direct</p>
-                <p><strong>Monthly Duty Cycle:</strong> 50,000 pages</p>
+                <p><strong>Monthly Duty Cycle:</strong> Up to 90,000 pages (5,000/mo recommended)</p>
                 <p><strong>Cost Per Page:</strong> ~$0.023</p>
-                <p><strong>Price:</strong> ~$400-450</p>
+                <p><strong>Price:</strong> ~$450-480</p>
               </div>
             </div>
           </div>
@@ -471,28 +471,28 @@ export default function BestPrintersForNotaries() {
           </div>
 
           <p className="text-gray-700 mb-12">
-            <strong>Bottom line:</strong> The HL-L5200DWT is the gold standard for loan signing agents. It's what most successful signing agents use, and for good reason.
+            <strong>Bottom line:</strong> The HL-L5210DWT is the gold standard for loan signing agents. It's what most successful signing agents use, and for good reason.
           </p>
 
-          {/* Brother HL-L5210DWT */}
+          {/* Brother HL-L6210DWT */}
             <div id="premium-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
-            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L5210DWT - Upgraded Dual-Tray Beast</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L6210DWT - Bigger Trays, Lower Cost Per Page</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
               <div>
-                <p><strong>Print Speed:</strong> 48-50 ppm</p>
-                <p><strong>Paper Capacity:</strong> 1,140 sheets (dual 520-sheet trays + 100-sheet multipurpose)</p>
+                <p><strong>Print Speed:</strong> 50 ppm</p>
+                <p><strong>Paper Capacity:</strong> 1,040 sheets (dual 520-sheet trays + 100-sheet multipurpose)</p>
                 <p><strong>Expandable To:</strong> 1,660 sheets</p>
               </div>
               <div>
-                <p><strong>Cost Per Page:</strong> ~$0.018 (lower than L5200)</p>
-                <p><strong>Monthly Duty Cycle:</strong> 50,000 pages</p>
-                <p><strong>Price:</strong> ~$400-450</p>
+                <p><strong>Cost Per Page:</strong> ~$0.018 (lower than the L5210DWT)</p>
+                <p><strong>Monthly Duty Cycle:</strong> Up to 125,000 pages (8,000/mo recommended)</p>
+                <p><strong>Price:</strong> ~$500</p>
               </div>
             </div>
 
             <p className="text-gray-700 mb-4">
-              This 2024/2025 model improves on the L5200 with bigger trays (two 520-sheet trays instead of 250+520) and lower cost per page thanks to Brother's TN-920UXXL super high-yield toner (18,000 pages).
+              This model improves on the HL-L5210DWT with bigger trays (two 520-sheet trays instead of 250+520) and lower cost per page thanks to Brother's TN-920UXXL super high-yield toner (18,000 pages).
             </p>
 
             <p className="text-gray-700 mb-4">
@@ -500,7 +500,7 @@ export default function BestPrintersForNotaries() {
             </p>
 
             <div className="text-center my-6">
-              <a 
+              <a
                 href="https://www.amazon.com/dp/B0CGCBZD8B?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B0CGCBZD8B_1783024885492"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -511,21 +511,16 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <p className="text-gray-700 text-sm text-center">
-              Want the step-up <strong>Brother HL-L6210DWT</strong> instead?{' '}
-              <a
-                href="https://amzn.to/3RCdRAr"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-notary-gold hover:underline font-semibold"
-              >
-                View it here
+              Want even more speed and built-in security?{' '}
+              <a href="#hl-l6310dw" className="text-notary-gold hover:underline font-semibold">
+                See the Brother HL-L6310DW below
               </a>
               .
             </p>
           </div>
 
           {/* Brother HL-L6310DW */}
-            <div id="budget-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
+            <div id="hl-l6310dw" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L6310DW - Enterprise-Grade Speed Machine</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
@@ -566,7 +561,7 @@ export default function BestPrintersForNotaries() {
           </div>
 
           {/* Budget Option */}
-            <div id="portable-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
+            <div id="budget-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother HL-L2480DW - Best Budget Single-Tray Option</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
@@ -613,7 +608,7 @@ export default function BestPrintersForNotaries() {
             Want the dedicated breakdown? Read our <Link href="/best-portable-printers-for-notaries" className="text-notary-gold hover:underline font-semibold">best portable printers for notaries guide</Link> for a narrower look at backup and travel-friendly options.
           </p>
 
-          <div className="bg-gray-50 p-8 mb-12 rounded">
+          <div id="portable-printer" className="bg-gray-50 p-8 mb-12 rounded scroll-mt-24">
             <h3 className="text-2xl font-bold text-notary-navy mb-4">HP OfficeJet 250 - Print Anywhere</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
@@ -658,19 +653,19 @@ export default function BestPrintersForNotaries() {
 
           <div className="space-y-8 mb-12">
             <div className="bg-gray-50 p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">HP LaserJet Pro M404n</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">HP LaserJet Pro 4001n</h3>
               <p className="text-gray-700 mb-3">
-                <strong>Specs:</strong> 40 ppm, 250-sheet tray (expandable to 550 with optional tray), ~$350
+                <strong>Specs:</strong> 42 ppm, 250-sheet tray + 100-sheet multipurpose tray (expandable to 900 sheets with optional tray), ~$250-300
               </p>
               <p className="text-gray-700 mb-3">
-                Single-tray by default, but you can add a 550-sheet optional tray for about $200 to make it dual-tray capable. Part of HP's Wolf Pro Security line.
+                Single-tray by default, but you can add a 550-sheet optional tray to make it dual-tray capable. Part of HP's Wolf Pro Security line.
               </p>
               <p className="text-gray-700 mb-3">
                 <strong>Best for:</strong> Those who want HP reliability and business-grade security, willing to buy the second tray separately.
               </p>
               <div className="text-center mt-4">
-                <a 
-                  href="https://www.amazon.com/dp/B07RRFJ15R?ref=t_ac_spc_accepted_tile&linkCode=tr1&tag=beardednotary-20&linkId=B07RRFJ15R_1783024865876"
+                <a
+                  href="https://amzn.to/4xRdsJW"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy text-white px-6 py-2 font-semibold transition-opacity hover:opacity-90 rounded text-sm"
@@ -681,9 +676,9 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">HP LaserJet Enterprise MFP M528dn</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">HP LaserJet Enterprise MFP M632fht</h3>
               <p className="text-gray-700 mb-3">
-                <strong>Specs:</strong> 45 ppm, dual trays, print/scan/copy/fax, 200+ security features, ~$1,200+
+                <strong>Specs:</strong> 65 ppm, dual 550-sheet trays, print/scan/copy/fax, 300,000-page duty cycle, ~$2,000+
               </p>
               <p className="text-gray-700 mb-3">
                 Enterprise-grade all-in-one with scanning and the strongest security features in this guide. Overkill for solo notaries, perfect for signing agencies or offices that need scanning/faxing.
@@ -692,8 +687,8 @@ export default function BestPrintersForNotaries() {
                 <strong>Best for:</strong> Signing agencies, notary offices, those who need enterprise security and scanning.
               </p>
               <div className="text-center mt-4">
-                <a 
-                  href="https://amzn.to/48TDpPx"
+                <a
+                  href="https://amzn.to/4qtdNjp"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy text-white px-6 py-2 font-semibold transition-opacity hover:opacity-90 rounded text-sm"
@@ -712,7 +707,7 @@ export default function BestPrintersForNotaries() {
           </p>
 
           <div className="bg-gray-50 p-8 mb-12 rounded">
-            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother MFC-L2750DW - Compact All-in-One</h3>
+            <h3 className="text-2xl font-bold text-notary-navy mb-4">Brother MFC-L2900DW - Compact All-in-One</h3>
 
             <div className="grid md:grid-cols-2 gap-4 text-gray-700 mb-6">
               <div>
@@ -723,12 +718,12 @@ export default function BestPrintersForNotaries() {
               <div>
                 <p><strong>Scan:</strong> 50-page auto document feeder</p>
                 <p><strong>Duplex:</strong> Automatic</p>
-                <p><strong>Price:</strong> ~$250-300</p>
+                <p><strong>Price:</strong> ~$330</p>
               </div>
             </div>
 
             <p className="text-gray-700 mb-4">
-              This is a single-tray printer, so you'll manually swap between letter and legal. But if you need scanning and don't want to spend $1,000+ on the HP M528dn, this is your best bet.
+              This is a single-tray printer, so you'll manually swap between letter and legal. But if you need scanning and don't want to spend $1,000+ on an enterprise-grade MFP, this is your best bet.
             </p>
 
             <p className="text-gray-700 mb-4">
@@ -736,8 +731,8 @@ export default function BestPrintersForNotaries() {
             </p>
 
             <div className="text-center my-6">
-              <a 
-                href="https://amzn.to/4qIUiSX"
+              <a
+                href="https://amzn.to/3U4qgy1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-notary-navy text-white px-6 py-3 font-bold transition-opacity hover:opacity-90 rounded"
@@ -764,20 +759,20 @@ export default function BestPrintersForNotaries() {
               </thead>
               <tbody className="text-gray-700">
                 <tr className="bg-notary-gold bg-opacity-20">
-                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L5200DWT</td>
-                  <td className="border border-gray-300 p-2">42 ppm</td>
+                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L5210DWT</td>
+                  <td className="border border-gray-300 p-2">48 ppm</td>
                   <td className="border border-gray-300 p-2">Dual (250+520)</td>
                   <td className="border border-gray-300 p-2">770 sheets</td>
                   <td className="border border-gray-300 p-2">Most loan signing agents</td>
-                  <td className="border border-gray-300 p-2">~$400</td>
+                  <td className="border border-gray-300 p-2">~$480</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L5210DWT</td>
-                  <td className="border border-gray-300 p-2">48-50 ppm</td>
+                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L6210DWT</td>
+                  <td className="border border-gray-300 p-2">50 ppm</td>
                   <td className="border border-gray-300 p-2">Dual (520+520)</td>
-                  <td className="border border-gray-300 p-2">1,140 sheets</td>
+                  <td className="border border-gray-300 p-2">1,040 sheets</td>
                   <td className="border border-gray-300 p-2">High-volume agents</td>
-                  <td className="border border-gray-300 p-2">~$550</td>
+                  <td className="border border-gray-300 p-2">~$500</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 p-2 font-semibold">Brother HL-L6310DW</td>
@@ -785,15 +780,15 @@ export default function BestPrintersForNotaries() {
                   <td className="border border-gray-300 p-2">Single + multipurpose</td>
                   <td className="border border-gray-300 p-2">620 sheets</td>
                   <td className="border border-gray-300 p-2">Signing agencies</td>
-                  <td className="border border-gray-300 p-2">~$650</td>
+                  <td className="border border-gray-300 p-2">~$470</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L2395DW</td>
+                  <td className="border border-gray-300 p-2 font-semibold">Brother HL-L2480DW</td>
                   <td className="border border-gray-300 p-2">36 ppm</td>
                   <td className="border border-gray-300 p-2">Single (250)</td>
                   <td className="border border-gray-300 p-2">250 sheets</td>
                   <td className="border border-gray-300 p-2">Budget/part-time</td>
-                  <td className="border border-gray-300 p-2">~$220</td>
+                  <td className="border border-gray-300 p-2">~$250</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="border border-gray-300 p-2 font-semibold">HP OfficeJet 250</td>
@@ -804,28 +799,28 @@ export default function BestPrintersForNotaries() {
                   <td className="border border-gray-300 p-2">~$330</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-2 font-semibold">HP LaserJet M404n</td>
-                  <td className="border border-gray-300 p-2">40 ppm</td>
+                  <td className="border border-gray-300 p-2 font-semibold">HP LaserJet Pro 4001n</td>
+                  <td className="border border-gray-300 p-2">42 ppm</td>
                   <td className="border border-gray-300 p-2">Single (expandable)</td>
-                  <td className="border border-gray-300 p-2">250 sheets</td>
+                  <td className="border border-gray-300 p-2">350 sheets</td>
                   <td className="border border-gray-300 p-2">HP preference</td>
-                  <td className="border border-gray-300 p-2">~$350</td>
+                  <td className="border border-gray-300 p-2">~$300</td>
                 </tr>
                 <tr className="bg-gray-50">
-                  <td className="border border-gray-300 p-2 font-semibold">Brother MFC-L2750DW</td>
+                  <td className="border border-gray-300 p-2 font-semibold">Brother MFC-L2900DW</td>
                   <td className="border border-gray-300 p-2">36 ppm</td>
                   <td className="border border-gray-300 p-2">Single (250)</td>
                   <td className="border border-gray-300 p-2">250 sheets</td>
                   <td className="border border-gray-300 p-2">Need scan/copy/fax</td>
-                  <td className="border border-gray-300 p-2">~$280</td>
+                  <td className="border border-gray-300 p-2">~$330</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-2 font-semibold">HP M528dn</td>
-                  <td className="border border-gray-300 p-2">45 ppm</td>
-                  <td className="border border-gray-300 p-2">Dual</td>
-                  <td className="border border-gray-300 p-2">550 sheets</td>
+                  <td className="border border-gray-300 p-2 font-semibold">HP M632fht</td>
+                  <td className="border border-gray-300 p-2">65 ppm</td>
+                  <td className="border border-gray-300 p-2">Dual (550+550)</td>
+                  <td className="border border-gray-300 p-2">1,200 sheets</td>
                   <td className="border border-gray-300 p-2">Enterprise/agencies</td>
-                  <td className="border border-gray-300 p-2">~$1,200</td>
+                  <td className="border border-gray-300 p-2">~$2,000+</td>
                 </tr>
               </tbody>
             </table>
@@ -839,21 +834,21 @@ export default function BestPrintersForNotaries() {
           </p>
 
           <div className="bg-gray-50 p-6 mb-8 rounded">
-            <h3 className="text-xl font-bold text-notary-navy mb-4">Example: Brother HL-L5200DWT vs HP OfficeJet Inkjet</h3>
+            <h3 className="text-xl font-bold text-notary-navy mb-4">Example: Brother HL-L5210DWT vs HP OfficeJet Inkjet</h3>
             
             <div className="overflow-x-auto">
               <table className="w-full text-gray-700 mb-4">
                 <thead>
                   <tr className="border-b-2 border-notary-navy">
                     <th className="text-left py-2">Cost Factor</th>
-                    <th className="text-left py-2">Brother HL-L5200DWT (Laser)</th>
+                    <th className="text-left py-2">Brother HL-L5210DWT (Laser)</th>
                     <th className="text-left py-2">HP OfficeJet (Inkjet)</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-300">
                     <td className="py-2">Initial Purchase</td>
-                    <td className="py-2">$420</td>
+                    <td className="py-2">$480</td>
                     <td className="py-2">$150</td>
                   </tr>
                   <tr className="border-b border-gray-300">
@@ -868,24 +863,24 @@ export default function BestPrintersForNotaries() {
                   </tr>
                   <tr className="border-b border-gray-300">
                     <td className="py-2">Year 1 Total (20 signings)</td>
-                    <td className="py-2">$512</td>
+                    <td className="py-2">$572</td>
                     <td className="py-2">$470</td>
                   </tr>
                   <tr className="border-b border-gray-300">
                     <td className="py-2">Year 2 Total (40 more signings)</td>
-                    <td className="py-2">$512 + $184 = $696</td>
+                    <td className="py-2">$572 + $184 = $756</td>
                     <td className="py-2">$470 + $640 = $1,110</td>
                   </tr>
                   <tr className="bg-notary-gold bg-opacity-20 font-bold">
                     <td className="py-3">2-Year Savings with Laser</td>
-                    <td className="py-3" colSpan={2}>$414 saved over inkjet</td>
+                    <td className="py-3" colSpan={2}>$354 saved over inkjet</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
             <p className="text-gray-700 mt-4">
-              <strong>Key insight:</strong> The laser printer costs more upfront but saves $414 over 2 years. Plus it prints 4x faster, saving you hours of time.
+              <strong>Key insight:</strong> The laser printer costs more upfront but saves $354 over 2 years. Plus it prints 4x faster, saving you hours of time.
             </p>
           </div>
 
@@ -942,20 +937,20 @@ export default function BestPrintersForNotaries() {
               <div className="border-l-4 border-notary-gold pl-6">
                 <p className="font-bold text-notary-navy mb-2">Do you do loan signings regularly (5+ per month)?</p>
                 <p className="text-gray-700 mb-2"><strong>YES →</strong> You need a dual-tray laser printer</p>
-                <p className="text-gray-700"><strong>NO →</strong> Single-tray laser is fine (Brother HL-L2395DW)</p>
+                <p className="text-gray-700"><strong>NO →</strong> Single-tray laser is fine (Brother HL-L2480DW)</p>
               </div>
 
               <div className="border-l-4 border-notary-gold pl-6">
                 <p className="font-bold text-notary-navy mb-2">What's your monthly page volume?</p>
-                <p className="text-gray-700 mb-2"><strong>Under 2,000 pages →</strong> Brother HL-L5200DWT</p>
-                <p className="text-gray-700 mb-2"><strong>2,000-5,000 pages →</strong> Brother HL-L5200DWT or HL-L5210DWT</p>
-                <p className="text-gray-700"><strong>5,000+ pages →</strong> Brother HL-L5210DWT or HL-L6310DW</p>
+                <p className="text-gray-700 mb-2"><strong>Under 2,000 pages →</strong> Brother HL-L5210DWT</p>
+                <p className="text-gray-700 mb-2"><strong>2,000-5,000 pages →</strong> Brother HL-L5210DWT or HL-L6210DWT</p>
+                <p className="text-gray-700"><strong>5,000+ pages →</strong> Brother HL-L6210DWT or HL-L6310DW</p>
               </div>
 
               <div className="border-l-4 border-notary-gold pl-6">
                 <p className="font-bold text-notary-navy mb-2">Do you need scanning/copying?</p>
-                <p className="text-gray-700 mb-2"><strong>YES, budget-friendly →</strong> Brother MFC-L2750DW</p>
-                <p className="text-gray-700 mb-2"><strong>YES, enterprise-grade →</strong> HP LaserJet M528dn</p>
+                <p className="text-gray-700 mb-2"><strong>YES, budget-friendly →</strong> Brother MFC-L2900DW</p>
+                <p className="text-gray-700 mb-2"><strong>YES, enterprise-grade →</strong> HP LaserJet Enterprise MFP M632fht</p>
                 <p className="text-gray-700"><strong>NO →</strong> Stick with print-only models (cheaper, more reliable)</p>
               </div>
 
@@ -967,10 +962,10 @@ export default function BestPrintersForNotaries() {
 
               <div className="border-l-4 border-notary-gold pl-6">
                 <p className="font-bold text-notary-navy mb-2">What's your budget?</p>
-                <p className="text-gray-700 mb-2"><strong>Under $250 →</strong> Brother HL-L2395DW (single-tray)</p>
-                <p className="text-gray-700 mb-2"><strong>$400-500 →</strong> Brother HL-L5200DWT (the standard)</p>
-                <p className="text-gray-700 mb-2"><strong>$500-700 →</strong> Brother HL-L5210DWT or HL-L6310DW</p>
-                <p className="text-gray-700"><strong>$1,000+ →</strong> HP M528dn (if you need all-in-one)</p>
+                <p className="text-gray-700 mb-2"><strong>Under $250 →</strong> Brother HL-L2480DW (single-tray)</p>
+                <p className="text-gray-700 mb-2"><strong>$400-500 →</strong> Brother HL-L5210DWT (the standard)</p>
+                <p className="text-gray-700 mb-2"><strong>$500-700 →</strong> Brother HL-L6210DWT or HL-L6310DW</p>
+                <p className="text-gray-700"><strong>$1,000+ →</strong> HP M632fht (if you need all-in-one)</p>
               </div>
             </div>
           </div>
@@ -1027,7 +1022,7 @@ export default function BestPrintersForNotaries() {
             <div className="bg-gray-50 p-6 rounded">
               <h3 className="text-xl font-bold text-notary-navy mb-3">What is the best printer for a notary signing agent?</h3>
               <p className="text-gray-700">
-                The Brother HL-L5200DWT is the most popular choice among loan signing agents. It has dual trays for automatic letter/legal switching, prints 42 ppm, holds 770 sheets, and costs ~$400. It's reliable, fast, and has excellent notary reviews.
+                The Brother HL-L5210DWT is the most popular choice among loan signing agents. It has dual trays for automatic letter/legal switching, prints 48 ppm, holds 770 sheets, and costs ~$480. It's reliable, fast, and has excellent notary reviews.
               </p>
             </div>
 
@@ -1046,16 +1041,16 @@ export default function BestPrintersForNotaries() {
             </div>
 
             <div className="bg-gray-50 p-6 rounded">
-              <h3 className="text-xl font-bold text-notary-navy mb-3">What's the difference between Brother HL-L5200DWT and HL-L5210DWT?</h3>
+              <h3 className="text-xl font-bold text-notary-navy mb-3">What's the difference between Brother HL-L5210DWT and HL-L6210DWT?</h3>
               <p className="text-gray-700">
-                The HL-L5210DWT is newer and has bigger trays (dual 520-sheet trays vs 250+520), slightly faster speed (48-50 ppm vs 42 ppm), and lower cost per page (~$0.018 vs $0.023). It costs about $100-150 more. Get the L5210 if you print 5,000+ pages per month, otherwise the L5200 is fine.
+                The HL-L6210DWT has bigger trays (dual 520-sheet trays vs 250+520), slightly faster speed (50 ppm vs 48 ppm), and lower cost per page (~$0.018 vs $0.023). It costs about $20-50 more. Get the L6210DWT if you print 5,000+ pages per month, otherwise the L5210DWT is fine.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded">
               <h3 className="text-xl font-bold text-notary-navy mb-3">How much does it cost to print a 200-page loan package?</h3>
               <p className="text-gray-700">
-                With a laser printer like the Brother HL-L5200DWT: ~$4.60 (200 pages × $0.023/page). With an inkjet: ~$16 (200 pages × $0.08/page). Plus paper costs (~$2-3 per 200 pages). Total cost per package: $6-8 with laser, $18-20 with inkjet.
+                With a laser printer like the Brother HL-L5210DWT: ~$4.60 (200 pages × $0.023/page). With an inkjet: ~$16 (200 pages × $0.08/page). Plus paper costs (~$2-3 per 200 pages). Total cost per package: $6-8 with laser, $18-20 with inkjet.
               </p>
             </div>
 
@@ -1076,7 +1071,7 @@ export default function BestPrintersForNotaries() {
             <div className="bg-gray-50 p-6 rounded">
               <h3 className="text-xl font-bold text-notary-navy mb-3">Should I buy an all-in-one printer with scanning?</h3>
               <p className="text-gray-700">
-                Only if you need to scan regularly (scan-backs, copying borrower IDs, etc.). All-in-ones cost more, have more parts that can break, and are slower. If you just need printing, get a print-only model. If you need scanning, the Brother MFC-L2750DW (~$280) is the best budget all-in-one.
+                Only if you need to scan regularly (scan-backs, copying borrower IDs, etc.). All-in-ones cost more, have more parts that can break, and are slower. If you just need printing, get a print-only model. If you need scanning, the Brother MFC-L2900DW (~$330) is the best budget all-in-one.
               </p>
             </div>
 

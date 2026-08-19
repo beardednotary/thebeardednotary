@@ -51,7 +51,7 @@ export default function Home() {
     {
       title: "Best Printers for Notaries & Loan Signing Agents (2026)",
       slug: "best-printers-for-notaries",
-      excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5200DWT, HL-L6210DWT, HP M402n and more with real notary reviews.",
+      excerpt: "Comprehensive guide to the best dual-tray laser printers for mobile notaries. Compare Brother HL-L5210DWT, HL-L6210DWT, HL-L6310DW and more with real notary reviews.",
       date: "Updated July 2026"
     },
     {

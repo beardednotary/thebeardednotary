@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.hp.com)",
+      "WebFetch(domain:h20195.www2.hp.com)",
+      "WebFetch(domain:www.amazon.com)",
+      "WebFetch(domain:amzn.to)"
+    ]
+  }
+}
