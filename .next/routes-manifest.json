@@ -58,6 +58,18 @@
       "namedRegex": "^/best\\-scanners\\-for\\-notaries(?:/)?$"
     },
     {
+      "page": "/business-email-for-notaries",
+      "regex": "^/business\\-email\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/business\\-email\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/cost-to-become-a-notary-in-california",
+      "regex": "^/cost\\-to\\-become\\-a\\-notary\\-in\\-california(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cost\\-to\\-become\\-a\\-notary\\-in\\-california(?:/)?$"
+    },
+    {
       "page": "/document-types-notaries-glossary",
       "regex": "^/document\\-types\\-notaries\\-glossary(?:/)?$",
       "routeKeys": {},
@@ -94,10 +106,22 @@
       "namedRegex": "^/how\\-to\\-become\\-a\\-notary\\-in\\-california(?:/)?$"
     },
     {
+      "page": "/how-to-pass-california-notary-exam",
+      "regex": "^/how\\-to\\-pass\\-california\\-notary\\-exam(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/how\\-to\\-pass\\-california\\-notary\\-exam(?:/)?$"
+    },
+    {
       "page": "/icon.png",
       "regex": "^/icon\\.png(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/mileage-tracking-for-notaries",
+      "regex": "^/mileage\\-tracking\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mileage\\-tracking\\-for\\-notaries(?:/)?$"
     },
     {
       "page": "/mobile-notary-supplies",
@@ -110,6 +134,18 @@
       "regex": "^/notary\\-business\\-resources(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/notary\\-business\\-resources(?:/)?$"
+    },
+    {
+      "page": "/notary-public-vs-loan-signing-agent",
+      "regex": "^/notary\\-public\\-vs\\-loan\\-signing\\-agent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/notary\\-public\\-vs\\-loan\\-signing\\-agent(?:/)?$"
+    },
+    {
+      "page": "/payment-methods-for-notaries",
+      "regex": "^/payment\\-methods\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment\\-methods\\-for\\-notaries(?:/)?$"
     },
     {
       "page": "/robots.txt",

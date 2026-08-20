@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
+import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -45,6 +46,8 @@ export default function NotaryFinancialGuide() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             You're bringing in mobile notary income - now make sure the recordkeeping side stays just as organized.
           </p>
+
+          <AffiliateDisclosure className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             Smart money management makes taxes easier, keeps expenses clearer, and helps you see what the work is actually costing you. Separate accounts, useful credit cards, clean bookkeeping, and good records all make the business side of notary work far easier to manage.
@@ -946,205 +949,48 @@ export default function NotaryFinancialGuide() {
             </p>
           </div>
 
-          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Mileage Tracking: The $3,000+ Deduction Notaries Miss</h2>
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Mileage Tracking: The Deduction Notaries Miss</h2>
 
           <p className="text-gray-700 mb-6">
-            This is the single biggest deduction for mobile notaries. It's also the one most notaries screw up. Here's how to do it right.
+            This is the single biggest deduction for mobile notaries. It's also the one most notaries screw up, because
+            the IRS requires a contemporaneous log — recorded at the time of the trip, not reconstructed at tax time.
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
             <h4 className="font-bold text-gray-800 mb-2">Why Mileage Matters</h4>
             <p className="text-gray-700 mb-3">
-              Average mobile notary drives 5,000-10,000 business miles per year.
-            </p>
-            <p className="text-gray-700 mb-3">
-              At 67¢ per mile (2024 rate): <strong>$3,350 - $6,700 deduction</strong>
+              Average mobile notary drives 5,000-10,000 business miles per year. At the current 2026 IRS rate, that's a
+              multi-thousand-dollar deduction — but only if it's actually logged correctly.
             </p>
             <p className="text-gray-700">
-              In the 22% tax bracket: Saves you <strong>$737 - $1,474 in taxes</strong>
+              We built a full breakdown of the current rate, the record-keeping rules, and a calculator for your
+              situation: see the{' '}
+              <Link href="/mileage-tracking-for-notaries" className="text-notary-gold hover:underline font-semibold">
+                Notary Mileage Tracking & Deduction Guide
+              </Link>
+              .
             </p>
           </div>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">IRS Requirements for Mileage Deduction</h3>
 
           <p className="text-gray-700 mb-4">
-            The IRS requires <strong>contemporaneous records.</strong> This means:
+            <strong>Reality check:</strong> A notebook log works for about two weeks before it stops happening. The most
+            reliable fix is an app that tracks drives automatically instead of relying on you to remember.
           </p>
 
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
-            <li><strong>Date:</strong> When did you drive?</li>
-            <li><strong>Starting location:</strong> Where did you start?</li>
-            <li><strong>Destination:</strong> Where did you go?</li>
-            <li><strong>Business purpose:</strong> Why? (Client name, type of signing)</li>
-            <li><strong>Miles driven:</strong> How many miles?</li>
-            <li><strong>Recorded timely:</strong> Logged same day or next day (not reconstructed months later)</li>
-          </ul>
-
-          <p className="text-gray-700 mb-8">
-            <strong>Reality check:</strong> Ain't nobody got time to manually log all that. That's why mileage tracking apps exist.
-          </p>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Best Mileage Tracking Apps</h3>
-
-          <div className="space-y-6 mb-8">
-            
-            {/* App 1 */}
-            <div className="bg-white border-2 border-notary-gold p-6 rounded">
-              <h4 className="text-xl font-bold text-notary-navy mb-3">MileIQ</h4>
-              
-              <div className="mb-4">
-                <p className="text-gray-700 mb-2"><strong>Best for:</strong> Notaries who drive A LOT (3,000+ miles/year)</p>
-                <p className="text-gray-700"><strong>Price:</strong> $60/year or $6/month</p>
-              </div>
-
-              <div className="bg-gray-50 p-4 mb-4">
-                <h5 className="font-bold text-notary-navy mb-2">How It Works:</h5>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700 text-sm">
-                  <li>Automatically detects when you drive</li>
-                  <li>After each trip, swipe right (business) or left (personal)</li>
-                  <li>Learns your patterns (going to same client? Auto-classifies)</li>
-                  <li>Exports IRS-compliant reports</li>
-                  <li>Calculates total deduction for you</li>
-                  <li>Integrates with QuickBooks, FreshBooks</li>
-                </ul>
-              </div>
-
-              <div className="bg-blue-50 p-4 mb-4">
-                <p className="text-gray-700">
-                  <strong>Why it's worth $60:</strong> Saves you 10+ hours of manual logging. Deducts $3,000+ you'd otherwise miss. Protects you in an audit (IRS-compliant logs).
-                </p>
-              </div>
-
-              <div className="mt-4">
-                <a 
-                  href="https://www.mileiq.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-notary-navy text-white px-6 py-3 font-bold hover:bg-opacity-90 transition"
-                >
-                  Try MileIQ Free (40 Drives/Month)
-                </a>
-              </div>
-            </div>
-
-            {/* App 2 */}
-            <div className="bg-white border-2 border-gray-300 p-6 rounded">
-              <h4 className="text-xl font-bold text-notary-navy mb-3">Everlance</h4>
-              
-              <div className="mb-4">
-                <p className="text-gray-700 mb-2"><strong>Best for:</strong> Notaries who want mileage + expense tracking combined</p>
-                <p className="text-gray-700"><strong>Price:</strong> $60/year or $8/month</p>
-              </div>
-
-              <div className="bg-gray-50 p-4 mb-4">
-                <h5 className="font-bold text-notary-navy mb-2">What You Get:</h5>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700 text-sm">
-                  <li>Automatic mileage tracking</li>
-                  <li>Receipt scanning and categorization</li>
-                  <li>Expense tracking</li>
-                  <li>IRS-compliant mileage reports</li>
-                  <li>Tax deduction estimates</li>
-                  <li>Works with QuickBooks, Xero</li>
-                </ul>
-              </div>
-
-              <div className="bg-blue-50 p-4 mb-4">
-                <p className="text-gray-700">
-                  <strong>Why choose Everlance:</strong> Two tools in one. Track miles AND expenses. Good if you're not using QuickBooks for expense tracking.
-                </p>
-              </div>
-
-              <div className="mt-4">
-                <a 
-                  href="https://www.everlance.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-notary-navy text-white px-6 py-3 font-bold hover:bg-opacity-90 transition"
-                >
-                  Try Everlance Free for 7 Days
-                </a>
-              </div>
-            </div>
-
-            {/* App 3 */}
-            <div className="bg-white border-2 border-gray-300 p-6 rounded">
-              <h4 className="text-xl font-bold text-notary-navy mb-3">Stride</h4>
-              
-              <div className="mb-4">
-                <p className="text-gray-700 mb-2"><strong>Best for:</strong> Part-time notaries, tight budgets</p>
-                <p className="text-gray-700"><strong>Price:</strong> FREE</p>
-              </div>
-
-              <div className="bg-gray-50 p-4 mb-4">
-                <h5 className="font-bold text-notary-navy mb-2">What You Get (Free Version):</h5>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700 text-sm">
-                  <li>Automatic mileage tracking</li>
-                  <li>Swipe to classify business/personal</li>
-                  <li>Basic expense tracking</li>
-                  <li>Mileage reports</li>
-                  <li>Tax deduction estimates</li>
-                </ul>
-              </div>
-
-              <div className="bg-blue-50 p-4 mb-4">
-                <p className="text-gray-700">
-                  <strong>Why choose Stride:</strong> It's free. Good for year 1 or part-time. Upgrade to MileIQ when you're making real money.
-                </p>
-              </div>
-
-              <div className="mt-4">
-                <a 
-                  href="https://www.stridehealth.com/tax-tools"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-notary-navy text-white px-6 py-3 font-bold hover:bg-opacity-90 transition"
-                >
-                  Download Stride (Free Forever)
-                </a>
-              </div>
-            </div>
-
-            {/* Manual Option */}
-            <div className="bg-gray-100 p-6 rounded border-2 border-gray-400">
-              <h4 className="text-xl font-bold text-notary-navy mb-3">Manual Mileage Log (Old School)</h4>
-              
-              <div className="mb-4">
-                <p className="text-gray-700 mb-2"><strong>Best for:</strong> Nobody (seriously, use an app)</p>
-                <p className="text-gray-700"><strong>Price:</strong> $0</p>
-              </div>
-
-              <div className="bg-white p-4 mb-4">
-                <h5 className="font-bold text-notary-navy mb-2">What You Track:</h5>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700 text-sm">
-                  <li>Date of trip</li>
-                  <li>Starting location and odometer reading</li>
-                  <li>Ending location and odometer reading</li>
-                  <li>Total miles</li>
-                  <li>Purpose of trip</li>
-                  <li>Client name</li>
-                </ul>
-                <p className="text-gray-700 mt-3">
-                  Log in a notebook or spreadsheet. Must be recorded same day (contemporaneous).
-                </p>
-              </div>
-
-              <div className="bg-yellow-50 p-4">
-                <p className="text-gray-700">
-                  <strong>Reality:</strong> You'll forget. You'll reconstruct months later. IRS audits you, they reject it. You lose $3,000+ deduction. Spend $60 on MileIQ.
-                </p>
-              </div>
-            </div>
-
-          </div>
-
-          <div className="bg-notary-gold bg-opacity-10 border-l-4 border-notary-gold p-6 my-8">
-            <h4 className="font-bold text-notary-navy mb-3">Our Recommendation</h4>
+          <div className="bg-white border-2 border-notary-gold p-6 rounded mb-8">
+            <h4 className="text-xl font-bold text-notary-navy mb-3">Our Recommendation: MileIQ</h4>
             <p className="text-gray-700 mb-3">
-              <strong>Year 1 or part-time (&lt;3,000 miles/year):</strong> Stride (free)
+              Automatically detects your drives, so all you do is swipe to mark a trip business or personal. Exports
+              IRS-compliant reports and calculates your deduction using the current rate.
             </p>
-            <p className="text-gray-700">
-              <strong>Serious notaries (3,000+ miles/year):</strong> MileIQ ($60/year) - it pays for itself in deductions you won't miss
-            </p>
+            <a
+              href="https://try.mileiq.com/NGEnoN"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-notary-navy text-white px-6 py-3 font-bold hover:bg-opacity-90 transition"
+            >
+              Try MileIQ Free (40 Drives/Month)
+            </a>
           </div>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">When to Hire a CPA</h2>
@@ -1282,6 +1128,10 @@ export default function NotaryFinancialGuide() {
           <div className="border-t-2 border-gray-200 pt-8 mt-12">
             <h3 className="text-2xl font-bold text-notary-navy mb-6">Related Resources:</h3>
             <div className="grid md:grid-cols-2 gap-6">
+              <Link href="/mileage-tracking-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Notary Mileage Tracking & Deduction Guide</h4>
+                <p className="text-gray-600 text-sm">Current IRS rate, log requirements, and a deduction calculator</p>
+              </Link>
               <Link href="/how-much-to-charge-mobile-notary" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">Complete Notary Pricing Guide</h4>
                 <p className="text-gray-600 text-sm">What to charge for every service type</p>

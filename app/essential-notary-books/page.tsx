@@ -164,6 +164,12 @@ export default function EssentialNotaryBooks() {
             <Link href="/mobile-notary-supplies" className="block text-notary-gold hover:underline font-semibold">
               Mobile Notary Supplies Checklist
             </Link>
+            <Link href="/best-printers-for-notaries" className="block text-notary-gold hover:underline font-semibold">
+              Best Printer for Notaries & Loan Signing Agents
+            </Link>
+            <Link href="/best-scanners-for-notaries" className="block text-notary-gold hover:underline font-semibold">
+              Best Scanners for Notaries & Loan Signing Agents
+            </Link>
             <Link href="/how-to-become-a-notary-in-california" className="block text-notary-gold hover:underline font-semibold">
               How to Become a Notary in California
             </Link>

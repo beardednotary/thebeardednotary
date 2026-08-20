@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/5c5e3b2de8fdedce.css","style"]
+0:{"buildId":"IfVQDwM8xq3YOyshU5LTE","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"business-email-for-notaries","paramType":null,"paramKey":"business-email-for-notaries","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

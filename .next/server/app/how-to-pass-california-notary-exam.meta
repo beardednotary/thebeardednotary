@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/how-to-pass-california-notary-exam/layout,_N_T_/how-to-pass-california-notary-exam/page,_N_T_/how-to-pass-california-notary-exam"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/how-to-pass-california-notary-exam/__PAGE__",
+    "/how-to-pass-california-notary-exam",
+    "/_index",
+    "/_head"
+  ]
+}

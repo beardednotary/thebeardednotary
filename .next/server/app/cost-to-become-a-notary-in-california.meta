@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/cost-to-become-a-notary-in-california/layout,_N_T_/cost-to-become-a-notary-in-california/page,_N_T_/cost-to-become-a-notary-in-california"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/cost-to-become-a-notary-in-california/__PAGE__",
+    "/cost-to-become-a-notary-in-california",
+    "/_index",
+    "/_head"
+  ]
+}

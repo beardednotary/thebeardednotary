@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/payment-methods-for-notaries/layout,_N_T_/payment-methods-for-notaries/page,_N_T_/payment-methods-for-notaries"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/payment-methods-for-notaries/__PAGE__",
+    "/payment-methods-for-notaries",
+    "/_index",
+    "/_head"
+  ]
+}

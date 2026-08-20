@@ -31,6 +31,12 @@ export default function Home() {
       date: "Updated July 2026"
     },
     {
+      title: "Notary Mileage Tracking & Deduction Guide (2026)",
+      slug: "mileage-tracking-for-notaries",
+      excerpt: "The current IRS mileage rate, log requirements, a deduction calculator, and the best mileage tracking apps for mobile notaries.",
+      date: "Updated August 2026"
+    },
+    {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your info consistent.",

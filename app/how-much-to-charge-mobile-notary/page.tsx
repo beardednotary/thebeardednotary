@@ -8,11 +8,11 @@ import NotaryPricingCalculator from '../../components/NotaryPricingCalculator';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Mobile Notary Price List 2026: Travel Fees, Loan Signing Fees, and What to Charge | The Bearded Notary',
+  title: 'Mobile Notary Fees 2026: What to Charge ($50-200) | The Bearded Notary',
   description:
-    'Mobile notary price list for 2026: general notarization fees, travel charges, loan signing rates, and real examples of what to charge without underpricing.',
+    'What to charge as a mobile notary in 2026: $50-100 for local appointments, $100-200 for loan signings, plus state fee charts, travel fee tables, and a pricing calculator.',
   openGraph: {
-    title: 'Mobile Notary Price List 2026: What to Charge',
+    title: 'Mobile Notary Fees 2026: What to Charge ($50-200)',
     description: 'State fee limits, travel charges, loan signing rates, and simple examples for setting mobile notary pricing.',
     images: ['/images/notary-pricing-guide-featured.png'],
   },
@@ -169,7 +169,14 @@ export default function NotaryPricingGuide() {
   </div>
   <p className="text-gray-700 mt-4">
     That is why this page works best as part of a full setup plan, not as a standalone number list.
-    If your rates feel tight, your equipment and workflow may be the real issue.
+    If your rates feel tight, your equipment and workflow may be the real issue — see our guides to the{' '}
+    <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">
+      best printer for loan signing agents
+    </Link>{' '}
+    and the{' '}
+    <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">
+      best scanner for notaries
+    </Link>.
   </p>
 </div>
 
@@ -935,7 +942,7 @@ export default function NotaryPricingGuide() {
 
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
             <li>Use <strong>QuickBooks Self-Employed</strong> or <strong>Wave</strong> (free) for invoicing</li>
-            <li>Track mileage with <strong>MileIQ</strong> or <strong>Everlance</strong> (tax deduction!)</li>
+            <li>Track mileage with <strong>MileIQ</strong> or <strong>Everlance</strong> (see our <Link href="/mileage-tracking-for-notaries" className="text-notary-gold hover:underline">mileage deduction guide</Link>)</li>
             <li>Log every signing in a spreadsheet: date, client, service, fee, payment method</li>
             <li>Calculate your <strong>hourly rate</strong> monthly (total income ÷ total hours worked)</li>
             <li>Set income goals and review progress weekly</li>

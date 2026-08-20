@@ -278,6 +278,11 @@ export default function CaliforniaNotaryCostPage() {
               Mobile Notary Supplies Checklist
             </Link>{' '}
             so you do not underestimate the difference between “commissioned” and “actually ready for appointments.”
+            The single biggest line item in that budget is usually the printer — see our{' '}
+            <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">
+              best printer for notaries guide
+            </Link>{' '}
+            before you buy one.
           </p>
 
           <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Cheapest Way to Become a California Notary</h2>
@@ -356,6 +361,10 @@ export default function CaliforniaNotaryCostPage() {
               <Link href="/notary-business-resources" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
                 <h4 className="font-bold text-notary-navy mb-2">85+ Notary Business Resources</h4>
                 <p className="text-gray-600 text-sm">Explore tools, associations, directories, and practical resources once you are ready.</p>
+              </Link>
+              <Link href="/best-printers-for-notaries" className="block p-6 border-2 border-notary-gold hover:bg-gray-50 transition">
+                <h4 className="font-bold text-notary-navy mb-2">Best Printer for Notaries & Loan Signing Agents</h4>
+                <p className="text-gray-600 text-sm">Budget for the equipment that actually drives your startup cost.</p>
               </Link>
             </div>
           </div>

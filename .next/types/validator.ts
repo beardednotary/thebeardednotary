@@ -63,6 +63,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/business-email-for-notaries/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/business-email-for-notaries">> = Specific
+  const handler = {} as typeof import("../../app/business-email-for-notaries/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/cost-to-become-a-notary-in-california/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/cost-to-become-a-notary-in-california">> = Specific
+  const handler = {} as typeof import("../../app/cost-to-become-a-notary-in-california/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/document-types-notaries-glossary/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/document-types-notaries-glossary">> = Specific
@@ -117,6 +135,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/how-to-pass-california-notary-exam/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/how-to-pass-california-notary-exam">> = Specific
+  const handler = {} as typeof import("../../app/how-to-pass-california-notary-exam/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/mileage-tracking-for-notaries/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/mileage-tracking-for-notaries">> = Specific
+  const handler = {} as typeof import("../../app/mileage-tracking-for-notaries/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/mobile-notary-supplies/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/mobile-notary-supplies">> = Specific
@@ -135,10 +171,28 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/notary-public-vs-loan-signing-agent/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/notary-public-vs-loan-signing-agent">> = Specific
+  const handler = {} as typeof import("../../app/notary-public-vs-loan-signing-agent/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/">> = Specific
   const handler = {} as typeof import("../../app/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/payment-methods-for-notaries/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/payment-methods-for-notaries">> = Specific
+  const handler = {} as typeof import("../../app/payment-methods-for-notaries/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

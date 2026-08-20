@@ -127,6 +127,56 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/business-email-for-notaries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/business-email-for-notaries",
+      "dataRoute": "/business-email-for-notaries.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/cost-to-become-a-notary-in-california": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/cost-to-become-a-notary-in-california",
+      "dataRoute": "/cost-to-become-a-notary-in-california.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/document-types-notaries-glossary": {
       "experimentalBypassFor": [
         {
@@ -277,6 +327,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/how-to-pass-california-notary-exam": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/how-to-pass-california-notary-exam",
+      "dataRoute": "/how-to-pass-california-notary-exam.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/icon.png": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -297,6 +372,31 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/icon.png",
       "dataRoute": null,
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/mileage-tracking-for-notaries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/mileage-tracking-for-notaries",
+      "dataRoute": "/mileage-tracking-for-notaries.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
@@ -357,6 +457,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/notary-public-vs-loan-signing-agent": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/notary-public-vs-loan-signing-agent",
+      "dataRoute": "/notary-public-vs-loan-signing-agent.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/": {
       "experimentalBypassFor": [
         {
@@ -372,6 +497,31 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/",
       "dataRoute": "/index.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/payment-methods-for-notaries": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/payment-methods-for-notaries",
+      "dataRoute": "/payment-methods-for-notaries.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
@@ -546,8 +696,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "cb44747fa1ef6bed37918b60d0d34044",
-    "previewModeSigningKey": "3a609ec548b821a74c38461429af01e02696e7e6cf784af4dbcd2cb981a995de",
-    "previewModeEncryptionKey": "4821e0623cf31efcb4d79a1825875218fbd9e065d71541e3fcf31bfc33011fa6"
+    "previewModeId": "5a585d5ad5b63d9d8e5a0d0a0ebbf3ef",
+    "previewModeSigningKey": "a6b64cfd6479ad3328c8e0f94807ba4ba64bded464436f0e80e2197112997647",
+    "previewModeEncryptionKey": "0cff4523d5e997e2717ba21ddae50f764503528be5319c5e5557bb43386ceee7"
   }
 }

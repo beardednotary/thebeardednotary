@@ -6,13 +6,13 @@ import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
 export const metadata: Metadata = {
-  title: 'Best Printer for Notaries & Loan Signing Agents 2026: Complete Buying Guide | The Bearded Notary',
-  description: 'Complete 2026 printer buying guide for notaries. Compare laser vs inkjet, dual-tray vs single, portable options, cost analysis, and specific recommendations with real notary reviews.',
+  title: 'Best Printer for Notaries & Loan Signing Agents (2026) | The Bearded Notary',
+  description: 'Best printer for notaries in 2026: the Brother HL-L5210DWT dual-tray laser printer, plus budget, portable, and premium picks, cost-per-page comparisons, and real notary reviews.',
   alternates: {
     canonical: '/best-printers-for-notaries',
   },
   openGraph: {
-    title: 'Best Printer for Notaries & Loan Signing Agents 2026',
+    title: 'Best Printer for Notaries & Loan Signing Agents (2026)',
     description: 'Dual-tray laser printers, portable options, cost breakdown, and buying guide for mobile notaries.',
     images: ['/images/best-printers-notaries-featured.png'],
   },
