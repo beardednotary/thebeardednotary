@@ -178,6 +178,12 @@
       "namedRegex": "^/thank\\-you(?:/)?$"
     },
     {
+      "page": "/thank-you-supplies",
+      "regex": "^/thank\\-you\\-supplies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/thank\\-you\\-supplies(?:/)?$"
+    },
+    {
       "page": "/why-now-is-perfect-time-loan-signing-agent",
       "regex": "^/why\\-now\\-is\\-perfect\\-time\\-loan\\-signing\\-agent(?:/)?$",
       "routeKeys": {},

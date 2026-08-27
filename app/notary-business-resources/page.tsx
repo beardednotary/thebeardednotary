@@ -382,13 +382,13 @@ export default function NotaryBusinessResources() {
             </div>
             <div className="bg-gray-50 border-l-4 border-notary-gold p-6">
               <h4 className="font-bold text-notary-navy mb-2">
-                <a href="https://quickbooks.intuit.com/" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
+                <a href="https://quickbooks.intuit.com/partners/affiliates?cid=par_pim_q1MBRgiFjo71" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
                   QuickBooks
                 </a>
               </h4>
               <p className="text-gray-700">
-                From invoicing to mileage tracking to expense tracking and integrations, QuickBooks Online and 
-                QuickBooks Self-Employed have everything you need to manage your small business finances.
+                From invoicing to mileage tracking to expense tracking and integrations, QuickBooks Online and
+                QuickBooks Self-Employed have everything you need to manage your small business finances. New users get 50% off their first 3 months.
               </p>
             </div>
           </div>

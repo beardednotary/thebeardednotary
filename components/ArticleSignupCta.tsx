@@ -10,6 +10,7 @@ const copyBySource: Record<
     heading: string;
     description: string;
     buttonLabel: string;
+    successRedirect?: string;
   }
 > = {
   "california-notary-article": {
@@ -23,9 +24,10 @@ const copyBySource: Record<
     buttonLabel: "Get the free plan",
   },
   "supplies-article": {
-    heading: "Get the Free First 30 Days Action Plan",
-    description: "Your gear is only part of the setup. Get the action plan that shows what to do with that setup in your first month.",
-    buttonLabel: "Send the action plan",
+    heading: "Get the Mobile Notary Starter Kit Checklist",
+    description: "Get this whole supplies checklist as a printable PDF, organized in the same build-it-in-stages order, so you can check items off as you buy them.",
+    buttonLabel: "Send me the checklist",
+    successRedirect: "/thank-you-supplies",
   },
   "best-printers-article": {
     heading: "Get the Free First 30 Days Action Plan",
@@ -124,6 +126,7 @@ export default function ArticleSignupCta({ source }: ArticleSignupCtaProps) {
         buttonLabel={copy.buttonLabel}
         source={source}
         className="max-w-3xl"
+        {...(copy.successRedirect ? { successRedirect: copy.successRedirect } : {})}
       />
     </section>
   );

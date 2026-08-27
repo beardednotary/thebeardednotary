@@ -69,6 +69,16 @@ const nextSteps = [
     text: "Use the pricing guide to tighten your fees, travel charges, and package offers.",
   },
   {
+    title: "Get your printer sorted",
+    href: "/best-printers-for-notaries",
+    text: "Most title companies expect dual-tray printing for mixed letter/legal packages. See the top picks.",
+  },
+  {
+    title: "Pick a scanner for scan-backs",
+    href: "/best-scanners-for-notaries",
+    text: "If you'll handle scan-backs, a reliable portable scanner saves real time. See the best picks.",
+  },
+  {
     title: "Build your mobile setup",
     href: "/mobile-notary-supplies",
     text: "Use the supplies checklist to make sure your gear is dependable before appointments stack up.",

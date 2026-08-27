@@ -24,6 +24,7 @@
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/smart-money-management-for-notaries/page": "app/smart-money-management-for-notaries/page.js",
   "/target-industries-for-notaries/page": "app/target-industries-for-notaries/page.js",
+  "/thank-you-supplies/page": "app/thank-you-supplies/page.js",
   "/thank-you/page": "app/thank-you/page.js",
   "/why-now-is-perfect-time-loan-signing-agent/page": "app/why-now-is-perfect-time-loan-signing-agent/page.js"
 }

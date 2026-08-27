@@ -515,13 +515,13 @@ export default function NotaryFinancialGuide() {
               </div>
 
               <div className="mt-4">
-                <a 
-                  href="https://quickbooks.intuit.com/self-employed/"
+                <a
+                  href="https://quickbooks.intuit.com/partners/affiliates?cid=par_pim_q1MBRgiFjo71"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-notary-navy text-white px-6 py-3 font-bold hover:bg-opacity-90 transition"
                 >
-                  Try QuickBooks Self-Employed Free for 30 Days
+                  Get 50% Off Your First 3 Months
                 </a>
               </div>
             </div>
@@ -924,7 +924,7 @@ export default function NotaryFinancialGuide() {
               </ul>
             </li>
             <li>
-              <strong>Through QuickBooks Self-Employed</strong>
+              <strong>Through <a href="https://quickbooks.intuit.com/partners/affiliates?cid=par_pim_q1MBRgiFjo71" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">QuickBooks Self-Employed</a></strong>
               <ul className="list-disc pl-6 mt-2 space-y-1">
                 <li>Calculates quarterly taxes automatically</li>
                 <li>One-click payment to IRS</li>

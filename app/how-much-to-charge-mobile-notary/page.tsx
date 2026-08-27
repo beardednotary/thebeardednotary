@@ -941,7 +941,7 @@ export default function NotaryPricingGuide() {
           </p>
 
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
-            <li>Use <strong>QuickBooks Self-Employed</strong> or <strong>Wave</strong> (free) for invoicing</li>
+            <li>Use <a href="https://quickbooks.intuit.com/partners/affiliates?cid=par_pim_q1MBRgiFjo71" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline font-semibold">QuickBooks Self-Employed</a> or <strong>Wave</strong> (free) for invoicing</li>
             <li>Track mileage with <strong>MileIQ</strong> or <strong>Everlance</strong> (see our <Link href="/mileage-tracking-for-notaries" className="text-notary-gold hover:underline">mileage deduction guide</Link>)</li>
             <li>Log every signing in a spreadsheet: date, client, service, fee, payment method</li>
             <li>Calculate your <strong>hourly rate</strong> monthly (total income ÷ total hours worked)</li>
