@@ -19,7 +19,16 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/mobile-notary-fees/[state]",
+      "regex": "^/mobile\\-notary\\-fees/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPstate": "nxtPstate"
+      },
+      "namedRegex": "^/mobile\\-notary\\-fees/(?<nxtPstate>[^/]+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -122,6 +131,12 @@
       "regex": "^/mileage\\-tracking\\-for\\-notaries(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/mileage\\-tracking\\-for\\-notaries(?:/)?$"
+    },
+    {
+      "page": "/mobile-notary-fees",
+      "regex": "^/mobile\\-notary\\-fees(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mobile\\-notary\\-fees(?:/)?$"
     },
     {
       "page": "/mobile-notary-supplies",

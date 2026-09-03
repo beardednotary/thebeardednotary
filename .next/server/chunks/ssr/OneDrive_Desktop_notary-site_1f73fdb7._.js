@@ -1,3 +1,0 @@
-module.exports=[32782,(a,b,c)=>{"use strict";b.exports=a.r(56530).vendored.contexts.AppRouterContext},18237,(a,b,c)=>{"use strict";b.exports=a.r(56530).vendored["react-ssr"].ReactServerDOMTurbopackClient},38980,a=>{"use strict";var b=a.i(23343);function c(){return(0,b.useEffect)(()=>{},[]),null}a.i(71365),a.s(["default",()=>c])}];
-
-//# sourceMappingURL=OneDrive_Desktop_notary-site_1f73fdb7._.js.map

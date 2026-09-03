@@ -6,6 +6,10 @@ import ArticleHeader from '../../components/ArticleHeader';
 import JsonLd from '../../components/JsonLd';
 import NotaryPricingCalculator from '../../components/NotaryPricingCalculator';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
+import { stateFees } from '../../lib/stateFees';
+import { stateMarketData } from '../../lib/stateMarketData';
+
+const statesWithGuides = new Set(stateMarketData.map((state) => state.slug));
 
 export const metadata: Metadata = {
   title: 'Mobile Notary Fees 2026: What to Charge ($50-200) | The Bearded Notary',
@@ -192,8 +196,13 @@ export default function NotaryPricingGuide() {
   <h3 className="text-2xl font-bold text-notary-navy mb-4">State Maximum Notary Fees (All 50 States)</h3>
   <p className="text-gray-700 mb-4">
     These are the <strong>maximum fees per notarial act</strong> (per signature) set by each state. Notaries can charge less, but never more.
+    Highlighted states link to a dedicated page with typical local pricing, not just the legal cap — see the full{' '}
+    <Link href="/mobile-notary-fees" className="text-notary-gold hover:underline font-semibold">
+      mobile notary fees by state
+    </Link>{' '}
+    index.
   </p>
-  
+
   <div className="overflow-x-auto">
     <table className="w-full border-collapse text-sm">
       <thead>
@@ -205,306 +214,22 @@ export default function NotaryPricingGuide() {
         </tr>
       </thead>
       <tbody className="text-gray-700">
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Alabama</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Alaska</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Arizona</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Arkansas</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>California</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">High fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Colorado</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Connecticut</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Delaware</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Florida</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Online: $25</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Georgia</td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">Lowest fees, rely on travel</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Hawaii</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Idaho</td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">Very low</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Illinois</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$1</td>
-          <td className="border border-gray-300 px-4 py-2">$1</td>
-          <td className="border border-gray-300 px-4 py-2">Lowest in US</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Indiana</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Iowa</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Kansas</td>
-          <td className="border border-gray-300 px-4 py-2">$1</td>
-          <td className="border border-gray-300 px-4 py-2">$1</td>
-          <td className="border border-gray-300 px-4 py-2">Very low</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Kentucky</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Louisiana</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Maine</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>Maryland</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$4</td>
-          <td className="border border-gray-300 px-4 py-2">$4</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Massachusetts</strong></td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>Michigan</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Minnesota</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Mississippi</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Missouri</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Can charge travel</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Montana</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Nebraska</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Nevada</td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">High fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">New Hampshire</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>New Jersey</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$2.50</td>
-          <td className="border border-gray-300 px-4 py-2">$2.50</td>
-          <td className="border border-gray-300 px-4 py-2">Very low</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">New Mexico</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>New York</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">$2</td>
-          <td className="border border-gray-300 px-4 py-2">Lowest fees</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>North Carolina</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Electronic: $25</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">North Dakota</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Ohio</strong></td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Oklahoma</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Oregon</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>Pennsylvania</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Travel fees common</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Rhode Island</td>
-          <td className="border border-gray-300 px-4 py-2">$4</td>
-          <td className="border border-gray-300 px-4 py-2">$4</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">South Carolina</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">South Dakota</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>Tennessee</strong></td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market-based</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Texas</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$6</td>
-          <td className="border border-gray-300 px-4 py-2">$6</td>
-          <td className="border border-gray-300 px-4 py-2">Can charge travel</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Utah</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">$10</td>
-          <td className="border border-gray-300 px-4 py-2">Standard rate</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Vermont</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">No max</td>
-          <td className="border border-gray-300 px-4 py-2">Market rate</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2"><strong>Virginia</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Electronic: $25</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2"><strong>Washington</strong></td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">$15</td>
-          <td className="border border-gray-300 px-4 py-2">High fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">West Virginia</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr>
-          <td className="border border-gray-300 px-4 py-2">Wisconsin</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
-        <tr className="bg-gray-100">
-          <td className="border border-gray-300 px-4 py-2">Wyoming</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">$5</td>
-          <td className="border border-gray-300 px-4 py-2">Low fee state</td>
-        </tr>
+        {stateFees.map((state, index) => (
+          <tr key={state.slug} className={index % 2 === 1 ? 'bg-gray-100' : undefined}>
+            <td className="border border-gray-300 px-4 py-2">
+              {statesWithGuides.has(state.slug) ? (
+                <Link href={`/mobile-notary-fees/${state.slug}`} className="font-semibold text-notary-gold hover:underline">
+                  {state.name}
+                </Link>
+              ) : (
+                state.name
+              )}
+            </td>
+            <td className="border border-gray-300 px-4 py-2">{state.acknowledgmentFee}</td>
+            <td className="border border-gray-300 px-4 py-2">{state.juratFee}</td>
+            <td className="border border-gray-300 px-4 py-2">{state.feeNotes}</td>
+          </tr>
+        ))}
       </tbody>
     </table>
   </div>

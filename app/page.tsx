@@ -37,6 +37,12 @@ export default function Home() {
       date: "Updated August 2026"
     },
     {
+      title: "Mobile Notary Fees by State (2026)",
+      slug: "mobile-notary-fees",
+      excerpt: "State-by-state pricing guides: fee caps, typical local rates, and loan signing pay for Florida, California, Texas, and more.",
+      date: "Updated September 2026"
+    },
+    {
       title: "10 Free Sites to Market Your Notary Business (2026)",
       slug: "free-marketing-sites-notaries",
       excerpt: "List your mobile notary business on 10 free sites, including Google Business Profile, Yelp, and Bing Places, and keep your info consistent.",

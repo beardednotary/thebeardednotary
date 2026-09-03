@@ -153,6 +153,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/mobile-notary-fees/[state]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/mobile-notary-fees/[state]">> = Specific
+  const handler = {} as typeof import("../../app/mobile-notary-fees/[state]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/mobile-notary-fees/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/mobile-notary-fees">> = Specific
+  const handler = {} as typeof import("../../app/mobile-notary-fees/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/mobile-notary-supplies/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/mobile-notary-supplies">> = Specific

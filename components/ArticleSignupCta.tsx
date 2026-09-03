@@ -109,6 +109,11 @@ const copyBySource: Record<
     description: "Once your payment setup is ready, get the first-month plan that shows what to tackle next.",
     buttonLabel: "Send my action plan",
   },
+  "state-fees-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Know what to charge in your state? Get the action plan that helps you turn that pricing into actual booked appointments.",
+    buttonLabel: "Send my action plan",
+  },
 };
 
 export default function ArticleSignupCta({ source }: ArticleSignupCtaProps) {

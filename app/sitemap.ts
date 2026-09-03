@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { stateMarketData } from '../lib/stateMarketData'
 
 export const dynamic = 'force-static'
 
@@ -32,9 +33,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/mobile-notary-supplies', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/why-now-is-perfect-time-loan-signing-agent', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
+    { path: '/mobile-notary-fees', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-09-02') },
   ]
 
-  return routes.map(({ path, changeFrequency, priority, lastModified }) => ({
+  const stateRoutes = stateMarketData.map((state) => ({
+    path: `/mobile-notary-fees/${state.slug}`,
+    changeFrequency: 'monthly' as const,
+    priority: 0.75,
+    lastModified: new Date('2026-09-02'),
+  }))
+
+  return [...routes, ...stateRoutes].map(({ path, changeFrequency, priority, lastModified }) => ({
     url: `${baseUrl}${path}`,
     lastModified,
     changeFrequency,
