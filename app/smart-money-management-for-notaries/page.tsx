@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -46,6 +47,8 @@ export default function NotaryFinancialGuide() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             You're bringing in mobile notary income - now make sure the recordkeeping side stays just as organized.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <AffiliateDisclosure className="mb-8" />
 

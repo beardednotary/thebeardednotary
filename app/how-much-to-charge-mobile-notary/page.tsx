@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import NotaryPricingCalculator from '../../components/NotaryPricingCalculator';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -84,6 +85,8 @@ export default function NotaryPricingGuide() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             One of the biggest mistakes new mobile notaries make? Undercharging. You're providing a professional service that requires training, licensing, bonding, and liability. You deserve to be paid fairly.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             But how much should you actually charge? The answer depends on your state's maximum fees, the type of service, travel distance, timing, and your market. This comprehensive guide breaks down exactly what to charge for every notary service in 2026.
@@ -675,25 +678,31 @@ export default function NotaryPricingGuide() {
 
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 my-8">
             <h3 className="text-xl font-bold text-notary-navy mb-3">Income Goal Examples</h3>
+            <p className="text-gray-700 mb-4 text-sm italic">
+              These are example goal structures for planning your own monthly targets, built from the volume and fee
+              assumptions used elsewhere on this page — not typical, average, or guaranteed income. Actual results
+              vary by market, hours worked, and consistency.
+            </p>
             <div className="space-y-3 text-gray-700">
               <p>
-                <strong>Part-Time ($2,000/month):</strong><br />
+                <strong>Part-Time Goal ($2,000/month):</strong><br />
                 10 loan signings at $150 = $1,500<br />
                 20 mobile notarizations at $50 = $1,000<br />
-                Total: $2,500/month (10-15 hours/week)
+                Target total: $2,500/month (10-15 hours/week)
               </p>
               <p>
-                <strong>Full-Time ($6,000/month):</strong><br />
+                <strong>Full-Time Goal ($6,000/month):</strong><br />
                 30 loan signings at $150 = $4,500<br />
                 40 mobile notarizations at $50 = $2,000<br />
-                Total: $6,500/month (30-35 hours/week)
+                Target total: $6,500/month (30-35 hours/week)
               </p>
               <p>
-                <strong>Six-Figure ($10,000/month):</strong><br />
+                <strong>Aggressive Growth Goal ($10,000/month):</strong><br />
                 50 loan signings at $150 = $7,500<br />
                 Business retainers (3 clients) = $2,000<br />
                 Premium services (hospitals, rush) = $1,500<br />
-                Total: $11,000/month (40-45 hours/week)
+                Target total: $11,000/month (40-45 hours/week) — some full-time loan signing agents report reaching
+                this range, but it's the high end, not the typical outcome.
               </p>
             </div>
           </div>
@@ -705,8 +714,13 @@ export default function NotaryPricingGuide() {
 </p>
 
 <div className="bg-gray-50 p-6 mb-8 rounded">
-  <h3 className="text-xl font-bold text-notary-navy mb-4">Average Notary Income by Type</h3>
-  
+  <h3 className="text-xl font-bold text-notary-navy mb-4">Notary Income Ranges Notaries Commonly Report, by Type</h3>
+  <p className="text-gray-700 mb-4 text-sm italic">
+    These ranges are commonly cited by working notaries and loan signing agents in industry discussion — not
+    guaranteed or average figures. Your actual income depends heavily on your market, marketing effort, and
+    consistency.
+  </p>
+
   <div className="space-y-6">
     <div className="border-l-4 border-notary-gold pl-6">
       <h4 className="text-lg font-bold text-notary-navy mb-2">General Notary Public (Part-Time)</h4>
@@ -750,11 +764,11 @@ export default function NotaryPricingGuide() {
 
     <div className="border-l-4 border-notary-gold pl-6">
       <h4 className="text-lg font-bold text-notary-navy mb-2">Loan Signing Agent (Full-Time)</h4>
-      <p className="text-2xl font-bold text-notary-gold mb-2">$6,000-12,000/month</p>
+      <p className="text-2xl font-bold text-notary-gold mb-2">$6,000-12,000/month*</p>
       <p className="text-gray-700">
         <strong>Time commitment:</strong> 40-50 hours/week<br />
         <strong>Services:</strong> 40-80 loan signings per month<br />
-        <strong>Reality:</strong> This is where serious money is made ($72K-144K/year)
+        <strong>What agents report:</strong> Many full-time loan signing agents state that a six-figure annual income is possible at this volume, though it depends heavily on market, consistency, and signing company relationships.
       </p>
     </div>
   </div>
@@ -787,14 +801,18 @@ export default function NotaryPricingGuide() {
 </ol>
 
 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-  <h4 className="font-bold text-notary-navy mb-3">Real Example: California Loan Signing Agent</h4>
+  <h4 className="font-bold text-notary-navy mb-3">Illustrative Growth Scenario: California Loan Signing Agent</h4>
+  <p className="text-gray-700 mb-3 text-sm italic">
+    A hypothetical ramp-up, not a documented case study or a typical result — meant to show how volume and rate
+    growth compound, not what any specific agent earned.
+  </p>
   <div className="space-y-2 text-gray-700">
     <p><strong>Month 1 (New):</strong> 5 signings × $100 = $500</p>
     <p><strong>Month 3 (Building):</strong> 15 signings × $125 = $1,875</p>
     <p><strong>Month 6 (Established):</strong> 30 signings × $135 = $4,050</p>
     <p><strong>Month 12 (Full-time):</strong> 60 signings × $150 = $9,000</p>
     <p className="pt-3 border-t-2 border-blue-300 font-bold">
-      Annual income (Month 12 pace): $108,000
+      Projected annual pace at Month 12 volume: ~$108,000 (illustrative only — not a guarantee or typical outcome)
     </p>
   </div>
 </div>
@@ -802,7 +820,8 @@ export default function NotaryPricingGuide() {
 <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Notary Salary vs. Notary Signing Agent Salary</h3>
 
 <p className="text-gray-700 mb-6">
-  There's a massive income gap between general notaries and loan signing agents. Here's the reality:
+  There's a substantial gap in the income ranges commonly reported by general notaries versus loan signing agents.
+  These figures are typical ranges cited by working notaries, not guarantees:
 </p>
 
 <div className="bg-white border-2 border-gray-300 p-6 mb-8 rounded">
@@ -845,7 +864,7 @@ export default function NotaryPricingGuide() {
 </div>
 
 <p className="text-gray-700 mb-8">
-  <strong>Bottom line:</strong> If you want to make serious money as a notary, get <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">loan signing certified</Link>. It's the difference between a side gig and a career.
+  <strong>Bottom line:</strong> Many notaries who go through <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">loan signing certification</Link> report meaningfully higher income afterward. Results vary, but it's one of the more commonly cited paths from a side gig toward a full-time notary career.
 </p>
 
           <div className="bg-white border-2 border-notary-gold p-8 my-12 rounded">

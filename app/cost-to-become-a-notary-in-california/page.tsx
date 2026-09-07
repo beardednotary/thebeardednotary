@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -140,6 +141,8 @@ export default function CaliforniaNotaryCostPage() {
             ready to work. The low end is possible if you keep your setup lean. The higher end happens when you choose
             a pricier course, pay higher county filing fees, add E&amp;O insurance, and buy your starter supplies all at once.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you want the full step-by-step process, read the{' '}

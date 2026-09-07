@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildCollectionPageSchema, getAbsoluteUrl } from '../../lib/schema';
 import { getStateFee } from '../../lib/stateFees';
@@ -54,6 +55,8 @@ export default function MobileNotaryFeesHub() {
             State notary fee caps only tell part of the story. Each guide below breaks down the legal fee cap,
             typical local mobile notary pricing, and typical loan signing rates for that state.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-10">
             Looking for the full national breakdown, travel fee structure, and a pricing calculator instead? See the{' '}

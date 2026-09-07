@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -56,6 +57,8 @@ export default function DocumentTypesNotariesGlossary() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             As a mobile notary or loan signing agent, you'll encounter dozens of different document types. Understanding what each document is, when it's used, and what to watch for will make you more confident, faster, and more valuable to clients.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you want to turn that document familiarity into better income, pair this page with the{' '}

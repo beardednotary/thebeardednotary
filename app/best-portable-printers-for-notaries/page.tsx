@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -46,6 +47,8 @@ export default function BestPortablePrintersForNotaries() {
             Most notaries should not use a portable printer as their main printer. But as a backup tool for on-site corrections,
             last-minute disclosures, and true mobile flexibility, a good portable printer can save a signing.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer: Best Portable Printers</h2>

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -110,6 +111,8 @@ export default function PerfectTimeLoanSigningAgent() {
             If you are wondering whether you already missed the loan-signing opportunity, the honest answer is no. But
             this path works best for a specific kind of notary, and that is the part most hype-heavy articles skip.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             Loan signing work can still be attractive in 2026 because it usually pays better than standard general

@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/target-industries-for-notaries/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c41ba48c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__a774e151._.js")
 R.c("server/chunks/ssr/13466_Desktop_notary-site_app_target-industries-for-notaries_page_tsx_11288823._.js")
 R.c("server/chunks/ssr/35c11_next_dist_260e38e4._.js")
 R.c("server/chunks/ssr/OneDrive_Desktop_notary-site_d7c59a4a._.js")

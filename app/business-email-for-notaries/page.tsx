@@ -3,6 +3,7 @@ import Link from 'next/link';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import {
   buildArticleSchema,
@@ -79,6 +80,8 @@ export default function BusinessEmailForNotariesPage() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             A business email does not have to be complicated. You just need something that looks professional, is easy to check from your phone, and keeps notary work separate from personal messages.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you are still setting up the basics, keep this page open alongside the{' '}

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -83,6 +84,8 @@ export default function FreeMarketingSitesNotaries() {
             </Link>{' '}
             reflects the value of mobile service.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           {/* NAP Consistency Section */}
           <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">

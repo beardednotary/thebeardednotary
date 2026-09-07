@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -144,6 +145,8 @@ export default function CaliforniaNotaryExamPage() {
             The California notary exam is passable for most prepared applicants, but it rewards careful study and punishes overconfidence.
             If you want the best odds, use the current handbook, study the rules that are easy to confuse, and walk in already knowing the logistics.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you need the full commission roadmap, start with the{' '}

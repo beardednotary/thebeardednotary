@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import ArticleHeader from '../../../components/ArticleHeader';
+import AuthorByline from '../../../components/AuthorByline';
 import ArticleSignupCta from '../../../components/ArticleSignupCta';
 import JsonLd from '../../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../../lib/schema';
@@ -109,6 +110,8 @@ export default async function StateFeesPage({ params }: PageProps) {
             Here's what mobile notaries and loan signing agents typically charge in {fee.name} in 2026 — the state
             fee cap, realistic local pricing, and how loan signing rates compare.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer for {fee.name}</h2>

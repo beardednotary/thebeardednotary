@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/how-to-pass-california-notary-exam/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__9b1cf6fe._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__ef98d62a._.js")
 R.c("server/chunks/ssr/35c11_next_dist_260e38e4._.js")
 R.c("server/chunks/ssr/OneDrive_Desktop_notary-site_2981be8d._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__249c5fae._.js")

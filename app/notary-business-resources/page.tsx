@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -41,9 +42,10 @@ export default function NotaryBusinessResources() {
         <JsonLd data={[articleSchema, breadcrumbSchema]} />
         <div className="mb-8">
           <p className="text-xl text-gray-700">
-            Whether you're a newly-sworn in Notary Public or a long-time pro, these notary business 
+            Whether you're a newly-sworn in Notary Public or a long-time pro, these notary business
             resources are available to take your business to the next level.
           </p>
+          <AuthorByline className="mt-4" />
         </div>
 
         <div className="prose prose-lg max-w-none">

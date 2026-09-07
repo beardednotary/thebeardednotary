@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/payment-methods-for-notaries/page.js")
-R.c("server/chunks/ssr/[root-of-the-server]__9e525dab._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__6ac9be38._.js")
 R.c("server/chunks/ssr/35c11_next_dist_260e38e4._.js")
 R.c("server/chunks/ssr/OneDrive_Desktop_notary-site_7d762f49._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__249c5fae._.js")

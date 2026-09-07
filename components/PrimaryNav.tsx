@@ -13,6 +13,7 @@ const links = [
   { href: "/how-much-to-charge-mobile-notary", label: "Pricing" },
   { href: "/mobile-notary-supplies", label: "Supplies" },
   { href: "/notary-business-resources", label: "Resources" },
+  { href: "/about", label: "About" },
 ];
 
 export default function PrimaryNav({ light = false }: PrimaryNavProps) {

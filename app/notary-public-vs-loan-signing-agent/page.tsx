@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import JsonLd from '../../components/JsonLd';
@@ -115,6 +116,8 @@ export default function NotaryVsLoanSigningAgentPage() {
             specialized role. If you are trying to choose your path, the real question is not which one is better. It
             is which one fits where you are right now.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you are still working toward your commission, start with the{' '}

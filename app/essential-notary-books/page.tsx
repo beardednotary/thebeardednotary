@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -125,6 +126,7 @@ export default function EssentialNotaryBooks() {
             the skills that actually move the business forward: loan signings, marketing, specialty work, document
             familiarity, and better decision-making in the field.
           </p>
+          <AuthorByline className="mt-4" />
         </div>
 
         <div className="prose prose-lg max-w-none">

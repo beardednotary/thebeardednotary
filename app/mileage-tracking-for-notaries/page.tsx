@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import MileageDeductionCalculator from '../../components/MileageDeductionCalculator';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
@@ -72,6 +73,8 @@ export default function MileageTrackingForNotaries() {
             botch by not logging it correctly. Here's how the deduction actually works in 2026, and how to make sure you
             don't lose it.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <AffiliateDisclosure className="mb-8" />
 

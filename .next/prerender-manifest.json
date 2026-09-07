@@ -52,6 +52,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/about": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/best-portable-printers-for-notaries": {
       "experimentalBypassFor": [
         {
@@ -1149,8 +1174,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "5a585d5ad5b63d9d8e5a0d0a0ebbf3ef",
-    "previewModeSigningKey": "a6b64cfd6479ad3328c8e0f94807ba4ba64bded464436f0e80e2197112997647",
-    "previewModeEncryptionKey": "0cff4523d5e997e2717ba21ddae50f764503528be5319c5e5557bb43386ceee7"
+    "previewModeId": "9a8f84ab11c384b67bfd53dac67f1cb0",
+    "previewModeSigningKey": "94ffe4b54d40742df43f944e9872c1299f0c10bbe9db508b8ae0d45d52c53eb9",
+    "previewModeEncryptionKey": "bb636bb10d86c59af2810136aa707c014a34fd2fec9d5282891d8d62ffcb7c41"
   }
 }

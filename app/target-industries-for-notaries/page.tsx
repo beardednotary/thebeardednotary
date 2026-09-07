@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -54,6 +55,8 @@ export default function TargetIndustriesNotaries() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             Not all notary clients reach out in the same way. Some industries need notaries regularly and can lead to repeat appointments, while others are more occasional. This guide focuses on places where mobile notaries are commonly needed.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             After <Link href="/free-marketing-sites-notaries" className="text-notary-gold hover:underline">listing your business on free sites</Link>, the next step is reaching out to industries that already deal with notarized paperwork on a regular basis.

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -76,6 +77,8 @@ export default function HowToBecomeNotaryCalifornia() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             Becoming a notary public in California takes 6-8 weeks and costs $400-600. You'll need to complete a 6-hour course, pass a state exam, clear a background check, and file your commission. This comprehensive guide walks you through every step.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             If you are planning beyond the commission itself, the next two pages most California readers need are the{' '}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import {
   buildArticleSchema,
@@ -121,6 +122,8 @@ export default function PaymentMethodsForNotariesPage() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             The best payment setup for most mobile notaries is simple: accept cash, Zelle, and one card option such as Square.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             That gives you a fast option for clients who want to pay in person, a digital option that avoids card fees, and a card option for people who do not carry cash. If you are still setting up your basics, keep this page open alongside the{' '}

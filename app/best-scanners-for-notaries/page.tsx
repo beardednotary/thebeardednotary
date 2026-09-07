@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -68,6 +69,8 @@ export default function BestScannersForNotaries() {
             A good scanner saves deals, speeds up scan-backs, and makes you look more professional to title companies.
             If you do loan signings regularly, a scanner is no longer optional gear.
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-sm text-gray-500 mb-8">
             Disclosure: This page may include affiliate links. If you buy through them, The Bearded Notary may earn a commission at no extra cost to you.

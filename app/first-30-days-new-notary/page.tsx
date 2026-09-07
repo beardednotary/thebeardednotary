@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import AffiliateDisclosure from '../../components/AffiliateDisclosure';
 import ArticleHeader from '../../components/ArticleHeader';
+import AuthorByline from '../../components/AuthorByline';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -56,6 +57,8 @@ export default function First30DaysNewNotary() {
           <p className="text-xl text-gray-700 mb-8 font-semibold">
             You just got your notary commission. Exciting! But now what? How do you actually get clients and start making money?
           </p>
+
+          <AuthorByline className="mb-8" />
 
           <p className="text-gray-700 mb-8">
             This isn't theory - it's a practical, day-by-day action plan that takes you from "brand new notary" to "earning your first $1,000+" in 30 days. Follow this plan, check off each task, and you'll build a solid foundation for a working notary business in 2026.
