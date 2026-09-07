@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: Date
   }> = [
     { path: '', changeFrequency: 'weekly', priority: 1, lastModified: new Date('2026-07-20') },
+    { path: '/about', changeFrequency: 'monthly', priority: 0.7, lastModified: new Date('2026-09-06') },
     { path: '/best-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-portable-printers-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-17') },
     { path: '/best-scanners-for-notaries', changeFrequency: 'monthly', priority: 0.9, lastModified: new Date('2026-07-15') },

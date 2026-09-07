@@ -7,6 +7,12 @@
 <priority>1</priority>
 </url>
 <url>
+<loc>https://thebeardednotary.com/about</loc>
+<lastmod>2026-09-06T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
 <loc>https://thebeardednotary.com/best-printers-for-notaries</loc>
 <lastmod>2026-07-17T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
