@@ -356,7 +356,7 @@ export default function TargetIndustriesNotaries() {
               <li>How to avoid common mistakes</li>
             </ul>
             <a
-              href="https://loansigningsystem.com?tag=beardednotary-20"
+              href="http://loansigningsystem.com/?afmc=x5"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-notary-navy px-8 py-4 font-bold text-lg hover:bg-gray-100 transition shadow-lg border-2 border-notary-gold"

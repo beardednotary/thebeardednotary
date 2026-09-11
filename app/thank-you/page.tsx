@@ -172,6 +172,22 @@ export default function ThankYouPage() {
               </p>
             </div>
 
+            <div className="border-2 border-notary-gold bg-notary-navy p-6 text-white">
+              <h3 className="mb-2 text-xl font-bold">Thinking about loan signings?</h3>
+              <p className="mb-4 text-gray-200">
+                Loan signings pay more per appointment than general notarizations. Loan Signing System is one of the
+                better-known training programs if you want to move into that work.
+              </p>
+              <a
+                href="http://loansigningsystem.com/?afmc=x5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-notary-gold px-5 py-3 font-bold text-notary-navy transition hover:bg-[#c79f1f]"
+              >
+                See Loan Signing System
+              </a>
+            </div>
+
             {nextSteps.map((step) => (
               <Link key={step.href} href={step.href} className="block border border-gray-200 bg-white p-6 transition hover:border-notary-gold">
                 <h3 className="mb-2 text-xl font-bold text-notary-navy">{step.title}</h3>
