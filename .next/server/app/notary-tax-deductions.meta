@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/notary-tax-deductions/layout,_N_T_/notary-tax-deductions/page,_N_T_/notary-tax-deductions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/notary-tax-deductions/__PAGE__",
+    "/notary-tax-deductions",
+    "/_index",
+    "/_head"
+  ]
+}

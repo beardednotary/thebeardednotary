@@ -21,6 +21,7 @@
   "/mobile-notary-supplies/page": "app/mobile-notary-supplies/page.js",
   "/notary-business-resources/page": "app/notary-business-resources/page.js",
   "/notary-public-vs-loan-signing-agent/page": "app/notary-public-vs-loan-signing-agent/page.js",
+  "/notary-tax-deductions/page": "app/notary-tax-deductions/page.js",
   "/page": "app/page.js",
   "/payment-methods-for-notaries/page": "app/payment-methods-for-notaries/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",

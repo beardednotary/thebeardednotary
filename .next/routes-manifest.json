@@ -163,6 +163,12 @@
       "namedRegex": "^/notary\\-public\\-vs\\-loan\\-signing\\-agent(?:/)?$"
     },
     {
+      "page": "/notary-tax-deductions",
+      "regex": "^/notary\\-tax\\-deductions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/notary\\-tax\\-deductions(?:/)?$"
+    },
+    {
       "page": "/payment-methods-for-notaries",
       "regex": "^/payment\\-methods\\-for\\-notaries(?:/)?$",
       "routeKeys": {},

@@ -37,6 +37,12 @@ export default function Home() {
       date: "Updated August 2026"
     },
     {
+      title: "Notary Tax Deductions & the Self-Employment Tax Exemption (2026)",
+      slug: "notary-tax-deductions",
+      excerpt: "The notarial-fee self-employment tax exemption explained correctly, plus the full list of notary and loan signing agent tax deductions by category.",
+      date: "Updated September 2026"
+    },
+    {
       title: "Mobile Notary Fees by State (2026)",
       slug: "mobile-notary-fees",
       excerpt: "State-by-state pricing guides: fee caps, typical local rates, and loan signing pay for Florida, California, Texas, and more.",

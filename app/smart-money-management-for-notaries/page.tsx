@@ -647,178 +647,29 @@ export default function NotaryFinancialGuide() {
             </p>
           </div>
 
-          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">25 Tax Deductions for Mobile Notaries</h2>
+          <h2 className="text-3xl font-bold text-notary-navy mt-12 mb-6">Tax Deductions for Mobile Notaries</h2>
 
           <p className="text-gray-700 mb-6">
-            This is where notaries leave money on the table. These are legitimate business expenses you can deduct to lower your taxable income.
+            This is where notaries leave money on the table — both in missed deductions and in a notary-specific
+            self-employment tax rule most general small-business content never mentions. We built out a full
+            breakdown, organized by category (professional, administrative, travel, and marketing expenses), plus
+            the correct explanation of which notary fees are actually exempt from self-employment tax and which
+            aren't.
           </p>
 
-          <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-8">
-            <p className="text-gray-800">
-              <strong>Disclaimer:</strong> I'm not a CPA. This is general information. Tax laws change. Hire a tax professional who understands self-employment to maximize your deductions legally.
+          <div className="bg-gray-50 border-2 border-notary-gold/40 p-6 mb-8 rounded">
+            <p className="text-gray-700">
+              See the full{' '}
+              <Link href="/notary-tax-deductions" className="text-notary-gold hover:underline font-semibold">
+                Notary Tax Deductions guide
+              </Link>{' '}
+              for the category-by-category list, and the{' '}
+              <Link href="/mileage-tracking-for-notaries" className="text-notary-gold hover:underline font-semibold">
+                mileage deduction guide
+              </Link>{' '}
+              for vehicle expenses specifically — usually the single largest deduction for mobile notaries.
             </p>
           </div>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Vehicle Expenses (Biggest Deduction)</h3>
-
-          <div className="bg-gray-50 p-6 mb-6 rounded">
-            <p className="text-gray-700 mb-4">
-              You have two options. Pick one (not both):
-            </p>
-
-            <div className="space-y-4">
-              <div>
-                <h4 className="font-bold text-notary-navy mb-2">Option 1: Standard Mileage Rate (Easier)</h4>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                  <li>67¢ per mile in 2024 (check 2026 rate)</li>
-                  <li>Track every business mile (date, starting point, destination, purpose)</li>
-                  <li>Average notary: 5,000-10,000 miles/year = $3,350-6,700 deduction</li>
-                  <li>Use mileage app (see section below)</li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="font-bold text-notary-navy mb-2">Option 2: Actual Expenses (More Work)</h4>
-                <ul className="list-disc pl-6 space-y-1 text-gray-700">
-                  <li>Calculate business use % (miles for business ÷ total miles)</li>
-                  <li>Deduct that % of: gas, oil changes, repairs, insurance, registration, depreciation</li>
-                  <li>Keep ALL receipts</li>
-                  <li>Usually better if you have an expensive car or high maintenance costs</li>
-                </ul>
-              </div>
-            </div>
-
-            <p className="text-gray-700 mt-4">
-              <strong>Most notaries use standard mileage rate.</strong> It's easier and often equals or beats actual expenses.
-            </p>
-          </div>
-
-          <h4 className="font-bold text-notary-navy mb-3">Other Vehicle Deductions (In Addition to Above):</h4>
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Parking fees for signings</li>
-            <li>Tolls for business trips</li>
-            <li>Car wash (keep it professional for clients)</li>
-            <li>Phone mount, chargers (business use %)</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Supplies & Equipment</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Notary stamp and embosser</li>
-            <li>Notary journal(s)</li>
-            <li>Business cards</li>
-            <li>Pens, folders, clipboards</li>
-            <li>Thumbprint pad and ink</li>
-            <li>Printer and scanner (see our <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">printer guide</Link> and <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">scanner guide</Link>)</li>
-            <li>Paper, ink, toner</li>
-            <li>Laptop or tablet (business use %)</li>
-            <li>Mobile hotspot or data plan</li>
-            <li>Portable file boxes</li>
-            <li>Calculator</li>
-            <li>Notary stamp holder/case</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Professional Development & Education</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Loan Signing System training (fully deductible - see <Link href="/why-now-is-perfect-time-loan-signing-agent" className="text-notary-gold hover:underline">why it's worth it</Link>)</li>
-            <li>NNA membership and background screening</li>
-            <li>State notary exam fees</li>
-            <li>Continuing education courses</li>
-            <li>Notary conferences and workshops</li>
-            <li>Professional books (see our <Link href="/essential-notary-books" className="text-notary-gold hover:underline">recommended reading list</Link>)</li>
-            <li>Online courses and webinars</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Insurance</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>E&O insurance (errors and omissions)</li>
-            <li>Business liability insurance</li>
-            <li>Notary bond (required in most states)</li>
-            <li>Health insurance premiums (if self-employed, special deduction)</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Home Office (If You Qualify)</h3>
-
-          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-6">
-            <p className="text-gray-800 mb-3">
-              <strong>Requirements:</strong>
-            </p>
-            <ul className="list-disc pl-6 space-y-1 text-gray-700">
-              <li>Dedicated space used EXCLUSIVELY for business</li>
-              <li>Regular and exclusive use (not the kitchen table)</li>
-              <li>Principal place of business (where you do admin work)</li>
-            </ul>
-          </div>
-
-          <p className="text-gray-700 mb-4">
-            <strong>If you qualify, you can deduct:</strong>
-          </p>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>% of rent or mortgage interest (square footage of office ÷ total home square footage)</li>
-            <li>% of utilities (electric, gas, water)</li>
-            <li>% of home internet</li>
-            <li>% of homeowners/renters insurance</li>
-            <li>Office furniture (desk, chair, filing cabinet)</li>
-            <li>Office decorations and organization</li>
-          </ul>
-
-          <p className="text-gray-700 mb-8">
-            <strong>Simplified option:</strong> $5 per square foot, up to 300 sq ft = max $1,500 deduction. Easier, no receipts needed.
-          </p>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Marketing & Advertising</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Website hosting and domain ($12-200/year)</li>
-            <li>Paid business listings (123Notary premium, NotaryRotary featured)</li>
-            <li>Facebook or Google ads</li>
-            <li>Business cards and flyers</li>
-            <li>Networking event fees</li>
-            <li>Chamber of Commerce membership</li>
-            <li>Promotional items (branded pens, magnets)</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Professional Services</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>CPA or accountant fees</li>
-            <li>Bookkeeping services</li>
-            <li>Legal fees (LLC formation, contract review)</li>
-            <li>Business consultant or coach</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Technology & Communications</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Business phone line (100% deductible)</li>
-            <li>Personal phone bill (business use % only)</li>
-            <li>Software subscriptions (QuickBooks, Canva, scheduling tools)</li>
-            <li>Cloud storage (Google Drive, Dropbox)</li>
-            <li>Email marketing platform (Mailchimp, etc.)</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Licensing & Filing Fees</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Notary commission fees</li>
-            <li>DBA (Doing Business As) filing fee</li>
-            <li>LLC formation and annual fees</li>
-            <li>Business license</li>
-            <li>Bank fees (business account monthly fees)</li>
-          </ul>
-
-          <h3 className="text-2xl font-bold text-notary-navy mt-10 mb-4">Miscellaneous</h3>
-
-          <ul className="list-disc pl-6 space-y-1 text-gray-700 mb-8">
-            <li>Professional attire (if required for notary work and not suitable for personal wear - rare)</li>
-            <li>Background check fees</li>
-            <li>Postage and shipping</li>
-            <li>Meals with clients or potential clients (50% deductible)</li>
-            <li>Travel expenses for out-of-town signings (airfare, hotel, meals)</li>
-          </ul>
 
           <div className="bg-notary-navy text-white p-6 my-8 rounded">
             <h4 className="font-bold mb-3">💡 The Golden Rule of Deductions</h4>
