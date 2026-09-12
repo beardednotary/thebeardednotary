@@ -234,6 +234,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/rescission-calendar-for-notaries/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/rescission-calendar-for-notaries">> = Specific
+  const handler = {} as typeof import("../../app/rescission-calendar-for-notaries/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/smart-money-management-for-notaries/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/smart-money-management-for-notaries">> = Specific

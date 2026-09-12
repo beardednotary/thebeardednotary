@@ -24,6 +24,7 @@
   "/notary-tax-deductions/page": "app/notary-tax-deductions/page.js",
   "/page": "app/page.js",
   "/payment-methods-for-notaries/page": "app/payment-methods-for-notaries/page.js",
+  "/rescission-calendar-for-notaries/page": "app/rescission-calendar-for-notaries/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/smart-money-management-for-notaries/page": "app/smart-money-management-for-notaries/page.js",

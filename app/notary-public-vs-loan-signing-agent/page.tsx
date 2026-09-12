@@ -215,6 +215,7 @@ export default function NotaryVsLoanSigningAgentPage() {
               <li>Keep the appointment moving while staying within the limits of notary law</li>
               <li>Watch for signature, date, and initial errors before shipping documents back</li>
               <li>Handle scan-backs, drop-offs, scheduling windows, and service expectations from title or signing companies</li>
+              <li>Know when a signing has a 3-day right-of-rescission period and when it doesn't — see our <Link href="/rescission-calendar-for-notaries" className="text-notary-gold hover:underline">rescission deadline calculator</Link></li>
             </ul>
           </div>
 

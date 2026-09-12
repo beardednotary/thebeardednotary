@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/smart-money-management-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-08-19') },
     { path: '/mileage-tracking-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-08-19') },
     { path: '/notary-tax-deductions', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-09-11') },
+    { path: '/rescission-calendar-for-notaries', changeFrequency: 'monthly', priority: 0.85, lastModified: new Date('2026-09-11') },
     { path: '/free-marketing-sites-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/target-industries-for-notaries', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/document-types-notaries-glossary', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },

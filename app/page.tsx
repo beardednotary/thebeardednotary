@@ -43,6 +43,12 @@ export default function Home() {
       date: "Updated September 2026"
     },
     {
+      title: "Rescission Calendar & Deadline Calculator for Notaries",
+      slug: "rescission-calendar-for-notaries",
+      excerpt: "A right-of-rescission deadline calculator for loan signing agents, plus which loans qualify, how business days are counted, and common mistakes.",
+      date: "Updated September 2026"
+    },
+    {
       title: "Mobile Notary Fees by State (2026)",
       slug: "mobile-notary-fees",
       excerpt: "State-by-state pricing guides: fee caps, typical local rates, and loan signing pay for Florida, California, Texas, and more.",

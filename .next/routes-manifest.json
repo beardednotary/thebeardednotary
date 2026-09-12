@@ -175,6 +175,12 @@
       "namedRegex": "^/payment\\-methods\\-for\\-notaries(?:/)?$"
     },
     {
+      "page": "/rescission-calendar-for-notaries",
+      "regex": "^/rescission\\-calendar\\-for\\-notaries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rescission\\-calendar\\-for\\-notaries(?:/)?$"
+    },
+    {
       "page": "/robots.txt",
       "regex": "^/robots\\.txt(?:/)?$",
       "routeKeys": {},

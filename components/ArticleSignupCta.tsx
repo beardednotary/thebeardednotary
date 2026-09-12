@@ -109,6 +109,11 @@ const copyBySource: Record<
     description: "Once your payment setup is ready, get the first-month plan that shows what to tackle next.",
     buttonLabel: "Send my action plan",
   },
+  "rescission-calculator-article": {
+    heading: "Get the Free First 30 Days Action Plan",
+    description: "Getting into loan signings? Get the action plan that helps you build the rest of the business around that work.",
+    buttonLabel: "Send my action plan",
+  },
   "tax-deductions-article": {
     heading: "Get the Free First 30 Days Action Plan",
     description: "Now that your deductions are in order, get the action plan that helps you turn that setup into consistent booked appointments.",

@@ -385,7 +385,7 @@ export default function DocumentTypesNotariesGlossary() {
                   <li><strong>Promissory Note:</strong> Borrower's promise to repay loan (MOST IMPORTANT - requires notarization)</li>
                   <li><strong>Deed of Trust / Mortgage:</strong> Secures property as collateral</li>
                   <li><strong>Closing Disclosure (CD):</strong> Final loan terms (replaces HUD-1)</li>
-                  <li><strong>Notice of Right to Cancel:</strong> 3-day rescission period for refinances</li>
+                  <li><strong>Notice of Right to Cancel:</strong> 3-day rescission period for refinances (see our <Link href="/rescission-calendar-for-notaries" className="text-notary-gold hover:underline">rescission deadline calculator</Link>)</li>
                   <li><strong>Disbursement Authorization:</strong> Permission to release funds</li>
                   <li><strong>Occupancy Affidavit:</strong> Confirms primary residence</li>
                   <li><strong>Title Documents:</strong> Grant Deed, Deed of Trust</li>
