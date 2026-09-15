@@ -624,7 +624,7 @@ export default function HowToBecomeNotaryCalifornia() {
                   <strong>What it is:</strong> Errors & Omissions insurance protects YOU if you make a mistake. The bond protects the public; E&O protects your personal assets.
                 </p>
                 <p className="text-gray-700">
-                  <strong>Recommendation:</strong> Get at least $25,000 E&O. If you plan to do loan signings, get $100,000 (title companies often require it).
+                  <strong>Recommendation:</strong> Get at least $25,000 E&O. If you plan to do loan signings, get $100,000 (title companies often require it). See our <Link href="/notary-eo-insurance" className="text-notary-gold hover:underline">E&O insurance guide</Link> for where to get it.
                 </p>
               </div>
 

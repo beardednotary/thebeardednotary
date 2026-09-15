@@ -43,6 +43,12 @@ export default function Home() {
       date: "Updated September 2026"
     },
     {
+      title: "Notary E&O Insurance: Where to Get It and What It Costs (2026)",
+      slug: "notary-eo-insurance",
+      excerpt: "What errors and omissions insurance actually covers, realistic cost ranges, and where to get it as a notary or loan signing agent.",
+      date: "Updated September 2026"
+    },
+    {
       title: "Rescission Calendar & Deadline Calculator for Notaries",
       slug: "rescission-calendar-for-notaries",
       excerpt: "A right-of-rescission deadline calculator for loan signing agents, plus which loans qualify, how business days are counted, and common mistakes.",

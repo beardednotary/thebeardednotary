@@ -599,7 +599,7 @@ export default function First30DaysNewNotary() {
               <ul className="list-disc pl-6 space-y-1 text-gray-700">
                 <li>Loan Signing System certificate (or equivalent)</li>
                 <li>Background screening (NNA or similar, $40)</li>
-                <li>E&O Insurance ($25,000-$100,000 coverage, ~$50/year)</li>
+                <li>E&O Insurance ($25,000-$100,000 coverage — see our <Link href="/notary-eo-insurance" className="text-notary-gold hover:underline">E&O insurance guide</Link>)</li>
                 <li>Dual-tray printer for scan-backs (see our <Link href="/best-printers-for-notaries" className="text-notary-gold hover:underline">printer guide</Link> and <Link href="/best-scanners-for-notaries" className="text-notary-gold hover:underline">scanner guide</Link>)</li>
                 <li>Updated resume highlighting your notary experience</li>
               </ul>

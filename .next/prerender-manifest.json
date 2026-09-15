@@ -882,6 +882,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/notary-eo-insurance": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/notary-eo-insurance",
+      "dataRoute": "/notary-eo-insurance.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/notary-public-vs-loan-signing-agent": {
       "experimentalBypassFor": [
         {

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/notary-eo-insurance/layout,_N_T_/notary-eo-insurance/page,_N_T_/notary-eo-insurance"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/notary-eo-insurance/__PAGE__",
+    "/notary-eo-insurance",
+    "/_index",
+    "/_head"
+  ]
+}

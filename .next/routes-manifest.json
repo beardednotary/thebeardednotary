@@ -157,6 +157,12 @@
       "namedRegex": "^/notary\\-business\\-resources(?:/)?$"
     },
     {
+      "page": "/notary-eo-insurance",
+      "regex": "^/notary\\-eo\\-insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/notary\\-eo\\-insurance(?:/)?$"
+    },
+    {
       "page": "/notary-public-vs-loan-signing-agent",
       "regex": "^/notary\\-public\\-vs\\-loan\\-signing\\-agent(?:/)?$",
       "routeKeys": {},

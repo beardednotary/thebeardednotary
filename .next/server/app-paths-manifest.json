@@ -20,6 +20,7 @@
   "/mobile-notary-fees/page": "app/mobile-notary-fees/page.js",
   "/mobile-notary-supplies/page": "app/mobile-notary-supplies/page.js",
   "/notary-business-resources/page": "app/notary-business-resources/page.js",
+  "/notary-eo-insurance/page": "app/notary-eo-insurance/page.js",
   "/notary-public-vs-loan-signing-agent/page": "app/notary-public-vs-loan-signing-agent/page.js",
   "/notary-tax-deductions/page": "app/notary-tax-deductions/page.js",
   "/page": "app/page.js",

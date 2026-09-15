@@ -198,6 +198,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   type __Unused = __Check
 }
 
+// Validate ../../app/notary-eo-insurance/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/notary-eo-insurance">> = Specific
+  const handler = {} as typeof import("../../app/notary-eo-insurance/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/notary-public-vs-loan-signing-agent/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/notary-public-vs-loan-signing-agent">> = Specific
