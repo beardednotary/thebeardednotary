@@ -331,6 +331,20 @@ export default function NotaryBusinessResources() {
             </p>
           </div>
 
+          <h3 className="text-xl font-semibold text-notary-navy mt-8 mb-3">Remote Online Notarization (RON)</h3>
+          <div className="bg-gray-50 border-l-4 border-notary-gold p-6 mb-8">
+            <h4 className="font-bold text-notary-navy mb-2">
+              <a href="https://app.proof.com/referral?campaign=8951a19d-9b9e-4f23-9626-b67834ef7d5c" target="_blank" rel="noopener noreferrer" className="text-notary-gold hover:underline">
+                Notarize (by Proof)
+              </a>
+            </h4>
+            <p className="text-gray-700">
+              One of the largest RON platforms, letting commissioned notaries perform online notarizations
+              for signers anywhere in the state (where permitted). Good option if you want to add remote
+              closings and general notarizations to your business alongside in-person mobile work.
+            </p>
+          </div>
+
           <h3 className="text-xl font-semibold text-notary-navy mt-8 mb-3">E&O Insurance</h3>
           <div className="bg-gray-50 border-l-4 border-notary-gold p-6 mb-8">
             <h4 className="font-bold text-notary-navy mb-2">
