@@ -43,22 +43,112 @@ export default function NotaryPricingGuide() {
     {
       question: 'How much should a mobile notary charge?',
       answer:
-        "Mobile notaries typically charge their state's allowed notarization fee plus a travel fee, which often puts a local appointment around fifty to one hundred dollars total.",
+        "Mobile notaries should charge your state's maximum per signature ($2-15) plus a travel fee ($25-75 depending on distance). For a typical appointment with 1-2 signatures within 15 miles, charge $50-75 total. Premium for after-hours, weekends, or specialized services (hospitals, jails).",
+    },
+    {
+      question: 'How much does a mobile notary cost?',
+      answer:
+        'A mobile notary typically costs $50-100 total for a local appointment (notarization plus travel fee), or $100-200 for a loan signing. The exact price depends on your state\'s per-signature fee, distance traveled, and whether it\'s after-hours or a specialized service.',
+    },
+    {
+      question: 'What are typical mobile notary prices?',
+      answer:
+        'Typical mobile notary prices run $50-100 for a general mobile appointment, $100-200 for a loan signing, and $150-300 for specialized visits like hospitals or jails. Prices vary by state fee caps, travel distance, and timing.',
     },
     {
       question: 'What is a typical notary fee?',
       answer:
-        'Typical per-signature fees vary by state, often from a few dollars up to about fifteen dollars, with mobile travel fees charged separately.',
+        'The typical notary fee ranges from $5-15 per signature depending on your state. California, Washington, and Nevada charge $15 (highest). New York, Illinois, and Georgia charge $1-2 (lowest). Most states fall in the $5-10 range. Remember: this is just the notarization fee, and mobile notaries add travel fees on top.',
+    },
+    {
+      question: 'How much does a notary cost at a bank?',
+      answer:
+        'Banks typically charge $0-10 per signature for existing customers, sometimes free. Non-customers may pay $10-25. However, banks require you to visit during business hours (inconvenient). Mobile notaries charge more ($50-100) but come to you at your convenience.',
+    },
+    {
+      question: 'How much is a mobile notary in California?',
+      answer:
+        'California mobile notaries charge $15 per signature (state maximum) plus $25-75 travel fee. Total for a typical mobile appointment: $40-90 depending on distance and number of signatures. After-hours or rush service: $75-150.',
+    },
+    {
+      question: 'How much is a mobile notary in Texas?',
+      answer:
+        'Texas mobile notaries charge $6 per signature (state maximum) plus travel fees. Because the notarial fee is low, Texas notaries rely heavily on travel fees ($35-100 depending on distance). Typical appointment total: $50-100.',
+    },
+    {
+      question: 'How much is a mobile notary in Florida?',
+      answer:
+        'Florida mobile notaries charge $10 per signature (state maximum) plus travel fees ($25-60). Online/remote notarizations can charge up to $25 per signature. Typical mobile appointment: $50-80 total.',
+    },
+    {
+      question: 'How much do notary publics charge?',
+      answer:
+        'Stationary notaries (at an office, bank, or shipping store) charge $5-15 per signature. Mobile notaries who travel to you charge $50-100+ per appointment (notarization + travel). Loan signing agents charge $100-200 per closing appointment.',
     },
     {
       question: 'Can a notary charge a travel fee?',
       answer:
-        'In many states, yes. Travel fees are separate from the notarial act fee and are a major part of mobile notary pricing.',
+        'Yes. Travel fees are separate from notarial fees and are unlimited in most states. Mobile notaries charge $25-75 for local travel (0-20 miles), $75-150 for distant travel (20-40 miles), and premium rates for after-hours or specialized locations (hospitals, jails).',
     },
     {
       question: 'How much can a mobile notary make?',
       answer:
-        'Income depends on volume and specialization, but mobile notaries and loan signing agents can earn anywhere from modest part-time income to strong full-time revenue.',
+        'Part-time mobile notaries often earn $1,500-3,000/month. Full-time mobile notaries often earn $3,000-6,000/month. Loan signing agents sometimes earn more, but results depend on volume, market conditions, training, and consistency.',
+    },
+    {
+      question: 'Do notaries make good money?',
+      answer:
+        'General notaries often make modest supplemental income. Mobile notaries can make steadier part-time or full-time income. Loan signing agents may earn more, but that depends on specialization, market conditions, and how consistently they book work.',
+    },
+    {
+      question: 'How much does a notary make per signature?',
+      answer:
+        'Notaries earn $1-15 per signature depending on state maximum fees. However, "per signature" is misleading because mobile notaries usually rely on travel fees, not just signatures. A mobile appointment with 2 signatures might earn $75 total ($15 per signature + $45 travel fee).',
+    },
+    {
+      question: 'How much does a traveling notary cost?',
+      answer:
+        'Traveling notaries (another term for mobile notaries) cost $50-100 for local appointments, $100-200 for distant travel or complex services. After-hours, weekends, and holidays command 1.5x-2x standard rates. Factor in the convenience: they come to you.',
+    },
+    {
+      question: 'What is the average cost of a notary?',
+      answer:
+        'Average notary cost depends on service type: walk-in notary (bank, UPS store) is $5-15 per signature, mobile notary at your location is $50-100 per appointment, and loan signing is $100-200 per closing. Average across all services is about $75 per appointment.',
+    },
+    {
+      question: 'How much should I pay a notary?',
+      answer:
+        'Expect to pay $50-100 for a mobile notary to come to your home or office with 1-3 signatures. More signatures, longer distances, or after-hours service increases the cost. Loan signings (mortgage closings) cost $100-200 but include extensive document review.',
+    },
+    {
+      question: 'Can notaries set their own prices?',
+      answer:
+        "Notaries can charge up to their state's maximum per signature, but not more. However, travel fees, convenience premiums, and specialized service charges are unlimited in most states. This is how mobile notaries set competitive pricing and make sustainable income.",
+    },
+    {
+      question: 'Do notaries charge by the hour or by the signature?',
+      answer:
+        'Notaries charge by the signature (per notarial act), but mobile notaries effectively charge by the appointment (signature fees plus travel). Loan signing agents charge per signing package (flat rate for the entire closing, typically $100-200 regardless of how many signatures).',
+    },
+    {
+      question: 'How much does a loan signing agent make per signing?',
+      answer:
+        'Loan signing agents often earn $100-200 per signing depending on complexity, distance, and timing. Standard refinances may be closer to $100-125, while rush signings or longer travel can push the fee higher.',
+    },
+    {
+      question: 'Is being a notary worth it financially?',
+      answer:
+        'It can be, especially if you understand your costs, charge appropriately, and build repeat work. For some people it stays part-time income, while for others it grows into a fuller schedule over time.',
+    },
+    {
+      question: 'What expenses do mobile notaries have?',
+      answer:
+        'Mobile notary expenses include notary commission/bond ($100-300), E&O insurance ($50-150/year), supplies ($100-200), vehicle costs (gas, maintenance), printer for loan signings ($200-400), marketing ($0-500/year), and continuing education ($50-200). Annual total: $500-2,000 depending on volume.',
+    },
+    {
+      question: 'Can I negotiate notary fees?',
+      answer:
+        'For individuals, mobile notary prices are usually firm since the notary is already traveling to you. For businesses, volume discounts or monthly retainers are negotiable. For title companies, loan signing fees may have some flexibility, but undercutting too much hurts the industry.',
     },
   ]);
 
