@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/notary-business-resources', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/why-now-is-perfect-time-loan-signing-agent', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-07-17') },
     { path: '/mobile-notary-fees', changeFrequency: 'monthly', priority: 0.8, lastModified: new Date('2026-09-02') },
+    { path: '/prime-day-notary-deals', changeFrequency: 'weekly', priority: 0.8, lastModified: new Date('2026-09-30') },
   ]
 
   const stateRoutes = stateMarketData.map((state) => ({

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import AuthorByline from '../../components/AuthorByline';
+import PrimeDayCallout from '../../components/PrimeDayCallout';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -71,6 +72,7 @@ export default function BestScannersForNotaries() {
           </p>
 
           <AuthorByline className="mb-8" />
+          <PrimeDayCallout item="a scanner" className="mb-8" />
 
           <p className="text-sm text-gray-500 mb-8">
             Disclosure: This page may include affiliate links. If you buy through them, The Bearded Notary may earn a commission at no extra cost to you.

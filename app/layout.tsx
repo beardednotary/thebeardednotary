@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import AffiliateClickTracker from "../components/AffiliateClickTracker";
 import JsonLd from "../components/JsonLd";
+import PrimeDayBanner from "../components/PrimeDayBanner";
 import { buildOrganizationSchema, buildWebsiteSchema } from "../lib/schema";
 import "./globals.css";
 
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-notary-cream">
         <AffiliateClickTracker />
+        <PrimeDayBanner />
         <JsonLd data={structuredData} />
         {/* Google Analytics */}
         <Script

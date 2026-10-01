@@ -3,6 +3,7 @@ import Link from 'next/link';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import AuthorByline from '../../components/AuthorByline';
+import PrimeDayCallout from '../../components/PrimeDayCallout';
 import JsonLd from '../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -73,6 +74,7 @@ export default function BestPrintersForNotaries() {
           </p>
 
           <AuthorByline className="mb-8" />
+          <PrimeDayCallout item="a printer" className="mb-8" />
 
           <div className="bg-blue-50 border-2 border-blue-500 p-8 mb-8 rounded">
             <h2 className="text-2xl font-bold text-notary-navy mb-4">Quick Answer: Best Printers for Notaries</h2>

@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import ArticleSignupCta from '../../components/ArticleSignupCta';
 import ArticleHeader from '../../components/ArticleHeader';
 import AuthorByline from '../../components/AuthorByline';
+import PrimeDayCallout from '../../components/PrimeDayCallout';
 import JsonLd from '../../components/JsonLd';
 import { buildBreadcrumbSchema, buildCollectionPageSchema, buildItemListSchema, getAbsoluteUrl } from '../../lib/schema';
 
@@ -425,6 +426,7 @@ export default function MobileNotarySupplies() {
             day-to-day business tools, and the upgrades that matter once loan signing work starts growing.
           </p>
           <AuthorByline className="mt-4" />
+          <PrimeDayCallout item="printers, scanners, or supplies" className="mt-6" />
         </div>
 
         <div className="mb-10 border-2 border-notary-gold bg-white p-8">
