@@ -6,12 +6,22 @@ import AuthorByline from '../../../components/AuthorByline';
 import ArticleSignupCta from '../../../components/ArticleSignupCta';
 import JsonLd from '../../../components/JsonLd';
 import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema, getAbsoluteUrl } from '../../../lib/schema';
-import { getStateFee } from '../../../lib/stateFees';
+import { getStateFee, type StateFeeEntry } from '../../../lib/stateFees';
 import { getStateMarketData, stateMarketData } from '../../../lib/stateMarketData';
 
 type PageProps = {
   params: Promise<{ state: string }>;
 };
+
+// "on top of the state's $10-per-signature cap ($25 for online notarization)"
+function capClause(fee: StateFeeEntry) {
+  if (fee.acknowledgmentFee === 'No max') {
+    return `on top of their per-signature fee (${fee.name} sets no state maximum)`;
+  }
+  const remote = fee.feeNotes.match(/^(Online|Electronic): (\S+)$/);
+  const remoteNote = remote ? ` (${remote[2]} for ${remote[1].toLowerCase()} notarization)` : '';
+  return `on top of the state's ${fee.acknowledgmentFee}-per-signature cap${remoteNote}`;
+}
 
 export function generateStaticParams() {
   return stateMarketData.map((state) => ({ state: state.slug }));
@@ -106,9 +116,14 @@ export default async function StateFeesPage({ params }: PageProps) {
         <JsonLd data={[articleSchema, breadcrumbSchema, faqSchema]} />
 
         <div className="prose prose-lg max-w-none">
-          <p className="text-xl text-gray-700 mb-8 font-semibold">
-            Here's what mobile notaries and loan signing agents typically charge in {fee.name} in 2026 — the state
-            fee cap, realistic local pricing, and how loan signing rates compare.
+          {/* Direct answer first: travel fee, total, and loan signing rate in one place */}
+          <p className="text-xl text-gray-700 mb-8">
+            <strong>
+              {fee.name} mobile notaries typically charge a $25–$75 travel fee {capClause(fee)}, so a local mobile
+              appointment usually totals {market.typicalMobileRate}.
+            </strong>{' '}
+            Loan signing agents in {fee.name} typically charge {market.typicalLoanSigningRate} per signing, more for
+            rush, after-hours, or scan-back jobs.
           </p>
 
           <AuthorByline className="mb-8" />
