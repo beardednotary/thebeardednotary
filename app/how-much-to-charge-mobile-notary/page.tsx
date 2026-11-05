@@ -33,7 +33,7 @@ export default function NotaryPricingGuide() {
       'Mobile notary costs $50-100 per appointment (signatures plus travel). State fees by state, loan signing rates, and what notaries actually earn in 2026.',
     path: '/how-much-to-charge-mobile-notary',
     image: '/images/notary-pricing-guide-featured.png',
-    dateModified: '2026-07-15',
+    dateModified: '2026-11-05',
   });
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Home', url: getAbsoluteUrl('/') },
@@ -162,7 +162,21 @@ export default function NotaryPricingGuide() {
         
         <div className="prose prose-lg max-w-none">
           <AffiliateDisclosure className="mb-8" />
-          
+
+          {/* Direct answer first: long-tail searches ask for the number */}
+          <p className="text-xl text-gray-900 mb-4">
+            <strong>A mobile notary typically charges $50–$100 per appointment in 2026:</strong> the state&apos;s
+            per-signature fee (capped at $1–$15 in most states) plus a travel fee of about $25–$75 within 20 miles.
+            Loan signings usually run $100–$200, and after-hours or weekend work runs 1.5–2x the standard rate.
+          </p>
+          <p className="text-lg text-gray-700 mb-8">
+            <strong>In Florida,</strong> the cap is $10 per signature ($25 for online notarization), and a local
+            mobile appointment usually comes to $50–$95 total.{' '}
+            <Link href="/mobile-notary-fees/florida" className="text-notary-gold hover:underline">
+              See Florida mobile notary fees &rarr;
+            </Link>
+          </p>
+
           {/* Featured Image */}
           <div className="my-8">
             <img 
