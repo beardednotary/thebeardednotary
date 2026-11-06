@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/best-notary-scanners", "destination": "/best-scanners-for-notaries", "permanent": true },
+    { "source": "/best-scanners-mobile-notaries", "destination": "/best-scanners-for-notaries", "permanent": true },
+    { "source": "/best-priners-for-notaries", "destination": "/best-printers-for-notaries", "permanent": true },
+    { "source": "/best-printers-for-notaries-loan-signing-agents-2026", "destination": "/best-printers-for-notaries", "permanent": true },
+    { "source": "/best-printers-for-notaries-loan-signing-agents-complete-2026-buying-guide", "destination": "/best-printers-for-notaries", "permanent": true },
+    { "source": "/how-to-charge-mobile-notary", "destination": "/how-much-to-charge-mobile-notary", "permanent": true }
+  ]
+}
