@@ -192,6 +192,14 @@ export default function NotaryPricingGuide() {
 
           <AuthorByline className="mb-8" />
 
+          <p className="text-gray-700 mb-8 bg-gray-50 border-l-4 border-notary-gold p-4">
+            <strong>Hiring a mobile notary rather than working as one?</strong> See{' '}
+            <Link href="/mobile-notary-cost" className="text-notary-gold hover:underline font-semibold">
+              how much a mobile notary costs
+            </Link>
+            , with a cost estimator for your state.
+          </p>
+
           <p className="text-gray-700 mb-8">
             But how much should you actually charge? The answer depends on your state's maximum fees, the type of service, travel distance, timing, and your market. This comprehensive guide breaks down exactly what to charge for every notary service in 2026.
           </p>

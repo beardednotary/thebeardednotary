@@ -63,6 +63,10 @@ export default function MobileNotaryFeesHub() {
             <Link href="/how-much-to-charge-mobile-notary" className="text-notary-gold hover:underline font-semibold">
               complete notary pricing guide
             </Link>
+            . Hiring a notary? See{' '}
+            <Link href="/mobile-notary-cost" className="text-notary-gold hover:underline font-semibold">
+              what a mobile notary costs
+            </Link>
             .
           </p>
 
